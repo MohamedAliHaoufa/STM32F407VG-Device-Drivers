@@ -1,0 +1,105 @@
+\hypertarget{group__GPIO__Driver}{}\doxysection{GPIO Driver}
+\label{group__GPIO__Driver}\index{GPIO Driver@{GPIO Driver}}
+
+
+GPIO driver APIs for STM32\+F407xx MCU.  
+
+
+Collaboration diagram for GPIO Driver\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=269pt]{group__GPIO__Driver}
+\end{center}
+\end{figure}
+\doxysubsection*{Modules}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group__GPIO__MACROS}{GPIO Macros}}
+\begin{DoxyCompactList}\small\item\em Macros for GPIO configuration and settings. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group__GPIO__APIS}{GPIO APIs}}
+\begin{DoxyCompactList}\small\item\em APIs supported by the GPIO driver. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structGPIO__PinConfig__t}{GPIO\+\_\+\+Pin\+Config\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Configuration structure for GPIO pin. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structGPIO__Handle__t}{GPIO\+\_\+\+Handle\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Handle structure for GPIO pin. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{group__GPIO__Driver_gab6dcbdc918e3e73e03072e6ce06f9a3b}{GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+GPIO\+\_\+\+Pin\+Number}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{group__GPIO__Driver_gaccc2db4bbd8b54ecf4985689f54a32ba}{GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+GPIO\+\_\+\+Pin\+Mode}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{group__GPIO__Driver_gace5487c92f06f44a7abc826efc9cdb92}{GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+GPIO\+\_\+\+Pin\+Speed}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{group__GPIO__Driver_ga2ae98df6f7d70cdf293c123705651cab}{GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+GPIO\+\_\+\+Pin\+Pu\+Pd\+Control}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{group__GPIO__Driver_gac71d0d1e9b13c2a2064359201fe4ccfa}{GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+GPIO\+\_\+\+Pin\+Pin\+OPType}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{group__GPIO__Driver_ga7ef60d0d52e88470ac9b7ba292f17f71}{GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+GPIO\+\_\+\+Pin\+Alt\+Fun\+Mode}}
+\item 
+\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$ \mbox{\hyperlink{group__GPIO__Driver_ga8b60e4d1529590f05585625156c8bc5c}{GPIO\+\_\+\+Handle\+\_\+t\+::p\+GPIOx}}
+\item 
+\mbox{\hyperlink{structGPIO__PinConfig__t}{GPIO\+\_\+\+Pin\+Config\+\_\+t}} \mbox{\hyperlink{group__GPIO__Driver_ga33cefa400df9fdae0bbfd207a3d53551}{GPIO\+\_\+\+Handle\+\_\+t\+::\+GPIO\+\_\+\+Pin\+Config}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+GPIO driver APIs for STM32\+F407xx MCU. 
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{group__GPIO__Driver_ga7ef60d0d52e88470ac9b7ba292f17f71}\label{group__GPIO__Driver_ga7ef60d0d52e88470ac9b7ba292f17f71}} 
+\index{GPIO Driver@{GPIO Driver}!GPIO\_PinAltFunMode@{GPIO\_PinAltFunMode}}
+\index{GPIO\_PinAltFunMode@{GPIO\_PinAltFunMode}!GPIO Driver@{GPIO Driver}}
+\doxysubsubsection{\texorpdfstring{GPIO\_PinAltFunMode}{GPIO\_PinAltFunMode}}
+{\footnotesize\ttfamily uint32\+\_\+t GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+GPIO\+\_\+\+Pin\+Alt\+Fun\+Mode}
+
+Specifies the alternate function mode of the GPIO pin. \mbox{\Hypertarget{group__GPIO__Driver_ga33cefa400df9fdae0bbfd207a3d53551}\label{group__GPIO__Driver_ga33cefa400df9fdae0bbfd207a3d53551}} 
+\index{GPIO Driver@{GPIO Driver}!GPIO\_PinConfig@{GPIO\_PinConfig}}
+\index{GPIO\_PinConfig@{GPIO\_PinConfig}!GPIO Driver@{GPIO Driver}}
+\doxysubsubsection{\texorpdfstring{GPIO\_PinConfig}{GPIO\_PinConfig}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structGPIO__PinConfig__t}{GPIO\+\_\+\+Pin\+Config\+\_\+t}} GPIO\+\_\+\+Handle\+\_\+t\+::\+GPIO\+\_\+\+Pin\+Config}
+
+Holds GPIO pin configuration settings. \mbox{\Hypertarget{group__GPIO__Driver_gaccc2db4bbd8b54ecf4985689f54a32ba}\label{group__GPIO__Driver_gaccc2db4bbd8b54ecf4985689f54a32ba}} 
+\index{GPIO Driver@{GPIO Driver}!GPIO\_PinMode@{GPIO\_PinMode}}
+\index{GPIO\_PinMode@{GPIO\_PinMode}!GPIO Driver@{GPIO Driver}}
+\doxysubsubsection{\texorpdfstring{GPIO\_PinMode}{GPIO\_PinMode}}
+{\footnotesize\ttfamily uint32\+\_\+t GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+GPIO\+\_\+\+Pin\+Mode}
+
+Specifies the mode of the GPIO pin. \mbox{\Hypertarget{group__GPIO__Driver_gab6dcbdc918e3e73e03072e6ce06f9a3b}\label{group__GPIO__Driver_gab6dcbdc918e3e73e03072e6ce06f9a3b}} 
+\index{GPIO Driver@{GPIO Driver}!GPIO\_PinNumber@{GPIO\_PinNumber}}
+\index{GPIO\_PinNumber@{GPIO\_PinNumber}!GPIO Driver@{GPIO Driver}}
+\doxysubsubsection{\texorpdfstring{GPIO\_PinNumber}{GPIO\_PinNumber}}
+{\footnotesize\ttfamily uint32\+\_\+t GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+GPIO\+\_\+\+Pin\+Number}
+
+Specifies the GPIO pin number. \mbox{\Hypertarget{group__GPIO__Driver_gac71d0d1e9b13c2a2064359201fe4ccfa}\label{group__GPIO__Driver_gac71d0d1e9b13c2a2064359201fe4ccfa}} 
+\index{GPIO Driver@{GPIO Driver}!GPIO\_PinPinOPType@{GPIO\_PinPinOPType}}
+\index{GPIO\_PinPinOPType@{GPIO\_PinPinOPType}!GPIO Driver@{GPIO Driver}}
+\doxysubsubsection{\texorpdfstring{GPIO\_PinPinOPType}{GPIO\_PinPinOPType}}
+{\footnotesize\ttfamily uint32\+\_\+t GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+GPIO\+\_\+\+Pin\+Pin\+OPType}
+
+Specifies the output type of the GPIO pin. \mbox{\Hypertarget{group__GPIO__Driver_ga2ae98df6f7d70cdf293c123705651cab}\label{group__GPIO__Driver_ga2ae98df6f7d70cdf293c123705651cab}} 
+\index{GPIO Driver@{GPIO Driver}!GPIO\_PinPuPdControl@{GPIO\_PinPuPdControl}}
+\index{GPIO\_PinPuPdControl@{GPIO\_PinPuPdControl}!GPIO Driver@{GPIO Driver}}
+\doxysubsubsection{\texorpdfstring{GPIO\_PinPuPdControl}{GPIO\_PinPuPdControl}}
+{\footnotesize\ttfamily uint32\+\_\+t GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+GPIO\+\_\+\+Pin\+Pu\+Pd\+Control}
+
+Specifies the pull-\/up/pull-\/down configuration for the GPIO pin. \mbox{\Hypertarget{group__GPIO__Driver_gace5487c92f06f44a7abc826efc9cdb92}\label{group__GPIO__Driver_gace5487c92f06f44a7abc826efc9cdb92}} 
+\index{GPIO Driver@{GPIO Driver}!GPIO\_PinSpeed@{GPIO\_PinSpeed}}
+\index{GPIO\_PinSpeed@{GPIO\_PinSpeed}!GPIO Driver@{GPIO Driver}}
+\doxysubsubsection{\texorpdfstring{GPIO\_PinSpeed}{GPIO\_PinSpeed}}
+{\footnotesize\ttfamily uint32\+\_\+t GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+GPIO\+\_\+\+Pin\+Speed}
+
+Specifies the speed of the GPIO pin. \mbox{\Hypertarget{group__GPIO__Driver_ga8b60e4d1529590f05585625156c8bc5c}\label{group__GPIO__Driver_ga8b60e4d1529590f05585625156c8bc5c}} 
+\index{GPIO Driver@{GPIO Driver}!pGPIOx@{pGPIOx}}
+\index{pGPIOx@{pGPIOx}!GPIO Driver@{GPIO Driver}}
+\doxysubsubsection{\texorpdfstring{pGPIOx}{pGPIOx}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}}$\ast$ GPIO\+\_\+\+Handle\+\_\+t\+::p\+GPIOx}
+
+Holds the base address of the GPIO port to which the pin belongs. 

@@ -1,0 +1,184 @@
+\hypertarget{stm32f407xx__usart__driver_8h}{}\doxysection{drivers/\+Inc/stm32f407xx\+\_\+usart\+\_\+driver.h File Reference}
+\label{stm32f407xx__usart__driver_8h}\index{drivers/Inc/stm32f407xx\_usart\_driver.h@{drivers/Inc/stm32f407xx\_usart\_driver.h}}
+
+
+This file contains definitions and functions prototypes for the STM32\+F407xx USART driver.  
+
+
+{\ttfamily \#include \char`\"{}stm32f407xx.\+h\char`\"{}}\newline
+Include dependency graph for stm32f407xx\+\_\+usart\+\_\+driver.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{stm32f407xx__usart__driver_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{stm32f407xx__usart__driver_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structUSART__Config__t}{USART\+\_\+\+Config\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Configuration structure for USART (Universal Synchronous Asynchronous Receiver Transmitter) peripheral. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Handle structure for USART peripheral. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{group__USART__Mode_ga0303ce72118a71ce5fd070d38af3ca65}{USART\+\_\+\+MODE\+\_\+\+ONLY\+\_\+\+TX}}~0
+\item 
+\#define \mbox{\hyperlink{group__USART__Mode_gafd533b27aba8ad29a61ec452b3459f3c}{USART\+\_\+\+MODE\+\_\+\+ONLY\+\_\+\+RX}}~1
+\item 
+\#define \mbox{\hyperlink{group__USART__Mode_ga9d314d0bcf88b329eebbd12e674f468a}{USART\+\_\+\+MODE\+\_\+\+TXRX}}~2
+\item 
+\#define {\bfseries USART\+\_\+\+STD\+\_\+\+BAUD\+\_\+1200}~(uint8\+\_\+t)1200
+\item 
+\#define {\bfseries USART\+\_\+\+STD\+\_\+\+BAUD\+\_\+2400}~(uint8\+\_\+t)2400
+\item 
+\#define {\bfseries USART\+\_\+\+STD\+\_\+\+BAUD\+\_\+9600}~(uint8\+\_\+t)9600
+\item 
+\#define {\bfseries USART\+\_\+\+STD\+\_\+\+BAUD\+\_\+19200}~(uint8\+\_\+t)19200
+\item 
+\#define {\bfseries USART\+\_\+\+STD\+\_\+\+BAUD\+\_\+38400}~(uint8\+\_\+t)38400
+\item 
+\#define {\bfseries USART\+\_\+\+STD\+\_\+\+BAUD\+\_\+57600}~(uint8\+\_\+t)57600
+\item 
+\#define {\bfseries USART\+\_\+\+STD\+\_\+\+BAUD\+\_\+115200}~(uint8\+\_\+t)115200
+\item 
+\#define {\bfseries USART\+\_\+\+STD\+\_\+\+BAUD\+\_\+230400}~(uint8\+\_\+t)230400
+\item 
+\#define {\bfseries USART\+\_\+\+STD\+\_\+\+BAUD\+\_\+460800}~(uint8\+\_\+t)460800
+\item 
+\#define {\bfseries USART\+\_\+\+STD\+\_\+\+BAUD\+\_\+921600}~(uint8\+\_\+t)921600
+\item 
+\#define {\bfseries USART\+\_\+\+STD\+\_\+\+BAUD\+\_\+2M}~(uint8\+\_\+t)2000000
+\item 
+\#define {\bfseries USART\+\_\+\+STD\+\_\+\+BAUD\+\_\+3M}~(uint8\+\_\+t)3000000
+\item 
+\#define \mbox{\hyperlink{group__USART__ParityControl_ga227062506b7481c03ea8ef5810efd370}{USART\+\_\+\+PARITY\+\_\+\+EN\+\_\+\+ODD}}~2
+\item 
+\#define \mbox{\hyperlink{group__USART__ParityControl_gac071bac034b3fc09565301455e8dc9a8}{USART\+\_\+\+PARITY\+\_\+\+EN\+\_\+\+EVEN}}~1
+\item 
+\#define \mbox{\hyperlink{group__USART__ParityControl_ga4569ab183845329a50b5e4e00a7c3b09}{USART\+\_\+\+PARITY\+\_\+\+DISABLE}}~0
+\item 
+\#define \mbox{\hyperlink{group__USART__WordLength_ga8b47f5a727122fcc90691041f6972144}{USART\+\_\+\+WORDLEN\+\_\+8\+BITS}}~0
+\item 
+\#define \mbox{\hyperlink{group__USART__WordLength_ga9bd391ebe305cd1e82527d6d5586dd38}{USART\+\_\+\+WORDLEN\+\_\+9\+BITS}}~1
+\item 
+\#define \mbox{\hyperlink{group__USART__NoOfStopBits_ga82aae3118e9cd59bb270c028e21c23b4}{USART\+\_\+\+STOPBITS\+\_\+1}}~0
+\item 
+\#define \mbox{\hyperlink{group__USART__NoOfStopBits_gaa6e5782774150ff935df3fc06d9ec0c4}{USART\+\_\+\+STOPBITS\+\_\+0\+\_\+5}}~1
+\item 
+\#define \mbox{\hyperlink{group__USART__NoOfStopBits_gaf8d022e62f55ceb7b5e03eea336b5c45}{USART\+\_\+\+STOPBITS\+\_\+2}}~2
+\item 
+\#define \mbox{\hyperlink{group__USART__NoOfStopBits_ga5b799017a5d9ab7de71a49c625f87532}{USART\+\_\+\+STOPBITS\+\_\+1\+\_\+5}}~3
+\item 
+\#define \mbox{\hyperlink{group__USART__HWFlowControl_ga640ba00e2cf03e7a741008265d4ff53e}{USART\+\_\+\+HW\+\_\+\+FLOW\+\_\+\+CTRL\+\_\+\+NONE}}~0
+\item 
+\#define \mbox{\hyperlink{group__USART__HWFlowControl_ga4f2287dce5feadd18c81ebcb0f3a5d3d}{USART\+\_\+\+HW\+\_\+\+FLOW\+\_\+\+CTRL\+\_\+\+CTS}}~1
+\item 
+\#define \mbox{\hyperlink{group__USART__HWFlowControl_gae00662abe4a30399a43ee5b5b43cf246}{USART\+\_\+\+HW\+\_\+\+FLOW\+\_\+\+CTRL\+\_\+\+RTS}}~2
+\item 
+\#define \mbox{\hyperlink{group__USART__HWFlowControl_ga7b8def65813778ad11de843b3e990a05}{USART\+\_\+\+HW\+\_\+\+FLOW\+\_\+\+CTRL\+\_\+\+CTS\+\_\+\+RTS}}~3
+\item 
+\#define \mbox{\hyperlink{group__USART__FLAG__Status_ga5e87fde5704f27c75df25395e23404ad}{USART\+\_\+\+FLAG\+\_\+\+PE}}~(1 $<$$<$ \mbox{\hyperlink{group__USART__SR__Bit__Positions_gac88be3484245af8c1b271ae5c1b97a14}{USART\+\_\+\+SR\+\_\+\+PE}})
+\item 
+\#define \mbox{\hyperlink{group__USART__FLAG__Status_ga3551a32bac49a2ec040e5fdafcc9c4bd}{USART\+\_\+\+FLAG\+\_\+\+FE}}~(1 $<$$<$ \mbox{\hyperlink{group__USART__SR__Bit__Positions_ga9eb6fd3f820bd12e0b5a981de1894804}{USART\+\_\+\+SR\+\_\+\+FE}})
+\item 
+\#define \mbox{\hyperlink{group__USART__FLAG__Status_ga81781d27ffc8b85dfaf7b7b791229547}{USART\+\_\+\+FLAG\+\_\+\+NE}}~(1 $<$$<$ USART\+\_\+\+SR\+\_\+\+NE)
+\item 
+\#define \mbox{\hyperlink{group__USART__FLAG__Status_gabdb285b5c1876d93f9c802f9304538d5}{USART\+\_\+\+FLAG\+\_\+\+ORE}}~(1 $<$$<$ \mbox{\hyperlink{group__USART__SR__Bit__Positions_ga4560fc7a60df4bdf402fc7219ae7b558}{USART\+\_\+\+SR\+\_\+\+ORE}})
+\item 
+\#define \mbox{\hyperlink{group__USART__FLAG__Status_gac2f1ccc91a834f9cbec3f058872b972a}{USART\+\_\+\+FLAG\+\_\+\+IDLE}}~(1 $<$$<$ \mbox{\hyperlink{group__USART__SR__Bit__Positions_ga336fa8c9965ce18c10972ac80ded611f}{USART\+\_\+\+SR\+\_\+\+IDLE}})
+\item 
+\#define \mbox{\hyperlink{group__USART__FLAG__Status_ga11d6b70c8f00216b6d8a43790dfdcf2f}{USART\+\_\+\+FLAG\+\_\+\+RXNE}}~(1 $<$$<$ \mbox{\hyperlink{group__USART__SR__Bit__Positions_gaa0c99e2bb265b3d58a91aca7a93f7836}{USART\+\_\+\+SR\+\_\+\+RXNE}})
+\item 
+\#define \mbox{\hyperlink{group__USART__FLAG__Status_gae7b85c9e2cc86af5bbc8b8d8b854410f}{USART\+\_\+\+FLAG\+\_\+\+TC}}~(1 $<$$<$ \mbox{\hyperlink{group__USART__SR__Bit__Positions_ga76229b05ac37a5a688e6ba45851a29f1}{USART\+\_\+\+SR\+\_\+\+TC}})
+\item 
+\#define \mbox{\hyperlink{group__USART__FLAG__Status_ga7129f13333f2a7218838cc32fe507bfa}{USART\+\_\+\+FLAG\+\_\+\+TXE}}~(1 $<$$<$ \mbox{\hyperlink{group__USART__SR__Bit__Positions_ga65e9cddf0890113d405342f1d8b5b980}{USART\+\_\+\+SR\+\_\+\+TXE}})
+\item 
+\#define \mbox{\hyperlink{group__USART__Application__States_ga5ddbfa997d07cf95e21fad632e8e0961}{USART\+\_\+\+READY}}~0
+\item 
+\#define \mbox{\hyperlink{group__USART__Application__States_ga220d0d6c2f4affe2499fe7ea7b19c8ac}{USART\+\_\+\+BUSY\+\_\+\+IN\+\_\+\+RX}}~1
+\item 
+\#define \mbox{\hyperlink{group__USART__Application__States_ga2139632c25eb8dcaa5b79de6fa2bf423}{USART\+\_\+\+BUSY\+\_\+\+IN\+\_\+\+TX}}~2
+\item 
+\#define \mbox{\hyperlink{group__USART__Application__Events_gae82899846b808101133e9a14d26f5354}{USART\+\_\+\+EVENT\+\_\+\+TX\+\_\+\+CMPLT}}~0
+\item 
+\#define \mbox{\hyperlink{group__USART__Application__Events_ga1afa7c5d2c57d587df8b6e5d00693613}{USART\+\_\+\+EVENT\+\_\+\+RX\+\_\+\+CMPLT}}~1
+\item 
+\#define \mbox{\hyperlink{group__USART__Application__Events_ga574a5b3fe76dabc45effbbac62aa004e}{USART\+\_\+\+EVENT\+\_\+\+IDLE}}~2
+\item 
+\#define \mbox{\hyperlink{group__USART__Application__Events_ga4783df2ed90e194263932d708c55b13e}{USART\+\_\+\+EVENT\+\_\+\+CTS}}~3
+\item 
+\#define \mbox{\hyperlink{group__USART__Application__Events_ga37c7f494c13f291e79237f43bc62ceff}{USART\+\_\+\+EVENT\+\_\+\+PE}}~4
+\item 
+\#define \mbox{\hyperlink{group__USART__Application__Events_gaaa16d45481e6c85d784c63c56a848809}{USART\+\_\+\+ERR\+\_\+\+FE}}~5
+\item 
+\#define \mbox{\hyperlink{group__USART__Application__Events_gaf45eeb98577829f5f4dfe452d5fa67d9}{USART\+\_\+\+ERR\+\_\+\+NE}}~6
+\item 
+\#define \mbox{\hyperlink{group__USART__Application__Events_ga6e8d3e8f423bd07056be31c7991317e6}{USART\+\_\+\+ERR\+\_\+\+ORE}}~7
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__USART__APIS_ga6fa2bf9f7142dbc2b9b552cf0c592f0c}{USART\+\_\+\+Peripheral\+Clock\+Control}} (\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+USARTx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Enable or disable the peripheral clock for the given USARTx. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_gaa95f8910a4887083ee310f38dd04e1af}{USART\+\_\+\+Set\+Baud\+Rate}} (\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+USARTx, uint32\+\_\+t Baud\+Rate)
+\begin{DoxyCompactList}\small\item\em Set the baud rate for a USART peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_ga9f8081684bf9bf4f54f5a54e97a86f90}{USART\+\_\+\+Init}} (\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$p\+USARTHandle)
+\begin{DoxyCompactList}\small\item\em Initialize the USART peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_gad46a955e9f42bf502fead06125cf16f0}{USART\+\_\+\+De\+Init}} (\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+USARTx)
+\begin{DoxyCompactList}\small\item\em Deinitialize the USART peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_gac07c40fd91c832c49bc0aa649b85acfb}{USART\+\_\+\+Send\+Data}} (\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$p\+USARTHandle, uint8\+\_\+t $\ast$p\+Tx\+Buffer, uint32\+\_\+t Len)
+\begin{DoxyCompactList}\small\item\em Send data over USART. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_gaafcc74a54eb7f0a12a36487b452da59c}{USART\+\_\+\+Receive\+Data}} (\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$p\+USARTHandle, uint8\+\_\+t $\ast$p\+Rx\+Buffer, uint32\+\_\+t Len)
+\begin{DoxyCompactList}\small\item\em Receive data from USART. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__USART__APIS_ga50fdac2af4a69887bceb1dec2a16ebaf}{USART\+\_\+\+Send\+Data\+IT}} (\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$p\+USARTHandle, uint8\+\_\+t $\ast$p\+Tx\+Buffer, uint32\+\_\+t Len)
+\begin{DoxyCompactList}\small\item\em Send data over USART using interrupt-\/driven communication. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__USART__APIS_ga6c7db552dd2c1f90e8743216a2788b3b}{USART\+\_\+\+Receive\+Data\+IT}} (\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$p\+USARTHandle, uint8\+\_\+t $\ast$p\+Rx\+Buffer, uint32\+\_\+t Len)
+\begin{DoxyCompactList}\small\item\em Receive data from USART using interrupt-\/driven communication. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_gaf88d9768163143f669dfd237db85aec0}{USART\+\_\+\+Peripheral\+Control}} (\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+USARTx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Control the USART peripheral (ENABLE/\+DISABLE). \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__USART__APIS_gafd2cc06c5afa6cc3aeb710b518cb1229}{USART\+\_\+\+Get\+Flag\+Status}} (\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+USARTx, uint8\+\_\+t Flag\+Name)
+\begin{DoxyCompactList}\small\item\em Get the status of a specific USART flag. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_ga48a8609024247e8a24ce87343f15937b}{USART\+\_\+\+Clear\+Flag}} (\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+USARTx, uint16\+\_\+t Flag\+Name)
+\begin{DoxyCompactList}\small\item\em Clear a specific USART flag. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_ga0d603b3054270a204b270cb0892953aa}{USART\+\_\+\+Close\+Transmission}} (\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$p\+USARTHandle)
+\begin{DoxyCompactList}\small\item\em Close USART transmission. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_gac7510c648224e5ade6f1bc32644b25fc}{USART\+\_\+\+Close\+Reception}} (\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$p\+USARTHandle)
+\begin{DoxyCompactList}\small\item\em Close USART reception. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_gaa74b3e743c540680d0d0dfb389801657}{USART\+\_\+\+IRQInterrupt\+Config}} (uint8\+\_\+t IRQNumber, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Configure IRQ number and enable/disable IRQ. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_ga72d4d2ae1479694b788a239692cec05e}{USART\+\_\+\+IRQPriority\+Config}} (uint8\+\_\+t IRQNumber, uint32\+\_\+t IRQPriority)
+\begin{DoxyCompactList}\small\item\em Set the priority of an IRQ. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_ga2b371eb9c6afa298fb6e7be14195a7bd}{USART\+\_\+\+IRQHandling}} (\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$p\+USARTHandle)
+\begin{DoxyCompactList}\small\item\em Handle USART interrupts. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_gacd7ff85fb54f0abb82fd1dbaf9267606}{USART\+\_\+\+Application\+Event\+Callback}} (\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$p\+USARTHandle, uint8\+\_\+t App\+Ev)
+\begin{DoxyCompactList}\small\item\em Application callback function for USART events. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_ga834fb50ceafd393095a5e0187d58e67d}{USART\+\_\+\+Clear\+Event\+Err\+Flag}} (\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+USARTx)
+\begin{DoxyCompactList}\small\item\em Clears the error flags in the USART status register. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file contains definitions and functions prototypes for the STM32\+F407xx USART driver. 
+
+\begin{DoxyAuthor}{Author}
+Mohamed Ali Haoufa 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2023-\/10-\/07
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2023 
+\end{DoxyCopyright}

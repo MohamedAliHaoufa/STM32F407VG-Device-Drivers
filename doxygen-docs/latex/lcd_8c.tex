@@ -1,0 +1,52 @@
+\hypertarget{lcd_8c}{}\doxysection{bsp/lcd.c File Reference}
+\label{lcd_8c}\index{bsp/lcd.c@{bsp/lcd.c}}
+
+
+This file contains the driver implementation for controlling an LCD (Liquid Crystal Display).  
+
+
+{\ttfamily \#include \char`\"{}lcd.\+h\char`\"{}}\newline
+Include dependency graph for lcd.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{lcd_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__LCD__APIS_ga64386ad6108c11b9b87062542ec23c6b}{lcd\+\_\+send\+\_\+command}} (uint8\+\_\+t cmd)
+\begin{DoxyCompactList}\small\item\em Send a command to the LCD. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__LCD__APIS_ga23e41d78d276a2be8ac1f7198bf65f95}{lcd\+\_\+print\+\_\+char}} (uint8\+\_\+t data)
+\begin{DoxyCompactList}\small\item\em Print a character on the LCD. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__LCD__APIS_ga542bd801a4ce716e05d205632c7c52d3}{lcd\+\_\+print\+\_\+string}} (char $\ast$message)
+\begin{DoxyCompactList}\small\item\em Print a string on the LCD. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__LCD__APIS_ga6842775ba83d166f02b8fef8bb63b1e6}{lcd\+\_\+init}} (void)
+\begin{DoxyCompactList}\small\item\em Initialize the LCD module. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__LCD__APIS_ga4f7e474c3b149be3e1d53c2dd05e3d54}{lcd\+\_\+set\+\_\+cursor}} (uint8\+\_\+t row, uint8\+\_\+t column)
+\begin{DoxyCompactList}\small\item\em Set the cursor position on the LCD. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__LCD__APIS_gac3968364fc5a2e3371224f283a68484b}{lcd\+\_\+display\+\_\+clear}} (void)
+\begin{DoxyCompactList}\small\item\em Clear the LCD display. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__LCD__APIS_ga05315b677f8dcb3518ce8afa6ab8da18}{lcd\+\_\+display\+\_\+return\+\_\+home}} (void)
+\begin{DoxyCompactList}\small\item\em Return the cursor to the home position on the LCD. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file contains the driver implementation for controlling an LCD (Liquid Crystal Display). 
+
+\begin{DoxyAuthor}{Author}
+Mohamed Ali Haoufa 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2023-\/10-\/07
+\end{DoxyDate}
+This driver provides functions to initialize, control, and display text on an LCD using a 4-\/bit parallel data transmission method. It includes functions for sending commands, printing characters and strings, and clearing the display. The driver abstracts the hardware interactions, making it easy to interface with an LCD in embedded applications.
+
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2023 
+\end{DoxyCopyright}

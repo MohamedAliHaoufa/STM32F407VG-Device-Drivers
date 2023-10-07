@@ -1,0 +1,3 @@
+stm32f407xx_rcc_driver.c:28:10:RCC_GetPCLK1Value	6
+stm32f407xx_rcc_driver.c:82:10:RCC_GetPCLK2Value	4
+stm32f407xx_rcc_driver.c:131:10:RCC_GetPLLOutputClock	2

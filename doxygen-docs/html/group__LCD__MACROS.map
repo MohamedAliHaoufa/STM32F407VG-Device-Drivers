@@ -1,0 +1,6 @@
+<map id="LCD Macros" name="LCD Macros">
+<area shape="rect" id="node1" href="$group__LCD__COMMANDS.html" title="Macros for LCD command codes." alt="" coords="319,5,446,31"/>
+<area shape="rect" id="node2" href="$group__LCD__CONFIGURABLE__ITEMS.html" title="Macros for LCD configuration settings." alt="" coords="292,55,473,95"/>
+<area shape="rect" id="node3" href="$group__LCD.html" title="LCD (Liquid Crystal Display) driver for STM32F4xx MCUs." alt="" coords="5,35,97,60"/>
+<area shape="rect" id="node4" title="Macros for LCD configuration and settings." alt="" coords="145,35,244,60"/>
+</map>

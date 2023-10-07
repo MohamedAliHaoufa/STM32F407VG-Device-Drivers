@@ -1,0 +1,645 @@
+\hypertarget{group__I2C__APIS}{}\doxysection{I2C APIs}
+\label{group__I2C__APIS}\index{I2C APIs@{I2C APIs}}
+
+
+APIs supported by the I2C driver.  
+
+
+Collaboration diagram for I2C APIs\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=237pt]{group__I2C__APIS}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__I2C__APIS_ga08267d82acca332799ec1b49be4527bd}{I2\+C\+\_\+\+Peri\+Clock\+Control}} (\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+I2\+Cx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Controls the peripheral clock of the I2C peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_gaf63c91db39ea9e0317d4f341569f479c}{I2\+C\+\_\+\+Init}} (\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$p\+I2\+CHandle)
+\begin{DoxyCompactList}\small\item\em Initializes the I2C peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_gad7b45b712f04f3c333ed5f6e621e805c}{I2\+C\+\_\+\+De\+Init}} (\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+I2\+Cx)
+\begin{DoxyCompactList}\small\item\em Deinitializes the I2C peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_gad61b8500a55c7cc07c88b373add94b5d}{I2\+C\+\_\+\+Master\+Send\+Data}} (\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$p\+I2\+CHandle, uint8\+\_\+t $\ast$p\+Tx\+Buffer, uint32\+\_\+t Len, uint8\+\_\+t Slave\+Addr, uint8\+\_\+t SR)
+\begin{DoxyCompactList}\small\item\em Sends data in master mode over the I2C bus. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_ga901c740473eedb002561554503b5934c}{I2\+C\+\_\+\+Master\+Receive\+Data}} (\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$p\+I2\+CHandle, uint8\+\_\+t $\ast$p\+Rx\+Buffer, uint8\+\_\+t Len, uint8\+\_\+t Slave\+Addr, uint8\+\_\+t SR)
+\begin{DoxyCompactList}\small\item\em Receives data in master mode over the I2C bus. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_gac5ce1afe81f1092b7c72d839f8f09bf5}{I2\+C\+\_\+\+Slave\+Send\+Data}} (\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+I2\+Cx, uint8\+\_\+t data)
+\begin{DoxyCompactList}\small\item\em Sends a single byte of data in slave mode over the I2C bus. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__I2C__APIS_gaae081cc85ae3dd0049ccd0b9ea0c7c8a}{I2\+C\+\_\+\+Slave\+Receive\+Data}} (\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+I2\+Cx)
+\begin{DoxyCompactList}\small\item\em Receives a single byte of data in slave mode over the I2C bus. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__I2C__APIS_gacdb4d953f6d07ab5a6c8c08dfabdee48}{I2\+C\+\_\+\+Master\+Send\+Data\+IT}} (\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$p\+I2\+CHandle, uint8\+\_\+t $\ast$p\+Tx\+Buffer, uint32\+\_\+t Len, uint8\+\_\+t Slave\+Addr, uint8\+\_\+t SR)
+\begin{DoxyCompactList}\small\item\em Sends data in master mode over the I2C bus with interrupt support. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__I2C__APIS_ga5768c250c2457da7c83002d882c45f57}{I2\+C\+\_\+\+Master\+Receive\+Data\+IT}} (\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$p\+I2\+CHandle, uint8\+\_\+t $\ast$p\+Rx\+Buffer, uint8\+\_\+t Len, uint8\+\_\+t Slave\+Addr, uint8\+\_\+t SR)
+\begin{DoxyCompactList}\small\item\em Receives data in master mode over the I2C bus with interrupt support. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_gaefdb1ceed9eb03827cacfb1ce6fb2878}{I2\+C\+\_\+\+Close\+Send\+Data}} (\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$p\+I2\+CHandle)
+\begin{DoxyCompactList}\small\item\em Closes the transmission process. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_ga2f6de176f474fcd828063b2941c69588}{I2\+C\+\_\+\+Close\+Receive\+Data}} (\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$p\+I2\+CHandle)
+\begin{DoxyCompactList}\small\item\em Closes the reception process. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_gaeae368db6ff5b65fb3a25cd5d4587fa8}{I2\+C\+\_\+\+IRQInterrupt\+Config}} (uint8\+\_\+t IRQNumber, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Configures IRQ interrupt for the I2C peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_gaa228276d34ecb3d86e7eb5e809ffaacb}{I2\+C\+\_\+\+IRQPriority\+Config}} (uint8\+\_\+t IRQNumber, uint32\+\_\+t IRQPriority)
+\begin{DoxyCompactList}\small\item\em Configures IRQ priority for the I2C peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_ga51a0cd15986bb82f4b644feca1909b77}{I2\+C\+\_\+\+EV\+\_\+\+IRQHandling}} (\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$p\+I2\+CHandle)
+\begin{DoxyCompactList}\small\item\em Handles I2C event interrupt. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_ga2852185351bf8b4e0ec9ab12a2b89ea7}{I2\+C\+\_\+\+ER\+\_\+\+IRQHandling}} (\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$p\+I2\+CHandle)
+\begin{DoxyCompactList}\small\item\em Handles I2C error interrupt. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_ga6edaa9f836224061ce79e048e6f4750d}{I2\+C\+\_\+\+Peripheral\+Control}} (\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+I2\+Cx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Controls peripheral operation in master mode. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__I2C__APIS_gabb432c826524759f4e35fcba2cc9cbb9}{I2\+C\+\_\+\+Get\+Flag\+Status}} (\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+I2\+Cx, uint32\+\_\+t Flag\+Name)
+\begin{DoxyCompactList}\small\item\em Retrieves the flag status of the specified I2C flag. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_ga00ab5652c3c755fc9b4b2f1da778f234}{I2\+C\+\_\+\+Manage\+Acking}} (\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+I2\+Cx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Manages ACKing during I2C communication. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_gab40caf460b3e6a1636099e498055dba0}{I2\+C\+\_\+\+Generate\+Stop\+Condition}} (\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+I2\+Cx)
+\begin{DoxyCompactList}\small\item\em Generates a stop condition on the I2C bus. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_ga062b25b8441b46bbb8668a68c63bfea6}{I2\+C\+\_\+\+Slave\+Enable\+Disable\+Callback\+Events}} (\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+I2\+Cx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Enables or disables callback events for the I2C slave. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_ga94f8122013ed34e77c3a97fa4b2d4c9b}{I2\+C\+\_\+\+Application\+Event\+Callback}} (\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$p\+I2\+CHandle, uint8\+\_\+t App\+Ev)
+\begin{DoxyCompactList}\small\item\em Handles application events for the I2C communication. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+APIs supported by the I2C driver. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group__I2C__APIS_ga94f8122013ed34e77c3a97fa4b2d4c9b}\label{group__I2C__APIS_ga94f8122013ed34e77c3a97fa4b2d4c9b}} 
+\index{I2C APIs@{I2C APIs}!I2C\_ApplicationEventCallback@{I2C\_ApplicationEventCallback}}
+\index{I2C\_ApplicationEventCallback@{I2C\_ApplicationEventCallback}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_ApplicationEventCallback()}{I2C\_ApplicationEventCallback()}}
+{\footnotesize\ttfamily void I2\+C\+\_\+\+Application\+Event\+Callback (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+I2\+CHandle,  }\item[{uint8\+\_\+t}]{App\+Ev }\end{DoxyParamCaption})}
+
+
+
+Handles application events for the I2C communication. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the I2C handle structure. \\
+\hline
+{\em App\+Ev} & Application event to be handled.\\
+\hline
+\end{DoxyParams}
+Handles application events for the I2C communication.
+
+This function serves as a callback that can be overridden by the application to handle I2\+C-\/related events. It is called when specific events occur during I2C communication and allows the application to take custom actions.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the I2C handle structure. \\
+\hline
+{\em App\+Ev} & I2C application event.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+This is a weak implementation, and the application can override this function to provide custom event handling. 
+\end{DoxyNote}
+\mbox{\Hypertarget{group__I2C__APIS_ga2f6de176f474fcd828063b2941c69588}\label{group__I2C__APIS_ga2f6de176f474fcd828063b2941c69588}} 
+\index{I2C APIs@{I2C APIs}!I2C\_CloseReceiveData@{I2C\_CloseReceiveData}}
+\index{I2C\_CloseReceiveData@{I2C\_CloseReceiveData}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_CloseReceiveData()}{I2C\_CloseReceiveData()}}
+{\footnotesize\ttfamily void I2\+C\+\_\+\+Close\+Receive\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+I2\+CHandle }\end{DoxyParamCaption})}
+
+
+
+Closes the reception process. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the I2C handle structure.\\
+\hline
+\end{DoxyParams}
+Closes the reception process.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the I2C handle structure. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__I2C__APIS_gaefdb1ceed9eb03827cacfb1ce6fb2878}\label{group__I2C__APIS_gaefdb1ceed9eb03827cacfb1ce6fb2878}} 
+\index{I2C APIs@{I2C APIs}!I2C\_CloseSendData@{I2C\_CloseSendData}}
+\index{I2C\_CloseSendData@{I2C\_CloseSendData}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_CloseSendData()}{I2C\_CloseSendData()}}
+{\footnotesize\ttfamily void I2\+C\+\_\+\+Close\+Send\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+I2\+CHandle }\end{DoxyParamCaption})}
+
+
+
+Closes the transmission process. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the I2C handle structure.\\
+\hline
+\end{DoxyParams}
+Closes the transmission process.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the I2C handle structure. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__I2C__APIS_gad7b45b712f04f3c333ed5f6e621e805c}\label{group__I2C__APIS_gad7b45b712f04f3c333ed5f6e621e805c}} 
+\index{I2C APIs@{I2C APIs}!I2C\_DeInit@{I2C\_DeInit}}
+\index{I2C\_DeInit@{I2C\_DeInit}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_DeInit()}{I2C\_DeInit()}}
+{\footnotesize\ttfamily void I2\+C\+\_\+\+De\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+I2\+Cx }\end{DoxyParamCaption})}
+
+
+
+Deinitializes the I2C peripheral. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+Cx} & Pointer to the I2C peripheral.\\
+\hline
+{\em p\+I2\+Cx} & Pointer to the I2C peripheral register structure. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__I2C__APIS_ga2852185351bf8b4e0ec9ab12a2b89ea7}\label{group__I2C__APIS_ga2852185351bf8b4e0ec9ab12a2b89ea7}} 
+\index{I2C APIs@{I2C APIs}!I2C\_ER\_IRQHandling@{I2C\_ER\_IRQHandling}}
+\index{I2C\_ER\_IRQHandling@{I2C\_ER\_IRQHandling}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_ER\_IRQHandling()}{I2C\_ER\_IRQHandling()}}
+{\footnotesize\ttfamily void I2\+C\+\_\+\+ER\+\_\+\+IRQHandling (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+I2\+CHandle }\end{DoxyParamCaption})}
+
+
+
+Handles I2C error interrupt. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the I2C handle structure.\\
+\hline
+\end{DoxyParams}
+Handles I2C error interrupt.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the I2C handle structure. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__I2C__APIS_ga51a0cd15986bb82f4b644feca1909b77}\label{group__I2C__APIS_ga51a0cd15986bb82f4b644feca1909b77}} 
+\index{I2C APIs@{I2C APIs}!I2C\_EV\_IRQHandling@{I2C\_EV\_IRQHandling}}
+\index{I2C\_EV\_IRQHandling@{I2C\_EV\_IRQHandling}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_EV\_IRQHandling()}{I2C\_EV\_IRQHandling()}}
+{\footnotesize\ttfamily void I2\+C\+\_\+\+EV\+\_\+\+IRQHandling (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+I2\+CHandle }\end{DoxyParamCaption})}
+
+
+
+Handles I2C event interrupt. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the I2C handle structure.\\
+\hline
+\end{DoxyParams}
+Handles I2C event interrupt.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the I2C handle structure. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__I2C__APIS_gab40caf460b3e6a1636099e498055dba0}\label{group__I2C__APIS_gab40caf460b3e6a1636099e498055dba0}} 
+\index{I2C APIs@{I2C APIs}!I2C\_GenerateStopCondition@{I2C\_GenerateStopCondition}}
+\index{I2C\_GenerateStopCondition@{I2C\_GenerateStopCondition}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_GenerateStopCondition()}{I2C\_GenerateStopCondition()}}
+{\footnotesize\ttfamily void I2\+C\+\_\+\+Generate\+Stop\+Condition (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+I2\+Cx }\end{DoxyParamCaption})}
+
+
+
+Generates a stop condition on the I2C bus. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+Cx} & Pointer to the I2C peripheral.\\
+\hline
+\end{DoxyParams}
+Generates a stop condition on the I2C bus.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+Cx} & Pointer to the I2C peripheral register structure. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__I2C__APIS_gabb432c826524759f4e35fcba2cc9cbb9}\label{group__I2C__APIS_gabb432c826524759f4e35fcba2cc9cbb9}} 
+\index{I2C APIs@{I2C APIs}!I2C\_GetFlagStatus@{I2C\_GetFlagStatus}}
+\index{I2C\_GetFlagStatus@{I2C\_GetFlagStatus}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_GetFlagStatus()}{I2C\_GetFlagStatus()}}
+{\footnotesize\ttfamily uint8\+\_\+t I2\+C\+\_\+\+Get\+Flag\+Status (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+I2\+Cx,  }\item[{uint32\+\_\+t}]{Flag\+Name }\end{DoxyParamCaption})}
+
+
+
+Retrieves the flag status of the specified I2C flag. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+Cx} & Pointer to the I2C peripheral. \\
+\hline
+{\em Flag\+Name} & Flag to check. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+uint8\+\_\+t FLAG\+\_\+\+SET if flag is set, FLAG\+\_\+\+RESET if not.
+\end{DoxyReturn}
+Retrieves the flag status of the specified I2C flag.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+Cx} & Pointer to the I2C peripheral. \\
+\hline
+{\em Flag\+Name} & The flag to check status for. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+uint8\+\_\+t FLAG\+\_\+\+SET if the flag is set, FLAG\+\_\+\+RESET if not set. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__I2C__APIS_gaf63c91db39ea9e0317d4f341569f479c}\label{group__I2C__APIS_gaf63c91db39ea9e0317d4f341569f479c}} 
+\index{I2C APIs@{I2C APIs}!I2C\_Init@{I2C\_Init}}
+\index{I2C\_Init@{I2C\_Init}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_Init()}{I2C\_Init()}}
+{\footnotesize\ttfamily void I2\+C\+\_\+\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+I2\+CHandle }\end{DoxyParamCaption})}
+
+
+
+Initializes the I2C peripheral. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the I2C handle structure.\\
+\hline
+\end{DoxyParams}
+Initializes the I2C peripheral.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the I2C handle structure. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__I2C__APIS_gaeae368db6ff5b65fb3a25cd5d4587fa8}\label{group__I2C__APIS_gaeae368db6ff5b65fb3a25cd5d4587fa8}} 
+\index{I2C APIs@{I2C APIs}!I2C\_IRQInterruptConfig@{I2C\_IRQInterruptConfig}}
+\index{I2C\_IRQInterruptConfig@{I2C\_IRQInterruptConfig}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_IRQInterruptConfig()}{I2C\_IRQInterruptConfig()}}
+{\footnotesize\ttfamily void I2\+C\+\_\+\+IRQInterrupt\+Config (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{IRQNumber,  }\item[{uint8\+\_\+t}]{Enor\+Di }\end{DoxyParamCaption})}
+
+
+
+Configures IRQ interrupt for the I2C peripheral. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em IRQNumber} & IRQ number. \\
+\hline
+{\em Enor\+Di} & ENABLE to enable the IRQ, DISABLE to disable.\\
+\hline
+\end{DoxyParams}
+Configures IRQ interrupt for the I2C peripheral.
+
+
+\begin{DoxyParams}{Parameters}
+{\em IRQNumber} & IRQ number to be configured. \\
+\hline
+{\em Enor\+Di} & Enable or disable the IRQ (ENABLE or DISABLE). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__I2C__APIS_gaa228276d34ecb3d86e7eb5e809ffaacb}\label{group__I2C__APIS_gaa228276d34ecb3d86e7eb5e809ffaacb}} 
+\index{I2C APIs@{I2C APIs}!I2C\_IRQPriorityConfig@{I2C\_IRQPriorityConfig}}
+\index{I2C\_IRQPriorityConfig@{I2C\_IRQPriorityConfig}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_IRQPriorityConfig()}{I2C\_IRQPriorityConfig()}}
+{\footnotesize\ttfamily void I2\+C\+\_\+\+IRQPriority\+Config (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{IRQNumber,  }\item[{uint32\+\_\+t}]{IRQPriority }\end{DoxyParamCaption})}
+
+
+
+Configures IRQ priority for the I2C peripheral. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em IRQNumber} & IRQ number. \\
+\hline
+{\em IRQPriority} & IRQ priority value.\\
+\hline
+\end{DoxyParams}
+Configures IRQ priority for the I2C peripheral.
+
+
+\begin{DoxyParams}{Parameters}
+{\em IRQNumber} & IRQ number to be configured. \\
+\hline
+{\em IRQPriority} & Priority to be set for the IRQ. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__I2C__APIS_ga00ab5652c3c755fc9b4b2f1da778f234}\label{group__I2C__APIS_ga00ab5652c3c755fc9b4b2f1da778f234}} 
+\index{I2C APIs@{I2C APIs}!I2C\_ManageAcking@{I2C\_ManageAcking}}
+\index{I2C\_ManageAcking@{I2C\_ManageAcking}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_ManageAcking()}{I2C\_ManageAcking()}}
+{\footnotesize\ttfamily void I2\+C\+\_\+\+Manage\+Acking (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+I2\+Cx,  }\item[{uint8\+\_\+t}]{Enor\+Di }\end{DoxyParamCaption})}
+
+
+
+Manages ACKing during I2C communication. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+Cx} & Pointer to the I2C peripheral. \\
+\hline
+{\em Enor\+Di} & I2\+C\+\_\+\+ACK\+\_\+\+ENABLE to enable ACKing, I2\+C\+\_\+\+ACK\+\_\+\+DISABLE to disable.\\
+\hline
+\end{DoxyParams}
+Manages ACKing during I2C communication.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+Cx} & Pointer to the I2C peripheral. \\
+\hline
+{\em Enor\+Di} & I2\+C\+\_\+\+ACK\+\_\+\+ENABLE to enable acknowledgment, I2\+C\+\_\+\+ACK\+\_\+\+DISABLE to disable acknowledgment. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__I2C__APIS_ga901c740473eedb002561554503b5934c}\label{group__I2C__APIS_ga901c740473eedb002561554503b5934c}} 
+\index{I2C APIs@{I2C APIs}!I2C\_MasterReceiveData@{I2C\_MasterReceiveData}}
+\index{I2C\_MasterReceiveData@{I2C\_MasterReceiveData}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_MasterReceiveData()}{I2C\_MasterReceiveData()}}
+{\footnotesize\ttfamily void I2\+C\+\_\+\+Master\+Receive\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+I2\+CHandle,  }\item[{uint8\+\_\+t $\ast$}]{p\+Rx\+Buffer,  }\item[{uint8\+\_\+t}]{Len,  }\item[{uint8\+\_\+t}]{Slave\+Addr,  }\item[{uint8\+\_\+t}]{SR }\end{DoxyParamCaption})}
+
+
+
+Receives data in master mode over the I2C bus. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the I2C handle structure. \\
+\hline
+{\em p\+Rx\+Buffer} & Pointer to the receive buffer. \\
+\hline
+{\em Len} & Length of data to be received. \\
+\hline
+{\em Slave\+Addr} & Slave address to communicate with. \\
+\hline
+{\em SR} & Repeated start setting.\\
+\hline
+\end{DoxyParams}
+Receives data in master mode over the I2C bus.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the I2C handle structure. \\
+\hline
+{\em p\+Rx\+Buffer} & Pointer to the receive buffer. \\
+\hline
+{\em Len} & Number of bytes to receive. \\
+\hline
+{\em Slave\+Addr} & Address of the slave device. \\
+\hline
+{\em SR} & Generate Stop Condition after the transaction (ENABLE or DISABLE). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__I2C__APIS_ga5768c250c2457da7c83002d882c45f57}\label{group__I2C__APIS_ga5768c250c2457da7c83002d882c45f57}} 
+\index{I2C APIs@{I2C APIs}!I2C\_MasterReceiveDataIT@{I2C\_MasterReceiveDataIT}}
+\index{I2C\_MasterReceiveDataIT@{I2C\_MasterReceiveDataIT}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_MasterReceiveDataIT()}{I2C\_MasterReceiveDataIT()}}
+{\footnotesize\ttfamily uint8\+\_\+t I2\+C\+\_\+\+Master\+Receive\+Data\+IT (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+I2\+CHandle,  }\item[{uint8\+\_\+t $\ast$}]{p\+Rx\+Buffer,  }\item[{uint8\+\_\+t}]{Len,  }\item[{uint8\+\_\+t}]{Slave\+Addr,  }\item[{uint8\+\_\+t}]{Sr }\end{DoxyParamCaption})}
+
+
+
+Receives data in master mode over the I2C bus with interrupt support. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the I2C handle structure. \\
+\hline
+{\em p\+Rx\+Buffer} & Pointer to the receive buffer. \\
+\hline
+{\em Len} & Length of data to be received. \\
+\hline
+{\em Slave\+Addr} & Slave address to communicate with. \\
+\hline
+{\em SR} & Repeated start setting. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+uint8\+\_\+t Status flag.
+\end{DoxyReturn}
+Receives data in master mode over the I2C bus with interrupt support.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the I2C handle structure. \\
+\hline
+{\em p\+Rx\+Buffer} & Pointer to the receive buffer. \\
+\hline
+{\em Len} & Number of bytes to receive. \\
+\hline
+{\em Slave\+Addr} & Address of the slave device. \\
+\hline
+{\em Sr} & Generate Repeated Start condition (ENABLE or DISABLE). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+uint8\+\_\+t Current state of the I2C peripheral (I2\+C\+\_\+\+BUSY\+\_\+\+IN\+\_\+\+TX or I2\+C\+\_\+\+BUSY\+\_\+\+IN\+\_\+\+RX). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__I2C__APIS_gad61b8500a55c7cc07c88b373add94b5d}\label{group__I2C__APIS_gad61b8500a55c7cc07c88b373add94b5d}} 
+\index{I2C APIs@{I2C APIs}!I2C\_MasterSendData@{I2C\_MasterSendData}}
+\index{I2C\_MasterSendData@{I2C\_MasterSendData}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_MasterSendData()}{I2C\_MasterSendData()}}
+{\footnotesize\ttfamily void I2\+C\+\_\+\+Master\+Send\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+I2\+CHandle,  }\item[{uint8\+\_\+t $\ast$}]{p\+Tx\+Buffer,  }\item[{uint32\+\_\+t}]{Len,  }\item[{uint8\+\_\+t}]{Slave\+Addr,  }\item[{uint8\+\_\+t}]{SR }\end{DoxyParamCaption})}
+
+
+
+Sends data in master mode over the I2C bus. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the I2C handle structure. \\
+\hline
+{\em p\+Tx\+Buffer} & Pointer to the transmit buffer. \\
+\hline
+{\em Len} & Length of data to be sent. \\
+\hline
+{\em Slave\+Addr} & Slave address to communicate with. \\
+\hline
+{\em SR} & Repeated start setting.\\
+\hline
+\end{DoxyParams}
+Sends data in master mode over the I2C bus.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the I2C handle structure. \\
+\hline
+{\em p\+Tx\+Buffer} & Pointer to the transmit buffer. \\
+\hline
+{\em Len} & Number of bytes to transmit. \\
+\hline
+{\em Slave\+Addr} & Address of the slave device. \\
+\hline
+{\em SR} & Generate Stop Condition after the transaction\+: (ENABLE or DISABLE) \char`\"{}the repeated start condition\char`\"{}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__I2C__APIS_gacdb4d953f6d07ab5a6c8c08dfabdee48}\label{group__I2C__APIS_gacdb4d953f6d07ab5a6c8c08dfabdee48}} 
+\index{I2C APIs@{I2C APIs}!I2C\_MasterSendDataIT@{I2C\_MasterSendDataIT}}
+\index{I2C\_MasterSendDataIT@{I2C\_MasterSendDataIT}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_MasterSendDataIT()}{I2C\_MasterSendDataIT()}}
+{\footnotesize\ttfamily uint8\+\_\+t I2\+C\+\_\+\+Master\+Send\+Data\+IT (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+I2\+CHandle,  }\item[{uint8\+\_\+t $\ast$}]{p\+Tx\+Buffer,  }\item[{uint32\+\_\+t}]{Len,  }\item[{uint8\+\_\+t}]{Slave\+Addr,  }\item[{uint8\+\_\+t}]{Sr }\end{DoxyParamCaption})}
+
+
+
+Sends data in master mode over the I2C bus with interrupt support. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the I2C handle structure. \\
+\hline
+{\em p\+Tx\+Buffer} & Pointer to the transmit buffer. \\
+\hline
+{\em Len} & Length of data to be sent. \\
+\hline
+{\em Slave\+Addr} & Slave address to communicate with. \\
+\hline
+{\em SR} & Repeated start setting. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+uint8\+\_\+t Status flag.
+\end{DoxyReturn}
+Sends data in master mode over the I2C bus with interrupt support.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the I2C handle structure. \\
+\hline
+{\em p\+Tx\+Buffer} & Pointer to the transmit buffer. \\
+\hline
+{\em Len} & Number of bytes to transmit. \\
+\hline
+{\em Slave\+Addr} & Address of the slave device. \\
+\hline
+{\em Sr} & Generate Repeated Start condition (ENABLE or DISABLE). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+uint8\+\_\+t Current state of the I2C peripheral (I2\+C\+\_\+\+BUSY\+\_\+\+IN\+\_\+\+TX or I2\+C\+\_\+\+BUSY\+\_\+\+IN\+\_\+\+RX). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__I2C__APIS_ga08267d82acca332799ec1b49be4527bd}\label{group__I2C__APIS_ga08267d82acca332799ec1b49be4527bd}} 
+\index{I2C APIs@{I2C APIs}!I2C\_PeriClockControl@{I2C\_PeriClockControl}}
+\index{I2C\_PeriClockControl@{I2C\_PeriClockControl}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_PeriClockControl()}{I2C\_PeriClockControl()}}
+{\footnotesize\ttfamily void I2\+C\+\_\+\+Peri\+Clock\+Control (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+I2\+Cx,  }\item[{uint8\+\_\+t}]{Enor\+Di }\end{DoxyParamCaption})}
+
+
+
+Controls the peripheral clock of the I2C peripheral. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+Cx} & Pointer to the I2C peripheral. \\
+\hline
+{\em Enor\+Di} & ENABLE to enable the clock, DISABLE to disable.\\
+\hline
+\end{DoxyParams}
+Controls the peripheral clock of the I2C peripheral.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+Cx} & Pointer to the I2C peripheral register structure. \\
+\hline
+{\em Enor\+Di} & Enable or disable action. Use ENABLE to enable and DISABLE to disable. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__I2C__APIS_ga6edaa9f836224061ce79e048e6f4750d}\label{group__I2C__APIS_ga6edaa9f836224061ce79e048e6f4750d}} 
+\index{I2C APIs@{I2C APIs}!I2C\_PeripheralControl@{I2C\_PeripheralControl}}
+\index{I2C\_PeripheralControl@{I2C\_PeripheralControl}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_PeripheralControl()}{I2C\_PeripheralControl()}}
+{\footnotesize\ttfamily void I2\+C\+\_\+\+Peripheral\+Control (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+I2\+Cx,  }\item[{uint8\+\_\+t}]{Enor\+Di }\end{DoxyParamCaption})}
+
+
+
+Controls peripheral operation in master mode. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+Cx} & Pointer to the I2C peripheral. \\
+\hline
+{\em Enor\+Di} & ENABLE to enable, DISABLE to disable.\\
+\hline
+\end{DoxyParams}
+Controls peripheral operation in master mode.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+Cx} & Pointer to the I2C peripheral. \\
+\hline
+{\em Enor\+Di} & ENABLE to enable, DISABLE to disable. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__I2C__APIS_ga062b25b8441b46bbb8668a68c63bfea6}\label{group__I2C__APIS_ga062b25b8441b46bbb8668a68c63bfea6}} 
+\index{I2C APIs@{I2C APIs}!I2C\_SlaveEnableDisableCallbackEvents@{I2C\_SlaveEnableDisableCallbackEvents}}
+\index{I2C\_SlaveEnableDisableCallbackEvents@{I2C\_SlaveEnableDisableCallbackEvents}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_SlaveEnableDisableCallbackEvents()}{I2C\_SlaveEnableDisableCallbackEvents()}}
+{\footnotesize\ttfamily void I2\+C\+\_\+\+Slave\+Enable\+Disable\+Callback\+Events (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+I2\+Cx,  }\item[{uint8\+\_\+t}]{Enor\+Di }\end{DoxyParamCaption})}
+
+
+
+Enables or disables callback events for the I2C slave. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+Cx} & Pointer to the I2C peripheral. \\
+\hline
+{\em Enor\+Di} & ENABLE to enable callback events, DISABLE to disable. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__I2C__APIS_gaae081cc85ae3dd0049ccd0b9ea0c7c8a}\label{group__I2C__APIS_gaae081cc85ae3dd0049ccd0b9ea0c7c8a}} 
+\index{I2C APIs@{I2C APIs}!I2C\_SlaveReceiveData@{I2C\_SlaveReceiveData}}
+\index{I2C\_SlaveReceiveData@{I2C\_SlaveReceiveData}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_SlaveReceiveData()}{I2C\_SlaveReceiveData()}}
+{\footnotesize\ttfamily uint8\+\_\+t I2\+C\+\_\+\+Slave\+Receive\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+I2\+Cx }\end{DoxyParamCaption})}
+
+
+
+Receives a single byte of data in slave mode over the I2C bus. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+Cx} & Pointer to the I2C peripheral. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+uint8\+\_\+t Received data.
+\end{DoxyReturn}
+Receives a single byte of data in slave mode over the I2C bus.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+Cx} & Pointer to the I2C peripheral. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+uint8\+\_\+t Received data. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__I2C__APIS_gac5ce1afe81f1092b7c72d839f8f09bf5}\label{group__I2C__APIS_gac5ce1afe81f1092b7c72d839f8f09bf5}} 
+\index{I2C APIs@{I2C APIs}!I2C\_SlaveSendData@{I2C\_SlaveSendData}}
+\index{I2C\_SlaveSendData@{I2C\_SlaveSendData}!I2C APIs@{I2C APIs}}
+\doxysubsubsection{\texorpdfstring{I2C\_SlaveSendData()}{I2C\_SlaveSendData()}}
+{\footnotesize\ttfamily void I2\+C\+\_\+\+Slave\+Send\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+I2\+Cx,  }\item[{uint8\+\_\+t}]{data }\end{DoxyParamCaption})}
+
+
+
+Sends a single byte of data in slave mode over the I2C bus. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+Cx} & Pointer to the I2C peripheral. \\
+\hline
+{\em data} & Data to be sent.\\
+\hline
+\end{DoxyParams}
+Sends a single byte of data in slave mode over the I2C bus.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+Cx} & Pointer to the I2C peripheral. \\
+\hline
+{\em data} & Data to be sent. \\
+\hline
+\end{DoxyParams}

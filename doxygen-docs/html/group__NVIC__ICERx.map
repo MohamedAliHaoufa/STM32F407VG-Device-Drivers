@@ -1,0 +1,4 @@
+<map id="NVIC ICERx Registers" name="NVIC ICERx Registers">
+<area shape="rect" id="node1" href="$group__STM32F407XX__HEADER.html" title="Header file containing all the necessary information about the STM32F407xx MCU." alt="" coords="5,5,232,31"/>
+<area shape="rect" id="node2" title="Base addresses for NVIC ICERx registers." alt="" coords="280,5,441,31"/>
+</map>

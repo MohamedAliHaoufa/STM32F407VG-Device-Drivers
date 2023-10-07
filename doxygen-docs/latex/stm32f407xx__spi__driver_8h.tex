@@ -1,0 +1,190 @@
+\hypertarget{stm32f407xx__spi__driver_8h}{}\doxysection{drivers/\+Inc/stm32f407xx\+\_\+spi\+\_\+driver.h File Reference}
+\label{stm32f407xx__spi__driver_8h}\index{drivers/Inc/stm32f407xx\_spi\_driver.h@{drivers/Inc/stm32f407xx\_spi\_driver.h}}
+
+
+This file contains definitions and functions prototypes for the STM32\+F407xx SPI driver.  
+
+
+{\ttfamily \#include \char`\"{}stm32f407xx.\+h\char`\"{}}\newline
+Include dependency graph for stm32f407xx\+\_\+spi\+\_\+driver.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{stm32f407xx__spi__driver_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{stm32f407xx__spi__driver_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structSPI__Config__t}{SPI\+\_\+\+Config\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Configuration structure for SPI peripheral. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Handle structure for SPI peripheral. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{group__SPI__Application__States_gae14503419450066f92b6fc8803f892ac}{SPI\+\_\+\+DEVICE\+\_\+\+MODE\+\_\+\+MASTER}}~1
+\item 
+\#define \mbox{\hyperlink{group__SPI__Application__States_gaab62db7f593efc07b3e9316483477b15}{SPI\+\_\+\+DEVICE\+\_\+\+MODE\+\_\+\+SLAVE}}~0
+\item 
+\#define \mbox{\hyperlink{group__SPI__ACK__Control__Options_gacc1e8f220fc51dcb9fdb68d7aa2f79c6}{SPI\+\_\+\+BUS\+\_\+\+CONFIG\+\_\+\+FULL\+\_\+\+DUPLEX}}~1
+\item 
+\#define \mbox{\hyperlink{group__SPI__ACK__Control__Options_ga643080f5308186e4d7d1ecc8b5d2ab69}{SPI\+\_\+\+BUS\+\_\+\+CONFIG\+\_\+\+HALF\+\_\+\+DUPLEX}}~2
+\item 
+\#define \mbox{\hyperlink{group__SPI__ACK__Control__Options_gad3781960ec54778a6d1e8b68aad2e00e}{SPI\+\_\+\+BUS\+\_\+\+CONFIG\+\_\+\+SIMPLEX\+\_\+\+RX\+\_\+\+ONLY}}~3
+\item 
+\#define \mbox{\hyperlink{group__SPI__SCLK__Speed__Options_ga09c7c7c96a822a00406a1a51ca5ab7e8}{SPI\+\_\+\+SCLK\+\_\+\+SPEED\+\_\+\+DIV2}}~0
+\item 
+\#define \mbox{\hyperlink{group__SPI__SCLK__Speed__Options_ga67fe94842d4ae149cd3aeba04e4c12ee}{SPI\+\_\+\+SCLK\+\_\+\+SPEED\+\_\+\+DIV4}}~1
+\item 
+\#define \mbox{\hyperlink{group__SPI__SCLK__Speed__Options_gaa8026567e1eb9941cf6139afe2cecbc4}{SPI\+\_\+\+SCLK\+\_\+\+SPEED\+\_\+\+DIV8}}~2
+\item 
+\#define \mbox{\hyperlink{group__SPI__SCLK__Speed__Options_ga2f360973c4374bdc775ee3ce6277360b}{SPI\+\_\+\+SCLK\+\_\+\+SPEED\+\_\+\+DIV16}}~3
+\item 
+\#define \mbox{\hyperlink{group__SPI__SCLK__Speed__Options_ga47eaaa2b011bcb6fbe3db2a331f58051}{SPI\+\_\+\+SCLK\+\_\+\+SPEED\+\_\+\+DIV32}}~4
+\item 
+\#define \mbox{\hyperlink{group__SPI__SCLK__Speed__Options_gab7ccd7138d3b4564eff71219d4dc5194}{SPI\+\_\+\+SCLK\+\_\+\+SPEED\+\_\+\+DIV64}}~5
+\item 
+\#define \mbox{\hyperlink{group__SPI__SCLK__Speed__Options_gaac2183bc14e617bd07b42e7c005e07e1}{SPI\+\_\+\+SCLK\+\_\+\+SPEED\+\_\+\+DIV128}}~6
+\item 
+\#define \mbox{\hyperlink{group__SPI__SCLK__Speed__Options_ga8f4ac14104b390f5c624d33cdfff270b}{SPI\+\_\+\+SCLK\+\_\+\+SPEED\+\_\+\+DIV256}}~7
+\item 
+\#define \mbox{\hyperlink{group__SPI__Data__Frame__Format__Options_gae1186052fbfaf5be613b284b290bc9ae}{SPI\+\_\+\+DFF\+\_\+8\+BITS}}~0
+\item 
+\#define \mbox{\hyperlink{group__SPI__Data__Frame__Format__Options_gaeb4c744db3e9b764cfd95aceb7000810}{SPI\+\_\+\+DFF\+\_\+16\+BITS}}~1
+\item 
+\#define \mbox{\hyperlink{group__SPI__CPOL__Options_gaf5161f1e7fb512ef0e58612267db52d6}{SPI\+\_\+\+CPOL\+\_\+\+HIGH}}~1
+\item 
+\#define \mbox{\hyperlink{group__SPI__CPOL__Options_ga83a0541021071c7e33997d3affc0c8d4}{SPI\+\_\+\+CPOL\+\_\+\+LOW}}~0
+\item 
+\#define \mbox{\hyperlink{group__SPI__CPHA__Options_ga2f23ea7da87041957f3201ef333ab852}{SPI\+\_\+\+CPHA\+\_\+\+HIGH}}~1
+\item 
+\#define \mbox{\hyperlink{group__SPI__CPHA__Options_ga53aef0b3236b3e06f490464b0318aa59}{SPI\+\_\+\+CPHA\+\_\+\+LOW}}~0
+\item 
+\#define \mbox{\hyperlink{group__SPI__SSM__Options_ga6fa320b24e72ecdf0b482e23a0f1d56c}{SPI\+\_\+\+SSM\+\_\+\+EN}}~1
+\item 
+\#define \mbox{\hyperlink{group__SPI__SSM__Options_ga3792280581a1f47bcc7146021fa9f881}{SPI\+\_\+\+SSM\+\_\+\+DI}}~0
+\item 
+\#define \mbox{\hyperlink{group__SPI__FLAG__Status_gab76a8a63188b1d42f400f15264f4cbd5}{SPI\+\_\+\+RXNE\+\_\+\+FLAG}}~(1 $<$$<$ \mbox{\hyperlink{group__SPI__SR__Bit__Positions_ga40e14de547aa06864abcd4b0422d8b48}{SPI\+\_\+\+SR\+\_\+\+RXNE}})
+\item 
+\#define \mbox{\hyperlink{group__SPI__FLAG__Status_gab7d41369397efc4fd851a2dd4d189fd0}{SPI\+\_\+\+TXE\+\_\+\+FLAG}}~(1 $<$$<$ \mbox{\hyperlink{group__SPI__SR__Bit__Positions_ga5bd5d21816947fcb25ccae7d3bf8eb2c}{SPI\+\_\+\+SR\+\_\+\+TXE}})
+\item 
+\#define \mbox{\hyperlink{group__SPI__FLAG__Status_ga1799e3e4289700997a428d6c177e614d}{SPI\+\_\+\+CHSIDE\+\_\+\+FLAG}}~(1 $<$$<$ \mbox{\hyperlink{group__SPI__SR__Bit__Positions_ga81bd052f0b2e819ddd6bb16c2292a2de}{SPI\+\_\+\+SR\+\_\+\+CHSIDE}})
+\item 
+\#define \mbox{\hyperlink{group__SPI__FLAG__Status_ga1b97c756c1098048f71b893dd6d33f4a}{SPI\+\_\+\+UDR\+\_\+\+FLAG}}~(1 $<$$<$ \mbox{\hyperlink{group__SPI__SR__Bit__Positions_ga13d3292e963499c0e9a36869909229e6}{SPI\+\_\+\+SR\+\_\+\+UDR}})
+\item 
+\#define \mbox{\hyperlink{group__SPI__FLAG__Status_ga83d6387b85bc1a597e64a7be8b47bfe4}{SPI\+\_\+\+CRCERR\+\_\+\+FLAG}}~(1 $<$$<$ \mbox{\hyperlink{group__SPI__SR__Bit__Positions_ga69e543fa9584fd636032a3ee735f750b}{SPI\+\_\+\+SR\+\_\+\+CRCERR}})
+\item 
+\#define \mbox{\hyperlink{group__SPI__FLAG__Status_ga39603a317fca2693540414103b81310c}{SPI\+\_\+\+MODF\+\_\+\+FLAG}}~(1 $<$$<$ \mbox{\hyperlink{group__SPI__SR__Bit__Positions_gabaa043349833dc7b8138969c64f63adf}{SPI\+\_\+\+SR\+\_\+\+MODF}})
+\item 
+\#define \mbox{\hyperlink{group__SPI__FLAG__Status_ga0ebe2edd2f70df93195bf53ff73575bb}{SPI\+\_\+\+OVR\+\_\+\+FLAG}}~(1 $<$$<$ \mbox{\hyperlink{group__SPI__SR__Bit__Positions_gaa8d902302c5eb81ce4a57029de281232}{SPI\+\_\+\+SR\+\_\+\+OVR}})
+\item 
+\#define \mbox{\hyperlink{group__SPI__FLAG__Status_ga129f062f946980c2f5c07e891d4c5e6d}{SPI\+\_\+\+BUSY\+\_\+\+FLAG}}~(1 $<$$<$ \mbox{\hyperlink{group__SPI__SR__Bit__Positions_gaa3498df67729ae048dc5f315ef7c16bf}{SPI\+\_\+\+SR\+\_\+\+BSY}})
+\item 
+\#define \mbox{\hyperlink{group__SPI__FLAG__Status_ga5689054ff7f9d7ffb1332f2aaf1868c2}{SPI\+\_\+\+FRE\+\_\+\+FLAG}}~(1 $<$$<$ \mbox{\hyperlink{group__SPI__SR__Bit__Positions_gace2c7cac9431231663af42e6f5aabce6}{SPI\+\_\+\+SR\+\_\+\+FRE}})
+\item 
+\#define \mbox{\hyperlink{group__SPI__Application__States_gad47e24b1cd1e44e0e7b25e4a8c421d37}{SPI\+\_\+\+READY}}~0
+\item 
+\#define \mbox{\hyperlink{group__SPI__Application__States_ga28d35afcad964bca91f5c5d8cc57b6b5}{SPI\+\_\+\+BUSY\+\_\+\+IN\+\_\+\+RX}}~1
+\item 
+\#define \mbox{\hyperlink{group__SPI__Application__States_ga5b941c3eb3ac78e487774ba61d820096}{SPI\+\_\+\+BUSY\+\_\+\+IN\+\_\+\+TX}}~2
+\item 
+\#define \mbox{\hyperlink{group__SPI__Application__Events_ga66d763aff2422d7041fc42b670d1911b}{SPI\+\_\+\+EVENT\+\_\+\+TX\+\_\+\+CMPLT}}~1
+\item 
+\#define \mbox{\hyperlink{group__SPI__Application__Events_gab74714a01806856ff19f0e336e8c915d}{SPI\+\_\+\+EVENT\+\_\+\+RX\+\_\+\+CMPLT}}~2
+\item 
+\#define \mbox{\hyperlink{group__SPI__Application__Events_gaa4dcad1150b9eda01f9143e0d4392f4e}{SPI\+\_\+\+EVENT\+\_\+\+OVR\+\_\+\+ERR}}~3
+\item 
+\#define \mbox{\hyperlink{group__SPI__Application__Events_gac914a0a4811a6298c0d22d1a2718cfdb}{SPI\+\_\+\+EVENT\+\_\+\+CRC\+\_\+\+ERR}}~4
+\item 
+\#define \mbox{\hyperlink{group__SPI_ga48ddd4b47beb5c10ed4549c4bb3422d1}{CMD\+\_\+\+LED\+\_\+\+CTRL}}~0x50
+\item 
+\#define \mbox{\hyperlink{group__SPI_ga075437599da345a372d5ee204e04ce8e}{CMD\+\_\+\+SENSOR\+\_\+\+READ}}~0x51
+\item 
+\#define \mbox{\hyperlink{group__SPI_ga3975cc55cad7da5249001685a809afc0}{CMD\+\_\+\+LED\+\_\+\+READ}}~0x52
+\item 
+\#define \mbox{\hyperlink{group__SPI_gafd67a594574c05e8d40ec8ff3ead0e61}{CMD\+\_\+\+PRINT}}~0x53
+\item 
+\#define \mbox{\hyperlink{group__SPI_ga94129c08a9c484dab0323e243e98034e}{CMD\+\_\+\+ID\+\_\+\+READ}}~0x54
+\item 
+\#define \mbox{\hyperlink{group__LED__Control_gaf2e697ac60e05813d45ea2c9c9e79c25}{LED\+\_\+\+ON}}~1
+\item 
+\#define \mbox{\hyperlink{group__LED__Control_ga80700bb63bd56ebabbb4728aa433fd29}{LED\+\_\+\+OFF}}~0
+\item 
+\#define \mbox{\hyperlink{group__LED__Control_gab4553be4db9860d940f81d7447173b2f}{LED\+\_\+\+PIN}}~9
+\item 
+\#define \mbox{\hyperlink{group__Analog__Pins_gaa65e9e325c64d2b004c553139a5a1a69}{ANALOG\+\_\+\+PIN0}}~0
+\item 
+\#define \mbox{\hyperlink{group__Analog__Pins_gaadf9fbcd114f2eae2b57efc5facfaa8c}{ANALOG\+\_\+\+PIN1}}~1
+\item 
+\#define \mbox{\hyperlink{group__Analog__Pins_ga4368d0efe97b174a428e6f8cb73ceab1}{ANALOG\+\_\+\+PIN2}}~2
+\item 
+\#define \mbox{\hyperlink{group__Analog__Pins_ga78742b115898136dba8d0d0818c18921}{ANALOG\+\_\+\+PIN3}}~3
+\item 
+\#define \mbox{\hyperlink{group__Analog__Pins_ga2434f0d2ca41f47f368f2cc6792de7fd}{ANALOG\+\_\+\+PIN4}}~4
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga375e85171a072f292fd57c857f635b4e}{SPI\+\_\+\+Peripheral\+Clock\+Control}} (\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+SPIx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Enables or disables the peripheral clock for the SPI port. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga2831f47e18753e6723c91e9aaf560669}{SPI\+\_\+\+Peripheral\+Control}} (\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+SPIx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Enables or disables the SPI peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga4ce11fe34382425f87f43df7e33eaa49}{SPI\+\_\+\+Init}} (\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$p\+SPIHandle)
+\begin{DoxyCompactList}\small\item\em Initializes the SPI port pin according to the configuration. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_gaedcadc52bc7fb8e6c69a689ce029940b}{SPI\+\_\+\+De\+Init}} (\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+SPIx)
+\begin{DoxyCompactList}\small\item\em Deinitializes the SPI port. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__SPI__APIS_gae3b8919bb99c1df96551e00415648cad}{SPI\+\_\+\+Get\+Flag\+Status}} (\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+SPIx, uint8\+\_\+t Flag\+Name)
+\begin{DoxyCompactList}\small\item\em Get the status of a specific SPI flag. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga3429e471ec851e1294e2c2a46ba5ee27}{SPI\+\_\+\+Send\+Data}} (\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+SPIx, uint8\+\_\+t $\ast$p\+Tx\+Buffer, uint32\+\_\+t Len)
+\begin{DoxyCompactList}\small\item\em Sends data over SPI. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_gafa0140875300073c700e84c14ba8b66e}{SPI\+\_\+\+Receive\+Data}} (\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+SPIx, uint8\+\_\+t $\ast$p\+Rx\+Buffer, uint32\+\_\+t Len)
+\begin{DoxyCompactList}\small\item\em Receives data over SPI. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__SPI__APIS_ga4cc209b826ae36f96fa5d1f962a5d801}{SPI\+\_\+\+Send\+Data\+IT}} (\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$p\+SPIHandle, uint8\+\_\+t $\ast$p\+Tx\+Buffer, uint32\+\_\+t Len)
+\begin{DoxyCompactList}\small\item\em Sends data over SPI using interrupt-\/driven communication. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__SPI__APIS_gae15a4f338eeabf175b48a85716ead033}{SPI\+\_\+\+Receive\+Data\+IT}} (\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$p\+SPIHandle, uint8\+\_\+t $\ast$p\+Rx\+Buffer, uint32\+\_\+t Len)
+\begin{DoxyCompactList}\small\item\em Receives data over SPI using interrupt-\/driven communication. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga1cec8fbabd0ea91e5b7ea75fbfe4f7b1}{SPI\+\_\+\+IRQinterrupt\+Config}} (uint8\+\_\+t IRQNumber, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Configures the IRQ for a specific SPI pin. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_gad21ad060c7d119dc150949b2b9c93c16}{SPI\+\_\+\+IRQperiority\+Config}} (uint8\+\_\+t IRQNumber, uint32\+\_\+t IRQpriority)
+\begin{DoxyCompactList}\small\item\em Configures the priority for a specific IRQ. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga225ad4231e1be60d11789233327f34b5}{SPI\+\_\+\+IRQHandling}} (\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$p\+SPIHandle)
+\begin{DoxyCompactList}\small\item\em Handles the IRQ for a specific SPI pin. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_gae916c65b286ea7d325562eee2486c960}{SPI\+\_\+\+SSIConfig}} (\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+SPIx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Enables or disables the Software Slave Management (SSI) configuration for the SPI peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga6b849bba43cca1f1e0fb3b6907a08b21}{SPI\+\_\+\+SSOEConfig}} (\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+SPIx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Enables or disables the SPI Slave Select Output Enable (SSOE) configuration for the SPI peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga0f5ae6c70622347888ecc6e3bc068328}{SPI\+\_\+\+Clear\+OVRFlag}} (\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+SPIx)
+\begin{DoxyCompactList}\small\item\em Clears the overrun error (OVR) flag in the SPI peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_gaa68ba436eda5a06b22c6f2709bfed0df}{SPI\+\_\+\+Close\+Transmission}} (\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$p\+SPIHandle)
+\begin{DoxyCompactList}\small\item\em Closes the transmission operation on the SPI peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga43cb8b97afb19f46dd824981bba7226e}{SPI\+\_\+\+Close\+Reception}} (\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$p\+SPIHandle)
+\begin{DoxyCompactList}\small\item\em Closes the reception operation on the SPI peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga0dadc709dbf46ef27c5c557fa880edb3}{SPI\+\_\+\+Application\+Event\+Callback}} (\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$p\+SPIHandle, uint8\+\_\+t App\+Ev)
+\begin{DoxyCompactList}\small\item\em SPI Application Event Callback. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file contains definitions and functions prototypes for the STM32\+F407xx SPI driver. 
+
+\begin{DoxyAuthor}{Author}
+Mohamed Ali Haoufa 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2023-\/10-\/07
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2023 
+\end{DoxyCopyright}

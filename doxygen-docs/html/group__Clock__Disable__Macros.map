@@ -1,0 +1,9 @@
+<map id="Clock Disable Macros" name="Clock Disable Macros">
+<area shape="rect" id="node1" title=" " alt="" coords="280,141,443,166"/>
+<area shape="rect" id="node2" href="$group__Disable__clock__for__USARTx.html" title=" " alt="" coords="491,5,677,45"/>
+<area shape="rect" id="node3" href="$group__Disable__clock__for__SYSCFG.html" title=" " alt="" coords="491,69,677,109"/>
+<area shape="rect" id="node4" href="$group__Disable__clock__for__SPIx.html" title=" " alt="" coords="503,133,665,173"/>
+<area shape="rect" id="node6" href="$group__Disable__clock__for__GPIOx.html" title=" " alt="" coords="497,197,671,237"/>
+<area shape="rect" id="node7" href="$group__Disable__clock__for__I2Cx.html" title=" " alt="" coords="502,261,666,301"/>
+<area shape="rect" id="node5" href="$group__STM32F407XX__HEADER.html" title="Header file containing all the necessary information about the STM32F407xx MCU." alt="" coords="5,141,232,166"/>
+</map>

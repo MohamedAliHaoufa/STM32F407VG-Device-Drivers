@@ -1,0 +1,1201 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Module Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Modules}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Class Index}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class List}{5}{section.2.1}%
+\contentsline {chapter}{\numberline {3}File Index}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}File List}{7}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Module Documentation}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}DS1307 RTC Driver}{9}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{10}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}DS1307 Macros}{10}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Detailed Description}{10}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}DS1307 Configurable Items}{11}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Detailed Description}{11}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.4}Register Addresses}{11}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Detailed Description}{12}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.5}Time Formats}{12}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Detailed Description}{12}{subsection.4.5.1}%
+\contentsline {section}{\numberline {4.6}Days of the Week}{12}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Detailed Description}{13}{subsection.4.6.1}%
+\contentsline {section}{\numberline {4.7}DS1307 APIs}{13}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Detailed Description}{13}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Function Documentation}{14}{subsection.4.7.2}%
+\contentsline {subsubsection}{\numberline {4.7.2.1}ds1307\_get\_current\_date()}{14}{subsubsection.4.7.2.1}%
+\contentsline {subsubsection}{\numberline {4.7.2.2}ds1307\_get\_current\_time()}{14}{subsubsection.4.7.2.2}%
+\contentsline {subsubsection}{\numberline {4.7.2.3}ds1307\_init()}{14}{subsubsection.4.7.2.3}%
+\contentsline {subsubsection}{\numberline {4.7.2.4}ds1307\_set\_current\_date()}{14}{subsubsection.4.7.2.4}%
+\contentsline {subsubsection}{\numberline {4.7.2.5}ds1307\_set\_current\_time()}{15}{subsubsection.4.7.2.5}%
+\contentsline {section}{\numberline {4.8}KEYPAD Driver}{15}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Detailed Description}{15}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Function Documentation}{15}{subsection.4.8.2}%
+\contentsline {subsubsection}{\numberline {4.8.2.1}Keypad\_ScanAndPrint()}{15}{subsubsection.4.8.2.1}%
+\contentsline {section}{\numberline {4.9}LCD Driver}{16}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Detailed Description}{16}{subsection.4.9.1}%
+\contentsline {section}{\numberline {4.10}LCD Macros}{17}{section.4.10}%
+\contentsline {subsection}{\numberline {4.10.1}Detailed Description}{17}{subsection.4.10.1}%
+\contentsline {section}{\numberline {4.11}Application Configurable Items}{17}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}Detailed Description}{18}{subsection.4.11.1}%
+\contentsline {section}{\numberline {4.12}LCD Commands}{18}{section.4.12}%
+\contentsline {subsection}{\numberline {4.12.1}Detailed Description}{18}{subsection.4.12.1}%
+\contentsline {section}{\numberline {4.13}LCD APIs}{19}{section.4.13}%
+\contentsline {subsection}{\numberline {4.13.1}Detailed Description}{19}{subsection.4.13.1}%
+\contentsline {subsection}{\numberline {4.13.2}Function Documentation}{19}{subsection.4.13.2}%
+\contentsline {subsubsection}{\numberline {4.13.2.1}lcd\_display\_clear()}{19}{subsubsection.4.13.2.1}%
+\contentsline {subsubsection}{\numberline {4.13.2.2}lcd\_display\_return\_home()}{20}{subsubsection.4.13.2.2}%
+\contentsline {subsubsection}{\numberline {4.13.2.3}lcd\_init()}{20}{subsubsection.4.13.2.3}%
+\contentsline {subsubsection}{\numberline {4.13.2.4}lcd\_print\_char()}{20}{subsubsection.4.13.2.4}%
+\contentsline {subsubsection}{\numberline {4.13.2.5}lcd\_print\_string()}{20}{subsubsection.4.13.2.5}%
+\contentsline {subsubsection}{\numberline {4.13.2.6}lcd\_send\_command()}{21}{subsubsection.4.13.2.6}%
+\contentsline {subsubsection}{\numberline {4.13.2.7}lcd\_set\_cursor()}{21}{subsubsection.4.13.2.7}%
+\contentsline {section}{\numberline {4.14}STM32\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}F407xx MCU Header File}{22}{section.4.14}%
+\contentsline {subsection}{\numberline {4.14.1}Detailed Description}{23}{subsection.4.14.1}%
+\contentsline {section}{\numberline {4.15}Definitions and Macros}{24}{section.4.15}%
+\contentsline {subsection}{\numberline {4.15.1}Detailed Description}{24}{subsection.4.15.1}%
+\contentsline {section}{\numberline {4.16}NVIC ISERx Registers}{24}{section.4.16}%
+\contentsline {subsection}{\numberline {4.16.1}Detailed Description}{25}{subsection.4.16.1}%
+\contentsline {section}{\numberline {4.17}NVIC ICERx Registers}{25}{section.4.17}%
+\contentsline {subsection}{\numberline {4.17.1}Detailed Description}{25}{subsection.4.17.1}%
+\contentsline {section}{\numberline {4.18}NVIC Priority Registers Base Address}{25}{section.4.18}%
+\contentsline {subsection}{\numberline {4.18.1}Detailed Description}{26}{subsection.4.18.1}%
+\contentsline {section}{\numberline {4.19}Priority Bits Implemented}{26}{section.4.19}%
+\contentsline {subsection}{\numberline {4.19.1}Detailed Description}{26}{subsection.4.19.1}%
+\contentsline {section}{\numberline {4.20}Memory Base Addresses}{26}{section.4.20}%
+\contentsline {subsection}{\numberline {4.20.1}Detailed Description}{27}{subsection.4.20.1}%
+\contentsline {subsection}{\numberline {4.20.2}Macro Definition Documentation}{27}{subsection.4.20.2}%
+\contentsline {subsubsection}{\numberline {4.20.2.1}FLASH\_BASEADDR}{27}{subsubsection.4.20.2.1}%
+\contentsline {subsubsection}{\numberline {4.20.2.2}ROM\_BASEADDR}{27}{subsubsection.4.20.2.2}%
+\contentsline {subsubsection}{\numberline {4.20.2.3}SRAM1\_BASEADDR}{27}{subsubsection.4.20.2.3}%
+\contentsline {subsubsection}{\numberline {4.20.2.4}SRAM2\_BASEADDR}{27}{subsubsection.4.20.2.4}%
+\contentsline {section}{\numberline {4.21}Peripheral Base Addresses}{28}{section.4.21}%
+\contentsline {subsection}{\numberline {4.21.1}Detailed Description}{28}{subsection.4.21.1}%
+\contentsline {section}{\numberline {4.22}Peripheral Base Addresses}{28}{section.4.22}%
+\contentsline {subsection}{\numberline {4.22.1}Detailed Description}{29}{subsection.4.22.1}%
+\contentsline {subsection}{\numberline {4.22.2}Macro Definition Documentation}{29}{subsection.4.22.2}%
+\contentsline {subsubsection}{\numberline {4.22.2.1}AHB1PERIPH\_BASEADDR}{29}{subsubsection.4.22.2.1}%
+\contentsline {subsubsection}{\numberline {4.22.2.2}AHB2PERIPH\_BASEADDR}{29}{subsubsection.4.22.2.2}%
+\contentsline {subsubsection}{\numberline {4.22.2.3}APB1PERIPH\_BASEADDR}{29}{subsubsection.4.22.2.3}%
+\contentsline {subsubsection}{\numberline {4.22.2.4}APB2PERIPH\_BASEADDR}{29}{subsubsection.4.22.2.4}%
+\contentsline {subsubsection}{\numberline {4.22.2.5}PERIPH\_BASEADDR}{29}{subsubsection.4.22.2.5}%
+\contentsline {section}{\numberline {4.23}Peripheral Base Addresses on APB1 Bus}{30}{section.4.23}%
+\contentsline {subsection}{\numberline {4.23.1}Detailed Description}{30}{subsection.4.23.1}%
+\contentsline {subsection}{\numberline {4.23.2}Macro Definition Documentation}{30}{subsection.4.23.2}%
+\contentsline {subsubsection}{\numberline {4.23.2.1}CRC\_BASEADDR}{31}{subsubsection.4.23.2.1}%
+\contentsline {subsubsection}{\numberline {4.23.2.2}DMA1\_BASEADDR}{31}{subsubsection.4.23.2.2}%
+\contentsline {subsubsection}{\numberline {4.23.2.3}DMA2\_BASEADDR}{31}{subsubsection.4.23.2.3}%
+\contentsline {subsubsection}{\numberline {4.23.2.4}FIR\_BASEADDR}{31}{subsubsection.4.23.2.4}%
+\contentsline {subsubsection}{\numberline {4.23.2.5}GPIOA\_BASEADDR}{31}{subsubsection.4.23.2.5}%
+\contentsline {subsubsection}{\numberline {4.23.2.6}GPIOB\_BASEADDR}{31}{subsubsection.4.23.2.6}%
+\contentsline {subsubsection}{\numberline {4.23.2.7}GPIOC\_BASEADDR}{31}{subsubsection.4.23.2.7}%
+\contentsline {subsubsection}{\numberline {4.23.2.8}GPIOD\_BASEADDR}{31}{subsubsection.4.23.2.8}%
+\contentsline {subsubsection}{\numberline {4.23.2.9}GPIOE\_BASEADDR}{32}{subsubsection.4.23.2.9}%
+\contentsline {subsubsection}{\numberline {4.23.2.10}GPIOF\_BASEADDR}{32}{subsubsection.4.23.2.10}%
+\contentsline {subsubsection}{\numberline {4.23.2.11}GPIOG\_BASEADDR}{32}{subsubsection.4.23.2.11}%
+\contentsline {subsubsection}{\numberline {4.23.2.12}GPIOH\_BASEADDR}{32}{subsubsection.4.23.2.12}%
+\contentsline {subsubsection}{\numberline {4.23.2.13}GPIOI\_BASEADDR}{32}{subsubsection.4.23.2.13}%
+\contentsline {subsubsection}{\numberline {4.23.2.14}I2C1\_BASEADDR}{32}{subsubsection.4.23.2.14}%
+\contentsline {subsubsection}{\numberline {4.23.2.15}I2C2\_BASEADDR}{32}{subsubsection.4.23.2.15}%
+\contentsline {subsubsection}{\numberline {4.23.2.16}I2C3\_BASEADDR}{32}{subsubsection.4.23.2.16}%
+\contentsline {subsubsection}{\numberline {4.23.2.17}RCC\_BASEADDR}{33}{subsubsection.4.23.2.17}%
+\contentsline {subsubsection}{\numberline {4.23.2.18}SPI2\_BASEADDR}{33}{subsubsection.4.23.2.18}%
+\contentsline {subsubsection}{\numberline {4.23.2.19}SPI3\_BASEADDR}{33}{subsubsection.4.23.2.19}%
+\contentsline {subsubsection}{\numberline {4.23.2.20}UART4\_BASEADDR}{33}{subsubsection.4.23.2.20}%
+\contentsline {subsubsection}{\numberline {4.23.2.21}UART5\_BASEADDR}{33}{subsubsection.4.23.2.21}%
+\contentsline {subsubsection}{\numberline {4.23.2.22}USART2\_BASEADDR}{33}{subsubsection.4.23.2.22}%
+\contentsline {subsubsection}{\numberline {4.23.2.23}USART3\_BASEADDR}{33}{subsubsection.4.23.2.23}%
+\contentsline {section}{\numberline {4.24}Peripheral Base Addresses on APB2 Bus}{34}{section.4.24}%
+\contentsline {subsection}{\numberline {4.24.1}Detailed Description}{34}{subsection.4.24.1}%
+\contentsline {subsection}{\numberline {4.24.2}Macro Definition Documentation}{34}{subsection.4.24.2}%
+\contentsline {subsubsection}{\numberline {4.24.2.1}EXTI\_BASEADDR}{34}{subsubsection.4.24.2.1}%
+\contentsline {subsubsection}{\numberline {4.24.2.2}SPI1\_BASEADDR}{34}{subsubsection.4.24.2.2}%
+\contentsline {subsubsection}{\numberline {4.24.2.3}SPI4\_BASEADDR}{35}{subsubsection.4.24.2.3}%
+\contentsline {subsubsection}{\numberline {4.24.2.4}SYSCFG\_BASEADDR}{35}{subsubsection.4.24.2.4}%
+\contentsline {subsubsection}{\numberline {4.24.2.5}USART1\_BASEADDR}{35}{subsubsection.4.24.2.5}%
+\contentsline {subsubsection}{\numberline {4.24.2.6}USART6\_BASEADDR}{35}{subsubsection.4.24.2.6}%
+\contentsline {section}{\numberline {4.25}Peripheral Register Definitions}{35}{section.4.25}%
+\contentsline {subsection}{\numberline {4.25.1}Detailed Description}{36}{subsection.4.25.1}%
+\contentsline {section}{\numberline {4.26}Peripheral Definitions}{36}{section.4.26}%
+\contentsline {subsection}{\numberline {4.26.1}Detailed Description}{37}{subsection.4.26.1}%
+\contentsline {section}{\numberline {4.27}Clock Enable Macros}{37}{section.4.27}%
+\contentsline {subsection}{\numberline {4.27.1}Detailed Description}{38}{subsection.4.27.1}%
+\contentsline {section}{\numberline {4.28}Clock Enable GPIO Clocks}{38}{section.4.28}%
+\contentsline {subsection}{\numberline {4.28.1}Detailed Description}{38}{subsection.4.28.1}%
+\contentsline {section}{\numberline {4.29}Clock Enable I2C Clocks}{38}{section.4.29}%
+\contentsline {subsection}{\numberline {4.29.1}Detailed Description}{39}{subsection.4.29.1}%
+\contentsline {section}{\numberline {4.30}Clock Enable SPI Clocks}{39}{section.4.30}%
+\contentsline {subsection}{\numberline {4.30.1}Detailed Description}{39}{subsection.4.30.1}%
+\contentsline {section}{\numberline {4.31}Clock Enable USART Clocks}{39}{section.4.31}%
+\contentsline {subsection}{\numberline {4.31.1}Detailed Description}{40}{subsection.4.31.1}%
+\contentsline {section}{\numberline {4.32}Clock Enable SYSCFG Clocks}{40}{section.4.32}%
+\contentsline {subsection}{\numberline {4.32.1}Detailed Description}{40}{subsection.4.32.1}%
+\contentsline {section}{\numberline {4.33}Clock Disable Macros}{41}{section.4.33}%
+\contentsline {subsection}{\numberline {4.33.1}Detailed Description}{41}{subsection.4.33.1}%
+\contentsline {section}{\numberline {4.34}Disable clock for GPIOx peripherals}{41}{section.4.34}%
+\contentsline {subsection}{\numberline {4.34.1}Detailed Description}{42}{subsection.4.34.1}%
+\contentsline {section}{\numberline {4.35}Disable clock for I2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cx peripherals}{42}{section.4.35}%
+\contentsline {subsection}{\numberline {4.35.1}Detailed Description}{42}{subsection.4.35.1}%
+\contentsline {section}{\numberline {4.36}Disable clock for SPIx peripherals}{42}{section.4.36}%
+\contentsline {subsection}{\numberline {4.36.1}Detailed Description}{43}{subsection.4.36.1}%
+\contentsline {section}{\numberline {4.37}Disable clock for USARTx peripherals}{43}{section.4.37}%
+\contentsline {subsection}{\numberline {4.37.1}Detailed Description}{43}{subsection.4.37.1}%
+\contentsline {section}{\numberline {4.38}Disable clock for SYSCFG peripherals}{43}{section.4.38}%
+\contentsline {subsection}{\numberline {4.38.1}Detailed Description}{44}{subsection.4.38.1}%
+\contentsline {section}{\numberline {4.39}Reset Peripherals Macros}{44}{section.4.39}%
+\contentsline {subsection}{\numberline {4.39.1}Detailed Description}{44}{subsection.4.39.1}%
+\contentsline {section}{\numberline {4.40}Reset GPIOx Peripherals}{44}{section.4.40}%
+\contentsline {subsection}{\numberline {4.40.1}Detailed Description}{45}{subsection.4.40.1}%
+\contentsline {section}{\numberline {4.41}Reset I2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cx Peripherals}{45}{section.4.41}%
+\contentsline {subsection}{\numberline {4.41.1}Detailed Description}{46}{subsection.4.41.1}%
+\contentsline {section}{\numberline {4.42}Reset SPIx Peripherals}{46}{section.4.42}%
+\contentsline {subsection}{\numberline {4.42.1}Detailed Description}{46}{subsection.4.42.1}%
+\contentsline {section}{\numberline {4.43}Reset USARTx Peripherals}{46}{section.4.43}%
+\contentsline {subsection}{\numberline {4.43.1}Detailed Description}{47}{subsection.4.43.1}%
+\contentsline {section}{\numberline {4.44}GPIO Base Address to Code Conversion Macros}{47}{section.4.44}%
+\contentsline {subsection}{\numberline {4.44.1}Detailed Description}{47}{subsection.4.44.1}%
+\contentsline {subsection}{\numberline {4.44.2}Macro Definition Documentation}{47}{subsection.4.44.2}%
+\contentsline {subsubsection}{\numberline {4.44.2.1}GPIO\_BASEADDR\_TO\_CODE}{48}{subsubsection.4.44.2.1}%
+\contentsline {section}{\numberline {4.45}IRQ Numbers Macros}{48}{section.4.45}%
+\contentsline {subsection}{\numberline {4.45.1}Detailed Description}{48}{subsection.4.45.1}%
+\contentsline {section}{\numberline {4.46}EXTI (External Interrupt) IRQ Numbers}{49}{section.4.46}%
+\contentsline {subsection}{\numberline {4.46.1}Detailed Description}{49}{subsection.4.46.1}%
+\contentsline {section}{\numberline {4.47}NVIC Priority Levels Macros}{50}{section.4.47}%
+\contentsline {subsection}{\numberline {4.47.1}Detailed Description}{50}{subsection.4.47.1}%
+\contentsline {section}{\numberline {4.48}SPI Bit Position Definitions}{50}{section.4.48}%
+\contentsline {subsection}{\numberline {4.48.1}Detailed Description}{51}{subsection.4.48.1}%
+\contentsline {section}{\numberline {4.49}SPI\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CR1 Bit Position Definitions}{51}{section.4.49}%
+\contentsline {subsection}{\numberline {4.49.1}Detailed Description}{51}{subsection.4.49.1}%
+\contentsline {subsection}{\numberline {4.49.2}Macro Definition Documentation}{52}{subsection.4.49.2}%
+\contentsline {subsubsection}{\numberline {4.49.2.1}SPI\_CR1\_BIDIMODE}{52}{subsubsection.4.49.2.1}%
+\contentsline {subsubsection}{\numberline {4.49.2.2}SPI\_CR1\_BIDIOE}{52}{subsubsection.4.49.2.2}%
+\contentsline {subsubsection}{\numberline {4.49.2.3}SPI\_CR1\_BR}{52}{subsubsection.4.49.2.3}%
+\contentsline {subsubsection}{\numberline {4.49.2.4}SPI\_CR1\_CPHA}{52}{subsubsection.4.49.2.4}%
+\contentsline {subsubsection}{\numberline {4.49.2.5}SPI\_CR1\_CPOL}{52}{subsubsection.4.49.2.5}%
+\contentsline {subsubsection}{\numberline {4.49.2.6}SPI\_CR1\_CRCEN}{52}{subsubsection.4.49.2.6}%
+\contentsline {subsubsection}{\numberline {4.49.2.7}SPI\_CR1\_CRCNEXT}{52}{subsubsection.4.49.2.7}%
+\contentsline {subsubsection}{\numberline {4.49.2.8}SPI\_CR1\_DFF}{53}{subsubsection.4.49.2.8}%
+\contentsline {subsubsection}{\numberline {4.49.2.9}SPI\_CR1\_LSBFIRST}{53}{subsubsection.4.49.2.9}%
+\contentsline {subsubsection}{\numberline {4.49.2.10}SPI\_CR1\_MSTR}{53}{subsubsection.4.49.2.10}%
+\contentsline {subsubsection}{\numberline {4.49.2.11}SPI\_CR1\_RXONLY}{53}{subsubsection.4.49.2.11}%
+\contentsline {subsubsection}{\numberline {4.49.2.12}SPI\_CR1\_SPE}{53}{subsubsection.4.49.2.12}%
+\contentsline {subsubsection}{\numberline {4.49.2.13}SPI\_CR1\_SSI}{53}{subsubsection.4.49.2.13}%
+\contentsline {subsubsection}{\numberline {4.49.2.14}SPI\_CR1\_SSM}{53}{subsubsection.4.49.2.14}%
+\contentsline {section}{\numberline {4.50}SPI\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CR2 Bit Position Definitions}{54}{section.4.50}%
+\contentsline {subsection}{\numberline {4.50.1}Detailed Description}{54}{subsection.4.50.1}%
+\contentsline {subsection}{\numberline {4.50.2}Macro Definition Documentation}{54}{subsection.4.50.2}%
+\contentsline {subsubsection}{\numberline {4.50.2.1}SPI\_CR2\_ERRIE}{54}{subsubsection.4.50.2.1}%
+\contentsline {subsubsection}{\numberline {4.50.2.2}SPI\_CR2\_FRF}{54}{subsubsection.4.50.2.2}%
+\contentsline {subsubsection}{\numberline {4.50.2.3}SPI\_CR2\_RXDMAEN}{55}{subsubsection.4.50.2.3}%
+\contentsline {subsubsection}{\numberline {4.50.2.4}SPI\_CR2\_RXNEIE}{55}{subsubsection.4.50.2.4}%
+\contentsline {subsubsection}{\numberline {4.50.2.5}SPI\_CR2\_SSOE}{55}{subsubsection.4.50.2.5}%
+\contentsline {subsubsection}{\numberline {4.50.2.6}SPI\_CR2\_TXDMAEN}{55}{subsubsection.4.50.2.6}%
+\contentsline {subsubsection}{\numberline {4.50.2.7}SPI\_CR2\_TXEIE}{55}{subsubsection.4.50.2.7}%
+\contentsline {section}{\numberline {4.51}SPI\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SR Bit Position Definitions}{55}{section.4.51}%
+\contentsline {subsection}{\numberline {4.51.1}Detailed Description}{56}{subsection.4.51.1}%
+\contentsline {subsection}{\numberline {4.51.2}Macro Definition Documentation}{56}{subsection.4.51.2}%
+\contentsline {subsubsection}{\numberline {4.51.2.1}SPI\_SR\_BSY}{56}{subsubsection.4.51.2.1}%
+\contentsline {subsubsection}{\numberline {4.51.2.2}SPI\_SR\_CHSIDE}{56}{subsubsection.4.51.2.2}%
+\contentsline {subsubsection}{\numberline {4.51.2.3}SPI\_SR\_CRCERR}{56}{subsubsection.4.51.2.3}%
+\contentsline {subsubsection}{\numberline {4.51.2.4}SPI\_SR\_FRE}{56}{subsubsection.4.51.2.4}%
+\contentsline {subsubsection}{\numberline {4.51.2.5}SPI\_SR\_MODF}{57}{subsubsection.4.51.2.5}%
+\contentsline {subsubsection}{\numberline {4.51.2.6}SPI\_SR\_OVR}{57}{subsubsection.4.51.2.6}%
+\contentsline {subsubsection}{\numberline {4.51.2.7}SPI\_SR\_RXNE}{57}{subsubsection.4.51.2.7}%
+\contentsline {subsubsection}{\numberline {4.51.2.8}SPI\_SR\_TXE}{57}{subsubsection.4.51.2.8}%
+\contentsline {subsubsection}{\numberline {4.51.2.9}SPI\_SR\_UDR}{57}{subsubsection.4.51.2.9}%
+\contentsline {section}{\numberline {4.52}I2C Bit Position Definitions}{57}{section.4.52}%
+\contentsline {subsection}{\numberline {4.52.1}Detailed Description}{58}{subsection.4.52.1}%
+\contentsline {section}{\numberline {4.53}I2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CR1 Bit Position Definitions}{59}{section.4.53}%
+\contentsline {subsection}{\numberline {4.53.1}Detailed Description}{59}{subsection.4.53.1}%
+\contentsline {subsection}{\numberline {4.53.2}Macro Definition Documentation}{59}{subsection.4.53.2}%
+\contentsline {subsubsection}{\numberline {4.53.2.1}I2C\_CR1\_ACK}{59}{subsubsection.4.53.2.1}%
+\contentsline {subsubsection}{\numberline {4.53.2.2}I2C\_CR1\_ALERT}{60}{subsubsection.4.53.2.2}%
+\contentsline {subsubsection}{\numberline {4.53.2.3}I2C\_CR1\_ENARP}{60}{subsubsection.4.53.2.3}%
+\contentsline {subsubsection}{\numberline {4.53.2.4}I2C\_CR1\_ENGC}{60}{subsubsection.4.53.2.4}%
+\contentsline {subsubsection}{\numberline {4.53.2.5}I2C\_CR1\_ENPEC}{60}{subsubsection.4.53.2.5}%
+\contentsline {subsubsection}{\numberline {4.53.2.6}I2C\_CR1\_NOSTRETCH}{60}{subsubsection.4.53.2.6}%
+\contentsline {subsubsection}{\numberline {4.53.2.7}I2C\_CR1\_PE}{60}{subsubsection.4.53.2.7}%
+\contentsline {subsubsection}{\numberline {4.53.2.8}I2C\_CR1\_PEC}{60}{subsubsection.4.53.2.8}%
+\contentsline {subsubsection}{\numberline {4.53.2.9}I2C\_CR1\_POS}{60}{subsubsection.4.53.2.9}%
+\contentsline {subsubsection}{\numberline {4.53.2.10}I2C\_CR1\_SMBTYPE}{61}{subsubsection.4.53.2.10}%
+\contentsline {subsubsection}{\numberline {4.53.2.11}I2C\_CR1\_SMBUS}{61}{subsubsection.4.53.2.11}%
+\contentsline {subsubsection}{\numberline {4.53.2.12}I2C\_CR1\_START}{61}{subsubsection.4.53.2.12}%
+\contentsline {subsubsection}{\numberline {4.53.2.13}I2C\_CR1\_STOP}{61}{subsubsection.4.53.2.13}%
+\contentsline {subsubsection}{\numberline {4.53.2.14}I2C\_CR1\_SWRST}{61}{subsubsection.4.53.2.14}%
+\contentsline {section}{\numberline {4.54}I2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}OAR1 Bit Position Definitions}{61}{section.4.54}%
+\contentsline {subsection}{\numberline {4.54.1}Detailed Description}{62}{subsection.4.54.1}%
+\contentsline {subsection}{\numberline {4.54.2}Macro Definition Documentation}{62}{subsection.4.54.2}%
+\contentsline {subsubsection}{\numberline {4.54.2.1}I2C\_OAR1\_ADD}{62}{subsubsection.4.54.2.1}%
+\contentsline {subsubsection}{\numberline {4.54.2.2}I2C\_OAR1\_ADD0}{62}{subsubsection.4.54.2.2}%
+\contentsline {subsubsection}{\numberline {4.54.2.3}I2C\_OAR1\_ADDMODE}{62}{subsubsection.4.54.2.3}%
+\contentsline {section}{\numberline {4.55}I2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}OAR2 Bit Position Definitions}{62}{section.4.55}%
+\contentsline {subsection}{\numberline {4.55.1}Detailed Description}{63}{subsection.4.55.1}%
+\contentsline {subsection}{\numberline {4.55.2}Macro Definition Documentation}{63}{subsection.4.55.2}%
+\contentsline {subsubsection}{\numberline {4.55.2.1}I2C\_OAR2\_ADD2}{63}{subsubsection.4.55.2.1}%
+\contentsline {subsubsection}{\numberline {4.55.2.2}I2C\_OAR2\_ENDUAL}{63}{subsubsection.4.55.2.2}%
+\contentsline {section}{\numberline {4.56}I2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CR2 Bit Position Definitions}{63}{section.4.56}%
+\contentsline {subsection}{\numberline {4.56.1}Detailed Description}{64}{subsection.4.56.1}%
+\contentsline {subsection}{\numberline {4.56.2}Macro Definition Documentation}{64}{subsection.4.56.2}%
+\contentsline {subsubsection}{\numberline {4.56.2.1}I2C\_CR2\_DMAEN}{64}{subsubsection.4.56.2.1}%
+\contentsline {subsubsection}{\numberline {4.56.2.2}I2C\_CR2\_FREQ}{64}{subsubsection.4.56.2.2}%
+\contentsline {subsubsection}{\numberline {4.56.2.3}I2C\_CR2\_ITBUFEN}{64}{subsubsection.4.56.2.3}%
+\contentsline {subsubsection}{\numberline {4.56.2.4}I2C\_CR2\_ITERREN}{64}{subsubsection.4.56.2.4}%
+\contentsline {subsubsection}{\numberline {4.56.2.5}I2C\_CR2\_ITEVTEN}{64}{subsubsection.4.56.2.5}%
+\contentsline {subsubsection}{\numberline {4.56.2.6}I2C\_CR2\_LAST}{64}{subsubsection.4.56.2.6}%
+\contentsline {section}{\numberline {4.57}I2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SR1 Bit Position Definitions}{65}{section.4.57}%
+\contentsline {subsection}{\numberline {4.57.1}Detailed Description}{65}{subsection.4.57.1}%
+\contentsline {subsection}{\numberline {4.57.2}Macro Definition Documentation}{65}{subsection.4.57.2}%
+\contentsline {subsubsection}{\numberline {4.57.2.1}I2C\_SR1\_ADD10}{65}{subsubsection.4.57.2.1}%
+\contentsline {subsubsection}{\numberline {4.57.2.2}I2C\_SR1\_ADDR}{66}{subsubsection.4.57.2.2}%
+\contentsline {subsubsection}{\numberline {4.57.2.3}I2C\_SR1\_AF}{66}{subsubsection.4.57.2.3}%
+\contentsline {subsubsection}{\numberline {4.57.2.4}I2C\_SR1\_ARLO}{66}{subsubsection.4.57.2.4}%
+\contentsline {subsubsection}{\numberline {4.57.2.5}I2C\_SR1\_BERR}{66}{subsubsection.4.57.2.5}%
+\contentsline {subsubsection}{\numberline {4.57.2.6}I2C\_SR1\_BTF}{66}{subsubsection.4.57.2.6}%
+\contentsline {subsubsection}{\numberline {4.57.2.7}I2C\_SR1\_OVR}{66}{subsubsection.4.57.2.7}%
+\contentsline {subsubsection}{\numberline {4.57.2.8}I2C\_SR1\_PECERR}{66}{subsubsection.4.57.2.8}%
+\contentsline {subsubsection}{\numberline {4.57.2.9}I2C\_SR1\_RxNE}{66}{subsubsection.4.57.2.9}%
+\contentsline {subsubsection}{\numberline {4.57.2.10}I2C\_SR1\_SB}{67}{subsubsection.4.57.2.10}%
+\contentsline {subsubsection}{\numberline {4.57.2.11}I2C\_SR1\_SMBALERT}{67}{subsubsection.4.57.2.11}%
+\contentsline {subsubsection}{\numberline {4.57.2.12}I2C\_SR1\_STOPF}{67}{subsubsection.4.57.2.12}%
+\contentsline {subsubsection}{\numberline {4.57.2.13}I2C\_SR1\_TIMEOUT}{67}{subsubsection.4.57.2.13}%
+\contentsline {subsubsection}{\numberline {4.57.2.14}I2C\_SR1\_TxE}{67}{subsubsection.4.57.2.14}%
+\contentsline {section}{\numberline {4.58}I2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SR2 Bit Position Definitions}{67}{section.4.58}%
+\contentsline {subsection}{\numberline {4.58.1}Detailed Description}{68}{subsection.4.58.1}%
+\contentsline {subsection}{\numberline {4.58.2}Macro Definition Documentation}{68}{subsection.4.58.2}%
+\contentsline {subsubsection}{\numberline {4.58.2.1}I2C\_SR2\_BUSY}{68}{subsubsection.4.58.2.1}%
+\contentsline {subsubsection}{\numberline {4.58.2.2}I2C\_SR2\_DUALF}{68}{subsubsection.4.58.2.2}%
+\contentsline {subsubsection}{\numberline {4.58.2.3}I2C\_SR2\_GENCALL}{68}{subsubsection.4.58.2.3}%
+\contentsline {subsubsection}{\numberline {4.58.2.4}I2C\_SR2\_MSL}{68}{subsubsection.4.58.2.4}%
+\contentsline {subsubsection}{\numberline {4.58.2.5}I2C\_SR2\_PEC}{69}{subsubsection.4.58.2.5}%
+\contentsline {subsubsection}{\numberline {4.58.2.6}I2C\_SR2\_SMBDEFAULT}{69}{subsubsection.4.58.2.6}%
+\contentsline {subsubsection}{\numberline {4.58.2.7}I2C\_SR2\_SMBHOST}{69}{subsubsection.4.58.2.7}%
+\contentsline {subsubsection}{\numberline {4.58.2.8}I2C\_SR2\_TRA}{69}{subsubsection.4.58.2.8}%
+\contentsline {section}{\numberline {4.59}I2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CCR Bit Position Definitions}{69}{section.4.59}%
+\contentsline {subsection}{\numberline {4.59.1}Detailed Description}{70}{subsection.4.59.1}%
+\contentsline {subsection}{\numberline {4.59.2}Macro Definition Documentation}{70}{subsection.4.59.2}%
+\contentsline {subsubsection}{\numberline {4.59.2.1}I2C\_CCR\_CCR}{70}{subsubsection.4.59.2.1}%
+\contentsline {subsubsection}{\numberline {4.59.2.2}I2C\_CCR\_DUTY}{70}{subsubsection.4.59.2.2}%
+\contentsline {subsubsection}{\numberline {4.59.2.3}I2C\_CCR\_FS}{70}{subsubsection.4.59.2.3}%
+\contentsline {section}{\numberline {4.60}I2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}TRISE Bit Position Definitions}{70}{section.4.60}%
+\contentsline {subsection}{\numberline {4.60.1}Detailed Description}{71}{subsection.4.60.1}%
+\contentsline {subsection}{\numberline {4.60.2}Macro Definition Documentation}{71}{subsection.4.60.2}%
+\contentsline {subsubsection}{\numberline {4.60.2.1}I2C\_TRISE\_TRISE}{71}{subsubsection.4.60.2.1}%
+\contentsline {section}{\numberline {4.61}I2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}FLTR Bit Position Definitions}{71}{section.4.61}%
+\contentsline {subsection}{\numberline {4.61.1}Detailed Description}{71}{subsection.4.61.1}%
+\contentsline {subsection}{\numberline {4.61.2}Macro Definition Documentation}{71}{subsection.4.61.2}%
+\contentsline {subsubsection}{\numberline {4.61.2.1}I2C\_FLTR\_ANOFF}{72}{subsubsection.4.61.2.1}%
+\contentsline {subsubsection}{\numberline {4.61.2.2}I2C\_FLTR\_DNF}{72}{subsubsection.4.61.2.2}%
+\contentsline {section}{\numberline {4.62}USART Bit Position Definitions}{72}{section.4.62}%
+\contentsline {subsection}{\numberline {4.62.1}Detailed Description}{73}{subsection.4.62.1}%
+\contentsline {section}{\numberline {4.63}USART\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SR Bit Position Definitions}{73}{section.4.63}%
+\contentsline {subsection}{\numberline {4.63.1}Detailed Description}{73}{subsection.4.63.1}%
+\contentsline {subsection}{\numberline {4.63.2}Macro Definition Documentation}{73}{subsection.4.63.2}%
+\contentsline {subsubsection}{\numberline {4.63.2.1}USART\_SR\_CTS}{73}{subsubsection.4.63.2.1}%
+\contentsline {subsubsection}{\numberline {4.63.2.2}USART\_SR\_FE}{74}{subsubsection.4.63.2.2}%
+\contentsline {subsubsection}{\numberline {4.63.2.3}USART\_SR\_IDLE}{74}{subsubsection.4.63.2.3}%
+\contentsline {subsubsection}{\numberline {4.63.2.4}USART\_SR\_LBD}{74}{subsubsection.4.63.2.4}%
+\contentsline {subsubsection}{\numberline {4.63.2.5}USART\_SR\_NF}{74}{subsubsection.4.63.2.5}%
+\contentsline {subsubsection}{\numberline {4.63.2.6}USART\_SR\_ORE}{74}{subsubsection.4.63.2.6}%
+\contentsline {subsubsection}{\numberline {4.63.2.7}USART\_SR\_PE}{74}{subsubsection.4.63.2.7}%
+\contentsline {subsubsection}{\numberline {4.63.2.8}USART\_SR\_RXNE}{74}{subsubsection.4.63.2.8}%
+\contentsline {subsubsection}{\numberline {4.63.2.9}USART\_SR\_TC}{74}{subsubsection.4.63.2.9}%
+\contentsline {subsubsection}{\numberline {4.63.2.10}USART\_SR\_TXE}{75}{subsubsection.4.63.2.10}%
+\contentsline {section}{\numberline {4.64}USART\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}DR Bit Position Definitions}{75}{section.4.64}%
+\contentsline {subsection}{\numberline {4.64.1}Detailed Description}{75}{subsection.4.64.1}%
+\contentsline {subsection}{\numberline {4.64.2}Macro Definition Documentation}{75}{subsection.4.64.2}%
+\contentsline {subsubsection}{\numberline {4.64.2.1}USART\_DR\_DR}{75}{subsubsection.4.64.2.1}%
+\contentsline {section}{\numberline {4.65}USART\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}BRR Bit Position Definitions}{76}{section.4.65}%
+\contentsline {subsection}{\numberline {4.65.1}Detailed Description}{76}{subsection.4.65.1}%
+\contentsline {subsection}{\numberline {4.65.2}Macro Definition Documentation}{76}{subsection.4.65.2}%
+\contentsline {subsubsection}{\numberline {4.65.2.1}USART\_BRR\_DIV\_FRACTION}{76}{subsubsection.4.65.2.1}%
+\contentsline {subsubsection}{\numberline {4.65.2.2}USART\_BRR\_DIV\_MANTISSA}{76}{subsubsection.4.65.2.2}%
+\contentsline {section}{\numberline {4.66}USART\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CR1 Bit Position Definitions}{77}{section.4.66}%
+\contentsline {subsection}{\numberline {4.66.1}Detailed Description}{77}{subsection.4.66.1}%
+\contentsline {subsection}{\numberline {4.66.2}Macro Definition Documentation}{77}{subsection.4.66.2}%
+\contentsline {subsubsection}{\numberline {4.66.2.1}USART\_CR1\_IDLEIE}{77}{subsubsection.4.66.2.1}%
+\contentsline {subsubsection}{\numberline {4.66.2.2}USART\_CR1\_M}{78}{subsubsection.4.66.2.2}%
+\contentsline {subsubsection}{\numberline {4.66.2.3}USART\_CR1\_OVER8}{78}{subsubsection.4.66.2.3}%
+\contentsline {subsubsection}{\numberline {4.66.2.4}USART\_CR1\_PCE}{78}{subsubsection.4.66.2.4}%
+\contentsline {subsubsection}{\numberline {4.66.2.5}USART\_CR1\_PEIE}{78}{subsubsection.4.66.2.5}%
+\contentsline {subsubsection}{\numberline {4.66.2.6}USART\_CR1\_PS}{78}{subsubsection.4.66.2.6}%
+\contentsline {subsubsection}{\numberline {4.66.2.7}USART\_CR1\_RE}{78}{subsubsection.4.66.2.7}%
+\contentsline {subsubsection}{\numberline {4.66.2.8}USART\_CR1\_RWU}{78}{subsubsection.4.66.2.8}%
+\contentsline {subsubsection}{\numberline {4.66.2.9}USART\_CR1\_RXNEIE}{78}{subsubsection.4.66.2.9}%
+\contentsline {subsubsection}{\numberline {4.66.2.10}USART\_CR1\_SBK}{79}{subsubsection.4.66.2.10}%
+\contentsline {subsubsection}{\numberline {4.66.2.11}USART\_CR1\_TCIE}{79}{subsubsection.4.66.2.11}%
+\contentsline {subsubsection}{\numberline {4.66.2.12}USART\_CR1\_TE}{79}{subsubsection.4.66.2.12}%
+\contentsline {subsubsection}{\numberline {4.66.2.13}USART\_CR1\_TXEIE}{79}{subsubsection.4.66.2.13}%
+\contentsline {subsubsection}{\numberline {4.66.2.14}USART\_CR1\_UE}{79}{subsubsection.4.66.2.14}%
+\contentsline {subsubsection}{\numberline {4.66.2.15}USART\_CR1\_WAKE}{79}{subsubsection.4.66.2.15}%
+\contentsline {section}{\numberline {4.67}USART\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CR2 Bit Position Definitions}{79}{section.4.67}%
+\contentsline {subsection}{\numberline {4.67.1}Detailed Description}{80}{subsection.4.67.1}%
+\contentsline {subsection}{\numberline {4.67.2}Macro Definition Documentation}{80}{subsection.4.67.2}%
+\contentsline {subsubsection}{\numberline {4.67.2.1}USART\_CR2\_ADD}{80}{subsubsection.4.67.2.1}%
+\contentsline {subsubsection}{\numberline {4.67.2.2}USART\_CR2\_CLKEN}{80}{subsubsection.4.67.2.2}%
+\contentsline {subsubsection}{\numberline {4.67.2.3}USART\_CR2\_CPHA}{80}{subsubsection.4.67.2.3}%
+\contentsline {subsubsection}{\numberline {4.67.2.4}USART\_CR2\_CPOL}{80}{subsubsection.4.67.2.4}%
+\contentsline {subsubsection}{\numberline {4.67.2.5}USART\_CR2\_LBCL}{81}{subsubsection.4.67.2.5}%
+\contentsline {subsubsection}{\numberline {4.67.2.6}USART\_CR2\_LBDIE}{81}{subsubsection.4.67.2.6}%
+\contentsline {subsubsection}{\numberline {4.67.2.7}USART\_CR2\_LBDL}{81}{subsubsection.4.67.2.7}%
+\contentsline {subsubsection}{\numberline {4.67.2.8}USART\_CR2\_LINEN}{81}{subsubsection.4.67.2.8}%
+\contentsline {subsubsection}{\numberline {4.67.2.9}USART\_CR2\_STOP}{81}{subsubsection.4.67.2.9}%
+\contentsline {section}{\numberline {4.68}USART\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CR3 Bit Position Definitions}{81}{section.4.68}%
+\contentsline {subsection}{\numberline {4.68.1}Detailed Description}{82}{subsection.4.68.1}%
+\contentsline {subsection}{\numberline {4.68.2}Macro Definition Documentation}{82}{subsection.4.68.2}%
+\contentsline {subsubsection}{\numberline {4.68.2.1}USART\_CR3\_CTSE}{82}{subsubsection.4.68.2.1}%
+\contentsline {subsubsection}{\numberline {4.68.2.2}USART\_CR3\_CTSIE}{82}{subsubsection.4.68.2.2}%
+\contentsline {subsubsection}{\numberline {4.68.2.3}USART\_CR3\_DMAR}{82}{subsubsection.4.68.2.3}%
+\contentsline {subsubsection}{\numberline {4.68.2.4}USART\_CR3\_DMAT}{82}{subsubsection.4.68.2.4}%
+\contentsline {subsubsection}{\numberline {4.68.2.5}USART\_CR3\_EIE}{83}{subsubsection.4.68.2.5}%
+\contentsline {subsubsection}{\numberline {4.68.2.6}USART\_CR3\_HDSEL}{83}{subsubsection.4.68.2.6}%
+\contentsline {subsubsection}{\numberline {4.68.2.7}USART\_CR3\_IREN}{83}{subsubsection.4.68.2.7}%
+\contentsline {subsubsection}{\numberline {4.68.2.8}USART\_CR3\_IRLP}{83}{subsubsection.4.68.2.8}%
+\contentsline {subsubsection}{\numberline {4.68.2.9}USART\_CR3\_NACK}{83}{subsubsection.4.68.2.9}%
+\contentsline {subsubsection}{\numberline {4.68.2.10}USART\_CR3\_ONEBIT}{83}{subsubsection.4.68.2.10}%
+\contentsline {subsubsection}{\numberline {4.68.2.11}USART\_CR3\_RTSE}{83}{subsubsection.4.68.2.11}%
+\contentsline {subsubsection}{\numberline {4.68.2.12}USART\_CR3\_SCEN}{83}{subsubsection.4.68.2.12}%
+\contentsline {section}{\numberline {4.69}USART\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}GTPR Bit Position Definitions}{84}{section.4.69}%
+\contentsline {subsection}{\numberline {4.69.1}Detailed Description}{84}{subsection.4.69.1}%
+\contentsline {subsection}{\numberline {4.69.2}Macro Definition Documentation}{84}{subsection.4.69.2}%
+\contentsline {subsubsection}{\numberline {4.69.2.1}USART\_GTPR\_GT}{84}{subsubsection.4.69.2.1}%
+\contentsline {subsubsection}{\numberline {4.69.2.2}USART\_GTPR\_PSC}{84}{subsubsection.4.69.2.2}%
+\contentsline {section}{\numberline {4.70}RCC Bit Position Definitions}{85}{section.4.70}%
+\contentsline {subsection}{\numberline {4.70.1}Detailed Description}{86}{subsection.4.70.1}%
+\contentsline {section}{\numberline {4.71}RCC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CR Bit Position Definitions}{86}{section.4.71}%
+\contentsline {subsection}{\numberline {4.71.1}Detailed Description}{87}{subsection.4.71.1}%
+\contentsline {subsection}{\numberline {4.71.2}Macro Definition Documentation}{87}{subsection.4.71.2}%
+\contentsline {subsubsection}{\numberline {4.71.2.1}RCC\_CR\_CSSON}{87}{subsubsection.4.71.2.1}%
+\contentsline {subsubsection}{\numberline {4.71.2.2}RCC\_CR\_HSEBYP}{87}{subsubsection.4.71.2.2}%
+\contentsline {subsubsection}{\numberline {4.71.2.3}RCC\_CR\_HSEON}{87}{subsubsection.4.71.2.3}%
+\contentsline {subsubsection}{\numberline {4.71.2.4}RCC\_CR\_HSERDY}{87}{subsubsection.4.71.2.4}%
+\contentsline {subsubsection}{\numberline {4.71.2.5}RCC\_CR\_HSICAL}{88}{subsubsection.4.71.2.5}%
+\contentsline {subsubsection}{\numberline {4.71.2.6}RCC\_CR\_HSION}{88}{subsubsection.4.71.2.6}%
+\contentsline {subsubsection}{\numberline {4.71.2.7}RCC\_CR\_HSIRDY}{88}{subsubsection.4.71.2.7}%
+\contentsline {subsubsection}{\numberline {4.71.2.8}RCC\_CR\_HSITRIM}{88}{subsubsection.4.71.2.8}%
+\contentsline {subsubsection}{\numberline {4.71.2.9}RCC\_CR\_PLLI2SON}{88}{subsubsection.4.71.2.9}%
+\contentsline {subsubsection}{\numberline {4.71.2.10}RCC\_CR\_PLLI2SRDY}{88}{subsubsection.4.71.2.10}%
+\contentsline {subsubsection}{\numberline {4.71.2.11}RCC\_CR\_PLLON}{88}{subsubsection.4.71.2.11}%
+\contentsline {subsubsection}{\numberline {4.71.2.12}RCC\_CR\_PLLRDY}{88}{subsubsection.4.71.2.12}%
+\contentsline {subsubsection}{\numberline {4.71.2.13}RCC\_CR\_PLLSAION}{89}{subsubsection.4.71.2.13}%
+\contentsline {subsubsection}{\numberline {4.71.2.14}RCC\_CR\_PLLSAIRDY}{89}{subsubsection.4.71.2.14}%
+\contentsline {section}{\numberline {4.72}RCC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PLLCFGR Bit Position Definitions}{89}{section.4.72}%
+\contentsline {subsection}{\numberline {4.72.1}Detailed Description}{89}{subsection.4.72.1}%
+\contentsline {subsection}{\numberline {4.72.2}Macro Definition Documentation}{89}{subsection.4.72.2}%
+\contentsline {subsubsection}{\numberline {4.72.2.1}RCC\_PLLCFGR\_PLLM}{90}{subsubsection.4.72.2.1}%
+\contentsline {subsubsection}{\numberline {4.72.2.2}RCC\_PLLCFGR\_PLLN}{90}{subsubsection.4.72.2.2}%
+\contentsline {subsubsection}{\numberline {4.72.2.3}RCC\_PLLCFGR\_PLLP}{90}{subsubsection.4.72.2.3}%
+\contentsline {subsubsection}{\numberline {4.72.2.4}RCC\_PLLCFGR\_PLLQ}{90}{subsubsection.4.72.2.4}%
+\contentsline {subsubsection}{\numberline {4.72.2.5}RCC\_PLLCFGR\_PLLSRC}{90}{subsubsection.4.72.2.5}%
+\contentsline {section}{\numberline {4.73}RCC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CFGR Bit Position Definitions}{90}{section.4.73}%
+\contentsline {subsection}{\numberline {4.73.1}Detailed Description}{91}{subsection.4.73.1}%
+\contentsline {subsection}{\numberline {4.73.2}Macro Definition Documentation}{91}{subsection.4.73.2}%
+\contentsline {subsubsection}{\numberline {4.73.2.1}RCC\_CFGR\_HPRE}{91}{subsubsection.4.73.2.1}%
+\contentsline {subsubsection}{\numberline {4.73.2.2}RCC\_CFGR\_I2SSRC}{91}{subsubsection.4.73.2.2}%
+\contentsline {subsubsection}{\numberline {4.73.2.3}RCC\_CFGR\_MCO1}{91}{subsubsection.4.73.2.3}%
+\contentsline {subsubsection}{\numberline {4.73.2.4}RCC\_CFGR\_MCO1PRE}{91}{subsubsection.4.73.2.4}%
+\contentsline {subsubsection}{\numberline {4.73.2.5}RCC\_CFGR\_MCO2}{92}{subsubsection.4.73.2.5}%
+\contentsline {subsubsection}{\numberline {4.73.2.6}RCC\_CFGR\_MCO2PRE}{92}{subsubsection.4.73.2.6}%
+\contentsline {subsubsection}{\numberline {4.73.2.7}RCC\_CFGR\_PPRE1}{92}{subsubsection.4.73.2.7}%
+\contentsline {subsubsection}{\numberline {4.73.2.8}RCC\_CFGR\_PPRE2}{92}{subsubsection.4.73.2.8}%
+\contentsline {subsubsection}{\numberline {4.73.2.9}RCC\_CFGR\_RTCPRE}{92}{subsubsection.4.73.2.9}%
+\contentsline {subsubsection}{\numberline {4.73.2.10}RCC\_CFGR\_SW}{92}{subsubsection.4.73.2.10}%
+\contentsline {subsubsection}{\numberline {4.73.2.11}RCC\_CFGR\_SWS}{92}{subsubsection.4.73.2.11}%
+\contentsline {section}{\numberline {4.74}RCC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CIR Bit Position Definitions}{93}{section.4.74}%
+\contentsline {subsection}{\numberline {4.74.1}Detailed Description}{93}{subsection.4.74.1}%
+\contentsline {subsection}{\numberline {4.74.2}Macro Definition Documentation}{93}{subsection.4.74.2}%
+\contentsline {subsubsection}{\numberline {4.74.2.1}RCC\_CIR\_CSSF}{94}{subsubsection.4.74.2.1}%
+\contentsline {subsubsection}{\numberline {4.74.2.2}RCC\_CIR\_HSERDYC}{94}{subsubsection.4.74.2.2}%
+\contentsline {subsubsection}{\numberline {4.74.2.3}RCC\_CIR\_HSERDYF}{94}{subsubsection.4.74.2.3}%
+\contentsline {subsubsection}{\numberline {4.74.2.4}RCC\_CIR\_HSERDYIE}{94}{subsubsection.4.74.2.4}%
+\contentsline {subsubsection}{\numberline {4.74.2.5}RCC\_CIR\_HSIRDYC}{94}{subsubsection.4.74.2.5}%
+\contentsline {subsubsection}{\numberline {4.74.2.6}RCC\_CIR\_HSIRDYF}{94}{subsubsection.4.74.2.6}%
+\contentsline {subsubsection}{\numberline {4.74.2.7}RCC\_CIR\_HSIRDYIE}{94}{subsubsection.4.74.2.7}%
+\contentsline {subsubsection}{\numberline {4.74.2.8}RCC\_CIR\_LSERDYC}{94}{subsubsection.4.74.2.8}%
+\contentsline {subsubsection}{\numberline {4.74.2.9}RCC\_CIR\_LSERDYF}{95}{subsubsection.4.74.2.9}%
+\contentsline {subsubsection}{\numberline {4.74.2.10}RCC\_CIR\_LSERDYIE}{95}{subsubsection.4.74.2.10}%
+\contentsline {subsubsection}{\numberline {4.74.2.11}RCC\_CIR\_LSIRDYC}{95}{subsubsection.4.74.2.11}%
+\contentsline {subsubsection}{\numberline {4.74.2.12}RCC\_CIR\_LSIRDYF}{95}{subsubsection.4.74.2.12}%
+\contentsline {subsubsection}{\numberline {4.74.2.13}RCC\_CIR\_LSIRDYIE}{95}{subsubsection.4.74.2.13}%
+\contentsline {subsubsection}{\numberline {4.74.2.14}RCC\_CIR\_PLLI2SRDYC}{95}{subsubsection.4.74.2.14}%
+\contentsline {subsubsection}{\numberline {4.74.2.15}RCC\_CIR\_PLLI2SRDYF}{95}{subsubsection.4.74.2.15}%
+\contentsline {subsubsection}{\numberline {4.74.2.16}RCC\_CIR\_PLLI2SRDYIE}{95}{subsubsection.4.74.2.16}%
+\contentsline {subsubsection}{\numberline {4.74.2.17}RCC\_CIR\_PLLRDYC}{96}{subsubsection.4.74.2.17}%
+\contentsline {subsubsection}{\numberline {4.74.2.18}RCC\_CIR\_PLLRDYF}{96}{subsubsection.4.74.2.18}%
+\contentsline {subsubsection}{\numberline {4.74.2.19}RCC\_CIR\_PLLRDYIE}{96}{subsubsection.4.74.2.19}%
+\contentsline {subsubsection}{\numberline {4.74.2.20}RCC\_CIR\_PLLSAIRDYC}{96}{subsubsection.4.74.2.20}%
+\contentsline {subsubsection}{\numberline {4.74.2.21}RCC\_CIR\_PLLSAIRDYF}{96}{subsubsection.4.74.2.21}%
+\contentsline {subsubsection}{\numberline {4.74.2.22}RCC\_CIR\_PLLSAIRDYIE}{96}{subsubsection.4.74.2.22}%
+\contentsline {section}{\numberline {4.75}RCC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AHB1\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}RSTR Bit Position Definitions}{96}{section.4.75}%
+\contentsline {subsection}{\numberline {4.75.1}Detailed Description}{97}{subsection.4.75.1}%
+\contentsline {subsection}{\numberline {4.75.2}Macro Definition Documentation}{97}{subsection.4.75.2}%
+\contentsline {subsubsection}{\numberline {4.75.2.1}RCC\_AHB1RSTR\_CRC}{97}{subsubsection.4.75.2.1}%
+\contentsline {subsubsection}{\numberline {4.75.2.2}RCC\_AHB1RSTR\_DMA1}{97}{subsubsection.4.75.2.2}%
+\contentsline {subsubsection}{\numberline {4.75.2.3}RCC\_AHB1RSTR\_DMA2}{97}{subsubsection.4.75.2.3}%
+\contentsline {subsubsection}{\numberline {4.75.2.4}RCC\_AHB1RSTR\_ETHMAC}{98}{subsubsection.4.75.2.4}%
+\contentsline {subsubsection}{\numberline {4.75.2.5}RCC\_AHB1RSTR\_GPIOA}{98}{subsubsection.4.75.2.5}%
+\contentsline {subsubsection}{\numberline {4.75.2.6}RCC\_AHB1RSTR\_GPIOB}{98}{subsubsection.4.75.2.6}%
+\contentsline {subsubsection}{\numberline {4.75.2.7}RCC\_AHB1RSTR\_GPIOC}{98}{subsubsection.4.75.2.7}%
+\contentsline {subsubsection}{\numberline {4.75.2.8}RCC\_AHB1RSTR\_GPIOD}{98}{subsubsection.4.75.2.8}%
+\contentsline {subsubsection}{\numberline {4.75.2.9}RCC\_AHB1RSTR\_GPIOE}{98}{subsubsection.4.75.2.9}%
+\contentsline {subsubsection}{\numberline {4.75.2.10}RCC\_AHB1RSTR\_GPIOF}{98}{subsubsection.4.75.2.10}%
+\contentsline {subsubsection}{\numberline {4.75.2.11}RCC\_AHB1RSTR\_GPIOG}{98}{subsubsection.4.75.2.11}%
+\contentsline {subsubsection}{\numberline {4.75.2.12}RCC\_AHB1RSTR\_GPIOH}{99}{subsubsection.4.75.2.12}%
+\contentsline {subsubsection}{\numberline {4.75.2.13}RCC\_AHB1RSTR\_GPIOI}{99}{subsubsection.4.75.2.13}%
+\contentsline {subsubsection}{\numberline {4.75.2.14}RCC\_AHB1RSTR\_OTGHS}{99}{subsubsection.4.75.2.14}%
+\contentsline {subsubsection}{\numberline {4.75.2.15}RCC\_AHB1RSTR\_OTGHSULPI}{99}{subsubsection.4.75.2.15}%
+\contentsline {section}{\numberline {4.76}RCC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AHB2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}RSTR Bit Position Definitions}{99}{section.4.76}%
+\contentsline {subsection}{\numberline {4.76.1}Detailed Description}{100}{subsection.4.76.1}%
+\contentsline {subsection}{\numberline {4.76.2}Macro Definition Documentation}{100}{subsection.4.76.2}%
+\contentsline {subsubsection}{\numberline {4.76.2.1}RCC\_AHB2RSTR\_CRYP}{100}{subsubsection.4.76.2.1}%
+\contentsline {subsubsection}{\numberline {4.76.2.2}RCC\_AHB2RSTR\_DCMI}{100}{subsubsection.4.76.2.2}%
+\contentsline {subsubsection}{\numberline {4.76.2.3}RCC\_AHB2RSTR\_HASH}{100}{subsubsection.4.76.2.3}%
+\contentsline {subsubsection}{\numberline {4.76.2.4}RCC\_AHB2RSTR\_OTGFS}{100}{subsubsection.4.76.2.4}%
+\contentsline {subsubsection}{\numberline {4.76.2.5}RCC\_AHB2RSTR\_RNG}{100}{subsubsection.4.76.2.5}%
+\contentsline {section}{\numberline {4.77}RCC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AHB3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}RSTR Bit Position Definitions}{101}{section.4.77}%
+\contentsline {subsection}{\numberline {4.77.1}Detailed Description}{101}{subsection.4.77.1}%
+\contentsline {subsection}{\numberline {4.77.2}Macro Definition Documentation}{101}{subsection.4.77.2}%
+\contentsline {subsubsection}{\numberline {4.77.2.1}RCC\_AHB3RSTR\_FSMC}{101}{subsubsection.4.77.2.1}%
+\contentsline {section}{\numberline {4.78}RCC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}APB1\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}RSTR Bit Position Definitions}{101}{section.4.78}%
+\contentsline {subsection}{\numberline {4.78.1}Detailed Description}{102}{subsection.4.78.1}%
+\contentsline {subsection}{\numberline {4.78.2}Macro Definition Documentation}{102}{subsection.4.78.2}%
+\contentsline {subsubsection}{\numberline {4.78.2.1}RCC\_APB1RSTR\_CAN1}{102}{subsubsection.4.78.2.1}%
+\contentsline {subsubsection}{\numberline {4.78.2.2}RCC\_APB1RSTR\_CAN2}{102}{subsubsection.4.78.2.2}%
+\contentsline {subsubsection}{\numberline {4.78.2.3}RCC\_APB1RSTR\_DAC}{103}{subsubsection.4.78.2.3}%
+\contentsline {subsubsection}{\numberline {4.78.2.4}RCC\_APB1RSTR\_I2C1}{103}{subsubsection.4.78.2.4}%
+\contentsline {subsubsection}{\numberline {4.78.2.5}RCC\_APB1RSTR\_I2C2}{103}{subsubsection.4.78.2.5}%
+\contentsline {subsubsection}{\numberline {4.78.2.6}RCC\_APB1RSTR\_I2C3}{103}{subsubsection.4.78.2.6}%
+\contentsline {subsubsection}{\numberline {4.78.2.7}RCC\_APB1RSTR\_PWR}{103}{subsubsection.4.78.2.7}%
+\contentsline {subsubsection}{\numberline {4.78.2.8}RCC\_APB1RSTR\_SPI2}{103}{subsubsection.4.78.2.8}%
+\contentsline {subsubsection}{\numberline {4.78.2.9}RCC\_APB1RSTR\_SPI3}{103}{subsubsection.4.78.2.9}%
+\contentsline {subsubsection}{\numberline {4.78.2.10}RCC\_APB1RSTR\_TIM12}{103}{subsubsection.4.78.2.10}%
+\contentsline {subsubsection}{\numberline {4.78.2.11}RCC\_APB1RSTR\_TIM13}{104}{subsubsection.4.78.2.11}%
+\contentsline {subsubsection}{\numberline {4.78.2.12}RCC\_APB1RSTR\_TIM14}{104}{subsubsection.4.78.2.12}%
+\contentsline {subsubsection}{\numberline {4.78.2.13}RCC\_APB1RSTR\_TIM2}{104}{subsubsection.4.78.2.13}%
+\contentsline {subsubsection}{\numberline {4.78.2.14}RCC\_APB1RSTR\_TIM3}{104}{subsubsection.4.78.2.14}%
+\contentsline {subsubsection}{\numberline {4.78.2.15}RCC\_APB1RSTR\_TIM4}{104}{subsubsection.4.78.2.15}%
+\contentsline {subsubsection}{\numberline {4.78.2.16}RCC\_APB1RSTR\_TIM5}{104}{subsubsection.4.78.2.16}%
+\contentsline {subsubsection}{\numberline {4.78.2.17}RCC\_APB1RSTR\_TIM6}{104}{subsubsection.4.78.2.17}%
+\contentsline {subsubsection}{\numberline {4.78.2.18}RCC\_APB1RSTR\_TIM7}{104}{subsubsection.4.78.2.18}%
+\contentsline {subsubsection}{\numberline {4.78.2.19}RCC\_APB1RSTR\_UART4}{105}{subsubsection.4.78.2.19}%
+\contentsline {subsubsection}{\numberline {4.78.2.20}RCC\_APB1RSTR\_UART5}{105}{subsubsection.4.78.2.20}%
+\contentsline {subsubsection}{\numberline {4.78.2.21}RCC\_APB1RSTR\_UART7}{105}{subsubsection.4.78.2.21}%
+\contentsline {subsubsection}{\numberline {4.78.2.22}RCC\_APB1RSTR\_UART8}{105}{subsubsection.4.78.2.22}%
+\contentsline {subsubsection}{\numberline {4.78.2.23}RCC\_APB1RSTR\_USART2}{105}{subsubsection.4.78.2.23}%
+\contentsline {subsubsection}{\numberline {4.78.2.24}RCC\_APB1RSTR\_USART3}{105}{subsubsection.4.78.2.24}%
+\contentsline {subsubsection}{\numberline {4.78.2.25}RCC\_APB1RSTR\_WWDG}{105}{subsubsection.4.78.2.25}%
+\contentsline {section}{\numberline {4.79}RCC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}APB2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}RSTR Bit Position Definitions}{106}{section.4.79}%
+\contentsline {subsection}{\numberline {4.79.1}Detailed Description}{106}{subsection.4.79.1}%
+\contentsline {subsection}{\numberline {4.79.2}Macro Definition Documentation}{106}{subsection.4.79.2}%
+\contentsline {subsubsection}{\numberline {4.79.2.1}RCC\_APB2RSTR\_ADC}{106}{subsubsection.4.79.2.1}%
+\contentsline {subsubsection}{\numberline {4.79.2.2}RCC\_APB2RSTR\_SDIO}{106}{subsubsection.4.79.2.2}%
+\contentsline {subsubsection}{\numberline {4.79.2.3}RCC\_APB2RSTR\_SPI1}{107}{subsubsection.4.79.2.3}%
+\contentsline {subsubsection}{\numberline {4.79.2.4}RCC\_APB2RSTR\_SYSCFG}{107}{subsubsection.4.79.2.4}%
+\contentsline {subsubsection}{\numberline {4.79.2.5}RCC\_APB2RSTR\_TIM1}{107}{subsubsection.4.79.2.5}%
+\contentsline {subsubsection}{\numberline {4.79.2.6}RCC\_APB2RSTR\_TIM10}{107}{subsubsection.4.79.2.6}%
+\contentsline {subsubsection}{\numberline {4.79.2.7}RCC\_APB2RSTR\_TIM11}{107}{subsubsection.4.79.2.7}%
+\contentsline {subsubsection}{\numberline {4.79.2.8}RCC\_APB2RSTR\_TIM8}{107}{subsubsection.4.79.2.8}%
+\contentsline {subsubsection}{\numberline {4.79.2.9}RCC\_APB2RSTR\_TIM9}{107}{subsubsection.4.79.2.9}%
+\contentsline {subsubsection}{\numberline {4.79.2.10}RCC\_APB2RSTR\_USART1}{107}{subsubsection.4.79.2.10}%
+\contentsline {subsubsection}{\numberline {4.79.2.11}RCC\_APB2RSTR\_USART6}{108}{subsubsection.4.79.2.11}%
+\contentsline {section}{\numberline {4.80}RCC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AHB1\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LPENR Bit Position Definitions}{108}{section.4.80}%
+\contentsline {subsection}{\numberline {4.80.1}Detailed Description}{108}{subsection.4.80.1}%
+\contentsline {subsection}{\numberline {4.80.2}Macro Definition Documentation}{108}{subsection.4.80.2}%
+\contentsline {subsubsection}{\numberline {4.80.2.1}RCC\_AHB1LPENR\_CRCEN}{109}{subsubsection.4.80.2.1}%
+\contentsline {subsubsection}{\numberline {4.80.2.2}RCC\_AHB1LPENR\_DMA1LPEN}{109}{subsubsection.4.80.2.2}%
+\contentsline {subsubsection}{\numberline {4.80.2.3}RCC\_AHB1LPENR\_DMA2LPEN}{109}{subsubsection.4.80.2.3}%
+\contentsline {subsubsection}{\numberline {4.80.2.4}RCC\_AHB1LPENR\_ETHMACLPEN}{109}{subsubsection.4.80.2.4}%
+\contentsline {subsubsection}{\numberline {4.80.2.5}RCC\_AHB1LPENR\_ETHMACPTPLPEN}{109}{subsubsection.4.80.2.5}%
+\contentsline {subsubsection}{\numberline {4.80.2.6}RCC\_AHB1LPENR\_ETHMACRXLPEN}{109}{subsubsection.4.80.2.6}%
+\contentsline {subsubsection}{\numberline {4.80.2.7}RCC\_AHB1LPENR\_ETHMACTXLPEN}{109}{subsubsection.4.80.2.7}%
+\contentsline {subsubsection}{\numberline {4.80.2.8}RCC\_AHB1LPENR\_GPIOALPEN}{109}{subsubsection.4.80.2.8}%
+\contentsline {subsubsection}{\numberline {4.80.2.9}RCC\_AHB1LPENR\_GPIOBLPEN}{110}{subsubsection.4.80.2.9}%
+\contentsline {subsubsection}{\numberline {4.80.2.10}RCC\_AHB1LPENR\_GPIOCLPEN}{110}{subsubsection.4.80.2.10}%
+\contentsline {subsubsection}{\numberline {4.80.2.11}RCC\_AHB1LPENR\_GPIODLPEN}{110}{subsubsection.4.80.2.11}%
+\contentsline {subsubsection}{\numberline {4.80.2.12}RCC\_AHB1LPENR\_GPIOELPEN}{110}{subsubsection.4.80.2.12}%
+\contentsline {subsubsection}{\numberline {4.80.2.13}RCC\_AHB1LPENR\_GPIOFLPEN}{110}{subsubsection.4.80.2.13}%
+\contentsline {subsubsection}{\numberline {4.80.2.14}RCC\_AHB1LPENR\_GPIOGLPEN}{110}{subsubsection.4.80.2.14}%
+\contentsline {subsubsection}{\numberline {4.80.2.15}RCC\_AHB1LPENR\_GPIOHLPEN}{110}{subsubsection.4.80.2.15}%
+\contentsline {subsubsection}{\numberline {4.80.2.16}RCC\_AHB1LPENR\_GPIOILPEN}{110}{subsubsection.4.80.2.16}%
+\contentsline {subsubsection}{\numberline {4.80.2.17}RCC\_AHB1LPENR\_OTGHSHULPI}{111}{subsubsection.4.80.2.17}%
+\contentsline {subsubsection}{\numberline {4.80.2.18}RCC\_AHB1LPENR\_OTGHSLPEN}{111}{subsubsection.4.80.2.18}%
+\contentsline {section}{\numberline {4.81}RCC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AHB2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LPENR Bit Position Definitions}{111}{section.4.81}%
+\contentsline {subsection}{\numberline {4.81.1}Detailed Description}{111}{subsection.4.81.1}%
+\contentsline {subsection}{\numberline {4.81.2}Macro Definition Documentation}{111}{subsection.4.81.2}%
+\contentsline {subsubsection}{\numberline {4.81.2.1}RCC\_AHB2LPENR\_CRYPLPEN}{111}{subsubsection.4.81.2.1}%
+\contentsline {subsubsection}{\numberline {4.81.2.2}RCC\_AHB2LPENR\_DCMILPEN}{112}{subsubsection.4.81.2.2}%
+\contentsline {subsubsection}{\numberline {4.81.2.3}RCC\_AHB2LPENR\_HASHLPEN}{112}{subsubsection.4.81.2.3}%
+\contentsline {subsubsection}{\numberline {4.81.2.4}RCC\_AHB2LPENR\_OTGFSLPEN}{112}{subsubsection.4.81.2.4}%
+\contentsline {subsubsection}{\numberline {4.81.2.5}RCC\_AHB2LPENR\_RNGLPEN}{112}{subsubsection.4.81.2.5}%
+\contentsline {section}{\numberline {4.82}RCC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AHB3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LPENR Bit Position Definitions}{112}{section.4.82}%
+\contentsline {subsection}{\numberline {4.82.1}Detailed Description}{112}{subsection.4.82.1}%
+\contentsline {subsection}{\numberline {4.82.2}Macro Definition Documentation}{113}{subsection.4.82.2}%
+\contentsline {subsubsection}{\numberline {4.82.2.1}RCC\_AHB3LPENR\_FSMCLPEN}{113}{subsubsection.4.82.2.1}%
+\contentsline {section}{\numberline {4.83}RCC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}APB1\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LPENR Bit Position Definitions}{113}{section.4.83}%
+\contentsline {subsection}{\numberline {4.83.1}Detailed Description}{114}{subsection.4.83.1}%
+\contentsline {subsection}{\numberline {4.83.2}Macro Definition Documentation}{114}{subsection.4.83.2}%
+\contentsline {subsubsection}{\numberline {4.83.2.1}RCC\_APB1LPENR\_CAN1LPEN}{114}{subsubsection.4.83.2.1}%
+\contentsline {subsubsection}{\numberline {4.83.2.2}RCC\_APB1LPENR\_CAN2LPEN}{114}{subsubsection.4.83.2.2}%
+\contentsline {subsubsection}{\numberline {4.83.2.3}RCC\_APB1LPENR\_DACLPEN}{114}{subsubsection.4.83.2.3}%
+\contentsline {subsubsection}{\numberline {4.83.2.4}RCC\_APB1LPENR\_I2C1LPEN}{114}{subsubsection.4.83.2.4}%
+\contentsline {subsubsection}{\numberline {4.83.2.5}RCC\_APB1LPENR\_I2C2LPEN}{114}{subsubsection.4.83.2.5}%
+\contentsline {subsubsection}{\numberline {4.83.2.6}RCC\_APB1LPENR\_I2C3LPEN}{114}{subsubsection.4.83.2.6}%
+\contentsline {subsubsection}{\numberline {4.83.2.7}RCC\_APB1LPENR\_PWRLPEN}{115}{subsubsection.4.83.2.7}%
+\contentsline {subsubsection}{\numberline {4.83.2.8}RCC\_APB1LPENR\_SPI2LPEN}{115}{subsubsection.4.83.2.8}%
+\contentsline {subsubsection}{\numberline {4.83.2.9}RCC\_APB1LPENR\_SPI3LPEN}{115}{subsubsection.4.83.2.9}%
+\contentsline {subsubsection}{\numberline {4.83.2.10}RCC\_APB1LPENR\_TIM12LPEN}{115}{subsubsection.4.83.2.10}%
+\contentsline {subsubsection}{\numberline {4.83.2.11}RCC\_APB1LPENR\_TIM13LPEN}{115}{subsubsection.4.83.2.11}%
+\contentsline {subsubsection}{\numberline {4.83.2.12}RCC\_APB1LPENR\_TIM14LPEN}{115}{subsubsection.4.83.2.12}%
+\contentsline {subsubsection}{\numberline {4.83.2.13}RCC\_APB1LPENR\_TIM2LPEN}{115}{subsubsection.4.83.2.13}%
+\contentsline {subsubsection}{\numberline {4.83.2.14}RCC\_APB1LPENR\_TIM3LPEN}{115}{subsubsection.4.83.2.14}%
+\contentsline {subsubsection}{\numberline {4.83.2.15}RCC\_APB1LPENR\_TIM4LPEN}{116}{subsubsection.4.83.2.15}%
+\contentsline {subsubsection}{\numberline {4.83.2.16}RCC\_APB1LPENR\_TIM5LPEN}{116}{subsubsection.4.83.2.16}%
+\contentsline {subsubsection}{\numberline {4.83.2.17}RCC\_APB1LPENR\_TIM6LPEN}{116}{subsubsection.4.83.2.17}%
+\contentsline {subsubsection}{\numberline {4.83.2.18}RCC\_APB1LPENR\_TIM7LPEN}{116}{subsubsection.4.83.2.18}%
+\contentsline {subsubsection}{\numberline {4.83.2.19}RCC\_APB1LPENR\_UART4LPEN}{116}{subsubsection.4.83.2.19}%
+\contentsline {subsubsection}{\numberline {4.83.2.20}RCC\_APB1LPENR\_UART5LPEN}{116}{subsubsection.4.83.2.20}%
+\contentsline {subsubsection}{\numberline {4.83.2.21}RCC\_APB1LPENR\_UART7LPEN}{116}{subsubsection.4.83.2.21}%
+\contentsline {subsubsection}{\numberline {4.83.2.22}RCC\_APB1LPENR\_UART8LPEN}{116}{subsubsection.4.83.2.22}%
+\contentsline {subsubsection}{\numberline {4.83.2.23}RCC\_APB1LPENR\_USART2LPEN}{117}{subsubsection.4.83.2.23}%
+\contentsline {subsubsection}{\numberline {4.83.2.24}RCC\_APB1LPENR\_USART3LPEN}{117}{subsubsection.4.83.2.24}%
+\contentsline {subsubsection}{\numberline {4.83.2.25}RCC\_APB1LPENR\_WWDGLPEN}{117}{subsubsection.4.83.2.25}%
+\contentsline {section}{\numberline {4.84}RCC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}APB2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LPENR Bit Position Definitions}{117}{section.4.84}%
+\contentsline {subsection}{\numberline {4.84.1}Detailed Description}{118}{subsection.4.84.1}%
+\contentsline {subsection}{\numberline {4.84.2}Macro Definition Documentation}{118}{subsection.4.84.2}%
+\contentsline {subsubsection}{\numberline {4.84.2.1}RCC\_APB2LPENR\_ADCLPEN}{118}{subsubsection.4.84.2.1}%
+\contentsline {subsubsection}{\numberline {4.84.2.2}RCC\_APB2LPENR\_SDIOLPEN}{118}{subsubsection.4.84.2.2}%
+\contentsline {subsubsection}{\numberline {4.84.2.3}RCC\_APB2LPENR\_SPI1LPEN}{118}{subsubsection.4.84.2.3}%
+\contentsline {subsubsection}{\numberline {4.84.2.4}RCC\_APB2LPENR\_SYSCFGLPEN}{118}{subsubsection.4.84.2.4}%
+\contentsline {subsubsection}{\numberline {4.84.2.5}RCC\_APB2LPENR\_TIM10LPEN}{118}{subsubsection.4.84.2.5}%
+\contentsline {subsubsection}{\numberline {4.84.2.6}RCC\_APB2LPENR\_TIM11LPEN}{118}{subsubsection.4.84.2.6}%
+\contentsline {subsubsection}{\numberline {4.84.2.7}RCC\_APB2LPENR\_TIM1LPEN}{119}{subsubsection.4.84.2.7}%
+\contentsline {subsubsection}{\numberline {4.84.2.8}RCC\_APB2LPENR\_TIM8LPEN}{119}{subsubsection.4.84.2.8}%
+\contentsline {subsubsection}{\numberline {4.84.2.9}RCC\_APB2LPENR\_TIM9LPEN}{119}{subsubsection.4.84.2.9}%
+\contentsline {subsubsection}{\numberline {4.84.2.10}RCC\_APB2LPENR\_USART1LPEN}{119}{subsubsection.4.84.2.10}%
+\contentsline {subsubsection}{\numberline {4.84.2.11}RCC\_APB2LPENR\_USART6LPEN}{119}{subsubsection.4.84.2.11}%
+\contentsline {section}{\numberline {4.85}RCC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}BDCR Bit Position Definitions}{119}{section.4.85}%
+\contentsline {subsection}{\numberline {4.85.1}Detailed Description}{120}{subsection.4.85.1}%
+\contentsline {subsection}{\numberline {4.85.2}Macro Definition Documentation}{120}{subsection.4.85.2}%
+\contentsline {subsubsection}{\numberline {4.85.2.1}RCC\_BDCR\_BDRST}{120}{subsubsection.4.85.2.1}%
+\contentsline {subsubsection}{\numberline {4.85.2.2}RCC\_BDCR\_LSEBYP}{120}{subsubsection.4.85.2.2}%
+\contentsline {subsubsection}{\numberline {4.85.2.3}RCC\_BDCR\_LSEON}{120}{subsubsection.4.85.2.3}%
+\contentsline {subsubsection}{\numberline {4.85.2.4}RCC\_BDCR\_LSERDY}{120}{subsubsection.4.85.2.4}%
+\contentsline {subsubsection}{\numberline {4.85.2.5}RCC\_BDCR\_RTCEN}{120}{subsubsection.4.85.2.5}%
+\contentsline {subsubsection}{\numberline {4.85.2.6}RCC\_BDCR\_RTCSEL}{121}{subsubsection.4.85.2.6}%
+\contentsline {section}{\numberline {4.86}RCC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CSR Bit Position Definitions}{121}{section.4.86}%
+\contentsline {subsection}{\numberline {4.86.1}Detailed Description}{121}{subsection.4.86.1}%
+\contentsline {subsection}{\numberline {4.86.2}Macro Definition Documentation}{121}{subsection.4.86.2}%
+\contentsline {subsubsection}{\numberline {4.86.2.1}RCC\_CSR\_IWDGRSTF}{121}{subsubsection.4.86.2.1}%
+\contentsline {subsubsection}{\numberline {4.86.2.2}RCC\_CSR\_LPWRRSTF}{122}{subsubsection.4.86.2.2}%
+\contentsline {subsubsection}{\numberline {4.86.2.3}RCC\_CSR\_LSION}{122}{subsubsection.4.86.2.3}%
+\contentsline {subsubsection}{\numberline {4.86.2.4}RCC\_CSR\_LSIRDY}{122}{subsubsection.4.86.2.4}%
+\contentsline {subsubsection}{\numberline {4.86.2.5}RCC\_CSR\_OBLRSTF}{122}{subsubsection.4.86.2.5}%
+\contentsline {subsubsection}{\numberline {4.86.2.6}RCC\_CSR\_PINRSTF}{122}{subsubsection.4.86.2.6}%
+\contentsline {subsubsection}{\numberline {4.86.2.7}RCC\_CSR\_PORRSTF}{122}{subsubsection.4.86.2.7}%
+\contentsline {subsubsection}{\numberline {4.86.2.8}RCC\_CSR\_RMVF}{122}{subsubsection.4.86.2.8}%
+\contentsline {subsubsection}{\numberline {4.86.2.9}RCC\_CSR\_SFTRSTF}{122}{subsubsection.4.86.2.9}%
+\contentsline {subsubsection}{\numberline {4.86.2.10}RCC\_CSR\_WWDGRSTF}{123}{subsubsection.4.86.2.10}%
+\contentsline {section}{\numberline {4.87}RCC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SSCGR Bit Position Definitions}{123}{section.4.87}%
+\contentsline {subsection}{\numberline {4.87.1}Detailed Description}{123}{subsection.4.87.1}%
+\contentsline {subsection}{\numberline {4.87.2}Macro Definition Documentation}{123}{subsection.4.87.2}%
+\contentsline {subsubsection}{\numberline {4.87.2.1}RCC\_SSCGR\_INCSTEP}{123}{subsubsection.4.87.2.1}%
+\contentsline {subsubsection}{\numberline {4.87.2.2}RCC\_SSCGR\_MODPER}{123}{subsubsection.4.87.2.2}%
+\contentsline {subsubsection}{\numberline {4.87.2.3}RCC\_SSCGR\_SPREADSEL}{124}{subsubsection.4.87.2.3}%
+\contentsline {subsubsection}{\numberline {4.87.2.4}RCC\_SSCGR\_SSCGEN}{124}{subsubsection.4.87.2.4}%
+\contentsline {section}{\numberline {4.88}RCC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PLLI2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SCFGR Bit Position Definitions}{124}{section.4.88}%
+\contentsline {subsection}{\numberline {4.88.1}Detailed Description}{124}{subsection.4.88.1}%
+\contentsline {subsection}{\numberline {4.88.2}Macro Definition Documentation}{124}{subsection.4.88.2}%
+\contentsline {subsubsection}{\numberline {4.88.2.1}RCC\_PLLI2SCFGR\_PLLI2SN}{124}{subsubsection.4.88.2.1}%
+\contentsline {subsubsection}{\numberline {4.88.2.2}RCC\_PLLI2SCFGR\_PLLI2SR}{125}{subsubsection.4.88.2.2}%
+\contentsline {section}{\numberline {4.89}Generic Macros}{125}{section.4.89}%
+\contentsline {subsection}{\numberline {4.89.1}Detailed Description}{125}{subsection.4.89.1}%
+\contentsline {subsection}{\numberline {4.89.2}Macro Definition Documentation}{125}{subsection.4.89.2}%
+\contentsline {subsubsection}{\numberline {4.89.2.1}DISABLE}{125}{subsubsection.4.89.2.1}%
+\contentsline {subsubsection}{\numberline {4.89.2.2}ENABLE}{126}{subsubsection.4.89.2.2}%
+\contentsline {subsubsection}{\numberline {4.89.2.3}FLAG\_RESET}{126}{subsubsection.4.89.2.3}%
+\contentsline {subsubsection}{\numberline {4.89.2.4}FLAG\_SET}{126}{subsubsection.4.89.2.4}%
+\contentsline {subsubsection}{\numberline {4.89.2.5}GPIO\_PIN\_RESET}{126}{subsubsection.4.89.2.5}%
+\contentsline {subsubsection}{\numberline {4.89.2.6}GPIO\_PIN\_SET}{126}{subsubsection.4.89.2.6}%
+\contentsline {subsubsection}{\numberline {4.89.2.7}RESET}{126}{subsubsection.4.89.2.7}%
+\contentsline {subsubsection}{\numberline {4.89.2.8}SET}{126}{subsubsection.4.89.2.8}%
+\contentsline {section}{\numberline {4.90}GPIO Driver}{127}{section.4.90}%
+\contentsline {subsection}{\numberline {4.90.1}Detailed Description}{127}{subsection.4.90.1}%
+\contentsline {subsection}{\numberline {4.90.2}Variable Documentation}{128}{subsection.4.90.2}%
+\contentsline {subsubsection}{\numberline {4.90.2.1}GPIO\_PinAltFunMode}{128}{subsubsection.4.90.2.1}%
+\contentsline {subsubsection}{\numberline {4.90.2.2}GPIO\_PinConfig}{128}{subsubsection.4.90.2.2}%
+\contentsline {subsubsection}{\numberline {4.90.2.3}GPIO\_PinMode}{128}{subsubsection.4.90.2.3}%
+\contentsline {subsubsection}{\numberline {4.90.2.4}GPIO\_PinNumber}{128}{subsubsection.4.90.2.4}%
+\contentsline {subsubsection}{\numberline {4.90.2.5}GPIO\_PinPinOPType}{128}{subsubsection.4.90.2.5}%
+\contentsline {subsubsection}{\numberline {4.90.2.6}GPIO\_PinPuPdControl}{128}{subsubsection.4.90.2.6}%
+\contentsline {subsubsection}{\numberline {4.90.2.7}GPIO\_PinSpeed}{128}{subsubsection.4.90.2.7}%
+\contentsline {subsubsection}{\numberline {4.90.2.8}pGPIOx}{129}{subsubsection.4.90.2.8}%
+\contentsline {section}{\numberline {4.91}GPIO Macros}{129}{section.4.91}%
+\contentsline {subsection}{\numberline {4.91.1}Detailed Description}{129}{subsection.4.91.1}%
+\contentsline {section}{\numberline {4.92}GPIO Pin Numbers}{130}{section.4.92}%
+\contentsline {subsection}{\numberline {4.92.1}Detailed Description}{130}{subsection.4.92.1}%
+\contentsline {section}{\numberline {4.93}GPIO Pin Modes}{130}{section.4.93}%
+\contentsline {subsection}{\numberline {4.93.1}Detailed Description}{131}{subsection.4.93.1}%
+\contentsline {subsection}{\numberline {4.93.2}Macro Definition Documentation}{131}{subsection.4.93.2}%
+\contentsline {subsubsection}{\numberline {4.93.2.1}GPIO\_MODE\_ALTFN}{131}{subsubsection.4.93.2.1}%
+\contentsline {subsubsection}{\numberline {4.93.2.2}GPIO\_MODE\_ANALOG}{131}{subsubsection.4.93.2.2}%
+\contentsline {subsubsection}{\numberline {4.93.2.3}GPIO\_MODE\_IN}{131}{subsubsection.4.93.2.3}%
+\contentsline {subsubsection}{\numberline {4.93.2.4}GPIO\_MODE\_IT\_FT}{131}{subsubsection.4.93.2.4}%
+\contentsline {subsubsection}{\numberline {4.93.2.5}GPIO\_MODE\_IT\_RFT}{131}{subsubsection.4.93.2.5}%
+\contentsline {subsubsection}{\numberline {4.93.2.6}GPIO\_MODE\_IT\_RT}{132}{subsubsection.4.93.2.6}%
+\contentsline {subsubsection}{\numberline {4.93.2.7}GPIO\_MODE\_OUT}{132}{subsubsection.4.93.2.7}%
+\contentsline {section}{\numberline {4.94}GPIO Output Speeds}{132}{section.4.94}%
+\contentsline {subsection}{\numberline {4.94.1}Detailed Description}{132}{subsection.4.94.1}%
+\contentsline {subsection}{\numberline {4.94.2}Macro Definition Documentation}{132}{subsection.4.94.2}%
+\contentsline {subsubsection}{\numberline {4.94.2.1}GPIO\_SPEED\_FAST}{132}{subsubsection.4.94.2.1}%
+\contentsline {subsubsection}{\numberline {4.94.2.2}GPIO\_SPEED\_HIGH}{133}{subsubsection.4.94.2.2}%
+\contentsline {subsubsection}{\numberline {4.94.2.3}GPIO\_SPEED\_LOW}{133}{subsubsection.4.94.2.3}%
+\contentsline {subsubsection}{\numberline {4.94.2.4}GPIO\_SPEED\_MEDIUM}{133}{subsubsection.4.94.2.4}%
+\contentsline {section}{\numberline {4.95}GPIO Pull-\/up/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Pull-\/down Configurations}{133}{section.4.95}%
+\contentsline {subsection}{\numberline {4.95.1}Detailed Description}{133}{subsection.4.95.1}%
+\contentsline {subsection}{\numberline {4.95.2}Macro Definition Documentation}{134}{subsection.4.95.2}%
+\contentsline {subsubsection}{\numberline {4.95.2.1}GPIO\_NO\_PUPD}{134}{subsubsection.4.95.2.1}%
+\contentsline {subsubsection}{\numberline {4.95.2.2}GPIO\_PIN\_PD}{134}{subsubsection.4.95.2.2}%
+\contentsline {subsubsection}{\numberline {4.95.2.3}GPIO\_PIN\_PU}{134}{subsubsection.4.95.2.3}%
+\contentsline {section}{\numberline {4.96}GPIO Output Types}{134}{section.4.96}%
+\contentsline {subsection}{\numberline {4.96.1}Detailed Description}{134}{subsection.4.96.1}%
+\contentsline {subsection}{\numberline {4.96.2}Macro Definition Documentation}{135}{subsection.4.96.2}%
+\contentsline {subsubsection}{\numberline {4.96.2.1}GPIO\_OP\_TYPE\_OD}{135}{subsubsection.4.96.2.1}%
+\contentsline {subsubsection}{\numberline {4.96.2.2}GPIO\_OP\_TYPE\_PP}{135}{subsubsection.4.96.2.2}%
+\contentsline {section}{\numberline {4.97}GPIO APIs}{135}{section.4.97}%
+\contentsline {subsection}{\numberline {4.97.1}Detailed Description}{136}{subsection.4.97.1}%
+\contentsline {subsection}{\numberline {4.97.2}Function Documentation}{136}{subsection.4.97.2}%
+\contentsline {subsubsection}{\numberline {4.97.2.1}GPIO\_DeInit()}{136}{subsubsection.4.97.2.1}%
+\contentsline {subsubsection}{\numberline {4.97.2.2}GPIO\_Init()}{136}{subsubsection.4.97.2.2}%
+\contentsline {subsubsection}{\numberline {4.97.2.3}GPIO\_IRQHandling()}{137}{subsubsection.4.97.2.3}%
+\contentsline {subsubsection}{\numberline {4.97.2.4}GPIO\_IRQInterruptConfig()}{137}{subsubsection.4.97.2.4}%
+\contentsline {subsubsection}{\numberline {4.97.2.5}GPIO\_IRQPriorityConfig()}{137}{subsubsection.4.97.2.5}%
+\contentsline {subsubsection}{\numberline {4.97.2.6}GPIO\_PeripheralClockControl()}{138}{subsubsection.4.97.2.6}%
+\contentsline {subsubsection}{\numberline {4.97.2.7}GPIO\_ReadFromInputPin()}{138}{subsubsection.4.97.2.7}%
+\contentsline {subsubsection}{\numberline {4.97.2.8}GPIO\_ReadFromInputPort()}{139}{subsubsection.4.97.2.8}%
+\contentsline {subsubsection}{\numberline {4.97.2.9}GPIO\_ToggleOutputPin()}{139}{subsubsection.4.97.2.9}%
+\contentsline {subsubsection}{\numberline {4.97.2.10}GPIO\_WriteToOutputPin()}{140}{subsubsection.4.97.2.10}%
+\contentsline {subsubsection}{\numberline {4.97.2.11}GPIO\_WriteToOutputPort()}{140}{subsubsection.4.97.2.11}%
+\contentsline {section}{\numberline {4.98}I2C Driver}{141}{section.4.98}%
+\contentsline {subsection}{\numberline {4.98.1}Detailed Description}{142}{subsection.4.98.1}%
+\contentsline {section}{\numberline {4.99}I2C Macros}{142}{section.4.99}%
+\contentsline {subsection}{\numberline {4.99.1}Detailed Description}{143}{subsection.4.99.1}%
+\contentsline {section}{\numberline {4.100}I2C Application States}{143}{section.4.100}%
+\contentsline {subsection}{\numberline {4.100.1}Detailed Description}{143}{subsection.4.100.1}%
+\contentsline {subsection}{\numberline {4.100.2}Macro Definition Documentation}{144}{subsection.4.100.2}%
+\contentsline {subsubsection}{\numberline {4.100.2.1}I2C\_BUSY\_IN\_RX}{144}{subsubsection.4.100.2.1}%
+\contentsline {subsubsection}{\numberline {4.100.2.2}I2C\_BUSY\_IN\_TX}{144}{subsubsection.4.100.2.2}%
+\contentsline {subsubsection}{\numberline {4.100.2.3}I2C\_READY}{144}{subsubsection.4.100.2.3}%
+\contentsline {section}{\numberline {4.101}I2C Serial Clock Speed Options}{144}{section.4.101}%
+\contentsline {subsection}{\numberline {4.101.1}Detailed Description}{145}{subsection.4.101.1}%
+\contentsline {subsection}{\numberline {4.101.2}Macro Definition Documentation}{145}{subsection.4.101.2}%
+\contentsline {subsubsection}{\numberline {4.101.2.1}I2C\_SC\_SPEED\_FM2K}{145}{subsubsection.4.101.2.1}%
+\contentsline {subsubsection}{\numberline {4.101.2.2}I2C\_SC\_SPEED\_FM4K}{145}{subsubsection.4.101.2.2}%
+\contentsline {subsubsection}{\numberline {4.101.2.3}I2C\_SC\_SPEED\_SM}{145}{subsubsection.4.101.2.3}%
+\contentsline {section}{\numberline {4.102}I2C ACK Control Options}{145}{section.4.102}%
+\contentsline {subsection}{\numberline {4.102.1}Detailed Description}{146}{subsection.4.102.1}%
+\contentsline {subsection}{\numberline {4.102.2}Macro Definition Documentation}{146}{subsection.4.102.2}%
+\contentsline {subsubsection}{\numberline {4.102.2.1}I2C\_ACK\_DISABLE}{146}{subsubsection.4.102.2.1}%
+\contentsline {subsubsection}{\numberline {4.102.2.2}I2C\_ACK\_ENABLE}{146}{subsubsection.4.102.2.2}%
+\contentsline {section}{\numberline {4.103}I2C Fast Mode Duty Cycle Options}{146}{section.4.103}%
+\contentsline {subsection}{\numberline {4.103.1}Detailed Description}{146}{subsection.4.103.1}%
+\contentsline {subsection}{\numberline {4.103.2}Macro Definition Documentation}{147}{subsection.4.103.2}%
+\contentsline {subsubsection}{\numberline {4.103.2.1}I2C\_FM\_DUTY\_16\_9}{147}{subsubsection.4.103.2.1}%
+\contentsline {subsubsection}{\numberline {4.103.2.2}I2C\_FM\_DUTY\_2}{147}{subsubsection.4.103.2.2}%
+\contentsline {section}{\numberline {4.104}I2C Status Flags}{147}{section.4.104}%
+\contentsline {subsection}{\numberline {4.104.1}Detailed Description}{148}{subsection.4.104.1}%
+\contentsline {subsection}{\numberline {4.104.2}Macro Definition Documentation}{148}{subsection.4.104.2}%
+\contentsline {subsubsection}{\numberline {4.104.2.1}I2C\_FLAG\_ADD10}{148}{subsubsection.4.104.2.1}%
+\contentsline {subsubsection}{\numberline {4.104.2.2}I2C\_FLAG\_ADDR}{148}{subsubsection.4.104.2.2}%
+\contentsline {subsubsection}{\numberline {4.104.2.3}I2C\_FLAG\_AF}{148}{subsubsection.4.104.2.3}%
+\contentsline {subsubsection}{\numberline {4.104.2.4}I2C\_FLAG\_ARLO}{148}{subsubsection.4.104.2.4}%
+\contentsline {subsubsection}{\numberline {4.104.2.5}I2C\_FLAG\_BERR}{148}{subsubsection.4.104.2.5}%
+\contentsline {subsubsection}{\numberline {4.104.2.6}I2C\_FLAG\_BTF}{148}{subsubsection.4.104.2.6}%
+\contentsline {subsubsection}{\numberline {4.104.2.7}I2C\_FLAG\_OVR}{149}{subsubsection.4.104.2.7}%
+\contentsline {subsubsection}{\numberline {4.104.2.8}I2C\_FLAG\_PECERR}{149}{subsubsection.4.104.2.8}%
+\contentsline {subsubsection}{\numberline {4.104.2.9}I2C\_FLAG\_RxNE}{149}{subsubsection.4.104.2.9}%
+\contentsline {subsubsection}{\numberline {4.104.2.10}I2C\_FLAG\_SB}{149}{subsubsection.4.104.2.10}%
+\contentsline {subsubsection}{\numberline {4.104.2.11}I2C\_FLAG\_SMBALERT}{149}{subsubsection.4.104.2.11}%
+\contentsline {subsubsection}{\numberline {4.104.2.12}I2C\_FLAG\_STOPF}{149}{subsubsection.4.104.2.12}%
+\contentsline {subsubsection}{\numberline {4.104.2.13}I2C\_FLAG\_TIMEOUT}{149}{subsubsection.4.104.2.13}%
+\contentsline {subsubsection}{\numberline {4.104.2.14}I2C\_FLAG\_TxE}{149}{subsubsection.4.104.2.14}%
+\contentsline {section}{\numberline {4.105}I2C Repeated Start Macros}{150}{section.4.105}%
+\contentsline {subsection}{\numberline {4.105.1}Detailed Description}{150}{subsection.4.105.1}%
+\contentsline {subsection}{\numberline {4.105.2}Macro Definition Documentation}{150}{subsection.4.105.2}%
+\contentsline {subsubsection}{\numberline {4.105.2.1}I2C\_DISABLE\_SR}{150}{subsubsection.4.105.2.1}%
+\contentsline {subsubsection}{\numberline {4.105.2.2}I2C\_ENABLE\_SR}{150}{subsubsection.4.105.2.2}%
+\contentsline {section}{\numberline {4.106}I2C Application Event Macros}{151}{section.4.106}%
+\contentsline {subsection}{\numberline {4.106.1}Detailed Description}{151}{subsection.4.106.1}%
+\contentsline {subsection}{\numberline {4.106.2}Macro Definition Documentation}{151}{subsection.4.106.2}%
+\contentsline {subsubsection}{\numberline {4.106.2.1}I2C\_ERROR\_AF}{151}{subsubsection.4.106.2.1}%
+\contentsline {subsubsection}{\numberline {4.106.2.2}I2C\_ERROR\_ARLO}{151}{subsubsection.4.106.2.2}%
+\contentsline {subsubsection}{\numberline {4.106.2.3}I2C\_ERROR\_BERR}{152}{subsubsection.4.106.2.3}%
+\contentsline {subsubsection}{\numberline {4.106.2.4}I2C\_ERROR\_OVR}{152}{subsubsection.4.106.2.4}%
+\contentsline {subsubsection}{\numberline {4.106.2.5}I2C\_ERROR\_TIMEOUT}{152}{subsubsection.4.106.2.5}%
+\contentsline {subsubsection}{\numberline {4.106.2.6}I2C\_EV\_DATA\_RCV}{152}{subsubsection.4.106.2.6}%
+\contentsline {subsubsection}{\numberline {4.106.2.7}I2C\_EV\_DATA\_REQ}{152}{subsubsection.4.106.2.7}%
+\contentsline {subsubsection}{\numberline {4.106.2.8}I2C\_EV\_RX\_CMPLT}{152}{subsubsection.4.106.2.8}%
+\contentsline {subsubsection}{\numberline {4.106.2.9}I2C\_EV\_STOP}{152}{subsubsection.4.106.2.9}%
+\contentsline {subsubsection}{\numberline {4.106.2.10}I2C\_EV\_TX\_CMPLT}{152}{subsubsection.4.106.2.10}%
+\contentsline {section}{\numberline {4.107}I2C APIs}{153}{section.4.107}%
+\contentsline {subsection}{\numberline {4.107.1}Detailed Description}{154}{subsection.4.107.1}%
+\contentsline {subsection}{\numberline {4.107.2}Function Documentation}{154}{subsection.4.107.2}%
+\contentsline {subsubsection}{\numberline {4.107.2.1}I2C\_ApplicationEventCallback()}{154}{subsubsection.4.107.2.1}%
+\contentsline {subsubsection}{\numberline {4.107.2.2}I2C\_CloseReceiveData()}{155}{subsubsection.4.107.2.2}%
+\contentsline {subsubsection}{\numberline {4.107.2.3}I2C\_CloseSendData()}{155}{subsubsection.4.107.2.3}%
+\contentsline {subsubsection}{\numberline {4.107.2.4}I2C\_DeInit()}{155}{subsubsection.4.107.2.4}%
+\contentsline {subsubsection}{\numberline {4.107.2.5}I2C\_ER\_IRQHandling()}{156}{subsubsection.4.107.2.5}%
+\contentsline {subsubsection}{\numberline {4.107.2.6}I2C\_EV\_IRQHandling()}{156}{subsubsection.4.107.2.6}%
+\contentsline {subsubsection}{\numberline {4.107.2.7}I2C\_GenerateStopCondition()}{157}{subsubsection.4.107.2.7}%
+\contentsline {subsubsection}{\numberline {4.107.2.8}I2C\_GetFlagStatus()}{157}{subsubsection.4.107.2.8}%
+\contentsline {subsubsection}{\numberline {4.107.2.9}I2C\_Init()}{158}{subsubsection.4.107.2.9}%
+\contentsline {subsubsection}{\numberline {4.107.2.10}I2C\_IRQInterruptConfig()}{158}{subsubsection.4.107.2.10}%
+\contentsline {subsubsection}{\numberline {4.107.2.11}I2C\_IRQPriorityConfig()}{158}{subsubsection.4.107.2.11}%
+\contentsline {subsubsection}{\numberline {4.107.2.12}I2C\_ManageAcking()}{159}{subsubsection.4.107.2.12}%
+\contentsline {subsubsection}{\numberline {4.107.2.13}I2C\_MasterReceiveData()}{159}{subsubsection.4.107.2.13}%
+\contentsline {subsubsection}{\numberline {4.107.2.14}I2C\_MasterReceiveDataIT()}{160}{subsubsection.4.107.2.14}%
+\contentsline {subsubsection}{\numberline {4.107.2.15}I2C\_MasterSendData()}{161}{subsubsection.4.107.2.15}%
+\contentsline {subsubsection}{\numberline {4.107.2.16}I2C\_MasterSendDataIT()}{161}{subsubsection.4.107.2.16}%
+\contentsline {subsubsection}{\numberline {4.107.2.17}I2C\_PeriClockControl()}{162}{subsubsection.4.107.2.17}%
+\contentsline {subsubsection}{\numberline {4.107.2.18}I2C\_PeripheralControl()}{163}{subsubsection.4.107.2.18}%
+\contentsline {subsubsection}{\numberline {4.107.2.19}I2C\_SlaveEnableDisableCallbackEvents()}{163}{subsubsection.4.107.2.19}%
+\contentsline {subsubsection}{\numberline {4.107.2.20}I2C\_SlaveReceiveData()}{164}{subsubsection.4.107.2.20}%
+\contentsline {subsubsection}{\numberline {4.107.2.21}I2C\_SlaveSendData()}{164}{subsubsection.4.107.2.21}%
+\contentsline {section}{\numberline {4.108}SPI Driver}{165}{section.4.108}%
+\contentsline {subsection}{\numberline {4.108.1}Detailed Description}{166}{subsection.4.108.1}%
+\contentsline {subsection}{\numberline {4.108.2}Variable Documentation}{166}{subsection.4.108.2}%
+\contentsline {subsubsection}{\numberline {4.108.2.1}pRxBuffer}{166}{subsubsection.4.108.2.1}%
+\contentsline {subsubsection}{\numberline {4.108.2.2}pSPIx}{166}{subsubsection.4.108.2.2}%
+\contentsline {subsubsection}{\numberline {4.108.2.3}pTxBuffer}{166}{subsubsection.4.108.2.3}%
+\contentsline {subsubsection}{\numberline {4.108.2.4}RxLen}{166}{subsubsection.4.108.2.4}%
+\contentsline {subsubsection}{\numberline {4.108.2.5}RxState}{166}{subsubsection.4.108.2.5}%
+\contentsline {subsubsection}{\numberline {4.108.2.6}SPI\_BusConfig}{166}{subsubsection.4.108.2.6}%
+\contentsline {subsubsection}{\numberline {4.108.2.7}SPI\_Config}{167}{subsubsection.4.108.2.7}%
+\contentsline {subsubsection}{\numberline {4.108.2.8}SPI\_CPHA}{167}{subsubsection.4.108.2.8}%
+\contentsline {subsubsection}{\numberline {4.108.2.9}SPI\_CPOL}{167}{subsubsection.4.108.2.9}%
+\contentsline {subsubsection}{\numberline {4.108.2.10}SPI\_DeviceMode}{167}{subsubsection.4.108.2.10}%
+\contentsline {subsubsection}{\numberline {4.108.2.11}SPI\_DFF}{167}{subsubsection.4.108.2.11}%
+\contentsline {subsubsection}{\numberline {4.108.2.12}SPI\_SclkSpeed}{167}{subsubsection.4.108.2.12}%
+\contentsline {subsubsection}{\numberline {4.108.2.13}SPI\_SSM}{167}{subsubsection.4.108.2.13}%
+\contentsline {subsubsection}{\numberline {4.108.2.14}TxLen}{167}{subsubsection.4.108.2.14}%
+\contentsline {subsubsection}{\numberline {4.108.2.15}TxState}{168}{subsubsection.4.108.2.15}%
+\contentsline {section}{\numberline {4.109}SPI APIs}{168}{section.4.109}%
+\contentsline {subsection}{\numberline {4.109.1}Detailed Description}{169}{subsection.4.109.1}%
+\contentsline {subsection}{\numberline {4.109.2}Function Documentation}{169}{subsection.4.109.2}%
+\contentsline {subsubsection}{\numberline {4.109.2.1}SPI\_ApplicationEventCallback()}{169}{subsubsection.4.109.2.1}%
+\contentsline {subsubsection}{\numberline {4.109.2.2}SPI\_ClearOVRFlag()}{169}{subsubsection.4.109.2.2}%
+\contentsline {subsubsection}{\numberline {4.109.2.3}SPI\_CloseReception()}{170}{subsubsection.4.109.2.3}%
+\contentsline {subsubsection}{\numberline {4.109.2.4}SPI\_CloseTransmission()}{170}{subsubsection.4.109.2.4}%
+\contentsline {subsubsection}{\numberline {4.109.2.5}SPI\_DeInit()}{170}{subsubsection.4.109.2.5}%
+\contentsline {subsubsection}{\numberline {4.109.2.6}SPI\_GetFlagStatus()}{171}{subsubsection.4.109.2.6}%
+\contentsline {subsubsection}{\numberline {4.109.2.7}SPI\_Init()}{171}{subsubsection.4.109.2.7}%
+\contentsline {subsubsection}{\numberline {4.109.2.8}SPI\_IRQHandling()}{171}{subsubsection.4.109.2.8}%
+\contentsline {subsubsection}{\numberline {4.109.2.9}SPI\_IRQinterruptConfig()}{172}{subsubsection.4.109.2.9}%
+\contentsline {subsubsection}{\numberline {4.109.2.10}SPI\_IRQperiorityConfig()}{172}{subsubsection.4.109.2.10}%
+\contentsline {subsubsection}{\numberline {4.109.2.11}SPI\_PeripheralClockControl()}{172}{subsubsection.4.109.2.11}%
+\contentsline {subsubsection}{\numberline {4.109.2.12}SPI\_PeripheralControl()}{172}{subsubsection.4.109.2.12}%
+\contentsline {subsubsection}{\numberline {4.109.2.13}SPI\_ReceiveData()}{173}{subsubsection.4.109.2.13}%
+\contentsline {subsubsection}{\numberline {4.109.2.14}SPI\_ReceiveDataIT()}{173}{subsubsection.4.109.2.14}%
+\contentsline {subsubsection}{\numberline {4.109.2.15}SPI\_SendData()}{174}{subsubsection.4.109.2.15}%
+\contentsline {subsubsection}{\numberline {4.109.2.16}SPI\_SendDataIT()}{174}{subsubsection.4.109.2.16}%
+\contentsline {subsubsection}{\numberline {4.109.2.17}SPI\_SSIConfig()}{175}{subsubsection.4.109.2.17}%
+\contentsline {subsubsection}{\numberline {4.109.2.18}SPI\_SSOEConfig()}{175}{subsubsection.4.109.2.18}%
+\contentsline {section}{\numberline {4.110}SPI Macros}{176}{section.4.110}%
+\contentsline {subsection}{\numberline {4.110.1}Detailed Description}{177}{subsection.4.110.1}%
+\contentsline {section}{\numberline {4.111}SPI Application States}{177}{section.4.111}%
+\contentsline {subsection}{\numberline {4.111.1}Detailed Description}{178}{subsection.4.111.1}%
+\contentsline {subsection}{\numberline {4.111.2}Macro Definition Documentation}{178}{subsection.4.111.2}%
+\contentsline {subsubsection}{\numberline {4.111.2.1}SPI\_BUSY\_IN\_RX}{178}{subsubsection.4.111.2.1}%
+\contentsline {subsubsection}{\numberline {4.111.2.2}SPI\_BUSY\_IN\_TX}{178}{subsubsection.4.111.2.2}%
+\contentsline {subsubsection}{\numberline {4.111.2.3}SPI\_DEVICE\_MODE\_MASTER}{178}{subsubsection.4.111.2.3}%
+\contentsline {subsubsection}{\numberline {4.111.2.4}SPI\_DEVICE\_MODE\_SLAVE}{178}{subsubsection.4.111.2.4}%
+\contentsline {subsubsection}{\numberline {4.111.2.5}SPI\_READY}{178}{subsubsection.4.111.2.5}%
+\contentsline {section}{\numberline {4.112}SPI ACK Control Options}{179}{section.4.112}%
+\contentsline {subsection}{\numberline {4.112.1}Detailed Description}{179}{subsection.4.112.1}%
+\contentsline {subsection}{\numberline {4.112.2}Macro Definition Documentation}{179}{subsection.4.112.2}%
+\contentsline {subsubsection}{\numberline {4.112.2.1}SPI\_BUS\_CONFIG\_FULL\_DUPLEX}{179}{subsubsection.4.112.2.1}%
+\contentsline {subsubsection}{\numberline {4.112.2.2}SPI\_BUS\_CONFIG\_HALF\_DUPLEX}{179}{subsubsection.4.112.2.2}%
+\contentsline {subsubsection}{\numberline {4.112.2.3}SPI\_BUS\_CONFIG\_SIMPLEX\_RX\_ONLY}{179}{subsubsection.4.112.2.3}%
+\contentsline {section}{\numberline {4.113}SPI Serial Clock Speed Options}{180}{section.4.113}%
+\contentsline {subsection}{\numberline {4.113.1}Detailed Description}{180}{subsection.4.113.1}%
+\contentsline {subsection}{\numberline {4.113.2}Macro Definition Documentation}{180}{subsection.4.113.2}%
+\contentsline {subsubsection}{\numberline {4.113.2.1}SPI\_SCLK\_SPEED\_DIV128}{180}{subsubsection.4.113.2.1}%
+\contentsline {subsubsection}{\numberline {4.113.2.2}SPI\_SCLK\_SPEED\_DIV16}{180}{subsubsection.4.113.2.2}%
+\contentsline {subsubsection}{\numberline {4.113.2.3}SPI\_SCLK\_SPEED\_DIV2}{181}{subsubsection.4.113.2.3}%
+\contentsline {subsubsection}{\numberline {4.113.2.4}SPI\_SCLK\_SPEED\_DIV256}{181}{subsubsection.4.113.2.4}%
+\contentsline {subsubsection}{\numberline {4.113.2.5}SPI\_SCLK\_SPEED\_DIV32}{181}{subsubsection.4.113.2.5}%
+\contentsline {subsubsection}{\numberline {4.113.2.6}SPI\_SCLK\_SPEED\_DIV4}{181}{subsubsection.4.113.2.6}%
+\contentsline {subsubsection}{\numberline {4.113.2.7}SPI\_SCLK\_SPEED\_DIV64}{181}{subsubsection.4.113.2.7}%
+\contentsline {subsubsection}{\numberline {4.113.2.8}SPI\_SCLK\_SPEED\_DIV8}{181}{subsubsection.4.113.2.8}%
+\contentsline {section}{\numberline {4.114}SPI Data Frame Format Options}{181}{section.4.114}%
+\contentsline {subsection}{\numberline {4.114.1}Detailed Description}{182}{subsection.4.114.1}%
+\contentsline {subsection}{\numberline {4.114.2}Macro Definition Documentation}{182}{subsection.4.114.2}%
+\contentsline {subsubsection}{\numberline {4.114.2.1}SPI\_DFF\_16BITS}{182}{subsubsection.4.114.2.1}%
+\contentsline {subsubsection}{\numberline {4.114.2.2}SPI\_DFF\_8BITS}{182}{subsubsection.4.114.2.2}%
+\contentsline {section}{\numberline {4.115}SPI Clock Polarity Options}{182}{section.4.115}%
+\contentsline {subsection}{\numberline {4.115.1}Detailed Description}{183}{subsection.4.115.1}%
+\contentsline {subsection}{\numberline {4.115.2}Macro Definition Documentation}{183}{subsection.4.115.2}%
+\contentsline {subsubsection}{\numberline {4.115.2.1}SPI\_CPOL\_HIGH}{183}{subsubsection.4.115.2.1}%
+\contentsline {subsubsection}{\numberline {4.115.2.2}SPI\_CPOL\_LOW}{183}{subsubsection.4.115.2.2}%
+\contentsline {section}{\numberline {4.116}SPI Clock Phase Options}{183}{section.4.116}%
+\contentsline {subsection}{\numberline {4.116.1}Detailed Description}{183}{subsection.4.116.1}%
+\contentsline {subsection}{\numberline {4.116.2}Macro Definition Documentation}{184}{subsection.4.116.2}%
+\contentsline {subsubsection}{\numberline {4.116.2.1}SPI\_CPHA\_HIGH}{184}{subsubsection.4.116.2.1}%
+\contentsline {subsubsection}{\numberline {4.116.2.2}SPI\_CPHA\_LOW}{184}{subsubsection.4.116.2.2}%
+\contentsline {section}{\numberline {4.117}SPI Slave Select Management Options}{184}{section.4.117}%
+\contentsline {subsection}{\numberline {4.117.1}Detailed Description}{184}{subsection.4.117.1}%
+\contentsline {subsection}{\numberline {4.117.2}Macro Definition Documentation}{184}{subsection.4.117.2}%
+\contentsline {subsubsection}{\numberline {4.117.2.1}SPI\_SSM\_DI}{185}{subsubsection.4.117.2.1}%
+\contentsline {subsubsection}{\numberline {4.117.2.2}SPI\_SSM\_EN}{185}{subsubsection.4.117.2.2}%
+\contentsline {section}{\numberline {4.118}SPI Status Flags}{185}{section.4.118}%
+\contentsline {subsection}{\numberline {4.118.1}Detailed Description}{185}{subsection.4.118.1}%
+\contentsline {subsection}{\numberline {4.118.2}Macro Definition Documentation}{186}{subsection.4.118.2}%
+\contentsline {subsubsection}{\numberline {4.118.2.1}SPI\_BUSY\_FLAG}{186}{subsubsection.4.118.2.1}%
+\contentsline {subsubsection}{\numberline {4.118.2.2}SPI\_CHSIDE\_FLAG}{186}{subsubsection.4.118.2.2}%
+\contentsline {subsubsection}{\numberline {4.118.2.3}SPI\_CRCERR\_FLAG}{186}{subsubsection.4.118.2.3}%
+\contentsline {subsubsection}{\numberline {4.118.2.4}SPI\_FRE\_FLAG}{186}{subsubsection.4.118.2.4}%
+\contentsline {subsubsection}{\numberline {4.118.2.5}SPI\_MODF\_FLAG}{186}{subsubsection.4.118.2.5}%
+\contentsline {subsubsection}{\numberline {4.118.2.6}SPI\_OVR\_FLAG}{186}{subsubsection.4.118.2.6}%
+\contentsline {subsubsection}{\numberline {4.118.2.7}SPI\_RXNE\_FLAG}{186}{subsubsection.4.118.2.7}%
+\contentsline {subsubsection}{\numberline {4.118.2.8}SPI\_TXE\_FLAG}{187}{subsubsection.4.118.2.8}%
+\contentsline {subsubsection}{\numberline {4.118.2.9}SPI\_UDR\_FLAG}{187}{subsubsection.4.118.2.9}%
+\contentsline {section}{\numberline {4.119}SPI Application Events}{187}{section.4.119}%
+\contentsline {subsection}{\numberline {4.119.1}Detailed Description}{187}{subsection.4.119.1}%
+\contentsline {subsection}{\numberline {4.119.2}Macro Definition Documentation}{187}{subsection.4.119.2}%
+\contentsline {subsubsection}{\numberline {4.119.2.1}SPI\_EVENT\_CRC\_ERR}{187}{subsubsection.4.119.2.1}%
+\contentsline {subsubsection}{\numberline {4.119.2.2}SPI\_EVENT\_OVR\_ERR}{188}{subsubsection.4.119.2.2}%
+\contentsline {subsubsection}{\numberline {4.119.2.3}SPI\_EVENT\_RX\_CMPLT}{188}{subsubsection.4.119.2.3}%
+\contentsline {subsubsection}{\numberline {4.119.2.4}SPI\_EVENT\_TX\_CMPLT}{188}{subsubsection.4.119.2.4}%
+\contentsline {section}{\numberline {4.120}SPI Communication CMDs}{188}{section.4.120}%
+\contentsline {subsection}{\numberline {4.120.1}Detailed Description}{188}{subsection.4.120.1}%
+\contentsline {subsection}{\numberline {4.120.2}Macro Definition Documentation}{189}{subsection.4.120.2}%
+\contentsline {subsubsection}{\numberline {4.120.2.1}CMD\_ID\_READ}{189}{subsubsection.4.120.2.1}%
+\contentsline {subsubsection}{\numberline {4.120.2.2}CMD\_LED\_CTRL}{189}{subsubsection.4.120.2.2}%
+\contentsline {subsubsection}{\numberline {4.120.2.3}CMD\_LED\_READ}{189}{subsubsection.4.120.2.3}%
+\contentsline {subsubsection}{\numberline {4.120.2.4}CMD\_PRINT}{189}{subsubsection.4.120.2.4}%
+\contentsline {subsubsection}{\numberline {4.120.2.5}CMD\_SENSOR\_READ}{189}{subsubsection.4.120.2.5}%
+\contentsline {section}{\numberline {4.121}LED Control Macros}{189}{section.4.121}%
+\contentsline {subsection}{\numberline {4.121.1}Detailed Description}{190}{subsection.4.121.1}%
+\contentsline {subsection}{\numberline {4.121.2}Macro Definition Documentation}{190}{subsection.4.121.2}%
+\contentsline {subsubsection}{\numberline {4.121.2.1}LED\_OFF}{190}{subsubsection.4.121.2.1}%
+\contentsline {subsubsection}{\numberline {4.121.2.2}LED\_ON}{190}{subsubsection.4.121.2.2}%
+\contentsline {subsubsection}{\numberline {4.121.2.3}LED\_PIN}{190}{subsubsection.4.121.2.3}%
+\contentsline {section}{\numberline {4.122}Arduino Analog Pins}{190}{section.4.122}%
+\contentsline {subsection}{\numberline {4.122.1}Detailed Description}{191}{subsection.4.122.1}%
+\contentsline {subsection}{\numberline {4.122.2}Macro Definition Documentation}{191}{subsection.4.122.2}%
+\contentsline {subsubsection}{\numberline {4.122.2.1}ANALOG\_PIN0}{191}{subsubsection.4.122.2.1}%
+\contentsline {subsubsection}{\numberline {4.122.2.2}ANALOG\_PIN1}{191}{subsubsection.4.122.2.2}%
+\contentsline {subsubsection}{\numberline {4.122.2.3}ANALOG\_PIN2}{191}{subsubsection.4.122.2.3}%
+\contentsline {subsubsection}{\numberline {4.122.2.4}ANALOG\_PIN3}{191}{subsubsection.4.122.2.4}%
+\contentsline {subsubsection}{\numberline {4.122.2.5}ANALOG\_PIN4}{191}{subsubsection.4.122.2.5}%
+\contentsline {section}{\numberline {4.123}USART Driver}{192}{section.4.123}%
+\contentsline {subsection}{\numberline {4.123.1}Detailed Description}{192}{subsection.4.123.1}%
+\contentsline {section}{\numberline {4.124}USART APIs}{192}{section.4.124}%
+\contentsline {subsection}{\numberline {4.124.1}Detailed Description}{193}{subsection.4.124.1}%
+\contentsline {subsection}{\numberline {4.124.2}Function Documentation}{193}{subsection.4.124.2}%
+\contentsline {subsubsection}{\numberline {4.124.2.1}USART\_ApplicationEventCallback()}{193}{subsubsection.4.124.2.1}%
+\contentsline {subsubsection}{\numberline {4.124.2.2}USART\_ClearEventErrFlag()}{194}{subsubsection.4.124.2.2}%
+\contentsline {subsubsection}{\numberline {4.124.2.3}USART\_ClearFlag()}{195}{subsubsection.4.124.2.3}%
+\contentsline {subsubsection}{\numberline {4.124.2.4}USART\_CloseReception()}{195}{subsubsection.4.124.2.4}%
+\contentsline {subsubsection}{\numberline {4.124.2.5}USART\_CloseTransmission()}{195}{subsubsection.4.124.2.5}%
+\contentsline {subsubsection}{\numberline {4.124.2.6}USART\_DeInit()}{196}{subsubsection.4.124.2.6}%
+\contentsline {subsubsection}{\numberline {4.124.2.7}USART\_GetFlagStatus()}{196}{subsubsection.4.124.2.7}%
+\contentsline {subsubsection}{\numberline {4.124.2.8}USART\_Init()}{196}{subsubsection.4.124.2.8}%
+\contentsline {subsubsection}{\numberline {4.124.2.9}USART\_IRQHandling()}{196}{subsubsection.4.124.2.9}%
+\contentsline {subsubsection}{\numberline {4.124.2.10}USART\_IRQInterruptConfig()}{197}{subsubsection.4.124.2.10}%
+\contentsline {subsubsection}{\numberline {4.124.2.11}USART\_IRQPriorityConfig()}{197}{subsubsection.4.124.2.11}%
+\contentsline {subsubsection}{\numberline {4.124.2.12}USART\_PeripheralClockControl()}{197}{subsubsection.4.124.2.12}%
+\contentsline {subsubsection}{\numberline {4.124.2.13}USART\_PeripheralControl()}{198}{subsubsection.4.124.2.13}%
+\contentsline {subsubsection}{\numberline {4.124.2.14}USART\_ReceiveData()}{198}{subsubsection.4.124.2.14}%
+\contentsline {subsubsection}{\numberline {4.124.2.15}USART\_ReceiveDataIT()}{198}{subsubsection.4.124.2.15}%
+\contentsline {subsubsection}{\numberline {4.124.2.16}USART\_SendData()}{199}{subsubsection.4.124.2.16}%
+\contentsline {subsubsection}{\numberline {4.124.2.17}USART\_SendDataIT()}{199}{subsubsection.4.124.2.17}%
+\contentsline {subsubsection}{\numberline {4.124.2.18}USART\_SetBaudRate()}{200}{subsubsection.4.124.2.18}%
+\contentsline {section}{\numberline {4.125}USART Macros}{200}{section.4.125}%
+\contentsline {subsection}{\numberline {4.125.1}Detailed Description}{201}{subsection.4.125.1}%
+\contentsline {section}{\numberline {4.126}USART Transmission Modes}{202}{section.4.126}%
+\contentsline {subsection}{\numberline {4.126.1}Detailed Description}{202}{subsection.4.126.1}%
+\contentsline {subsection}{\numberline {4.126.2}Macro Definition Documentation}{202}{subsection.4.126.2}%
+\contentsline {subsubsection}{\numberline {4.126.2.1}USART\_MODE\_ONLY\_RX}{202}{subsubsection.4.126.2.1}%
+\contentsline {subsubsection}{\numberline {4.126.2.2}USART\_MODE\_ONLY\_TX}{202}{subsubsection.4.126.2.2}%
+\contentsline {subsubsection}{\numberline {4.126.2.3}USART\_MODE\_TXRX}{202}{subsubsection.4.126.2.3}%
+\contentsline {section}{\numberline {4.127}USART Baud Rates}{203}{section.4.127}%
+\contentsline {subsection}{\numberline {4.127.1}Detailed Description}{203}{subsection.4.127.1}%
+\contentsline {section}{\numberline {4.128}USART Parity Control}{203}{section.4.128}%
+\contentsline {subsection}{\numberline {4.128.1}Detailed Description}{204}{subsection.4.128.1}%
+\contentsline {subsection}{\numberline {4.128.2}Macro Definition Documentation}{204}{subsection.4.128.2}%
+\contentsline {subsubsection}{\numberline {4.128.2.1}USART\_PARITY\_DISABLE}{204}{subsubsection.4.128.2.1}%
+\contentsline {subsubsection}{\numberline {4.128.2.2}USART\_PARITY\_EN\_EVEN}{204}{subsubsection.4.128.2.2}%
+\contentsline {subsubsection}{\numberline {4.128.2.3}USART\_PARITY\_EN\_ODD}{204}{subsubsection.4.128.2.3}%
+\contentsline {section}{\numberline {4.129}USART Word Lengths}{204}{section.4.129}%
+\contentsline {subsection}{\numberline {4.129.1}Detailed Description}{205}{subsection.4.129.1}%
+\contentsline {subsection}{\numberline {4.129.2}Macro Definition Documentation}{205}{subsection.4.129.2}%
+\contentsline {subsubsection}{\numberline {4.129.2.1}USART\_WORDLEN\_8BITS}{205}{subsubsection.4.129.2.1}%
+\contentsline {subsubsection}{\numberline {4.129.2.2}USART\_WORDLEN\_9BITS}{205}{subsubsection.4.129.2.2}%
+\contentsline {section}{\numberline {4.130}USART Stop Bits}{205}{section.4.130}%
+\contentsline {subsection}{\numberline {4.130.1}Detailed Description}{206}{subsection.4.130.1}%
+\contentsline {subsection}{\numberline {4.130.2}Macro Definition Documentation}{206}{subsection.4.130.2}%
+\contentsline {subsubsection}{\numberline {4.130.2.1}USART\_STOPBITS\_0\_5}{206}{subsubsection.4.130.2.1}%
+\contentsline {subsubsection}{\numberline {4.130.2.2}USART\_STOPBITS\_1}{206}{subsubsection.4.130.2.2}%
+\contentsline {subsubsection}{\numberline {4.130.2.3}USART\_STOPBITS\_1\_5}{206}{subsubsection.4.130.2.3}%
+\contentsline {subsubsection}{\numberline {4.130.2.4}USART\_STOPBITS\_2}{206}{subsubsection.4.130.2.4}%
+\contentsline {section}{\numberline {4.131}USART Hardware Flow Control}{206}{section.4.131}%
+\contentsline {subsection}{\numberline {4.131.1}Detailed Description}{207}{subsection.4.131.1}%
+\contentsline {subsection}{\numberline {4.131.2}Macro Definition Documentation}{207}{subsection.4.131.2}%
+\contentsline {subsubsection}{\numberline {4.131.2.1}USART\_HW\_FLOW\_CTRL\_CTS}{207}{subsubsection.4.131.2.1}%
+\contentsline {subsubsection}{\numberline {4.131.2.2}USART\_HW\_FLOW\_CTRL\_CTS\_RTS}{207}{subsubsection.4.131.2.2}%
+\contentsline {subsubsection}{\numberline {4.131.2.3}USART\_HW\_FLOW\_CTRL\_NONE}{207}{subsubsection.4.131.2.3}%
+\contentsline {subsubsection}{\numberline {4.131.2.4}USART\_HW\_FLOW\_CTRL\_RTS}{207}{subsubsection.4.131.2.4}%
+\contentsline {section}{\numberline {4.132}USART Status Flags}{208}{section.4.132}%
+\contentsline {subsection}{\numberline {4.132.1}Detailed Description}{208}{subsection.4.132.1}%
+\contentsline {subsection}{\numberline {4.132.2}Macro Definition Documentation}{208}{subsection.4.132.2}%
+\contentsline {subsubsection}{\numberline {4.132.2.1}USART\_FLAG\_FE}{208}{subsubsection.4.132.2.1}%
+\contentsline {subsubsection}{\numberline {4.132.2.2}USART\_FLAG\_IDLE}{208}{subsubsection.4.132.2.2}%
+\contentsline {subsubsection}{\numberline {4.132.2.3}USART\_FLAG\_NE}{209}{subsubsection.4.132.2.3}%
+\contentsline {subsubsection}{\numberline {4.132.2.4}USART\_FLAG\_ORE}{209}{subsubsection.4.132.2.4}%
+\contentsline {subsubsection}{\numberline {4.132.2.5}USART\_FLAG\_PE}{209}{subsubsection.4.132.2.5}%
+\contentsline {subsubsection}{\numberline {4.132.2.6}USART\_FLAG\_RXNE}{209}{subsubsection.4.132.2.6}%
+\contentsline {subsubsection}{\numberline {4.132.2.7}USART\_FLAG\_TC}{209}{subsubsection.4.132.2.7}%
+\contentsline {subsubsection}{\numberline {4.132.2.8}USART\_FLAG\_TXE}{209}{subsubsection.4.132.2.8}%
+\contentsline {section}{\numberline {4.133}USART Application States}{209}{section.4.133}%
+\contentsline {subsection}{\numberline {4.133.1}Detailed Description}{210}{subsection.4.133.1}%
+\contentsline {subsection}{\numberline {4.133.2}Macro Definition Documentation}{210}{subsection.4.133.2}%
+\contentsline {subsubsection}{\numberline {4.133.2.1}USART\_BUSY\_IN\_RX}{210}{subsubsection.4.133.2.1}%
+\contentsline {subsubsection}{\numberline {4.133.2.2}USART\_BUSY\_IN\_TX}{210}{subsubsection.4.133.2.2}%
+\contentsline {subsubsection}{\numberline {4.133.2.3}USART\_READY}{210}{subsubsection.4.133.2.3}%
+\contentsline {section}{\numberline {4.134}USART Application Events}{210}{section.4.134}%
+\contentsline {subsection}{\numberline {4.134.1}Detailed Description}{211}{subsection.4.134.1}%
+\contentsline {subsection}{\numberline {4.134.2}Macro Definition Documentation}{211}{subsection.4.134.2}%
+\contentsline {subsubsection}{\numberline {4.134.2.1}USART\_ERR\_FE}{211}{subsubsection.4.134.2.1}%
+\contentsline {subsubsection}{\numberline {4.134.2.2}USART\_ERR\_NE}{211}{subsubsection.4.134.2.2}%
+\contentsline {subsubsection}{\numberline {4.134.2.3}USART\_ERR\_ORE}{211}{subsubsection.4.134.2.3}%
+\contentsline {subsubsection}{\numberline {4.134.2.4}USART\_EVENT\_CTS}{211}{subsubsection.4.134.2.4}%
+\contentsline {subsubsection}{\numberline {4.134.2.5}USART\_EVENT\_IDLE}{212}{subsubsection.4.134.2.5}%
+\contentsline {subsubsection}{\numberline {4.134.2.6}USART\_EVENT\_PE}{212}{subsubsection.4.134.2.6}%
+\contentsline {subsubsection}{\numberline {4.134.2.7}USART\_EVENT\_RX\_CMPLT}{212}{subsubsection.4.134.2.7}%
+\contentsline {subsubsection}{\numberline {4.134.2.8}USART\_EVENT\_TX\_CMPLT}{212}{subsubsection.4.134.2.8}%
+\contentsline {section}{\numberline {4.135}SPI Private Helper Functions}{212}{section.4.135}%
+\contentsline {subsection}{\numberline {4.135.1}Detailed Description}{212}{subsection.4.135.1}%
+\contentsline {section}{\numberline {4.136}USART Private Helper Functions}{212}{section.4.136}%
+\contentsline {subsection}{\numberline {4.136.1}Detailed Description}{212}{subsection.4.136.1}%
+\contentsline {chapter}{\numberline {5}Class Documentation}{213}{chapter.5}%
+\contentsline {section}{\numberline {5.1}EXTI\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reg\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Def\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{213}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Detailed Description}{213}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Member Data Documentation}{213}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}EMR}{213}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}FTSR}{214}{subsubsection.5.1.2.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.3}IMR}{214}{subsubsection.5.1.2.3}%
+\contentsline {subsubsection}{\numberline {5.1.2.4}PR}{214}{subsubsection.5.1.2.4}%
+\contentsline {subsubsection}{\numberline {5.1.2.5}RTSR}{214}{subsubsection.5.1.2.5}%
+\contentsline {subsubsection}{\numberline {5.1.2.6}SWIER}{214}{subsubsection.5.1.2.6}%
+\contentsline {section}{\numberline {5.2}GPIO\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handle\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{214}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Detailed Description}{215}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}GPIO\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Pin\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Config\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{215}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Detailed Description}{215}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.4}GPIO\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reg\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Def\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{215}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Detailed Description}{216}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Member Data Documentation}{216}{subsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.2.1}AFR}{216}{subsubsection.5.4.2.1}%
+\contentsline {subsubsection}{\numberline {5.4.2.2}BSRR}{216}{subsubsection.5.4.2.2}%
+\contentsline {subsubsection}{\numberline {5.4.2.3}IDR}{216}{subsubsection.5.4.2.3}%
+\contentsline {subsubsection}{\numberline {5.4.2.4}LCKR}{216}{subsubsection.5.4.2.4}%
+\contentsline {subsubsection}{\numberline {5.4.2.5}MODER}{217}{subsubsection.5.4.2.5}%
+\contentsline {subsubsection}{\numberline {5.4.2.6}ODR}{217}{subsubsection.5.4.2.6}%
+\contentsline {subsubsection}{\numberline {5.4.2.7}OSPEEDR}{217}{subsubsection.5.4.2.7}%
+\contentsline {subsubsection}{\numberline {5.4.2.8}OTYPER}{217}{subsubsection.5.4.2.8}%
+\contentsline {subsubsection}{\numberline {5.4.2.9}PUPDR}{217}{subsubsection.5.4.2.9}%
+\contentsline {section}{\numberline {5.5}I2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Config\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{217}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Detailed Description}{218}{subsection.5.5.1}%
+\contentsline {section}{\numberline {5.6}I2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handle\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{218}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Detailed Description}{218}{subsection.5.6.1}%
+\contentsline {section}{\numberline {5.7}I2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reg\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Def\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{219}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Detailed Description}{219}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}Member Data Documentation}{219}{subsection.5.7.2}%
+\contentsline {subsubsection}{\numberline {5.7.2.1}CCR}{219}{subsubsection.5.7.2.1}%
+\contentsline {subsubsection}{\numberline {5.7.2.2}CR1}{219}{subsubsection.5.7.2.2}%
+\contentsline {subsubsection}{\numberline {5.7.2.3}CR2}{219}{subsubsection.5.7.2.3}%
+\contentsline {subsubsection}{\numberline {5.7.2.4}DR}{220}{subsubsection.5.7.2.4}%
+\contentsline {subsubsection}{\numberline {5.7.2.5}FLTR}{220}{subsubsection.5.7.2.5}%
+\contentsline {subsubsection}{\numberline {5.7.2.6}OAR1}{220}{subsubsection.5.7.2.6}%
+\contentsline {subsubsection}{\numberline {5.7.2.7}OAR2}{220}{subsubsection.5.7.2.7}%
+\contentsline {subsubsection}{\numberline {5.7.2.8}SR1}{220}{subsubsection.5.7.2.8}%
+\contentsline {subsubsection}{\numberline {5.7.2.9}SR2}{220}{subsubsection.5.7.2.9}%
+\contentsline {subsubsection}{\numberline {5.7.2.10}TRISE}{220}{subsubsection.5.7.2.10}%
+\contentsline {section}{\numberline {5.8}RCC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reg\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Def\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{221}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}Detailed Description}{221}{subsection.5.8.1}%
+\contentsline {subsection}{\numberline {5.8.2}Member Data Documentation}{221}{subsection.5.8.2}%
+\contentsline {subsubsection}{\numberline {5.8.2.1}AHB1ENR}{222}{subsubsection.5.8.2.1}%
+\contentsline {subsubsection}{\numberline {5.8.2.2}AHB1LPENR}{222}{subsubsection.5.8.2.2}%
+\contentsline {subsubsection}{\numberline {5.8.2.3}AHB1RSTR}{222}{subsubsection.5.8.2.3}%
+\contentsline {subsubsection}{\numberline {5.8.2.4}AHB2ENR}{222}{subsubsection.5.8.2.4}%
+\contentsline {subsubsection}{\numberline {5.8.2.5}AHB2LPENR}{222}{subsubsection.5.8.2.5}%
+\contentsline {subsubsection}{\numberline {5.8.2.6}AHB2RSTR}{222}{subsubsection.5.8.2.6}%
+\contentsline {subsubsection}{\numberline {5.8.2.7}AHB3ENR}{222}{subsubsection.5.8.2.7}%
+\contentsline {subsubsection}{\numberline {5.8.2.8}AHB3LPENR}{222}{subsubsection.5.8.2.8}%
+\contentsline {subsubsection}{\numberline {5.8.2.9}AHB3RSTR}{223}{subsubsection.5.8.2.9}%
+\contentsline {subsubsection}{\numberline {5.8.2.10}APB1ENR}{223}{subsubsection.5.8.2.10}%
+\contentsline {subsubsection}{\numberline {5.8.2.11}APB1LPENR}{223}{subsubsection.5.8.2.11}%
+\contentsline {subsubsection}{\numberline {5.8.2.12}APB1RSTR}{223}{subsubsection.5.8.2.12}%
+\contentsline {subsubsection}{\numberline {5.8.2.13}APB2ENR}{223}{subsubsection.5.8.2.13}%
+\contentsline {subsubsection}{\numberline {5.8.2.14}APB2LPENR}{223}{subsubsection.5.8.2.14}%
+\contentsline {subsubsection}{\numberline {5.8.2.15}APB2RSTR}{223}{subsubsection.5.8.2.15}%
+\contentsline {subsubsection}{\numberline {5.8.2.16}BDCR}{223}{subsubsection.5.8.2.16}%
+\contentsline {subsubsection}{\numberline {5.8.2.17}CFGR}{224}{subsubsection.5.8.2.17}%
+\contentsline {subsubsection}{\numberline {5.8.2.18}CIR}{224}{subsubsection.5.8.2.18}%
+\contentsline {subsubsection}{\numberline {5.8.2.19}CKGATENR}{224}{subsubsection.5.8.2.19}%
+\contentsline {subsubsection}{\numberline {5.8.2.20}CR}{224}{subsubsection.5.8.2.20}%
+\contentsline {subsubsection}{\numberline {5.8.2.21}CSR}{224}{subsubsection.5.8.2.21}%
+\contentsline {subsubsection}{\numberline {5.8.2.22}DCKCFGR}{224}{subsubsection.5.8.2.22}%
+\contentsline {subsubsection}{\numberline {5.8.2.23}DCKCFGR2}{224}{subsubsection.5.8.2.23}%
+\contentsline {subsubsection}{\numberline {5.8.2.24}PLLCFGR}{224}{subsubsection.5.8.2.24}%
+\contentsline {subsubsection}{\numberline {5.8.2.25}PLLI2SCFGR}{225}{subsubsection.5.8.2.25}%
+\contentsline {subsubsection}{\numberline {5.8.2.26}PLLSAICFGR}{225}{subsubsection.5.8.2.26}%
+\contentsline {subsubsection}{\numberline {5.8.2.27}SSCGR}{225}{subsubsection.5.8.2.27}%
+\contentsline {section}{\numberline {5.9}RTC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}date\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{225}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}Detailed Description}{225}{subsection.5.9.1}%
+\contentsline {subsection}{\numberline {5.9.2}Member Data Documentation}{225}{subsection.5.9.2}%
+\contentsline {subsubsection}{\numberline {5.9.2.1}date}{226}{subsubsection.5.9.2.1}%
+\contentsline {subsubsection}{\numberline {5.9.2.2}day}{226}{subsubsection.5.9.2.2}%
+\contentsline {subsubsection}{\numberline {5.9.2.3}month}{226}{subsubsection.5.9.2.3}%
+\contentsline {subsubsection}{\numberline {5.9.2.4}year}{226}{subsubsection.5.9.2.4}%
+\contentsline {section}{\numberline {5.10}RTC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}time\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{226}{section.5.10}%
+\contentsline {subsection}{\numberline {5.10.1}Detailed Description}{226}{subsection.5.10.1}%
+\contentsline {subsection}{\numberline {5.10.2}Member Data Documentation}{227}{subsection.5.10.2}%
+\contentsline {subsubsection}{\numberline {5.10.2.1}hours}{227}{subsubsection.5.10.2.1}%
+\contentsline {subsubsection}{\numberline {5.10.2.2}minutes}{227}{subsubsection.5.10.2.2}%
+\contentsline {subsubsection}{\numberline {5.10.2.3}seconds}{227}{subsubsection.5.10.2.3}%
+\contentsline {subsubsection}{\numberline {5.10.2.4}time\_format}{227}{subsubsection.5.10.2.4}%
+\contentsline {section}{\numberline {5.11}SPI\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Config\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{227}{section.5.11}%
+\contentsline {subsection}{\numberline {5.11.1}Detailed Description}{228}{subsection.5.11.1}%
+\contentsline {section}{\numberline {5.12}SPI\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handle\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{228}{section.5.12}%
+\contentsline {subsection}{\numberline {5.12.1}Detailed Description}{228}{subsection.5.12.1}%
+\contentsline {section}{\numberline {5.13}SPI\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reg\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Def\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{229}{section.5.13}%
+\contentsline {subsection}{\numberline {5.13.1}Detailed Description}{229}{subsection.5.13.1}%
+\contentsline {section}{\numberline {5.14}SYSCFG\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reg\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Def\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{229}{section.5.14}%
+\contentsline {subsection}{\numberline {5.14.1}Detailed Description}{229}{subsection.5.14.1}%
+\contentsline {subsection}{\numberline {5.14.2}Member Data Documentation}{230}{subsection.5.14.2}%
+\contentsline {subsubsection}{\numberline {5.14.2.1}CFGR}{230}{subsubsection.5.14.2.1}%
+\contentsline {subsubsection}{\numberline {5.14.2.2}CMPCR}{230}{subsubsection.5.14.2.2}%
+\contentsline {subsubsection}{\numberline {5.14.2.3}EXTICR}{230}{subsubsection.5.14.2.3}%
+\contentsline {subsubsection}{\numberline {5.14.2.4}MEMRMP}{230}{subsubsection.5.14.2.4}%
+\contentsline {subsubsection}{\numberline {5.14.2.5}PMC}{230}{subsubsection.5.14.2.5}%
+\contentsline {subsubsection}{\numberline {5.14.2.6}RESERVED1}{230}{subsubsection.5.14.2.6}%
+\contentsline {subsubsection}{\numberline {5.14.2.7}RESERVED2}{230}{subsubsection.5.14.2.7}%
+\contentsline {section}{\numberline {5.15}USART\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Config\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{231}{section.5.15}%
+\contentsline {subsection}{\numberline {5.15.1}Detailed Description}{231}{subsection.5.15.1}%
+\contentsline {subsection}{\numberline {5.15.2}Member Data Documentation}{231}{subsection.5.15.2}%
+\contentsline {subsubsection}{\numberline {5.15.2.1}USART\_Baud}{231}{subsubsection.5.15.2.1}%
+\contentsline {subsubsection}{\numberline {5.15.2.2}USART\_HWFlowControl}{231}{subsubsection.5.15.2.2}%
+\contentsline {subsubsection}{\numberline {5.15.2.3}USART\_Mode}{231}{subsubsection.5.15.2.3}%
+\contentsline {subsubsection}{\numberline {5.15.2.4}USART\_NoOfStopBits}{231}{subsubsection.5.15.2.4}%
+\contentsline {subsubsection}{\numberline {5.15.2.5}USART\_ParityControl}{232}{subsubsection.5.15.2.5}%
+\contentsline {subsubsection}{\numberline {5.15.2.6}USART\_WordLength}{232}{subsubsection.5.15.2.6}%
+\contentsline {section}{\numberline {5.16}USART\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handle\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{232}{section.5.16}%
+\contentsline {subsection}{\numberline {5.16.1}Detailed Description}{233}{subsection.5.16.1}%
+\contentsline {subsection}{\numberline {5.16.2}Member Data Documentation}{233}{subsection.5.16.2}%
+\contentsline {subsubsection}{\numberline {5.16.2.1}pRxBuffer}{233}{subsubsection.5.16.2.1}%
+\contentsline {subsubsection}{\numberline {5.16.2.2}pTxBuffer}{233}{subsubsection.5.16.2.2}%
+\contentsline {subsubsection}{\numberline {5.16.2.3}pUSARTx}{233}{subsubsection.5.16.2.3}%
+\contentsline {subsubsection}{\numberline {5.16.2.4}RxBusyState}{233}{subsubsection.5.16.2.4}%
+\contentsline {subsubsection}{\numberline {5.16.2.5}RxLen}{233}{subsubsection.5.16.2.5}%
+\contentsline {subsubsection}{\numberline {5.16.2.6}TxBusyState}{233}{subsubsection.5.16.2.6}%
+\contentsline {subsubsection}{\numberline {5.16.2.7}TxLen}{234}{subsubsection.5.16.2.7}%
+\contentsline {subsubsection}{\numberline {5.16.2.8}USART\_Config}{234}{subsubsection.5.16.2.8}%
+\contentsline {section}{\numberline {5.17}USART\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reg\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Def\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{234}{section.5.17}%
+\contentsline {subsection}{\numberline {5.17.1}Detailed Description}{234}{subsection.5.17.1}%
+\contentsline {chapter}{\numberline {6}File Documentation}{235}{chapter.6}%
+\contentsline {section}{\numberline {6.1}bsp/ds1307.c File Reference}{235}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Detailed Description}{236}{subsection.6.1.1}%
+\contentsline {section}{\numberline {6.2}bsp/ds1307.h File Reference}{236}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Detailed Description}{238}{subsection.6.2.1}%
+\contentsline {section}{\numberline {6.3}bsp/keypad.c File Reference}{238}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Detailed Description}{239}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Variable Documentation}{239}{subsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.2.1}Keypad}{239}{subsubsection.6.3.2.1}%
+\contentsline {section}{\numberline {6.4}bsp/keypad.h File Reference}{240}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Detailed Description}{240}{subsection.6.4.1}%
+\contentsline {section}{\numberline {6.5}bsp/lcd.c File Reference}{241}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Detailed Description}{241}{subsection.6.5.1}%
+\contentsline {section}{\numberline {6.6}bsp/lcd.h File Reference}{242}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Detailed Description}{243}{subsection.6.6.1}%
+\contentsline {section}{\numberline {6.7}drivers/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/stm32f407xx.h File Reference}{244}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Detailed Description}{255}{subsection.6.7.1}%
+\contentsline {section}{\numberline {6.8}drivers/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/stm32f407xx\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}gpio\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}driver.h File Reference}{255}{section.6.8}%
+\contentsline {subsection}{\numberline {6.8.1}Detailed Description}{257}{subsection.6.8.1}%
+\contentsline {section}{\numberline {6.9}drivers/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/stm32f407xx\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}i2c\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}driver.h File Reference}{257}{section.6.9}%
+\contentsline {subsection}{\numberline {6.9.1}Detailed Description}{260}{subsection.6.9.1}%
+\contentsline {section}{\numberline {6.10}drivers/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/stm32f407xx\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}rcc\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}driver.h File Reference}{260}{section.6.10}%
+\contentsline {subsection}{\numberline {6.10.1}Detailed Description}{261}{subsection.6.10.1}%
+\contentsline {subsection}{\numberline {6.10.2}Function Documentation}{261}{subsection.6.10.2}%
+\contentsline {subsubsection}{\numberline {6.10.2.1}RCC\_GetPCLK1Value()}{261}{subsubsection.6.10.2.1}%
+\contentsline {subsubsection}{\numberline {6.10.2.2}RCC\_GetPCLK2Value()}{262}{subsubsection.6.10.2.2}%
+\contentsline {subsubsection}{\numberline {6.10.2.3}RCC\_GetPLLOutputClock()}{262}{subsubsection.6.10.2.3}%
+\contentsline {section}{\numberline {6.11}drivers/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/stm32f407xx\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}spi\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}driver.h File Reference}{262}{section.6.11}%
+\contentsline {subsection}{\numberline {6.11.1}Detailed Description}{265}{subsection.6.11.1}%
+\contentsline {section}{\numberline {6.12}drivers/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/stm32f407xx\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}usart\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}driver.h File Reference}{265}{section.6.12}%
+\contentsline {subsection}{\numberline {6.12.1}Detailed Description}{267}{subsection.6.12.1}%
+\contentsline {section}{\numberline {6.13}drivers/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/stm32f407xx\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}gpio\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}driver.c File Reference}{268}{section.6.13}%
+\contentsline {subsection}{\numberline {6.13.1}Detailed Description}{269}{subsection.6.13.1}%
+\contentsline {section}{\numberline {6.14}drivers/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/stm32f407xx\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}i2c\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}driver.c File Reference}{269}{section.6.14}%
+\contentsline {subsection}{\numberline {6.14.1}Detailed Description}{271}{subsection.6.14.1}%
+\contentsline {section}{\numberline {6.15}drivers/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/stm32f407xx\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}rcc\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}driver.c File Reference}{271}{section.6.15}%
+\contentsline {subsection}{\numberline {6.15.1}Detailed Description}{272}{subsection.6.15.1}%
+\contentsline {subsection}{\numberline {6.15.2}Function Documentation}{272}{subsection.6.15.2}%
+\contentsline {subsubsection}{\numberline {6.15.2.1}RCC\_GetPCLK1Value()}{272}{subsubsection.6.15.2.1}%
+\contentsline {subsubsection}{\numberline {6.15.2.2}RCC\_GetPCLK2Value()}{273}{subsubsection.6.15.2.2}%
+\contentsline {subsubsection}{\numberline {6.15.2.3}RCC\_GetPLLOutputClock()}{273}{subsubsection.6.15.2.3}%
+\contentsline {section}{\numberline {6.16}drivers/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/stm32f407xx\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}spi\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}driver.c File Reference}{273}{section.6.16}%
+\contentsline {subsection}{\numberline {6.16.1}Detailed Description}{274}{subsection.6.16.1}%
+\contentsline {section}{\numberline {6.17}drivers/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/stm32f407xx\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}usart\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}driver.c File Reference}{275}{section.6.17}%
+\contentsline {subsection}{\numberline {6.17.1}Detailed Description}{276}{subsection.6.17.1}%
+\contentsline {section}{\numberline {6.18}Src/001led\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Toggle.c File Reference}{276}{section.6.18}%
+\contentsline {subsection}{\numberline {6.18.1}Detailed Description}{277}{subsection.6.18.1}%
+\contentsline {subsection}{\numberline {6.18.2}Function Documentation}{277}{subsection.6.18.2}%
+\contentsline {subsubsection}{\numberline {6.18.2.1}main()}{277}{subsubsection.6.18.2.1}%
+\contentsline {section}{\numberline {6.19}Src/003led\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ext.c File Reference}{277}{section.6.19}%
+\contentsline {subsection}{\numberline {6.19.1}Detailed Description}{278}{subsection.6.19.1}%
+\contentsline {section}{\numberline {6.20}Src/004gpio\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}freq.c File Reference}{278}{section.6.20}%
+\contentsline {subsection}{\numberline {6.20.1}Detailed Description}{279}{subsection.6.20.1}%
+\contentsline {section}{\numberline {6.21}Src/005\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}interrupt.c File Reference}{279}{section.6.21}%
+\contentsline {subsection}{\numberline {6.21.1}Detailed Description}{280}{subsection.6.21.1}%
+\contentsline {section}{\numberline {6.22}Src/005\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}interrupt\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ext.c File Reference}{280}{section.6.22}%
+\contentsline {subsection}{\numberline {6.22.1}Detailed Description}{280}{subsection.6.22.1}%
+\contentsline {section}{\numberline {6.23}Src/006spi\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tx\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tesing.c File Reference}{281}{section.6.23}%
+\contentsline {subsection}{\numberline {6.23.1}Detailed Description}{281}{subsection.6.23.1}%
+\contentsline {section}{\numberline {6.24}Src/007spi\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}txonly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}arduino.c File Reference}{281}{section.6.24}%
+\contentsline {subsection}{\numberline {6.24.1}Detailed Description}{282}{subsection.6.24.1}%
+\contentsline {section}{\numberline {6.25}Src/008spi\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cmd\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}handling.c File Reference}{282}{section.6.25}%
+\contentsline {subsection}{\numberline {6.25.1}Detailed Description}{283}{subsection.6.25.1}%
+\contentsline {subsection}{\numberline {6.25.2}Macro Definition Documentation}{283}{subsection.6.25.2}%
+\contentsline {subsubsection}{\numberline {6.25.2.1}ANALOG\_PIN0}{283}{subsubsection.6.25.2.1}%
+\contentsline {subsubsection}{\numberline {6.25.2.2}ANALOG\_PIN1}{283}{subsubsection.6.25.2.2}%
+\contentsline {subsubsection}{\numberline {6.25.2.3}ANALOG\_PIN2}{283}{subsubsection.6.25.2.3}%
+\contentsline {subsubsection}{\numberline {6.25.2.4}ANALOG\_PIN3}{284}{subsubsection.6.25.2.4}%
+\contentsline {subsubsection}{\numberline {6.25.2.5}ANALOG\_PIN4}{284}{subsubsection.6.25.2.5}%
+\contentsline {subsubsection}{\numberline {6.25.2.6}CMD\_ID\_READ}{284}{subsubsection.6.25.2.6}%
+\contentsline {subsubsection}{\numberline {6.25.2.7}CMD\_LED\_CTRL}{284}{subsubsection.6.25.2.7}%
+\contentsline {subsubsection}{\numberline {6.25.2.8}CMD\_LED\_READ}{284}{subsubsection.6.25.2.8}%
+\contentsline {subsubsection}{\numberline {6.25.2.9}CMD\_PRINT}{284}{subsubsection.6.25.2.9}%
+\contentsline {subsubsection}{\numberline {6.25.2.10}CMD\_SENSOR\_READ}{284}{subsubsection.6.25.2.10}%
+\contentsline {subsubsection}{\numberline {6.25.2.11}LED\_OFF}{284}{subsubsection.6.25.2.11}%
+\contentsline {subsubsection}{\numberline {6.25.2.12}LED\_ON}{285}{subsubsection.6.25.2.12}%
+\contentsline {subsubsection}{\numberline {6.25.2.13}LED\_PIN}{285}{subsubsection.6.25.2.13}%
+\contentsline {section}{\numberline {6.26}Src/009spi\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}message\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}rcv\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}it.c File Reference}{285}{section.6.26}%
+\contentsline {subsection}{\numberline {6.26.1}Detailed Description}{286}{subsection.6.26.1}%
+\contentsline {section}{\numberline {6.27}Src/010i2c\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}master\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tx\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}testing.c File Reference}{286}{section.6.27}%
+\contentsline {subsection}{\numberline {6.27.1}Detailed Description}{287}{subsection.6.27.1}%
+\contentsline {section}{\numberline {6.28}Src/011i2c\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}master\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}rx\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}testing.c File Reference}{287}{section.6.28}%
+\contentsline {subsection}{\numberline {6.28.1}Detailed Description}{288}{subsection.6.28.1}%
+\contentsline {section}{\numberline {6.29}Src/012i2c\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}master\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}rx\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}testing\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}IT.c File Reference}{288}{section.6.29}%
+\contentsline {subsection}{\numberline {6.29.1}Detailed Description}{289}{subsection.6.29.1}%
+\contentsline {section}{\numberline {6.30}Src/013i2c\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}slave\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tx\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}string.c File Reference}{289}{section.6.30}%
+\contentsline {subsection}{\numberline {6.30.1}Detailed Description}{290}{subsection.6.30.1}%
+\contentsline {section}{\numberline {6.31}Src/014i2c\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}slave\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tx\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}string2.c File Reference}{290}{section.6.31}%
+\contentsline {subsection}{\numberline {6.31.1}Detailed Description}{291}{subsection.6.31.1}%
+\contentsline {section}{\numberline {6.32}Src/015uart\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tx.c File Reference}{291}{section.6.32}%
+\contentsline {subsection}{\numberline {6.32.1}Detailed Description}{292}{subsection.6.32.1}%
+\contentsline {section}{\numberline {6.33}Src/016uart\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tx\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}it.c File Reference}{292}{section.6.33}%
+\contentsline {subsection}{\numberline {6.33.1}Detailed Description}{293}{subsection.6.33.1}%
+\contentsline {section}{\numberline {6.34}Src/syscalls.c File Reference}{293}{section.6.34}%
+\contentsline {subsection}{\numberline {6.34.1}Detailed Description}{294}{subsection.6.34.1}%
+\contentsline {section}{\numberline {6.35}Src/sysmem.c File Reference}{295}{section.6.35}%
+\contentsline {subsection}{\numberline {6.35.1}Detailed Description}{295}{subsection.6.35.1}%
+\contentsline {subsection}{\numberline {6.35.2}Function Documentation}{295}{subsection.6.35.2}%
+\contentsline {subsubsection}{\numberline {6.35.2.1}\_sbrk()}{296}{subsubsection.6.35.2.1}%
+\contentsline {chapter}{Index}{297}{section*.411}%

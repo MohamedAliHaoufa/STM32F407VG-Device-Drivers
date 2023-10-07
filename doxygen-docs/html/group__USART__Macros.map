@@ -1,0 +1,13 @@
+<map id="USART Macros" name="USART Macros">
+<area shape="rect" id="node1" href="$group__USART__FLAG__Status.html" title="USART Status Flags." alt="" coords="349,5,500,31"/>
+<area shape="rect" id="node2" href="$group__USART__Baud.html" title="Possible options for USART baud rates." alt="" coords="353,55,497,80"/>
+<area shape="rect" id="node3" href="$group__USART__Driver.html" title="USART driver APIs for STM32F407xx MCU." alt="" coords="5,233,116,259"/>
+<area shape="rect" id="node11" title="Macros related to USART configuration, flags, and events." alt="" coords="164,233,281,259"/>
+<area shape="rect" id="node4" href="$group__USART__Mode.html" title="Possible options for USART transmission mode." alt="" coords="347,105,502,145"/>
+<area shape="rect" id="node5" href="$group__USART__HWFlowControl.html" title="Possible options for USART hardware flow control." alt="" coords="341,169,509,209"/>
+<area shape="rect" id="node6" href="$group__USART__Application__Events.html" title="Defines possible events that can occur in the USART application." alt="" coords="329,233,520,259"/>
+<area shape="rect" id="node7" href="$group__USART__Application__States.html" title="Defines possible states of the USART application." alt="" coords="331,283,519,308"/>
+<area shape="rect" id="node8" href="$group__USART__ParityControl.html" title="Possible options for USART parity control." alt="" coords="345,332,504,357"/>
+<area shape="rect" id="node9" href="$group__USART__NoOfStopBits.html" title="Possible options for USART stop bits." alt="" coords="361,381,489,407"/>
+<area shape="rect" id="node10" href="$group__USART__WordLength.html" title="Possible options for USART word length." alt="" coords="345,431,504,456"/>
+</map>

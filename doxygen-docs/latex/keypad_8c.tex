@@ -1,0 +1,67 @@
+\hypertarget{keypad_8c}{}\doxysection{bsp/keypad.c File Reference}
+\label{keypad_8c}\index{bsp/keypad.c@{bsp/keypad.c}}
+
+
+Source file containing functions for interfacing with a keypad.  
+
+
+{\ttfamily \#include \char`\"{}keypad.\+h\char`\"{}}\newline
+Include dependency graph for keypad.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{keypad_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__KEYPAD_ga734357822f1510790800177ac0a7ab85}{Keypad\+\_\+\+Scan\+And\+Print}} (uint8\+\_\+t row\+\_\+number, uint8\+\_\+t row\+\_\+pin, uint8\+\_\+t column\+\_\+pin, \mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$Input\+Output\+\_\+port)
+\begin{DoxyCompactList}\small\item\em Scan and print the pressed key on the keypad. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+char $\ast$ \mbox{\hyperlink{keypad_8c_ae2077840f0639f0c487d23821988b44f}{Keypad}} \mbox{[}4\mbox{]}\mbox{[}4\mbox{]}
+\begin{DoxyCompactList}\small\item\em Keypad key mappings. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Source file containing functions for interfacing with a keypad. 
+
+\begin{DoxyAuthor}{Author}
+Mohamed Ali Haoufa 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2023-\/10-\/07
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2023 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{keypad_8c_ae2077840f0639f0c487d23821988b44f}\label{keypad_8c_ae2077840f0639f0c487d23821988b44f}} 
+\index{keypad.c@{keypad.c}!Keypad@{Keypad}}
+\index{Keypad@{Keypad}!keypad.c@{keypad.c}}
+\doxysubsubsection{\texorpdfstring{Keypad}{Keypad}}
+{\footnotesize\ttfamily char$\ast$ Keypad\mbox{[}4\mbox{]}\mbox{[}4\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{\textcolor{stringliteral}{"{}Number: 1"{}}, \textcolor{stringliteral}{"{}Number: 2"{}}, \textcolor{stringliteral}{"{}Number: 3"{}}, \textcolor{stringliteral}{"{}Character: A"{}}\},}
+\DoxyCodeLine{    \{\textcolor{stringliteral}{"{}Number: 4"{}}, \textcolor{stringliteral}{"{}Number: 5"{}}, \textcolor{stringliteral}{"{}Number: 6"{}}, \textcolor{stringliteral}{"{}Character: B"{}}\},}
+\DoxyCodeLine{    \{\textcolor{stringliteral}{"{}Number: 7"{}}, \textcolor{stringliteral}{"{}Number: 8"{}}, \textcolor{stringliteral}{"{}Number: 9"{}}, \textcolor{stringliteral}{"{}Character: C"{}}\},}
+\DoxyCodeLine{    \{\textcolor{stringliteral}{"{}Character: *"{}}, \textcolor{stringliteral}{"{}Number: 0"{}}, \textcolor{stringliteral}{"{}Character: \#"{}}, \textcolor{stringliteral}{"{}Character: D"{}}\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+Keypad key mappings. 
+
+This 4x4 array defines the key mappings of the keypad. 

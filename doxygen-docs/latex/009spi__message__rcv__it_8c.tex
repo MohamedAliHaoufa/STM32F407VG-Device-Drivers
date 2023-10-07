@@ -1,0 +1,76 @@
+\hypertarget{009spi__message__rcv__it_8c}{}\doxysection{Src/009spi\+\_\+message\+\_\+rcv\+\_\+it.c File Reference}
+\label{009spi__message__rcv__it_8c}\index{Src/009spi\_message\_rcv\_it.c@{Src/009spi\_message\_rcv\_it.c}}
+{\ttfamily \#include \char`\"{}../drivers/\+Inc/stm32f407xx.\+h\char`\"{}}\newline
+Include dependency graph for 009spi\+\_\+message\+\_\+rcv\+\_\+it.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{009spi__message__rcv__it_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{009spi__message__rcv__it_8c_aabf4f709c8199e41cf279c77112345fe}\label{009spi__message__rcv__it_8c_aabf4f709c8199e41cf279c77112345fe}} 
+\#define {\bfseries MAX\+\_\+\+LEN}~500
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{009spi__message__rcv__it_8c_a341d33c536d663703208ab568f7d1e0e}\label{009spi__message__rcv__it_8c_a341d33c536d663703208ab568f7d1e0e}} 
+void {\bfseries delay} (void)
+\item 
+\mbox{\Hypertarget{009spi__message__rcv__it_8c_a1e83bf413aad44239bd7648b717a3ab0}\label{009spi__message__rcv__it_8c_a1e83bf413aad44239bd7648b717a3ab0}} 
+void {\bfseries SPI2\+\_\+\+GPIOInits} (void)
+\item 
+\mbox{\Hypertarget{009spi__message__rcv__it_8c_a3930ec6ca02ee15fd750ce8ce0c1b114}\label{009spi__message__rcv__it_8c_a3930ec6ca02ee15fd750ce8ce0c1b114}} 
+void {\bfseries SPI2\+\_\+\+Inits} (void)
+\item 
+\mbox{\Hypertarget{009spi__message__rcv__it_8c_afe30dcde9b7a14f2df5af1a85d48dbca}\label{009spi__message__rcv__it_8c_afe30dcde9b7a14f2df5af1a85d48dbca}} 
+void {\bfseries Slave\+\_\+\+GPIO\+\_\+\+Interrupt\+Pin\+Init} (void)
+\item 
+\mbox{\Hypertarget{009spi__message__rcv__it_8c_a840291bc02cba5474a4cb46a9b9566fe}\label{009spi__message__rcv__it_8c_a840291bc02cba5474a4cb46a9b9566fe}} 
+int {\bfseries main} (void)
+\item 
+\mbox{\Hypertarget{009spi__message__rcv__it_8c_a68d8880cd80cb17a2501487c3d649ea1}\label{009spi__message__rcv__it_8c_a68d8880cd80cb17a2501487c3d649ea1}} 
+void {\bfseries SPI2\+\_\+\+IRQHandler} (void)
+\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga0dadc709dbf46ef27c5c557fa880edb3}{SPI\+\_\+\+Application\+Event\+Callback}} (\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$p\+SPIHandle, uint8\+\_\+t App\+Ev)
+\begin{DoxyCompactList}\small\item\em SPI Application Event Callback. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{009spi__message__rcv__it_8c_a7b2096b8b2643286dc3a7e5110e5ae85}\label{009spi__message__rcv__it_8c_a7b2096b8b2643286dc3a7e5110e5ae85}} 
+void {\bfseries EXTI9\+\_\+5\+\_\+\+IRQHandler} (void)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{009spi__message__rcv__it_8c_a68c1edd59eaa1808dd61f746e2917744}\label{009spi__message__rcv__it_8c_a68c1edd59eaa1808dd61f746e2917744}} 
+\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} {\bfseries SPI2handle}
+\item 
+\mbox{\Hypertarget{009spi__message__rcv__it_8c_a67c3bb50d697ad41dc65b24fc3f24071}\label{009spi__message__rcv__it_8c_a67c3bb50d697ad41dc65b24fc3f24071}} 
+char {\bfseries Rcv\+Buff} \mbox{[}MAX\+\_\+\+LEN\mbox{]}
+\item 
+\mbox{\Hypertarget{009spi__message__rcv__it_8c_a49bdd8f615702095525774e84dff6160}\label{009spi__message__rcv__it_8c_a49bdd8f615702095525774e84dff6160}} 
+volatile char {\bfseries Read\+Byte}
+\item 
+\mbox{\Hypertarget{009spi__message__rcv__it_8c_a4c07efd91e7f0e94b22e3b0ed5a40267}\label{009spi__message__rcv__it_8c_a4c07efd91e7f0e94b22e3b0ed5a40267}} 
+volatile uint8\+\_\+t {\bfseries rcv\+Stop} = 0
+\item 
+\mbox{\Hypertarget{009spi__message__rcv__it_8c_a3fdc4a09eb7cf52511dc4119b437c95a}\label{009spi__message__rcv__it_8c_a3fdc4a09eb7cf52511dc4119b437c95a}} 
+volatile uint8\+\_\+t {\bfseries data\+Available} = 0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Mohamed Ali Haoufa 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2023-\/10-\/07
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2023 
+\end{DoxyCopyright}

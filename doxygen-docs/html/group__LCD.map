@@ -1,0 +1,5 @@
+<map id="LCD Driver" name="LCD Driver">
+<area shape="rect" id="node1" title="LCD (Liquid Crystal Display) driver for STM32F4xx MCUs." alt="" coords="5,31,97,56"/>
+<area shape="rect" id="node2" href="$group__LCD__MACROS.html" title="Macros for LCD configuration and settings." alt="" coords="145,5,244,31"/>
+<area shape="rect" id="node3" href="$group__LCD__APIS.html" title="APIs for interfacing with an LCD (Liquid Crystal Display)." alt="" coords="155,55,235,80"/>
+</map>

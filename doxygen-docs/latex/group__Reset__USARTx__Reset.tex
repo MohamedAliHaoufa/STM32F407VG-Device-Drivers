@@ -1,0 +1,41 @@
+\hypertarget{group__Reset__USARTx__Reset}{}\doxysection{Reset USARTx Peripherals}
+\label{group__Reset__USARTx__Reset}\index{Reset USARTx Peripherals@{Reset USARTx Peripherals}}
+
+
+Macros for resetting USART peripherals.  
+
+
+Collaboration diagram for Reset USARTx Peripherals\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__Reset__USARTx__Reset}
+\end{center}
+\end{figure}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__Reset__USARTx__Reset_ga431c29d257e9dce73735c0d695b79323}\label{group__Reset__USARTx__Reset_ga431c29d257e9dce73735c0d695b79323}} 
+\#define {\bfseries USART1\+\_\+\+REG\+\_\+\+RESET}()~do\{ ( RCC-\/$>$APB2\+RSTR $\vert$= (1$<$$<$4) );  ( RCC-\/$>$APB2\+RSTR  \&= $\sim$(1$<$$<$4) );\}while(0)
+\item 
+\mbox{\Hypertarget{group__Reset__USARTx__Reset_ga9712af80b2ac390584d76f35929dc5b2}\label{group__Reset__USARTx__Reset_ga9712af80b2ac390584d76f35929dc5b2}} 
+\#define {\bfseries USART2\+\_\+\+REG\+\_\+\+RESET}()~do\{ ( RCC-\/$>$APB1\+RSTR $\vert$= (1$<$$<$17) ); ( RCC-\/$>$APB1\+RSTR  \&= $\sim$(1$<$$<$17) );\}while(0)
+\item 
+\mbox{\Hypertarget{group__Reset__USARTx__Reset_ga691f19740791984b19fdb92652d2e036}\label{group__Reset__USARTx__Reset_ga691f19740791984b19fdb92652d2e036}} 
+\#define {\bfseries USART3\+\_\+\+REG\+\_\+\+RESET}()~do\{ ( RCC-\/$>$APB1\+RSTR $\vert$= (1$<$$<$18) ); ( RCC-\/$>$APB1\+RSTR  \&= $\sim$(1$<$$<$18) );\}while(0)
+\item 
+\mbox{\Hypertarget{group__Reset__USARTx__Reset_gae2aff6a5200595e96e979be0cd67e3a2}\label{group__Reset__USARTx__Reset_gae2aff6a5200595e96e979be0cd67e3a2}} 
+\#define {\bfseries UART4\+\_\+\+REG\+\_\+\+RESET}()~do\{ ( RCC-\/$>$APB1\+RSTR $\vert$= (1$<$$<$19) ); ( RCC-\/$>$APB1\+RSTR  \&= $\sim$(1$<$$<$19) );\}while(0)
+\item 
+\mbox{\Hypertarget{group__Reset__USARTx__Reset_gab4cbf2f35e860dbcec23f009476724b7}\label{group__Reset__USARTx__Reset_gab4cbf2f35e860dbcec23f009476724b7}} 
+\#define {\bfseries UART5\+\_\+\+REG\+\_\+\+RESET}()~do\{ ( RCC-\/$>$APB1\+RSTR $\vert$= (1$<$$<$20) ); ( RCC-\/$>$APB1\+RSTR  \&= $\sim$(1$<$$<$20) );\}while(0)
+\item 
+\mbox{\Hypertarget{group__Reset__USARTx__Reset_gaf5079f2bce48ab41ec95f6a00ec895eb}\label{group__Reset__USARTx__Reset_gaf5079f2bce48ab41ec95f6a00ec895eb}} 
+\#define {\bfseries USART6\+\_\+\+REG\+\_\+\+RESET}()~do\{ ( RCC-\/$>$APB2\+RSTR $\vert$= (1$<$$<$5) );  ( RCC-\/$>$APB2\+RSTR  \&= $\sim$(1$<$$<$5) );\}while(0)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Macros for resetting USART peripherals. 
+

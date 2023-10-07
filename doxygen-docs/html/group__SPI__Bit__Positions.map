@@ -1,0 +1,7 @@
+<map id="SPI Bit Position Definitions" name="SPI Bit Position Definitions">
+<area shape="rect" id="node1" href="$group__SPI__CR1__Bit__Positions.html" title="Bit position definitions for SPI_CR1 register." alt="" coords="523,5,676,45"/>
+<area shape="rect" id="node2" title="Bit position definitions for various registers in the SPI peripheral." alt="" coords="280,77,475,102"/>
+<area shape="rect" id="node3" href="$group__SPI__SR__Bit__Positions.html" title="Bit position definitions for SPI_SR register." alt="" coords="527,69,671,109"/>
+<area shape="rect" id="node5" href="$group__SPI__CR2__Bit__Positions.html" title="Bit position definitions for SPI_CR2 register." alt="" coords="523,133,676,173"/>
+<area shape="rect" id="node4" href="$group__STM32F407XX__HEADER.html" title="Header file containing all the necessary information about the STM32F407xx MCU." alt="" coords="5,77,232,102"/>
+</map>

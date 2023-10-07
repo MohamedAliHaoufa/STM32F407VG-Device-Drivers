@@ -1,0 +1,334 @@
+\hypertarget{group__GPIO__APIS}{}\doxysection{GPIO APIs}
+\label{group__GPIO__APIS}\index{GPIO APIs@{GPIO APIs}}
+
+
+APIs supported by the GPIO driver.  
+
+
+Collaboration diagram for GPIO APIs\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{group__GPIO__APIS}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__GPIO__APIS_ga7b5f001a862309578082aa7768c132ee}{GPIO\+\_\+\+Peripheral\+Clock\+Control}} (\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+GPIOx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Enables or disables the peripheral clock for the GPIO port. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__GPIO__APIS_ga214003040f1f142c43080ef8ced72b00}{GPIO\+\_\+\+Init}} (\mbox{\hyperlink{structGPIO__Handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} $\ast$p\+GPIOHandle)
+\begin{DoxyCompactList}\small\item\em Initializes the GPIO port pin according to the configuration. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__GPIO__APIS_gaa8078ad1f2c37770d4320b770488a3ce}{GPIO\+\_\+\+De\+Init}} (\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+GPIOx)
+\begin{DoxyCompactList}\small\item\em Deinitializes the GPIO port. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__GPIO__APIS_ga70498dd4c12c767e30ec68df25a2ccc5}{GPIO\+\_\+\+Read\+From\+Input\+Pin}} (\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+GPIOx, uint8\+\_\+t Pin\+Number)
+\begin{DoxyCompactList}\small\item\em Reads a value from a specific GPIO pin. \end{DoxyCompactList}\item 
+uint16\+\_\+t \mbox{\hyperlink{group__GPIO__APIS_gac91034f21aa1ba1726e8c2a62c02b086}{GPIO\+\_\+\+Read\+From\+Input\+Port}} (\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+GPIOx)
+\begin{DoxyCompactList}\small\item\em Reads a value from the entire GPIO port. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__GPIO__APIS_gab419b69143a05ae7bc62839e58e01df4}{GPIO\+\_\+\+Write\+To\+Output\+Pin}} (\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+GPIOx, uint16\+\_\+t Pin\+Number, uint8\+\_\+t value)
+\begin{DoxyCompactList}\small\item\em Writes a value to a specific GPIO pin. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__GPIO__APIS_ga9909cae10c340c2415e6c6e35fdc5c16}{GPIO\+\_\+\+Write\+To\+Output\+Port}} (\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+GPIOx, uint16\+\_\+t value)
+\begin{DoxyCompactList}\small\item\em Writes a value to the entire GPIO port. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__GPIO__APIS_gadce9fad655c1be1691b575d7e0d249dc}{GPIO\+\_\+\+Toggle\+Output\+Pin}} (\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+GPIOx, uint16\+\_\+t Pin\+Number)
+\begin{DoxyCompactList}\small\item\em Toggles the output value of a specific GPIO pin. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__GPIO__APIS_ga9005c93c441ead067d5832a8c3f05a99}{GPIO\+\_\+\+IRQInterrupt\+Config}} (uint8\+\_\+t IRQNumber, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Configures the IRQ for a specific GPIO pin. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__GPIO__APIS_ga10232b73206bd64bca41ffb2f493e902}{GPIO\+\_\+\+IRQPriority\+Config}} (uint8\+\_\+t IRQNumber, uint32\+\_\+t IRQpriority)
+\begin{DoxyCompactList}\small\item\em Configures the priority for a specific IRQ. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__GPIO__APIS_gaf0f292a2a327d8d94fad909935a469fd}{GPIO\+\_\+\+IRQHandling}} (uint16\+\_\+t Pin\+Number)
+\begin{DoxyCompactList}\small\item\em Handles the IRQ for a specific GPIO pin. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+APIs supported by the GPIO driver. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group__GPIO__APIS_gaa8078ad1f2c37770d4320b770488a3ce}\label{group__GPIO__APIS_gaa8078ad1f2c37770d4320b770488a3ce}} 
+\index{GPIO APIs@{GPIO APIs}!GPIO\_DeInit@{GPIO\_DeInit}}
+\index{GPIO\_DeInit@{GPIO\_DeInit}!GPIO APIs@{GPIO APIs}}
+\doxysubsubsection{\texorpdfstring{GPIO\_DeInit()}{GPIO\_DeInit()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+De\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+GPIOx }\end{DoxyParamCaption})}
+
+
+
+Deinitializes the GPIO port. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+GPIOx} & Pointer to the GPIO peripheral.\\
+\hline
+\end{DoxyParams}
+Deinitializes the GPIO port.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+GPIOx} & Pointer to GPIO port \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__GPIO__APIS_ga214003040f1f142c43080ef8ced72b00}\label{group__GPIO__APIS_ga214003040f1f142c43080ef8ced72b00}} 
+\index{GPIO APIs@{GPIO APIs}!GPIO\_Init@{GPIO\_Init}}
+\index{GPIO\_Init@{GPIO\_Init}!GPIO APIs@{GPIO APIs}}
+\doxysubsubsection{\texorpdfstring{GPIO\_Init()}{GPIO\_Init()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structGPIO__Handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+GPIOHandle }\end{DoxyParamCaption})}
+
+
+
+Initializes the GPIO port pin according to the configuration. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+GPIOHandle} & Pointer to the GPIO handle structure.\\
+\hline
+\end{DoxyParams}
+Initializes the GPIO port pin according to the configuration.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+GPIOHandle} & Pointer to \mbox{\hyperlink{structGPIO__Handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} structure \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__GPIO__APIS_gaf0f292a2a327d8d94fad909935a469fd}\label{group__GPIO__APIS_gaf0f292a2a327d8d94fad909935a469fd}} 
+\index{GPIO APIs@{GPIO APIs}!GPIO\_IRQHandling@{GPIO\_IRQHandling}}
+\index{GPIO\_IRQHandling@{GPIO\_IRQHandling}!GPIO APIs@{GPIO APIs}}
+\doxysubsubsection{\texorpdfstring{GPIO\_IRQHandling()}{GPIO\_IRQHandling()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+IRQHandling (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{Pin\+Number }\end{DoxyParamCaption})}
+
+
+
+Handles the IRQ for a specific GPIO pin. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Pin\+Number} & GPIO pin number.\\
+\hline
+\end{DoxyParams}
+Handles the IRQ for a specific GPIO pin.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Pin\+Number} & GPIO pin number \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__GPIO__APIS_ga9005c93c441ead067d5832a8c3f05a99}\label{group__GPIO__APIS_ga9005c93c441ead067d5832a8c3f05a99}} 
+\index{GPIO APIs@{GPIO APIs}!GPIO\_IRQInterruptConfig@{GPIO\_IRQInterruptConfig}}
+\index{GPIO\_IRQInterruptConfig@{GPIO\_IRQInterruptConfig}!GPIO APIs@{GPIO APIs}}
+\doxysubsubsection{\texorpdfstring{GPIO\_IRQInterruptConfig()}{GPIO\_IRQInterruptConfig()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+IRQInterrupt\+Config (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{IRQNumber,  }\item[{uint8\+\_\+t}]{Enor\+Di }\end{DoxyParamCaption})}
+
+
+
+Configures the IRQ for a specific GPIO pin. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em IRQNumber} & IRQ number. \\
+\hline
+{\em Enor\+Di} & ENABLE to enable IRQ, DISABLE to disable IRQ.\\
+\hline
+\end{DoxyParams}
+Configures the IRQ for a specific GPIO pin.
+
+
+\begin{DoxyParams}{Parameters}
+{\em IRQNumber} & IRQ number \\
+\hline
+{\em Enor\+Di} & ENABLE or DISABLE macros \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__GPIO__APIS_ga10232b73206bd64bca41ffb2f493e902}\label{group__GPIO__APIS_ga10232b73206bd64bca41ffb2f493e902}} 
+\index{GPIO APIs@{GPIO APIs}!GPIO\_IRQPriorityConfig@{GPIO\_IRQPriorityConfig}}
+\index{GPIO\_IRQPriorityConfig@{GPIO\_IRQPriorityConfig}!GPIO APIs@{GPIO APIs}}
+\doxysubsubsection{\texorpdfstring{GPIO\_IRQPriorityConfig()}{GPIO\_IRQPriorityConfig()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+IRQPriority\+Config (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{IRQNumber,  }\item[{uint32\+\_\+t}]{IRQPriority }\end{DoxyParamCaption})}
+
+
+
+Configures the priority for a specific IRQ. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em IRQNumber} & IRQ number. \\
+\hline
+{\em IRQpriority} & Priority value.\\
+\hline
+\end{DoxyParams}
+Configures the priority for a specific IRQ.
+
+
+\begin{DoxyParams}{Parameters}
+{\em IRQNumber} & IRQ number \\
+\hline
+{\em IRQpriority} & Priority of the IRQ \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__GPIO__APIS_ga7b5f001a862309578082aa7768c132ee}\label{group__GPIO__APIS_ga7b5f001a862309578082aa7768c132ee}} 
+\index{GPIO APIs@{GPIO APIs}!GPIO\_PeripheralClockControl@{GPIO\_PeripheralClockControl}}
+\index{GPIO\_PeripheralClockControl@{GPIO\_PeripheralClockControl}!GPIO APIs@{GPIO APIs}}
+\doxysubsubsection{\texorpdfstring{GPIO\_PeripheralClockControl()}{GPIO\_PeripheralClockControl()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Peripheral\+Clock\+Control (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+GPIOx,  }\item[{uint8\+\_\+t}]{Enor\+Di }\end{DoxyParamCaption})}
+
+
+
+Enables or disables the peripheral clock for the GPIO port. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+GPIOx} & Pointer to the GPIO peripheral. \\
+\hline
+{\em Enor\+Di} & ENABLE to enable clock, DISABLE to disable clock.\\
+\hline
+\end{DoxyParams}
+Enables or disables the peripheral clock for the GPIO port.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+GPIOx} & Pointer to GPIO port \\
+\hline
+{\em Enor\+Di} & ENABLE or DISABLE macros \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__GPIO__APIS_ga70498dd4c12c767e30ec68df25a2ccc5}\label{group__GPIO__APIS_ga70498dd4c12c767e30ec68df25a2ccc5}} 
+\index{GPIO APIs@{GPIO APIs}!GPIO\_ReadFromInputPin@{GPIO\_ReadFromInputPin}}
+\index{GPIO\_ReadFromInputPin@{GPIO\_ReadFromInputPin}!GPIO APIs@{GPIO APIs}}
+\doxysubsubsection{\texorpdfstring{GPIO\_ReadFromInputPin()}{GPIO\_ReadFromInputPin()}}
+{\footnotesize\ttfamily uint8\+\_\+t GPIO\+\_\+\+Read\+From\+Input\+Pin (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+GPIOx,  }\item[{uint8\+\_\+t}]{Pin\+Number }\end{DoxyParamCaption})}
+
+
+
+Reads a value from a specific GPIO pin. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+GPIOx} & Pointer to the GPIO peripheral. \\
+\hline
+{\em Pin\+Number} & GPIO pin number. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+uint8\+\_\+t 1 if the pin is set, 0 if the pin is reset.
+\end{DoxyReturn}
+Reads a value from a specific GPIO pin.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+GPIOx} & Pointer to GPIO port \\
+\hline
+{\em Pin\+Number} & GPIO pin number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+uint8\+\_\+t Value of the pin (0 or 1) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__GPIO__APIS_gac91034f21aa1ba1726e8c2a62c02b086}\label{group__GPIO__APIS_gac91034f21aa1ba1726e8c2a62c02b086}} 
+\index{GPIO APIs@{GPIO APIs}!GPIO\_ReadFromInputPort@{GPIO\_ReadFromInputPort}}
+\index{GPIO\_ReadFromInputPort@{GPIO\_ReadFromInputPort}!GPIO APIs@{GPIO APIs}}
+\doxysubsubsection{\texorpdfstring{GPIO\_ReadFromInputPort()}{GPIO\_ReadFromInputPort()}}
+{\footnotesize\ttfamily uint16\+\_\+t GPIO\+\_\+\+Read\+From\+Input\+Port (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+GPIOx }\end{DoxyParamCaption})}
+
+
+
+Reads a value from the entire GPIO port. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+GPIOx} & Pointer to the GPIO peripheral. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+uint16\+\_\+t Content of the input data register.
+\end{DoxyReturn}
+Reads a value from the entire GPIO port.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+GPIOx} & Pointer to GPIO port \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+uint16\+\_\+t Value of the GPIO port 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__GPIO__APIS_gadce9fad655c1be1691b575d7e0d249dc}\label{group__GPIO__APIS_gadce9fad655c1be1691b575d7e0d249dc}} 
+\index{GPIO APIs@{GPIO APIs}!GPIO\_ToggleOutputPin@{GPIO\_ToggleOutputPin}}
+\index{GPIO\_ToggleOutputPin@{GPIO\_ToggleOutputPin}!GPIO APIs@{GPIO APIs}}
+\doxysubsubsection{\texorpdfstring{GPIO\_ToggleOutputPin()}{GPIO\_ToggleOutputPin()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Toggle\+Output\+Pin (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+GPIOx,  }\item[{uint16\+\_\+t}]{Pin\+Number }\end{DoxyParamCaption})}
+
+
+
+Toggles the output value of a specific GPIO pin. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+GPIOx} & Pointer to the GPIO peripheral. \\
+\hline
+{\em Pin\+Number} & GPIO pin number.\\
+\hline
+\end{DoxyParams}
+Toggles the output value of a specific GPIO pin.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+GPIOx} & Pointer to GPIO port \\
+\hline
+{\em Pin\+Number} & GPIO pin number \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__GPIO__APIS_gab419b69143a05ae7bc62839e58e01df4}\label{group__GPIO__APIS_gab419b69143a05ae7bc62839e58e01df4}} 
+\index{GPIO APIs@{GPIO APIs}!GPIO\_WriteToOutputPin@{GPIO\_WriteToOutputPin}}
+\index{GPIO\_WriteToOutputPin@{GPIO\_WriteToOutputPin}!GPIO APIs@{GPIO APIs}}
+\doxysubsubsection{\texorpdfstring{GPIO\_WriteToOutputPin()}{GPIO\_WriteToOutputPin()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Write\+To\+Output\+Pin (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+GPIOx,  }\item[{uint16\+\_\+t}]{Pin\+Number,  }\item[{uint8\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+
+
+Writes a value to a specific GPIO pin. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+GPIOx} & Pointer to the GPIO peripheral. \\
+\hline
+{\em Pin\+Number} & GPIO pin number. \\
+\hline
+{\em value} & Value to write (1 or 0).\\
+\hline
+\end{DoxyParams}
+Writes a value to a specific GPIO pin.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+GPIOx} & Pointer to GPIO port \\
+\hline
+{\em Pin\+Number} & GPIO pin number \\
+\hline
+{\em value} & Value to be written (SET or RESET) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__GPIO__APIS_ga9909cae10c340c2415e6c6e35fdc5c16}\label{group__GPIO__APIS_ga9909cae10c340c2415e6c6e35fdc5c16}} 
+\index{GPIO APIs@{GPIO APIs}!GPIO\_WriteToOutputPort@{GPIO\_WriteToOutputPort}}
+\index{GPIO\_WriteToOutputPort@{GPIO\_WriteToOutputPort}!GPIO APIs@{GPIO APIs}}
+\doxysubsubsection{\texorpdfstring{GPIO\_WriteToOutputPort()}{GPIO\_WriteToOutputPort()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Write\+To\+Output\+Port (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+GPIOx,  }\item[{uint16\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+
+
+Writes a value to the entire GPIO port. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+GPIOx} & Pointer to the GPIO peripheral. \\
+\hline
+{\em value} & Value to write.\\
+\hline
+\end{DoxyParams}
+Writes a value to the entire GPIO port.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+GPIOx} & Pointer to GPIO port \\
+\hline
+{\em value} & Value to be written to the GPIO port \\
+\hline
+\end{DoxyParams}

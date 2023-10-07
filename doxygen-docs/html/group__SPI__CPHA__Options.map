@@ -1,0 +1,4 @@
+<map id="SPI Clock Phase Options" name="SPI Clock Phase Options">
+<area shape="rect" id="node1" title="Options for SPI clock phase." alt="" coords="147,5,325,31"/>
+<area shape="rect" id="node2" href="$group__SPI__Macros.html" title="Macros related to SPI configuration, flags, and events." alt="" coords="5,5,99,31"/>
+</map>

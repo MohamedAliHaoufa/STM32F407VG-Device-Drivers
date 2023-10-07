@@ -1,0 +1,140 @@
+\hypertarget{stm32f407xx__gpio__driver_8h}{}\doxysection{drivers/\+Inc/stm32f407xx\+\_\+gpio\+\_\+driver.h File Reference}
+\label{stm32f407xx__gpio__driver_8h}\index{drivers/Inc/stm32f407xx\_gpio\_driver.h@{drivers/Inc/stm32f407xx\_gpio\_driver.h}}
+
+
+This file contains the GPIO driver API declarations for the STM32\+F407xx MCU.  
+
+
+{\ttfamily \#include \char`\"{}stm32f407xx.\+h\char`\"{}}\newline
+Include dependency graph for stm32f407xx\+\_\+gpio\+\_\+driver.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{stm32f407xx__gpio__driver_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{stm32f407xx__gpio__driver_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structGPIO__PinConfig__t}{GPIO\+\_\+\+Pin\+Config\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Configuration structure for GPIO pin. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structGPIO__Handle__t}{GPIO\+\_\+\+Handle\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Handle structure for GPIO pin. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+0}~0
+\item 
+\#define {\bfseries GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+1}~1
+\item 
+\#define {\bfseries GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+2}~2
+\item 
+\#define {\bfseries GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+3}~3
+\item 
+\#define {\bfseries GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+4}~4
+\item 
+\#define {\bfseries GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+5}~5
+\item 
+\#define {\bfseries GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+6}~6
+\item 
+\#define {\bfseries GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+7}~7
+\item 
+\#define {\bfseries GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+8}~8
+\item 
+\#define {\bfseries GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+9}~9
+\item 
+\#define {\bfseries GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+10}~10
+\item 
+\#define {\bfseries GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+11}~11
+\item 
+\#define {\bfseries GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+12}~12
+\item 
+\#define {\bfseries GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+13}~13
+\item 
+\#define {\bfseries GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+14}~14
+\item 
+\#define {\bfseries GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+15}~15
+\item 
+\#define \mbox{\hyperlink{group__GPIO__PIN__MODES_ga995e5bd9af1641f9e20d64803b969ef3}{GPIO\+\_\+\+MODE\+\_\+\+IN}}~0
+\item 
+\#define \mbox{\hyperlink{group__GPIO__PIN__MODES_ga8b9e26ba32586932cc345bee5fecb180}{GPIO\+\_\+\+MODE\+\_\+\+OUT}}~1
+\item 
+\#define \mbox{\hyperlink{group__GPIO__PIN__MODES_gab109312d6bcee05263b5aa134ad48725}{GPIO\+\_\+\+MODE\+\_\+\+ALTFN}}~2
+\item 
+\#define \mbox{\hyperlink{group__GPIO__PIN__MODES_ga7a04f9ab65ad572ad20791a35009220c}{GPIO\+\_\+\+MODE\+\_\+\+ANALOG}}~3
+\item 
+\#define \mbox{\hyperlink{group__GPIO__PIN__MODES_gaadda8601af0fb9af9a41b3f910199679}{GPIO\+\_\+\+MODE\+\_\+\+IT\+\_\+\+FT}}~4
+\item 
+\#define \mbox{\hyperlink{group__GPIO__PIN__MODES_gaf97a5b7678a3a575277c11739cc1ce0f}{GPIO\+\_\+\+MODE\+\_\+\+IT\+\_\+\+RT}}~5
+\item 
+\#define \mbox{\hyperlink{group__GPIO__PIN__MODES_gaa1469670a733f79770703fe65753139d}{GPIO\+\_\+\+MODE\+\_\+\+IT\+\_\+\+RFT}}~6
+\item 
+\#define \mbox{\hyperlink{group__GPIO__SPEEDS_ga5510b387afb7ec2117b5d4207889163c}{GPIO\+\_\+\+SPEED\+\_\+\+LOW}}~0
+\item 
+\#define \mbox{\hyperlink{group__GPIO__SPEEDS_ga44a0eb2335a21858efbbb1557ce8d5e5}{GPIO\+\_\+\+SPEED\+\_\+\+MEDIUM}}~1
+\item 
+\#define \mbox{\hyperlink{group__GPIO__SPEEDS_gac1b1830b902c29ae791caa033d14202c}{GPIO\+\_\+\+SPEED\+\_\+\+FAST}}~2
+\item 
+\#define \mbox{\hyperlink{group__GPIO__SPEEDS_gad693110177bf2e34c5431555c6977e8c}{GPIO\+\_\+\+SPEED\+\_\+\+HIGH}}~3
+\item 
+\#define \mbox{\hyperlink{group__GPIO__PUPD_ga714441e96f8e8fb8da3233ca6b0bcee2}{GPIO\+\_\+\+NO\+\_\+\+PUPD}}~0
+\item 
+\#define \mbox{\hyperlink{group__GPIO__PUPD_gaa2215266368daa06caed64d2e142abec}{GPIO\+\_\+\+PIN\+\_\+\+PU}}~1
+\item 
+\#define \mbox{\hyperlink{group__GPIO__PUPD_ga9cad17aecf8a91f2d4581fb7cd194fee}{GPIO\+\_\+\+PIN\+\_\+\+PD}}~2
+\item 
+\#define \mbox{\hyperlink{group__GPIO__OUTPUT__TYPES_ga8fab3cc9114990a89695903630083789}{GPIO\+\_\+\+OP\+\_\+\+TYPE\+\_\+\+PP}}~0
+\item 
+\#define \mbox{\hyperlink{group__GPIO__OUTPUT__TYPES_ga7d07f73c03f1b79472b36f0098c147c8}{GPIO\+\_\+\+OP\+\_\+\+TYPE\+\_\+\+OD}}~1
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__GPIO__APIS_ga7b5f001a862309578082aa7768c132ee}{GPIO\+\_\+\+Peripheral\+Clock\+Control}} (\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+GPIOx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Enables or disables the peripheral clock for the GPIO port. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__GPIO__APIS_ga214003040f1f142c43080ef8ced72b00}{GPIO\+\_\+\+Init}} (\mbox{\hyperlink{structGPIO__Handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} $\ast$p\+GPIOHandle)
+\begin{DoxyCompactList}\small\item\em Initializes the GPIO port pin according to the configuration. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__GPIO__APIS_gaa8078ad1f2c37770d4320b770488a3ce}{GPIO\+\_\+\+De\+Init}} (\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+GPIOx)
+\begin{DoxyCompactList}\small\item\em Deinitializes the GPIO port. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__GPIO__APIS_ga70498dd4c12c767e30ec68df25a2ccc5}{GPIO\+\_\+\+Read\+From\+Input\+Pin}} (\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+GPIOx, uint8\+\_\+t Pin\+Number)
+\begin{DoxyCompactList}\small\item\em Reads a value from a specific GPIO pin. \end{DoxyCompactList}\item 
+uint16\+\_\+t \mbox{\hyperlink{group__GPIO__APIS_gac91034f21aa1ba1726e8c2a62c02b086}{GPIO\+\_\+\+Read\+From\+Input\+Port}} (\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+GPIOx)
+\begin{DoxyCompactList}\small\item\em Reads a value from the entire GPIO port. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__GPIO__APIS_gab419b69143a05ae7bc62839e58e01df4}{GPIO\+\_\+\+Write\+To\+Output\+Pin}} (\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+GPIOx, uint16\+\_\+t Pin\+Number, uint8\+\_\+t value)
+\begin{DoxyCompactList}\small\item\em Writes a value to a specific GPIO pin. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__GPIO__APIS_ga9909cae10c340c2415e6c6e35fdc5c16}{GPIO\+\_\+\+Write\+To\+Output\+Port}} (\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+GPIOx, uint16\+\_\+t value)
+\begin{DoxyCompactList}\small\item\em Writes a value to the entire GPIO port. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__GPIO__APIS_gadce9fad655c1be1691b575d7e0d249dc}{GPIO\+\_\+\+Toggle\+Output\+Pin}} (\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+GPIOx, uint16\+\_\+t Pin\+Number)
+\begin{DoxyCompactList}\small\item\em Toggles the output value of a specific GPIO pin. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__GPIO__APIS_ga9005c93c441ead067d5832a8c3f05a99}{GPIO\+\_\+\+IRQInterrupt\+Config}} (uint8\+\_\+t IRQNumber, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Configures the IRQ for a specific GPIO pin. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__GPIO__APIS_ga10232b73206bd64bca41ffb2f493e902}{GPIO\+\_\+\+IRQPriority\+Config}} (uint8\+\_\+t IRQNumber, uint32\+\_\+t IRQpriority)
+\begin{DoxyCompactList}\small\item\em Configures the priority for a specific IRQ. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__GPIO__APIS_gaf0f292a2a327d8d94fad909935a469fd}{GPIO\+\_\+\+IRQHandling}} (uint16\+\_\+t Pin\+Number)
+\begin{DoxyCompactList}\small\item\em Handles the IRQ for a specific GPIO pin. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file contains the GPIO driver API declarations for the STM32\+F407xx MCU. 
+
+\begin{DoxyAuthor}{Author}
+Mohamed Ali Haoufa 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2023-\/08-\/10
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2023 
+\end{DoxyCopyright}

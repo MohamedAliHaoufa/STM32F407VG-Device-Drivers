@@ -1,0 +1,79 @@
+\hypertarget{group__I2C__Driver}{}\doxysection{I2C Driver}
+\label{group__I2C__Driver}\index{I2C Driver@{I2C Driver}}
+
+
+I2C driver APIs for STM32\+F407xx MCU.  
+
+
+Collaboration diagram for I2C Driver\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{group__I2C__Driver}
+\end{center}
+\end{figure}
+\doxysubsection*{Modules}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group__I2C__Macros}{I2\+C Macros}}
+\begin{DoxyCompactList}\small\item\em Macros related to I2C configuration, flags, and events. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group__I2C__APIS}{I2\+C APIs}}
+\begin{DoxyCompactList}\small\item\em APIs supported by the I2C driver. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structI2C__Config__t}{I2\+C\+\_\+\+Config\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Configuration structure for I2C peripheral. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Handle structure for I2C peripheral. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__I2C__Driver_gab47ec3cf44890df2b79d2025ea80f8d1}\label{group__I2C__Driver_gab47ec3cf44890df2b79d2025ea80f8d1}} 
+uint32\+\_\+t {\bfseries I2\+C\+\_\+\+Config\+\_\+t\+::\+I2\+C\+\_\+\+SCLspeed}
+\item 
+\mbox{\Hypertarget{group__I2C__Driver_ga3f2344b0d5ee77ff9a5761daf03d0494}\label{group__I2C__Driver_ga3f2344b0d5ee77ff9a5761daf03d0494}} 
+uint8\+\_\+t {\bfseries I2\+C\+\_\+\+Config\+\_\+t\+::\+I2\+C\+\_\+\+Device\+Adress}
+\item 
+\mbox{\Hypertarget{group__I2C__Driver_ga55c17648019ccf38f24da360b3122667}\label{group__I2C__Driver_ga55c17648019ccf38f24da360b3122667}} 
+uint8\+\_\+t {\bfseries I2\+C\+\_\+\+Config\+\_\+t\+::\+I2\+C\+\_\+\+ACKControl}
+\item 
+\mbox{\Hypertarget{group__I2C__Driver_gaafeea1a89210e349bbc43e6d9019c89f}\label{group__I2C__Driver_gaafeea1a89210e349bbc43e6d9019c89f}} 
+uint8\+\_\+t {\bfseries I2\+C\+\_\+\+Config\+\_\+t\+::\+I2\+C\+\_\+\+FMDuty\+Cycle}
+\item 
+\mbox{\Hypertarget{group__I2C__Driver_ga92842282a0cb7c408e8515671b1194c2}\label{group__I2C__Driver_ga92842282a0cb7c408e8515671b1194c2}} 
+\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$ {\bfseries I2\+C\+\_\+\+Handle\+\_\+t\+::p\+I2\+Cx}
+\item 
+\mbox{\Hypertarget{group__I2C__Driver_ga8a6e5db764948a2ac80b01cc378e8471}\label{group__I2C__Driver_ga8a6e5db764948a2ac80b01cc378e8471}} 
+\mbox{\hyperlink{structI2C__Config__t}{I2\+C\+\_\+\+Config\+\_\+t}} {\bfseries I2\+C\+\_\+\+Handle\+\_\+t\+::\+I2\+C\+\_\+\+Config}
+\item 
+\mbox{\Hypertarget{group__I2C__Driver_gaf8881237043e8064bbd20ac8534d160f}\label{group__I2C__Driver_gaf8881237043e8064bbd20ac8534d160f}} 
+uint8\+\_\+t $\ast$ {\bfseries I2\+C\+\_\+\+Handle\+\_\+t\+::p\+Tx\+Buffer}
+\item 
+\mbox{\Hypertarget{group__I2C__Driver_ga7e9f3acf97bec1be4aca93d8d359b3fd}\label{group__I2C__Driver_ga7e9f3acf97bec1be4aca93d8d359b3fd}} 
+uint8\+\_\+t $\ast$ {\bfseries I2\+C\+\_\+\+Handle\+\_\+t\+::p\+Rx\+Buffer}
+\item 
+\mbox{\Hypertarget{group__I2C__Driver_gaf0d9155c1c2430a21b38b0c993775681}\label{group__I2C__Driver_gaf0d9155c1c2430a21b38b0c993775681}} 
+uint32\+\_\+t {\bfseries I2\+C\+\_\+\+Handle\+\_\+t\+::\+Tx\+Len}
+\item 
+\mbox{\Hypertarget{group__I2C__Driver_ga1e9e283400271321e10bbefe0213e732}\label{group__I2C__Driver_ga1e9e283400271321e10bbefe0213e732}} 
+uint32\+\_\+t {\bfseries I2\+C\+\_\+\+Handle\+\_\+t\+::\+Rx\+Len}
+\item 
+\mbox{\Hypertarget{group__I2C__Driver_ga72b20da08b686276b641de430d4e70ec}\label{group__I2C__Driver_ga72b20da08b686276b641de430d4e70ec}} 
+uint8\+\_\+t {\bfseries I2\+C\+\_\+\+Handle\+\_\+t\+::\+Tx\+Rx\+State}
+\item 
+\mbox{\Hypertarget{group__I2C__Driver_gad32bb6dea7f28b24388aacd24db02893}\label{group__I2C__Driver_gad32bb6dea7f28b24388aacd24db02893}} 
+uint8\+\_\+t {\bfseries I2\+C\+\_\+\+Handle\+\_\+t\+::\+Dev\+Addr}
+\item 
+\mbox{\Hypertarget{group__I2C__Driver_ga6b867a05ede5705a38b38a1acfb20944}\label{group__I2C__Driver_ga6b867a05ede5705a38b38a1acfb20944}} 
+uint32\+\_\+t {\bfseries I2\+C\+\_\+\+Handle\+\_\+t\+::\+Rx\+Size}
+\item 
+\mbox{\Hypertarget{group__I2C__Driver_gadf12abeb883ac54155cefefe3850c44c}\label{group__I2C__Driver_gadf12abeb883ac54155cefefe3850c44c}} 
+uint8\+\_\+t {\bfseries I2\+C\+\_\+\+Handle\+\_\+t\+::\+Sr}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+I2C driver APIs for STM32\+F407xx MCU. 
+

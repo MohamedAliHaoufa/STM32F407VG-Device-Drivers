@@ -1,0 +1,4 @@
+<map id="EXTI (External Interrupt) IRQ Numbers" name="EXTI (External Interrupt) IRQ Numbers">
+<area shape="rect" id="node1" title="IRQ numbers for EXTI (External Interrupt) sources." alt="" coords="212,5,391,45"/>
+<area shape="rect" id="node2" href="$group__IRQ__Numbers__Macros.html" title="Macros for interrupt request numbers and priority levels." alt="" coords="5,13,164,38"/>
+</map>

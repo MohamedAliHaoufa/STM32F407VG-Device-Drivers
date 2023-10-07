@@ -1,0 +1,413 @@
+\hypertarget{group__USART__APIS}{}\doxysection{USART APIs}
+\label{group__USART__APIS}\index{USART APIs@{USART APIs}}
+
+
+USART driver APIs for STM32\+F407xx MCU.  
+
+
+Collaboration diagram for USART APIs\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=273pt]{group__USART__APIS}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__USART__APIS_ga6fa2bf9f7142dbc2b9b552cf0c592f0c}{USART\+\_\+\+Peripheral\+Clock\+Control}} (\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+USARTx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Enable or disable the peripheral clock for the given USARTx. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_gaa95f8910a4887083ee310f38dd04e1af}{USART\+\_\+\+Set\+Baud\+Rate}} (\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+USARTx, uint32\+\_\+t Baud\+Rate)
+\begin{DoxyCompactList}\small\item\em Set the baud rate for a USART peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_ga9f8081684bf9bf4f54f5a54e97a86f90}{USART\+\_\+\+Init}} (\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$p\+USARTHandle)
+\begin{DoxyCompactList}\small\item\em Initialize the USART peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_gad46a955e9f42bf502fead06125cf16f0}{USART\+\_\+\+De\+Init}} (\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+USARTx)
+\begin{DoxyCompactList}\small\item\em Deinitialize the USART peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_gac07c40fd91c832c49bc0aa649b85acfb}{USART\+\_\+\+Send\+Data}} (\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$p\+USARTHandle, uint8\+\_\+t $\ast$p\+Tx\+Buffer, uint32\+\_\+t Len)
+\begin{DoxyCompactList}\small\item\em Send data over USART. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_gaafcc74a54eb7f0a12a36487b452da59c}{USART\+\_\+\+Receive\+Data}} (\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$p\+USARTHandle, uint8\+\_\+t $\ast$p\+Rx\+Buffer, uint32\+\_\+t Len)
+\begin{DoxyCompactList}\small\item\em Receive data from USART. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__USART__APIS_ga50fdac2af4a69887bceb1dec2a16ebaf}{USART\+\_\+\+Send\+Data\+IT}} (\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$p\+USARTHandle, uint8\+\_\+t $\ast$p\+Tx\+Buffer, uint32\+\_\+t Len)
+\begin{DoxyCompactList}\small\item\em Send data over USART using interrupt-\/driven communication. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__USART__APIS_ga6c7db552dd2c1f90e8743216a2788b3b}{USART\+\_\+\+Receive\+Data\+IT}} (\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$p\+USARTHandle, uint8\+\_\+t $\ast$p\+Rx\+Buffer, uint32\+\_\+t Len)
+\begin{DoxyCompactList}\small\item\em Receive data from USART using interrupt-\/driven communication. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_gaf88d9768163143f669dfd237db85aec0}{USART\+\_\+\+Peripheral\+Control}} (\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+USARTx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Control the USART peripheral (ENABLE/\+DISABLE). \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__USART__APIS_gafd2cc06c5afa6cc3aeb710b518cb1229}{USART\+\_\+\+Get\+Flag\+Status}} (\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+USARTx, uint8\+\_\+t Flag\+Name)
+\begin{DoxyCompactList}\small\item\em Get the status of a specific USART flag. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_ga48a8609024247e8a24ce87343f15937b}{USART\+\_\+\+Clear\+Flag}} (\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+USARTx, uint16\+\_\+t Flag\+Name)
+\begin{DoxyCompactList}\small\item\em Clear a specific USART flag. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_ga0d603b3054270a204b270cb0892953aa}{USART\+\_\+\+Close\+Transmission}} (\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$p\+USARTHandle)
+\begin{DoxyCompactList}\small\item\em Close USART transmission. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_gac7510c648224e5ade6f1bc32644b25fc}{USART\+\_\+\+Close\+Reception}} (\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$p\+USARTHandle)
+\begin{DoxyCompactList}\small\item\em Close USART reception. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_gaa74b3e743c540680d0d0dfb389801657}{USART\+\_\+\+IRQInterrupt\+Config}} (uint8\+\_\+t IRQNumber, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Configure IRQ number and enable/disable IRQ. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_ga72d4d2ae1479694b788a239692cec05e}{USART\+\_\+\+IRQPriority\+Config}} (uint8\+\_\+t IRQNumber, uint32\+\_\+t IRQPriority)
+\begin{DoxyCompactList}\small\item\em Set the priority of an IRQ. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_ga2b371eb9c6afa298fb6e7be14195a7bd}{USART\+\_\+\+IRQHandling}} (\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$p\+USARTHandle)
+\begin{DoxyCompactList}\small\item\em Handle USART interrupts. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_gacd7ff85fb54f0abb82fd1dbaf9267606}{USART\+\_\+\+Application\+Event\+Callback}} (\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$p\+USARTHandle, uint8\+\_\+t App\+Ev)
+\begin{DoxyCompactList}\small\item\em Application callback function for USART events. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__USART__APIS_ga834fb50ceafd393095a5e0187d58e67d}{USART\+\_\+\+Clear\+Event\+Err\+Flag}} (\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+USARTx)
+\begin{DoxyCompactList}\small\item\em Clears the error flags in the USART status register. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+USART driver APIs for STM32\+F407xx MCU. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group__USART__APIS_gacd7ff85fb54f0abb82fd1dbaf9267606}\label{group__USART__APIS_gacd7ff85fb54f0abb82fd1dbaf9267606}} 
+\index{USART APIs@{USART APIs}!USART\_ApplicationEventCallback@{USART\_ApplicationEventCallback}}
+\index{USART\_ApplicationEventCallback@{USART\_ApplicationEventCallback}!USART APIs@{USART APIs}}
+\doxysubsubsection{\texorpdfstring{USART\_ApplicationEventCallback()}{USART\_ApplicationEventCallback()}}
+{\footnotesize\ttfamily void USART\+\_\+\+Application\+Event\+Callback (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+USARTHandle,  }\item[{uint8\+\_\+t}]{App\+Ev }\end{DoxyParamCaption})}
+
+
+
+Application callback function for USART events. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+USARTHandle} & Pointer to the USART handle structure. \\
+\hline
+{\em App\+Ev} & USART application event.\\
+\hline
+\end{DoxyParams}
+This function serves as a callback that can be overridden by the application to handle USART-\/related events. It is called when specific events occur during USART communication and allows the application to take custom actions.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+USARTHandle} & Pointer to the USART handle structure. \\
+\hline
+{\em App\+Ev} & USART application event.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+This is a weak implementation, and the application can override this function to provide custom event handling. 
+\end{DoxyNote}
+\mbox{\Hypertarget{group__USART__APIS_ga834fb50ceafd393095a5e0187d58e67d}\label{group__USART__APIS_ga834fb50ceafd393095a5e0187d58e67d}} 
+\index{USART APIs@{USART APIs}!USART\_ClearEventErrFlag@{USART\_ClearEventErrFlag}}
+\index{USART\_ClearEventErrFlag@{USART\_ClearEventErrFlag}!USART APIs@{USART APIs}}
+\doxysubsubsection{\texorpdfstring{USART\_ClearEventErrFlag()}{USART\_ClearEventErrFlag()}}
+{\footnotesize\ttfamily void USART\+\_\+\+Clear\+Event\+Err\+Flag (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+USARTx }\end{DoxyParamCaption})}
+
+
+
+Clears the error flags in the USART status register. 
+
+This function clears any error flags that may have been set in the USART status register (SR). It is commonly used to clear error flags before resuming USART communication after an error condition.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+USARTx} & Pointer to the USART peripheral.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Warning}
+Do not call this function during active USART communication, as it may cause data loss.
+\end{DoxyWarning}
+Clears the error flags in the USART status register.
+
+This function clears any error flags that may have been set in the USART status register (SR). It is commonly used to clear error flags before resuming USART communication after an error condition.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+USARTx} & Pointer to the USART peripheral.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Warning}
+Do not call this function during active USART communication, as it may cause data loss. 
+\end{DoxyWarning}
+\mbox{\Hypertarget{group__USART__APIS_ga48a8609024247e8a24ce87343f15937b}\label{group__USART__APIS_ga48a8609024247e8a24ce87343f15937b}} 
+\index{USART APIs@{USART APIs}!USART\_ClearFlag@{USART\_ClearFlag}}
+\index{USART\_ClearFlag@{USART\_ClearFlag}!USART APIs@{USART APIs}}
+\doxysubsubsection{\texorpdfstring{USART\_ClearFlag()}{USART\_ClearFlag()}}
+{\footnotesize\ttfamily void USART\+\_\+\+Clear\+Flag (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+USARTx,  }\item[{uint16\+\_\+t}]{Flag\+Name }\end{DoxyParamCaption})}
+
+
+
+Clear a specific USART flag. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+USARTx} & Pointer to the USART peripheral. \\
+\hline
+{\em Flag\+Name} & Name of the flag to clear. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__USART__APIS_gac7510c648224e5ade6f1bc32644b25fc}\label{group__USART__APIS_gac7510c648224e5ade6f1bc32644b25fc}} 
+\index{USART APIs@{USART APIs}!USART\_CloseReception@{USART\_CloseReception}}
+\index{USART\_CloseReception@{USART\_CloseReception}!USART APIs@{USART APIs}}
+\doxysubsubsection{\texorpdfstring{USART\_CloseReception()}{USART\_CloseReception()}}
+{\footnotesize\ttfamily void USART\+\_\+\+Close\+Reception (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+USARTHandle }\end{DoxyParamCaption})}
+
+
+
+Close USART reception. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+USARTHandle} & Pointer to the USART handle structure. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__USART__APIS_ga0d603b3054270a204b270cb0892953aa}\label{group__USART__APIS_ga0d603b3054270a204b270cb0892953aa}} 
+\index{USART APIs@{USART APIs}!USART\_CloseTransmission@{USART\_CloseTransmission}}
+\index{USART\_CloseTransmission@{USART\_CloseTransmission}!USART APIs@{USART APIs}}
+\doxysubsubsection{\texorpdfstring{USART\_CloseTransmission()}{USART\_CloseTransmission()}}
+{\footnotesize\ttfamily void USART\+\_\+\+Close\+Transmission (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+USARTHandle }\end{DoxyParamCaption})}
+
+
+
+Close USART transmission. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+USARTHandle} & Pointer to the USART handle structure. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__USART__APIS_gad46a955e9f42bf502fead06125cf16f0}\label{group__USART__APIS_gad46a955e9f42bf502fead06125cf16f0}} 
+\index{USART APIs@{USART APIs}!USART\_DeInit@{USART\_DeInit}}
+\index{USART\_DeInit@{USART\_DeInit}!USART APIs@{USART APIs}}
+\doxysubsubsection{\texorpdfstring{USART\_DeInit()}{USART\_DeInit()}}
+{\footnotesize\ttfamily void USART\+\_\+\+De\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+USARTx }\end{DoxyParamCaption})}
+
+
+
+Deinitialize the USART peripheral. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+USARTx} & Pointer to the USART peripheral. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__USART__APIS_gafd2cc06c5afa6cc3aeb710b518cb1229}\label{group__USART__APIS_gafd2cc06c5afa6cc3aeb710b518cb1229}} 
+\index{USART APIs@{USART APIs}!USART\_GetFlagStatus@{USART\_GetFlagStatus}}
+\index{USART\_GetFlagStatus@{USART\_GetFlagStatus}!USART APIs@{USART APIs}}
+\doxysubsubsection{\texorpdfstring{USART\_GetFlagStatus()}{USART\_GetFlagStatus()}}
+{\footnotesize\ttfamily uint8\+\_\+t USART\+\_\+\+Get\+Flag\+Status (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+USARTx,  }\item[{uint8\+\_\+t}]{Flag\+Name }\end{DoxyParamCaption})}
+
+
+
+Get the status of a specific USART flag. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+USARTx} & Pointer to the USART peripheral. \\
+\hline
+{\em Flag\+Name} & Name of the flag to check. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+uint8\+\_\+t Status of the flag (FLAG\+\_\+\+SET or FLAG\+\_\+\+RESET). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__USART__APIS_ga9f8081684bf9bf4f54f5a54e97a86f90}\label{group__USART__APIS_ga9f8081684bf9bf4f54f5a54e97a86f90}} 
+\index{USART APIs@{USART APIs}!USART\_Init@{USART\_Init}}
+\index{USART\_Init@{USART\_Init}!USART APIs@{USART APIs}}
+\doxysubsubsection{\texorpdfstring{USART\_Init()}{USART\_Init()}}
+{\footnotesize\ttfamily void USART\+\_\+\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+USARTHandle }\end{DoxyParamCaption})}
+
+
+
+Initialize the USART peripheral. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+USARTHandle} & Pointer to the USART handle structure. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__USART__APIS_ga2b371eb9c6afa298fb6e7be14195a7bd}\label{group__USART__APIS_ga2b371eb9c6afa298fb6e7be14195a7bd}} 
+\index{USART APIs@{USART APIs}!USART\_IRQHandling@{USART\_IRQHandling}}
+\index{USART\_IRQHandling@{USART\_IRQHandling}!USART APIs@{USART APIs}}
+\doxysubsubsection{\texorpdfstring{USART\_IRQHandling()}{USART\_IRQHandling()}}
+{\footnotesize\ttfamily void USART\+\_\+\+IRQHandling (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+USARTHandle }\end{DoxyParamCaption})}
+
+
+
+Handle USART interrupts. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+USARTHandle} & Pointer to the USART handle structure. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__USART__APIS_gaa74b3e743c540680d0d0dfb389801657}\label{group__USART__APIS_gaa74b3e743c540680d0d0dfb389801657}} 
+\index{USART APIs@{USART APIs}!USART\_IRQInterruptConfig@{USART\_IRQInterruptConfig}}
+\index{USART\_IRQInterruptConfig@{USART\_IRQInterruptConfig}!USART APIs@{USART APIs}}
+\doxysubsubsection{\texorpdfstring{USART\_IRQInterruptConfig()}{USART\_IRQInterruptConfig()}}
+{\footnotesize\ttfamily void USART\+\_\+\+IRQInterrupt\+Config (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{IRQNumber,  }\item[{uint8\+\_\+t}]{Enor\+Di }\end{DoxyParamCaption})}
+
+
+
+Configure IRQ number and enable/disable IRQ. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em IRQNumber} & IRQ number to configure. \\
+\hline
+{\em Enor\+Di} & ENABLE or DISABLE IRQ. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__USART__APIS_ga72d4d2ae1479694b788a239692cec05e}\label{group__USART__APIS_ga72d4d2ae1479694b788a239692cec05e}} 
+\index{USART APIs@{USART APIs}!USART\_IRQPriorityConfig@{USART\_IRQPriorityConfig}}
+\index{USART\_IRQPriorityConfig@{USART\_IRQPriorityConfig}!USART APIs@{USART APIs}}
+\doxysubsubsection{\texorpdfstring{USART\_IRQPriorityConfig()}{USART\_IRQPriorityConfig()}}
+{\footnotesize\ttfamily void USART\+\_\+\+IRQPriority\+Config (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{IRQNumber,  }\item[{uint32\+\_\+t}]{IRQPriority }\end{DoxyParamCaption})}
+
+
+
+Set the priority of an IRQ. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em IRQNumber} & IRQ number to set priority for. \\
+\hline
+{\em IRQPriority} & Priority to be set. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__USART__APIS_ga6fa2bf9f7142dbc2b9b552cf0c592f0c}\label{group__USART__APIS_ga6fa2bf9f7142dbc2b9b552cf0c592f0c}} 
+\index{USART APIs@{USART APIs}!USART\_PeripheralClockControl@{USART\_PeripheralClockControl}}
+\index{USART\_PeripheralClockControl@{USART\_PeripheralClockControl}!USART APIs@{USART APIs}}
+\doxysubsubsection{\texorpdfstring{USART\_PeripheralClockControl()}{USART\_PeripheralClockControl()}}
+{\footnotesize\ttfamily void USART\+\_\+\+Peripheral\+Clock\+Control (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+USARTx,  }\item[{uint8\+\_\+t}]{Enor\+Di }\end{DoxyParamCaption})}
+
+
+
+Enable or disable the peripheral clock for the given USARTx. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+USARTx} & Pointer to the USART peripheral. \\
+\hline
+{\em Enor\+Di} & ENABLE or DISABLE the clock. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__USART__APIS_gaf88d9768163143f669dfd237db85aec0}\label{group__USART__APIS_gaf88d9768163143f669dfd237db85aec0}} 
+\index{USART APIs@{USART APIs}!USART\_PeripheralControl@{USART\_PeripheralControl}}
+\index{USART\_PeripheralControl@{USART\_PeripheralControl}!USART APIs@{USART APIs}}
+\doxysubsubsection{\texorpdfstring{USART\_PeripheralControl()}{USART\_PeripheralControl()}}
+{\footnotesize\ttfamily void USART\+\_\+\+Peripheral\+Control (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+USARTx,  }\item[{uint8\+\_\+t}]{Enor\+Di }\end{DoxyParamCaption})}
+
+
+
+Control the USART peripheral (ENABLE/\+DISABLE). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+USARTx} & Pointer to the USART peripheral. \\
+\hline
+{\em Enor\+Di} & ENABLE or DISABLE the peripheral. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__USART__APIS_gaafcc74a54eb7f0a12a36487b452da59c}\label{group__USART__APIS_gaafcc74a54eb7f0a12a36487b452da59c}} 
+\index{USART APIs@{USART APIs}!USART\_ReceiveData@{USART\_ReceiveData}}
+\index{USART\_ReceiveData@{USART\_ReceiveData}!USART APIs@{USART APIs}}
+\doxysubsubsection{\texorpdfstring{USART\_ReceiveData()}{USART\_ReceiveData()}}
+{\footnotesize\ttfamily void USART\+\_\+\+Receive\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+USARTHandle,  }\item[{uint8\+\_\+t $\ast$}]{p\+Rx\+Buffer,  }\item[{uint32\+\_\+t}]{Len }\end{DoxyParamCaption})}
+
+
+
+Receive data from USART. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+USARTHandle} & Pointer to the USART handle structure. \\
+\hline
+{\em p\+Rx\+Buffer} & Pointer to the receive buffer. \\
+\hline
+{\em Len} & Length of data to be received. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__USART__APIS_ga6c7db552dd2c1f90e8743216a2788b3b}\label{group__USART__APIS_ga6c7db552dd2c1f90e8743216a2788b3b}} 
+\index{USART APIs@{USART APIs}!USART\_ReceiveDataIT@{USART\_ReceiveDataIT}}
+\index{USART\_ReceiveDataIT@{USART\_ReceiveDataIT}!USART APIs@{USART APIs}}
+\doxysubsubsection{\texorpdfstring{USART\_ReceiveDataIT()}{USART\_ReceiveDataIT()}}
+{\footnotesize\ttfamily uint8\+\_\+t USART\+\_\+\+Receive\+Data\+IT (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+USARTHandle,  }\item[{uint8\+\_\+t $\ast$}]{p\+Rx\+Buffer,  }\item[{uint32\+\_\+t}]{Len }\end{DoxyParamCaption})}
+
+
+
+Receive data from USART using interrupt-\/driven communication. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+USARTHandle} & Pointer to the USART handle structure. \\
+\hline
+{\em p\+Rx\+Buffer} & Pointer to the receive buffer. \\
+\hline
+{\em Len} & Length of data to be received. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+uint8\+\_\+t Reception status. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__USART__APIS_gac07c40fd91c832c49bc0aa649b85acfb}\label{group__USART__APIS_gac07c40fd91c832c49bc0aa649b85acfb}} 
+\index{USART APIs@{USART APIs}!USART\_SendData@{USART\_SendData}}
+\index{USART\_SendData@{USART\_SendData}!USART APIs@{USART APIs}}
+\doxysubsubsection{\texorpdfstring{USART\_SendData()}{USART\_SendData()}}
+{\footnotesize\ttfamily void USART\+\_\+\+Send\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+USARTHandle,  }\item[{uint8\+\_\+t $\ast$}]{p\+Tx\+Buffer,  }\item[{uint32\+\_\+t}]{Len }\end{DoxyParamCaption})}
+
+
+
+Send data over USART. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+USARTHandle} & Pointer to the USART handle structure. \\
+\hline
+{\em p\+Tx\+Buffer} & Pointer to the transmit buffer. \\
+\hline
+{\em Len} & Length of data to be sent. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__USART__APIS_ga50fdac2af4a69887bceb1dec2a16ebaf}\label{group__USART__APIS_ga50fdac2af4a69887bceb1dec2a16ebaf}} 
+\index{USART APIs@{USART APIs}!USART\_SendDataIT@{USART\_SendDataIT}}
+\index{USART\_SendDataIT@{USART\_SendDataIT}!USART APIs@{USART APIs}}
+\doxysubsubsection{\texorpdfstring{USART\_SendDataIT()}{USART\_SendDataIT()}}
+{\footnotesize\ttfamily uint8\+\_\+t USART\+\_\+\+Send\+Data\+IT (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+USARTHandle,  }\item[{uint8\+\_\+t $\ast$}]{p\+Tx\+Buffer,  }\item[{uint32\+\_\+t}]{Len }\end{DoxyParamCaption})}
+
+
+
+Send data over USART using interrupt-\/driven communication. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+USARTHandle} & Pointer to the USART handle structure. \\
+\hline
+{\em p\+Tx\+Buffer} & Pointer to the transmit buffer. \\
+\hline
+{\em Len} & Length of data to be sent. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+uint8\+\_\+t Transmission status. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__USART__APIS_gaa95f8910a4887083ee310f38dd04e1af}\label{group__USART__APIS_gaa95f8910a4887083ee310f38dd04e1af}} 
+\index{USART APIs@{USART APIs}!USART\_SetBaudRate@{USART\_SetBaudRate}}
+\index{USART\_SetBaudRate@{USART\_SetBaudRate}!USART APIs@{USART APIs}}
+\doxysubsubsection{\texorpdfstring{USART\_SetBaudRate()}{USART\_SetBaudRate()}}
+{\footnotesize\ttfamily void USART\+\_\+\+Set\+Baud\+Rate (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+USARTx,  }\item[{uint32\+\_\+t}]{Baud\+Rate }\end{DoxyParamCaption})}
+
+
+
+Set the baud rate for a USART peripheral. 
+
+This function calculates and sets the baud rate for a USART peripheral based on the provided baud rate and the system\textquotesingle{}s APB clock frequency.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+USARTx} & Pointer to the USART peripheral. \\
+\hline
+{\em Baud\+Rate} & Desired baud rate (in bits per second).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+The function assumes that the USART is already initialized and configured.
+\end{DoxyNote}
+\begin{DoxyWarning}{Warning}
+This function may not work as expected if the USART peripheral is not properly configured.
+\end{DoxyWarning}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}

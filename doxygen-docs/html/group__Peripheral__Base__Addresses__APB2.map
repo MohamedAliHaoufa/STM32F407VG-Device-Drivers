@@ -1,0 +1,4 @@
+<map id="Peripheral Base Addresses on APB2 Bus" name="Peripheral Base Addresses on APB2 Bus">
+<area shape="rect" id="node1" title="Base addresses of peripherals connected to the APB2 bus." alt="" coords="248,5,443,45"/>
+<area shape="rect" id="node2" href="$group__STM32F407XX__PERIPHERALS.html" title="Base addresses of various peripherals for the STM32F407xx MCU." alt="" coords="5,13,200,38"/>
+</map>

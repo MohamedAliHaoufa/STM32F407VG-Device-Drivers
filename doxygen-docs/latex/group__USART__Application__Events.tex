@@ -1,0 +1,91 @@
+\hypertarget{group__USART__Application__Events}{}\doxysection{USART Application Events}
+\label{group__USART__Application__Events}\index{USART Application Events@{USART Application Events}}
+
+
+Defines possible events that can occur in the USART application.  
+
+
+Collaboration diagram for USART Application Events\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{group__USART__Application__Events}
+\end{center}
+\end{figure}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{group__USART__Application__Events_gae82899846b808101133e9a14d26f5354}{USART\+\_\+\+EVENT\+\_\+\+TX\+\_\+\+CMPLT}}~0
+\item 
+\#define \mbox{\hyperlink{group__USART__Application__Events_ga1afa7c5d2c57d587df8b6e5d00693613}{USART\+\_\+\+EVENT\+\_\+\+RX\+\_\+\+CMPLT}}~1
+\item 
+\#define \mbox{\hyperlink{group__USART__Application__Events_ga574a5b3fe76dabc45effbbac62aa004e}{USART\+\_\+\+EVENT\+\_\+\+IDLE}}~2
+\item 
+\#define \mbox{\hyperlink{group__USART__Application__Events_ga4783df2ed90e194263932d708c55b13e}{USART\+\_\+\+EVENT\+\_\+\+CTS}}~3
+\item 
+\#define \mbox{\hyperlink{group__USART__Application__Events_ga37c7f494c13f291e79237f43bc62ceff}{USART\+\_\+\+EVENT\+\_\+\+PE}}~4
+\item 
+\#define \mbox{\hyperlink{group__USART__Application__Events_gaaa16d45481e6c85d784c63c56a848809}{USART\+\_\+\+ERR\+\_\+\+FE}}~5
+\item 
+\#define \mbox{\hyperlink{group__USART__Application__Events_gaf45eeb98577829f5f4dfe452d5fa67d9}{USART\+\_\+\+ERR\+\_\+\+NE}}~6
+\item 
+\#define \mbox{\hyperlink{group__USART__Application__Events_ga6e8d3e8f423bd07056be31c7991317e6}{USART\+\_\+\+ERR\+\_\+\+ORE}}~7
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Defines possible events that can occur in the USART application. 
+
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{group__USART__Application__Events_gaaa16d45481e6c85d784c63c56a848809}\label{group__USART__Application__Events_gaaa16d45481e6c85d784c63c56a848809}} 
+\index{USART Application Events@{USART Application Events}!USART\_ERR\_FE@{USART\_ERR\_FE}}
+\index{USART\_ERR\_FE@{USART\_ERR\_FE}!USART Application Events@{USART Application Events}}
+\doxysubsubsection{\texorpdfstring{USART\_ERR\_FE}{USART\_ERR\_FE}}
+{\footnotesize\ttfamily \#define USART\+\_\+\+ERR\+\_\+\+FE~5}
+
+Interrupt Event indicating a framing error during USART communication. \mbox{\Hypertarget{group__USART__Application__Events_gaf45eeb98577829f5f4dfe452d5fa67d9}\label{group__USART__Application__Events_gaf45eeb98577829f5f4dfe452d5fa67d9}} 
+\index{USART Application Events@{USART Application Events}!USART\_ERR\_NE@{USART\_ERR\_NE}}
+\index{USART\_ERR\_NE@{USART\_ERR\_NE}!USART Application Events@{USART Application Events}}
+\doxysubsubsection{\texorpdfstring{USART\_ERR\_NE}{USART\_ERR\_NE}}
+{\footnotesize\ttfamily \#define USART\+\_\+\+ERR\+\_\+\+NE~6}
+
+Interrupt Event indicating a noise error during USART communication. \mbox{\Hypertarget{group__USART__Application__Events_ga6e8d3e8f423bd07056be31c7991317e6}\label{group__USART__Application__Events_ga6e8d3e8f423bd07056be31c7991317e6}} 
+\index{USART Application Events@{USART Application Events}!USART\_ERR\_ORE@{USART\_ERR\_ORE}}
+\index{USART\_ERR\_ORE@{USART\_ERR\_ORE}!USART Application Events@{USART Application Events}}
+\doxysubsubsection{\texorpdfstring{USART\_ERR\_ORE}{USART\_ERR\_ORE}}
+{\footnotesize\ttfamily \#define USART\+\_\+\+ERR\+\_\+\+ORE~7}
+
+Interrupt Event indicating an overrun error during USART communication. \mbox{\Hypertarget{group__USART__Application__Events_ga4783df2ed90e194263932d708c55b13e}\label{group__USART__Application__Events_ga4783df2ed90e194263932d708c55b13e}} 
+\index{USART Application Events@{USART Application Events}!USART\_EVENT\_CTS@{USART\_EVENT\_CTS}}
+\index{USART\_EVENT\_CTS@{USART\_EVENT\_CTS}!USART Application Events@{USART Application Events}}
+\doxysubsubsection{\texorpdfstring{USART\_EVENT\_CTS}{USART\_EVENT\_CTS}}
+{\footnotesize\ttfamily \#define USART\+\_\+\+EVENT\+\_\+\+CTS~3}
+
+Interrupt Event indicating a change in CTS (Clear To Send) signal during USART communication. \mbox{\Hypertarget{group__USART__Application__Events_ga574a5b3fe76dabc45effbbac62aa004e}\label{group__USART__Application__Events_ga574a5b3fe76dabc45effbbac62aa004e}} 
+\index{USART Application Events@{USART Application Events}!USART\_EVENT\_IDLE@{USART\_EVENT\_IDLE}}
+\index{USART\_EVENT\_IDLE@{USART\_EVENT\_IDLE}!USART Application Events@{USART Application Events}}
+\doxysubsubsection{\texorpdfstring{USART\_EVENT\_IDLE}{USART\_EVENT\_IDLE}}
+{\footnotesize\ttfamily \#define USART\+\_\+\+EVENT\+\_\+\+IDLE~2}
+
+Interrupt Event indicating an idle line detection during USART communication. \mbox{\Hypertarget{group__USART__Application__Events_ga37c7f494c13f291e79237f43bc62ceff}\label{group__USART__Application__Events_ga37c7f494c13f291e79237f43bc62ceff}} 
+\index{USART Application Events@{USART Application Events}!USART\_EVENT\_PE@{USART\_EVENT\_PE}}
+\index{USART\_EVENT\_PE@{USART\_EVENT\_PE}!USART Application Events@{USART Application Events}}
+\doxysubsubsection{\texorpdfstring{USART\_EVENT\_PE}{USART\_EVENT\_PE}}
+{\footnotesize\ttfamily \#define USART\+\_\+\+EVENT\+\_\+\+PE~4}
+
+Interrupt Event indicating a parity error during USART communication. \mbox{\Hypertarget{group__USART__Application__Events_ga1afa7c5d2c57d587df8b6e5d00693613}\label{group__USART__Application__Events_ga1afa7c5d2c57d587df8b6e5d00693613}} 
+\index{USART Application Events@{USART Application Events}!USART\_EVENT\_RX\_CMPLT@{USART\_EVENT\_RX\_CMPLT}}
+\index{USART\_EVENT\_RX\_CMPLT@{USART\_EVENT\_RX\_CMPLT}!USART Application Events@{USART Application Events}}
+\doxysubsubsection{\texorpdfstring{USART\_EVENT\_RX\_CMPLT}{USART\_EVENT\_RX\_CMPLT}}
+{\footnotesize\ttfamily \#define USART\+\_\+\+EVENT\+\_\+\+RX\+\_\+\+CMPLT~1}
+
+Interrupt Event indicating the completion of a receive operation. \mbox{\Hypertarget{group__USART__Application__Events_gae82899846b808101133e9a14d26f5354}\label{group__USART__Application__Events_gae82899846b808101133e9a14d26f5354}} 
+\index{USART Application Events@{USART Application Events}!USART\_EVENT\_TX\_CMPLT@{USART\_EVENT\_TX\_CMPLT}}
+\index{USART\_EVENT\_TX\_CMPLT@{USART\_EVENT\_TX\_CMPLT}!USART Application Events@{USART Application Events}}
+\doxysubsubsection{\texorpdfstring{USART\_EVENT\_TX\_CMPLT}{USART\_EVENT\_TX\_CMPLT}}
+{\footnotesize\ttfamily \#define USART\+\_\+\+EVENT\+\_\+\+TX\+\_\+\+CMPLT~0}
+
+Interrupt Event indicating the completion of a transmit operation. 

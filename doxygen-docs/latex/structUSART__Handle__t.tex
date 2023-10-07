@@ -1,0 +1,99 @@
+\hypertarget{structUSART__Handle__t}{}\doxysection{USART\+\_\+\+Handle\+\_\+t Struct Reference}
+\label{structUSART__Handle__t}\index{USART\_Handle\_t@{USART\_Handle\_t}}
+
+
+Handle structure for USART peripheral.  
+
+
+
+
+{\ttfamily \#include $<$stm32f407xx\+\_\+usart\+\_\+driver.\+h$>$}
+
+
+
+Collaboration diagram for USART\+\_\+\+Handle\+\_\+t\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{structUSART__Handle__t__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}} $\ast$ \mbox{\hyperlink{structUSART__Handle__t_a92d1eda6b38861b828d2471853adacad}{p\+USARTx}}
+\item 
+\mbox{\hyperlink{structUSART__Config__t}{USART\+\_\+\+Config\+\_\+t}} \mbox{\hyperlink{structUSART__Handle__t_a792428d5706f74c592be5fae86bfb3b3}{USART\+\_\+\+Config}}
+\item 
+uint8\+\_\+t $\ast$ \mbox{\hyperlink{structUSART__Handle__t_aeb49a4cedbbf9ea5a5d97f9ad81e75a4}{p\+Tx\+Buffer}}
+\item 
+uint8\+\_\+t $\ast$ \mbox{\hyperlink{structUSART__Handle__t_a248a7cd701bde7b353b0290aa91b1369}{p\+Rx\+Buffer}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{structUSART__Handle__t_a396419f1a3cf262404766daf1d32de32}{Tx\+Len}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{structUSART__Handle__t_af48016eeb1e15c7f540e803a267c0733}{Rx\+Len}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{structUSART__Handle__t_ad6767cbc2c38ca59fcf8f3772a3c102a}{Tx\+Busy\+State}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{structUSART__Handle__t_a47c4996aef3e23260492e8e9037667c1}{Rx\+Busy\+State}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Handle structure for USART peripheral. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{structUSART__Handle__t_a248a7cd701bde7b353b0290aa91b1369}\label{structUSART__Handle__t_a248a7cd701bde7b353b0290aa91b1369}} 
+\index{USART\_Handle\_t@{USART\_Handle\_t}!pRxBuffer@{pRxBuffer}}
+\index{pRxBuffer@{pRxBuffer}!USART\_Handle\_t@{USART\_Handle\_t}}
+\doxysubsubsection{\texorpdfstring{pRxBuffer}{pRxBuffer}}
+{\footnotesize\ttfamily uint8\+\_\+t$\ast$ USART\+\_\+\+Handle\+\_\+t\+::p\+Rx\+Buffer}
+
+Pointer to the receive buffer. \mbox{\Hypertarget{structUSART__Handle__t_aeb49a4cedbbf9ea5a5d97f9ad81e75a4}\label{structUSART__Handle__t_aeb49a4cedbbf9ea5a5d97f9ad81e75a4}} 
+\index{USART\_Handle\_t@{USART\_Handle\_t}!pTxBuffer@{pTxBuffer}}
+\index{pTxBuffer@{pTxBuffer}!USART\_Handle\_t@{USART\_Handle\_t}}
+\doxysubsubsection{\texorpdfstring{pTxBuffer}{pTxBuffer}}
+{\footnotesize\ttfamily uint8\+\_\+t$\ast$ USART\+\_\+\+Handle\+\_\+t\+::p\+Tx\+Buffer}
+
+Pointer to the transmit buffer. \mbox{\Hypertarget{structUSART__Handle__t_a92d1eda6b38861b828d2471853adacad}\label{structUSART__Handle__t_a92d1eda6b38861b828d2471853adacad}} 
+\index{USART\_Handle\_t@{USART\_Handle\_t}!pUSARTx@{pUSARTx}}
+\index{pUSARTx@{pUSARTx}!USART\_Handle\_t@{USART\_Handle\_t}}
+\doxysubsubsection{\texorpdfstring{pUSARTx}{pUSARTx}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structUSART__RegDef__t}{USART\+\_\+\+Reg\+Def\+\_\+t}}$\ast$ USART\+\_\+\+Handle\+\_\+t\+::p\+USARTx}
+
+Pointer to the USART peripheral\textquotesingle{}s base address. \mbox{\Hypertarget{structUSART__Handle__t_a47c4996aef3e23260492e8e9037667c1}\label{structUSART__Handle__t_a47c4996aef3e23260492e8e9037667c1}} 
+\index{USART\_Handle\_t@{USART\_Handle\_t}!RxBusyState@{RxBusyState}}
+\index{RxBusyState@{RxBusyState}!USART\_Handle\_t@{USART\_Handle\_t}}
+\doxysubsubsection{\texorpdfstring{RxBusyState}{RxBusyState}}
+{\footnotesize\ttfamily uint8\+\_\+t USART\+\_\+\+Handle\+\_\+t\+::\+Rx\+Busy\+State}
+
+Receiver state\+: BUSY (1) or IDLE (0). \mbox{\Hypertarget{structUSART__Handle__t_af48016eeb1e15c7f540e803a267c0733}\label{structUSART__Handle__t_af48016eeb1e15c7f540e803a267c0733}} 
+\index{USART\_Handle\_t@{USART\_Handle\_t}!RxLen@{RxLen}}
+\index{RxLen@{RxLen}!USART\_Handle\_t@{USART\_Handle\_t}}
+\doxysubsubsection{\texorpdfstring{RxLen}{RxLen}}
+{\footnotesize\ttfamily uint32\+\_\+t USART\+\_\+\+Handle\+\_\+t\+::\+Rx\+Len}
+
+Length of data to be received. \mbox{\Hypertarget{structUSART__Handle__t_ad6767cbc2c38ca59fcf8f3772a3c102a}\label{structUSART__Handle__t_ad6767cbc2c38ca59fcf8f3772a3c102a}} 
+\index{USART\_Handle\_t@{USART\_Handle\_t}!TxBusyState@{TxBusyState}}
+\index{TxBusyState@{TxBusyState}!USART\_Handle\_t@{USART\_Handle\_t}}
+\doxysubsubsection{\texorpdfstring{TxBusyState}{TxBusyState}}
+{\footnotesize\ttfamily uint8\+\_\+t USART\+\_\+\+Handle\+\_\+t\+::\+Tx\+Busy\+State}
+
+Transmitter state\+: BUSY (1) or IDLE (0). \mbox{\Hypertarget{structUSART__Handle__t_a396419f1a3cf262404766daf1d32de32}\label{structUSART__Handle__t_a396419f1a3cf262404766daf1d32de32}} 
+\index{USART\_Handle\_t@{USART\_Handle\_t}!TxLen@{TxLen}}
+\index{TxLen@{TxLen}!USART\_Handle\_t@{USART\_Handle\_t}}
+\doxysubsubsection{\texorpdfstring{TxLen}{TxLen}}
+{\footnotesize\ttfamily uint32\+\_\+t USART\+\_\+\+Handle\+\_\+t\+::\+Tx\+Len}
+
+Length of data to be transmitted. \mbox{\Hypertarget{structUSART__Handle__t_a792428d5706f74c592be5fae86bfb3b3}\label{structUSART__Handle__t_a792428d5706f74c592be5fae86bfb3b3}} 
+\index{USART\_Handle\_t@{USART\_Handle\_t}!USART\_Config@{USART\_Config}}
+\index{USART\_Config@{USART\_Config}!USART\_Handle\_t@{USART\_Handle\_t}}
+\doxysubsubsection{\texorpdfstring{USART\_Config}{USART\_Config}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structUSART__Config__t}{USART\+\_\+\+Config\+\_\+t}} USART\+\_\+\+Handle\+\_\+t\+::\+USART\+\_\+\+Config}
+
+USART configuration structure. 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+drivers/\+Inc/\mbox{\hyperlink{stm32f407xx__usart__driver_8h}{stm32f407xx\+\_\+usart\+\_\+driver.\+h}}\end{DoxyCompactItemize}

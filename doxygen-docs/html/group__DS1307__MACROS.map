@@ -1,0 +1,8 @@
+<map id="DS1307 Macros" name="DS1307 Macros">
+<area shape="rect" id="node1" href="$group__DS1307__CONFIGURABLE__ITEMS.html" title="Macros for DS1307 configuration settings." alt="" coords="368,5,527,45"/>
+<area shape="rect" id="node2" title="Macros for DS1307 configuration and settings." alt="" coords="197,95,320,121"/>
+<area shape="rect" id="node3" href="$group__DS1307__TIME__FORMAT.html" title="Macros for DS1307 time format settings." alt="" coords="391,70,503,95"/>
+<area shape="rect" id="node4" href="$group__DS1307__DAYS__OF__WEEK.html" title="Macros for DS1307 day of the week settings." alt="" coords="379,119,516,145"/>
+<area shape="rect" id="node5" href="$group__DS1307__REGISTER__ADDRESSES.html" title="Macros for DS1307 register addresses as per DS1307&#39;s Data&#45;sheet." alt="" coords="374,169,521,194"/>
+<area shape="rect" id="node6" href="$group__DS1307.html" title="DS1307 Real&#45;Time Clock (RTC) driver for STM32F4xx MCUs." alt="" coords="5,95,149,121"/>
+</map>

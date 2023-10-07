@@ -1,0 +1,35 @@
+\hypertarget{group__Reset__SPIx__Reset}{}\doxysection{Reset SPIx Peripherals}
+\label{group__Reset__SPIx__Reset}\index{Reset SPIx Peripherals@{Reset SPIx Peripherals}}
+
+
+Macros for resetting SPI peripherals.  
+
+
+Collaboration diagram for Reset SPIx Peripherals\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__Reset__SPIx__Reset}
+\end{center}
+\end{figure}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__Reset__SPIx__Reset_ga8ad3456e4edd9d3a56bb24017c74a0f8}\label{group__Reset__SPIx__Reset_ga8ad3456e4edd9d3a56bb24017c74a0f8}} 
+\#define {\bfseries SPI1\+\_\+\+REG\+\_\+\+RESET}()~do\{ ( RCC-\/$>$APB2\+RSTR $\vert$= (1$<$$<$12) ); ( RCC-\/$>$APB2\+RSTR  \&= $\sim$(1$<$$<$12) );\}while(0)
+\item 
+\mbox{\Hypertarget{group__Reset__SPIx__Reset_ga44e99a893c3d829b4976108cd7491f3e}\label{group__Reset__SPIx__Reset_ga44e99a893c3d829b4976108cd7491f3e}} 
+\#define {\bfseries SPI2\+\_\+\+REG\+\_\+\+RESET}()~do\{ ( RCC-\/$>$APB1\+RSTR $\vert$= (1$<$$<$14) ); ( RCC-\/$>$APB1\+RSTR  \&= $\sim$(1$<$$<$14) );\}while(0)
+\item 
+\mbox{\Hypertarget{group__Reset__SPIx__Reset_ga5ab7e6322f1ec13413d2587f14151ba8}\label{group__Reset__SPIx__Reset_ga5ab7e6322f1ec13413d2587f14151ba8}} 
+\#define {\bfseries SPI3\+\_\+\+REG\+\_\+\+RESET}()~do\{ ( RCC-\/$>$APB1\+RSTR $\vert$= (1$<$$<$15) ); ( RCC-\/$>$APB1\+RSTR  \&= $\sim$(1$<$$<$15) );\}while(0)
+\item 
+\mbox{\Hypertarget{group__Reset__SPIx__Reset_ga3a017fd54dca0dfcc151eac5b4de42a6}\label{group__Reset__SPIx__Reset_ga3a017fd54dca0dfcc151eac5b4de42a6}} 
+\#define {\bfseries SPI4\+\_\+\+REG\+\_\+\+RESET}()~do\{ ( RCC-\/$>$APB2\+RSTR $\vert$= (1$<$$<$13) ); ( RCC-\/$>$APB2\+RSTR  \&= $\sim$(1$<$$<$13) );\}while(0)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Macros for resetting SPI peripherals. 
+

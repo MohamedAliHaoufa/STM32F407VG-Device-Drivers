@@ -1,0 +1,73 @@
+\hypertarget{structUSART__Config__t}{}\doxysection{USART\+\_\+\+Config\+\_\+t Struct Reference}
+\label{structUSART__Config__t}\index{USART\_Config\_t@{USART\_Config\_t}}
+
+
+Configuration structure for USART (Universal Synchronous Asynchronous Receiver Transmitter) peripheral.  
+
+
+
+
+{\ttfamily \#include $<$stm32f407xx\+\_\+usart\+\_\+driver.\+h$>$}
+
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{structUSART__Config__t_a84a8921b660a1bc7daf96617cf9bbfe3}{USART\+\_\+\+Mode}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{structUSART__Config__t_a73a6cab28acddd2e3d828a616e2113b2}{USART\+\_\+\+Baud}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{structUSART__Config__t_a2858a3fbabec594b1fb18ef37e046bcf}{USART\+\_\+\+No\+Of\+Stop\+Bits}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{structUSART__Config__t_a33559f7a937eb8c2a6261e263adb1778}{USART\+\_\+\+Word\+Length}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{structUSART__Config__t_a024bb0198b787c266c5ef4001e6c363e}{USART\+\_\+\+Parity\+Control}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{structUSART__Config__t_a9a793a616f556a7eef1e83ac07bb6e2c}{USART\+\_\+\+HWFlow\+Control}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Configuration structure for USART (Universal Synchronous Asynchronous Receiver Transmitter) peripheral. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{structUSART__Config__t_a73a6cab28acddd2e3d828a616e2113b2}\label{structUSART__Config__t_a73a6cab28acddd2e3d828a616e2113b2}} 
+\index{USART\_Config\_t@{USART\_Config\_t}!USART\_Baud@{USART\_Baud}}
+\index{USART\_Baud@{USART\_Baud}!USART\_Config\_t@{USART\_Config\_t}}
+\doxysubsubsection{\texorpdfstring{USART\_Baud}{USART\_Baud}}
+{\footnotesize\ttfamily uint8\+\_\+t USART\+\_\+\+Config\+\_\+t\+::\+USART\+\_\+\+Baud}
+
+Specifies the baud rate for serial communication. \mbox{\Hypertarget{structUSART__Config__t_a9a793a616f556a7eef1e83ac07bb6e2c}\label{structUSART__Config__t_a9a793a616f556a7eef1e83ac07bb6e2c}} 
+\index{USART\_Config\_t@{USART\_Config\_t}!USART\_HWFlowControl@{USART\_HWFlowControl}}
+\index{USART\_HWFlowControl@{USART\_HWFlowControl}!USART\_Config\_t@{USART\_Config\_t}}
+\doxysubsubsection{\texorpdfstring{USART\_HWFlowControl}{USART\_HWFlowControl}}
+{\footnotesize\ttfamily uint8\+\_\+t USART\+\_\+\+Config\+\_\+t\+::\+USART\+\_\+\+HWFlow\+Control}
+
+Specifies the hardware flow control mode, if applicable. \mbox{\Hypertarget{structUSART__Config__t_a84a8921b660a1bc7daf96617cf9bbfe3}\label{structUSART__Config__t_a84a8921b660a1bc7daf96617cf9bbfe3}} 
+\index{USART\_Config\_t@{USART\_Config\_t}!USART\_Mode@{USART\_Mode}}
+\index{USART\_Mode@{USART\_Mode}!USART\_Config\_t@{USART\_Config\_t}}
+\doxysubsubsection{\texorpdfstring{USART\_Mode}{USART\_Mode}}
+{\footnotesize\ttfamily uint8\+\_\+t USART\+\_\+\+Config\+\_\+t\+::\+USART\+\_\+\+Mode}
+
+Specifies the USART operating mode (e.\+g., transmit, receive, or both). \mbox{\Hypertarget{structUSART__Config__t_a2858a3fbabec594b1fb18ef37e046bcf}\label{structUSART__Config__t_a2858a3fbabec594b1fb18ef37e046bcf}} 
+\index{USART\_Config\_t@{USART\_Config\_t}!USART\_NoOfStopBits@{USART\_NoOfStopBits}}
+\index{USART\_NoOfStopBits@{USART\_NoOfStopBits}!USART\_Config\_t@{USART\_Config\_t}}
+\doxysubsubsection{\texorpdfstring{USART\_NoOfStopBits}{USART\_NoOfStopBits}}
+{\footnotesize\ttfamily uint8\+\_\+t USART\+\_\+\+Config\+\_\+t\+::\+USART\+\_\+\+No\+Of\+Stop\+Bits}
+
+Specifies the number of stop bits to use in each frame. \mbox{\Hypertarget{structUSART__Config__t_a024bb0198b787c266c5ef4001e6c363e}\label{structUSART__Config__t_a024bb0198b787c266c5ef4001e6c363e}} 
+\index{USART\_Config\_t@{USART\_Config\_t}!USART\_ParityControl@{USART\_ParityControl}}
+\index{USART\_ParityControl@{USART\_ParityControl}!USART\_Config\_t@{USART\_Config\_t}}
+\doxysubsubsection{\texorpdfstring{USART\_ParityControl}{USART\_ParityControl}}
+{\footnotesize\ttfamily uint8\+\_\+t USART\+\_\+\+Config\+\_\+t\+::\+USART\+\_\+\+Parity\+Control}
+
+Specifies the parity control mode for error checking. \mbox{\Hypertarget{structUSART__Config__t_a33559f7a937eb8c2a6261e263adb1778}\label{structUSART__Config__t_a33559f7a937eb8c2a6261e263adb1778}} 
+\index{USART\_Config\_t@{USART\_Config\_t}!USART\_WordLength@{USART\_WordLength}}
+\index{USART\_WordLength@{USART\_WordLength}!USART\_Config\_t@{USART\_Config\_t}}
+\doxysubsubsection{\texorpdfstring{USART\_WordLength}{USART\_WordLength}}
+{\footnotesize\ttfamily uint8\+\_\+t USART\+\_\+\+Config\+\_\+t\+::\+USART\+\_\+\+Word\+Length}
+
+Specifies the word length (number of data bits) for each frame. 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+drivers/\+Inc/\mbox{\hyperlink{stm32f407xx__usart__driver_8h}{stm32f407xx\+\_\+usart\+\_\+driver.\+h}}\end{DoxyCompactItemize}

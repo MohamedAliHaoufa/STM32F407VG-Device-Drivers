@@ -1,0 +1,422 @@
+\hypertarget{group__SPI__APIS}{}\doxysection{SPI APIs}
+\label{group__SPI__APIS}\index{SPI APIs@{SPI APIs}}
+
+
+APIs supported by the SPI driver.  
+
+
+Collaboration diagram for SPI APIs\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=237pt]{group__SPI__APIS}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga375e85171a072f292fd57c857f635b4e}{SPI\+\_\+\+Peripheral\+Clock\+Control}} (\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+SPIx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Enables or disables the peripheral clock for the SPI port. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga2831f47e18753e6723c91e9aaf560669}{SPI\+\_\+\+Peripheral\+Control}} (\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+SPIx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Enables or disables the SPI peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga4ce11fe34382425f87f43df7e33eaa49}{SPI\+\_\+\+Init}} (\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$p\+SPIHandle)
+\begin{DoxyCompactList}\small\item\em Initializes the SPI port pin according to the configuration. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_gaedcadc52bc7fb8e6c69a689ce029940b}{SPI\+\_\+\+De\+Init}} (\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+SPIx)
+\begin{DoxyCompactList}\small\item\em Deinitializes the SPI port. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__SPI__APIS_gae3b8919bb99c1df96551e00415648cad}{SPI\+\_\+\+Get\+Flag\+Status}} (\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+SPIx, uint8\+\_\+t Flag\+Name)
+\begin{DoxyCompactList}\small\item\em Get the status of a specific SPI flag. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga3429e471ec851e1294e2c2a46ba5ee27}{SPI\+\_\+\+Send\+Data}} (\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+SPIx, uint8\+\_\+t $\ast$p\+Tx\+Buffer, uint32\+\_\+t Len)
+\begin{DoxyCompactList}\small\item\em Sends data over SPI. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_gafa0140875300073c700e84c14ba8b66e}{SPI\+\_\+\+Receive\+Data}} (\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+SPIx, uint8\+\_\+t $\ast$p\+Rx\+Buffer, uint32\+\_\+t Len)
+\begin{DoxyCompactList}\small\item\em Receives data over SPI. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__SPI__APIS_ga4cc209b826ae36f96fa5d1f962a5d801}{SPI\+\_\+\+Send\+Data\+IT}} (\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$p\+SPIHandle, uint8\+\_\+t $\ast$p\+Tx\+Buffer, uint32\+\_\+t Len)
+\begin{DoxyCompactList}\small\item\em Sends data over SPI using interrupt-\/driven communication. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__SPI__APIS_gae15a4f338eeabf175b48a85716ead033}{SPI\+\_\+\+Receive\+Data\+IT}} (\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$p\+SPIHandle, uint8\+\_\+t $\ast$p\+Rx\+Buffer, uint32\+\_\+t Len)
+\begin{DoxyCompactList}\small\item\em Receives data over SPI using interrupt-\/driven communication. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga1cec8fbabd0ea91e5b7ea75fbfe4f7b1}{SPI\+\_\+\+IRQinterrupt\+Config}} (uint8\+\_\+t IRQNumber, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Configures the IRQ for a specific SPI pin. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_gad21ad060c7d119dc150949b2b9c93c16}{SPI\+\_\+\+IRQperiority\+Config}} (uint8\+\_\+t IRQNumber, uint32\+\_\+t IRQpriority)
+\begin{DoxyCompactList}\small\item\em Configures the priority for a specific IRQ. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga225ad4231e1be60d11789233327f34b5}{SPI\+\_\+\+IRQHandling}} (\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$p\+SPIHandle)
+\begin{DoxyCompactList}\small\item\em Handles the IRQ for a specific SPI pin. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_gae916c65b286ea7d325562eee2486c960}{SPI\+\_\+\+SSIConfig}} (\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+SPIx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Enables or disables the Software Slave Management (SSI) configuration for the SPI peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga6b849bba43cca1f1e0fb3b6907a08b21}{SPI\+\_\+\+SSOEConfig}} (\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+SPIx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Enables or disables the SPI Slave Select Output Enable (SSOE) configuration for the SPI peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga0f5ae6c70622347888ecc6e3bc068328}{SPI\+\_\+\+Clear\+OVRFlag}} (\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+SPIx)
+\begin{DoxyCompactList}\small\item\em Clears the overrun error (OVR) flag in the SPI peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_gaa68ba436eda5a06b22c6f2709bfed0df}{SPI\+\_\+\+Close\+Transmission}} (\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$p\+SPIHandle)
+\begin{DoxyCompactList}\small\item\em Closes the transmission operation on the SPI peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga43cb8b97afb19f46dd824981bba7226e}{SPI\+\_\+\+Close\+Reception}} (\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$p\+SPIHandle)
+\begin{DoxyCompactList}\small\item\em Closes the reception operation on the SPI peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__SPI__APIS_ga0dadc709dbf46ef27c5c557fa880edb3}{SPI\+\_\+\+Application\+Event\+Callback}} (\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$p\+SPIHandle, uint8\+\_\+t App\+Ev)
+\begin{DoxyCompactList}\small\item\em SPI Application Event Callback. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+APIs supported by the SPI driver. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group__SPI__APIS_ga0dadc709dbf46ef27c5c557fa880edb3}\label{group__SPI__APIS_ga0dadc709dbf46ef27c5c557fa880edb3}} 
+\index{SPI APIs@{SPI APIs}!SPI\_ApplicationEventCallback@{SPI\_ApplicationEventCallback}}
+\index{SPI\_ApplicationEventCallback@{SPI\_ApplicationEventCallback}!SPI APIs@{SPI APIs}}
+\doxysubsubsection{\texorpdfstring{SPI\_ApplicationEventCallback()}{SPI\_ApplicationEventCallback()}}
+{\footnotesize\ttfamily void SPI\+\_\+\+Application\+Event\+Callback (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+SPIHandle,  }\item[{uint8\+\_\+t}]{App\+Ev }\end{DoxyParamCaption})}
+
+
+
+SPI Application Event Callback. 
+
+This function serves as a callback that can be overridden by the application to handle SPI-\/related events. It is called when specific events occur during SPI communication and allows the application to take custom actions.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+SPIHandle} & Pointer to the SPI handle structure. \\
+\hline
+{\em App\+Ev} & The SPI application event that occurred (e.\+g., transmission complete, reception complete).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+This is a weak implementation, and the application can override this function to provide custom event handling. 
+\end{DoxyNote}
+\mbox{\Hypertarget{group__SPI__APIS_ga0f5ae6c70622347888ecc6e3bc068328}\label{group__SPI__APIS_ga0f5ae6c70622347888ecc6e3bc068328}} 
+\index{SPI APIs@{SPI APIs}!SPI\_ClearOVRFlag@{SPI\_ClearOVRFlag}}
+\index{SPI\_ClearOVRFlag@{SPI\_ClearOVRFlag}!SPI APIs@{SPI APIs}}
+\doxysubsubsection{\texorpdfstring{SPI\_ClearOVRFlag()}{SPI\_ClearOVRFlag()}}
+{\footnotesize\ttfamily void SPI\+\_\+\+Clear\+OVRFlag (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+SPIx }\end{DoxyParamCaption})}
+
+
+
+Clears the overrun error (OVR) flag in the SPI peripheral. 
+
+This function clears the overrun error flag in the status register of the SPI peripheral. Overrun errors occur when new data is received before the previous data is read, causing data loss.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+SPIx} & Pointer to the SPI peripheral for which the overrun error flag should be cleared. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__SPI__APIS_ga43cb8b97afb19f46dd824981bba7226e}\label{group__SPI__APIS_ga43cb8b97afb19f46dd824981bba7226e}} 
+\index{SPI APIs@{SPI APIs}!SPI\_CloseReception@{SPI\_CloseReception}}
+\index{SPI\_CloseReception@{SPI\_CloseReception}!SPI APIs@{SPI APIs}}
+\doxysubsubsection{\texorpdfstring{SPI\_CloseReception()}{SPI\_CloseReception()}}
+{\footnotesize\ttfamily void SPI\+\_\+\+Close\+Reception (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+SPIHandle }\end{DoxyParamCaption})}
+
+
+
+Closes the reception operation on the SPI peripheral. 
+
+This function is used to close the reception operation on the SPI peripheral after all the data has been received. It disables the receive buffer not empty interrupt and sets the reception state to idle.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+SPIHandle} & Pointer to the SPI handle structure. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__SPI__APIS_gaa68ba436eda5a06b22c6f2709bfed0df}\label{group__SPI__APIS_gaa68ba436eda5a06b22c6f2709bfed0df}} 
+\index{SPI APIs@{SPI APIs}!SPI\_CloseTransmission@{SPI\_CloseTransmission}}
+\index{SPI\_CloseTransmission@{SPI\_CloseTransmission}!SPI APIs@{SPI APIs}}
+\doxysubsubsection{\texorpdfstring{SPI\_CloseTransmission()}{SPI\_CloseTransmission()}}
+{\footnotesize\ttfamily void SPI\+\_\+\+Close\+Transmission (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+SPIHandle }\end{DoxyParamCaption})}
+
+
+
+Closes the transmission operation on the SPI peripheral. 
+
+This function is used to close the transmission operation on the SPI peripheral after all the data has been transmitted. It disables the transmit buffer empty interrupt and sets the transmission state to idle.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+SPIHandle} & Pointer to the SPI handle structure. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__SPI__APIS_gaedcadc52bc7fb8e6c69a689ce029940b}\label{group__SPI__APIS_gaedcadc52bc7fb8e6c69a689ce029940b}} 
+\index{SPI APIs@{SPI APIs}!SPI\_DeInit@{SPI\_DeInit}}
+\index{SPI\_DeInit@{SPI\_DeInit}!SPI APIs@{SPI APIs}}
+\doxysubsubsection{\texorpdfstring{SPI\_DeInit()}{SPI\_DeInit()}}
+{\footnotesize\ttfamily void SPI\+\_\+\+De\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+SPIx }\end{DoxyParamCaption})}
+
+
+
+Deinitializes the SPI port. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+SPIx} & Pointer to the SPI peripheral. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__SPI__APIS_gae3b8919bb99c1df96551e00415648cad}\label{group__SPI__APIS_gae3b8919bb99c1df96551e00415648cad}} 
+\index{SPI APIs@{SPI APIs}!SPI\_GetFlagStatus@{SPI\_GetFlagStatus}}
+\index{SPI\_GetFlagStatus@{SPI\_GetFlagStatus}!SPI APIs@{SPI APIs}}
+\doxysubsubsection{\texorpdfstring{SPI\_GetFlagStatus()}{SPI\_GetFlagStatus()}}
+{\footnotesize\ttfamily uint8\+\_\+t SPI\+\_\+\+Get\+Flag\+Status (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+SPIx,  }\item[{uint8\+\_\+t}]{Flag\+Name }\end{DoxyParamCaption})}
+
+
+
+Get the status of a specific SPI flag. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+SPIx} & Pointer to the SPI peripheral. \\
+\hline
+{\em Flag\+Name} & Flag to check (e.\+g., SPI\+\_\+\+TXE\+\_\+\+FLAG, SPI\+\_\+\+RXNE\+\_\+\+FLAG).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+FLAG\+\_\+\+SET if the flag is set, FLAG\+\_\+\+RESET if not. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__SPI__APIS_ga4ce11fe34382425f87f43df7e33eaa49}\label{group__SPI__APIS_ga4ce11fe34382425f87f43df7e33eaa49}} 
+\index{SPI APIs@{SPI APIs}!SPI\_Init@{SPI\_Init}}
+\index{SPI\_Init@{SPI\_Init}!SPI APIs@{SPI APIs}}
+\doxysubsubsection{\texorpdfstring{SPI\_Init()}{SPI\_Init()}}
+{\footnotesize\ttfamily void SPI\+\_\+\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+SPIHandle }\end{DoxyParamCaption})}
+
+
+
+Initializes the SPI port pin according to the configuration. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+SPIHandle} & Pointer to the SPI handle structure. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__SPI__APIS_ga225ad4231e1be60d11789233327f34b5}\label{group__SPI__APIS_ga225ad4231e1be60d11789233327f34b5}} 
+\index{SPI APIs@{SPI APIs}!SPI\_IRQHandling@{SPI\_IRQHandling}}
+\index{SPI\_IRQHandling@{SPI\_IRQHandling}!SPI APIs@{SPI APIs}}
+\doxysubsubsection{\texorpdfstring{SPI\_IRQHandling()}{SPI\_IRQHandling()}}
+{\footnotesize\ttfamily void SPI\+\_\+\+IRQHandling (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+SPIHandle }\end{DoxyParamCaption})}
+
+
+
+Handles the IRQ for a specific SPI pin. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Pin\+Number} & SPI pin number. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__SPI__APIS_ga1cec8fbabd0ea91e5b7ea75fbfe4f7b1}\label{group__SPI__APIS_ga1cec8fbabd0ea91e5b7ea75fbfe4f7b1}} 
+\index{SPI APIs@{SPI APIs}!SPI\_IRQinterruptConfig@{SPI\_IRQinterruptConfig}}
+\index{SPI\_IRQinterruptConfig@{SPI\_IRQinterruptConfig}!SPI APIs@{SPI APIs}}
+\doxysubsubsection{\texorpdfstring{SPI\_IRQinterruptConfig()}{SPI\_IRQinterruptConfig()}}
+{\footnotesize\ttfamily void SPI\+\_\+\+IRQinterrupt\+Config (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{IRQNumber,  }\item[{uint8\+\_\+t}]{Enor\+Di }\end{DoxyParamCaption})}
+
+
+
+Configures the IRQ for a specific SPI pin. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em IRQNumber} & IRQ number. \\
+\hline
+{\em Enor\+Di} & ENABLE to enable IRQ, DISABLE to disable IRQ. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__SPI__APIS_gad21ad060c7d119dc150949b2b9c93c16}\label{group__SPI__APIS_gad21ad060c7d119dc150949b2b9c93c16}} 
+\index{SPI APIs@{SPI APIs}!SPI\_IRQperiorityConfig@{SPI\_IRQperiorityConfig}}
+\index{SPI\_IRQperiorityConfig@{SPI\_IRQperiorityConfig}!SPI APIs@{SPI APIs}}
+\doxysubsubsection{\texorpdfstring{SPI\_IRQperiorityConfig()}{SPI\_IRQperiorityConfig()}}
+{\footnotesize\ttfamily void SPI\+\_\+\+IRQperiority\+Config (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{IRQNumber,  }\item[{uint32\+\_\+t}]{IRQpriority }\end{DoxyParamCaption})}
+
+
+
+Configures the priority for a specific IRQ. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em IRQNumber} & IRQ number. \\
+\hline
+{\em IRQpriority} & Priority value. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__SPI__APIS_ga375e85171a072f292fd57c857f635b4e}\label{group__SPI__APIS_ga375e85171a072f292fd57c857f635b4e}} 
+\index{SPI APIs@{SPI APIs}!SPI\_PeripheralClockControl@{SPI\_PeripheralClockControl}}
+\index{SPI\_PeripheralClockControl@{SPI\_PeripheralClockControl}!SPI APIs@{SPI APIs}}
+\doxysubsubsection{\texorpdfstring{SPI\_PeripheralClockControl()}{SPI\_PeripheralClockControl()}}
+{\footnotesize\ttfamily void SPI\+\_\+\+Peripheral\+Clock\+Control (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+SPIx,  }\item[{uint8\+\_\+t}]{Enor\+Di }\end{DoxyParamCaption})}
+
+
+
+Enables or disables the peripheral clock for the SPI port. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+SPIx} & Pointer to the SPI peripheral. \\
+\hline
+{\em Enor\+Di} & ENABLE to enable clock, DISABLE to disable clock. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__SPI__APIS_ga2831f47e18753e6723c91e9aaf560669}\label{group__SPI__APIS_ga2831f47e18753e6723c91e9aaf560669}} 
+\index{SPI APIs@{SPI APIs}!SPI\_PeripheralControl@{SPI\_PeripheralControl}}
+\index{SPI\_PeripheralControl@{SPI\_PeripheralControl}!SPI APIs@{SPI APIs}}
+\doxysubsubsection{\texorpdfstring{SPI\_PeripheralControl()}{SPI\_PeripheralControl()}}
+{\footnotesize\ttfamily void SPI\+\_\+\+Peripheral\+Control (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+SPIx,  }\item[{uint8\+\_\+t}]{Enor\+Di }\end{DoxyParamCaption})}
+
+
+
+Enables or disables the SPI peripheral. 
+
+This function allows you to enable or disable the SPI peripheral. When enabled, the SPI port can send and receive data. When disabled, the SPI port is inactive and cannot send or receive data.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+SPIx} & Pointer to the SPI peripheral\textquotesingle{}s register structure. \\
+\hline
+{\em Enor\+Di} & ENABLE to enable the SPI peripheral, DISABLE to disable it.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+Disabling the SPI peripheral will halt ongoing SPI transactions. 
+\end{DoxyNote}
+\mbox{\Hypertarget{group__SPI__APIS_gafa0140875300073c700e84c14ba8b66e}\label{group__SPI__APIS_gafa0140875300073c700e84c14ba8b66e}} 
+\index{SPI APIs@{SPI APIs}!SPI\_ReceiveData@{SPI\_ReceiveData}}
+\index{SPI\_ReceiveData@{SPI\_ReceiveData}!SPI APIs@{SPI APIs}}
+\doxysubsubsection{\texorpdfstring{SPI\_ReceiveData()}{SPI\_ReceiveData()}}
+{\footnotesize\ttfamily void SPI\+\_\+\+Receive\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+SPIx,  }\item[{uint8\+\_\+t $\ast$}]{p\+Rx\+Buffer,  }\item[{uint32\+\_\+t}]{Len }\end{DoxyParamCaption})}
+
+
+
+Receives data over SPI. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+SPIx} & Pointer to the SPI peripheral. \\
+\hline
+{\em p\+Rx\+Buffer} & Pointer to the receive buffer. \\
+\hline
+{\em Len} & Length of data to be received. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__SPI__APIS_gae15a4f338eeabf175b48a85716ead033}\label{group__SPI__APIS_gae15a4f338eeabf175b48a85716ead033}} 
+\index{SPI APIs@{SPI APIs}!SPI\_ReceiveDataIT@{SPI\_ReceiveDataIT}}
+\index{SPI\_ReceiveDataIT@{SPI\_ReceiveDataIT}!SPI APIs@{SPI APIs}}
+\doxysubsubsection{\texorpdfstring{SPI\_ReceiveDataIT()}{SPI\_ReceiveDataIT()}}
+{\footnotesize\ttfamily uint8\+\_\+t SPI\+\_\+\+Receive\+Data\+IT (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+SPIHandle,  }\item[{uint8\+\_\+t $\ast$}]{p\+Rx\+Buffer,  }\item[{uint32\+\_\+t}]{Len }\end{DoxyParamCaption})}
+
+
+
+Receives data over SPI using interrupt-\/driven communication. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+SPIHandle} & Pointer to the SPI handle structure. \\
+\hline
+{\em p\+Rx\+Buffer} & Pointer to the receive buffer. \\
+\hline
+{\em Len} & Length of data to be received.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+This function sets up and initiates the reception of data over SPI using interrupts. The data reception will be handled asynchronously, and the user should implement the necessary interrupt handler to process received data.
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item SPI\+\_\+\+READY\+: If the SPI is ready for communication and the data reception is successfully initiated.
+\item SPI\+\_\+\+BUSY\+\_\+\+IN\+\_\+\+RX\+: If a previous reception is still ongoing.
+\item SPI\+\_\+\+ERROR\+\_\+\+INVALID\+\_\+\+ARG\+: If the input parameters are invalid. 
+\end{DoxyItemize}
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__SPI__APIS_ga3429e471ec851e1294e2c2a46ba5ee27}\label{group__SPI__APIS_ga3429e471ec851e1294e2c2a46ba5ee27}} 
+\index{SPI APIs@{SPI APIs}!SPI\_SendData@{SPI\_SendData}}
+\index{SPI\_SendData@{SPI\_SendData}!SPI APIs@{SPI APIs}}
+\doxysubsubsection{\texorpdfstring{SPI\_SendData()}{SPI\_SendData()}}
+{\footnotesize\ttfamily void SPI\+\_\+\+Send\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+SPIx,  }\item[{uint8\+\_\+t $\ast$}]{p\+Tx\+Buffer,  }\item[{uint32\+\_\+t}]{Len }\end{DoxyParamCaption})}
+
+
+
+Sends data over SPI. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+SPIx} & Pointer to the SPI peripheral. \\
+\hline
+{\em p\+Tx\+Buffer} & Pointer to the transmit buffer. \\
+\hline
+{\em Len} & Length of data to be sent.\\
+\hline
+\end{DoxyParams}
+Sends data over SPI.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+SPIx} & Pointer to the SPI peripheral. \\
+\hline
+{\em p\+Tx\+Buffer} & Pointer to the transmit buffer. \\
+\hline
+{\em Len} & Length of data to be sent. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__SPI__APIS_ga4cc209b826ae36f96fa5d1f962a5d801}\label{group__SPI__APIS_ga4cc209b826ae36f96fa5d1f962a5d801}} 
+\index{SPI APIs@{SPI APIs}!SPI\_SendDataIT@{SPI\_SendDataIT}}
+\index{SPI\_SendDataIT@{SPI\_SendDataIT}!SPI APIs@{SPI APIs}}
+\doxysubsubsection{\texorpdfstring{SPI\_SendDataIT()}{SPI\_SendDataIT()}}
+{\footnotesize\ttfamily uint8\+\_\+t SPI\+\_\+\+Send\+Data\+IT (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$}]{p\+SPIHandle,  }\item[{uint8\+\_\+t $\ast$}]{p\+Tx\+Buffer,  }\item[{uint32\+\_\+t}]{Len }\end{DoxyParamCaption})}
+
+
+
+Sends data over SPI using interrupt-\/driven communication. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+SPIHandle} & Pointer to the SPI handle structure. \\
+\hline
+{\em p\+Tx\+Buffer} & Pointer to the transmit buffer. \\
+\hline
+{\em Len} & Length of data to be sent.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+This function sets up and initiates the transmission of data over SPI using interrupts. The data transmission will be handled asynchronously, and the user should implement the necessary interrupt handler to process data when the transmission is complete.
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item SPI\+\_\+\+READY\+: If the SPI is ready for communication and the data transmission is successfully initiated.
+\item SPI\+\_\+\+BUSY\+\_\+\+IN\+\_\+\+TX\+: If a previous transmission is still ongoing.
+\item SPI\+\_\+\+ERROR\+\_\+\+INVALID\+\_\+\+ARG\+: If the input parameters are invalid. 
+\end{DoxyItemize}
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__SPI__APIS_gae916c65b286ea7d325562eee2486c960}\label{group__SPI__APIS_gae916c65b286ea7d325562eee2486c960}} 
+\index{SPI APIs@{SPI APIs}!SPI\_SSIConfig@{SPI\_SSIConfig}}
+\index{SPI\_SSIConfig@{SPI\_SSIConfig}!SPI APIs@{SPI APIs}}
+\doxysubsubsection{\texorpdfstring{SPI\_SSIConfig()}{SPI\_SSIConfig()}}
+{\footnotesize\ttfamily void SPI\+\_\+\+SSIConfig (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+SPIx,  }\item[{uint8\+\_\+t}]{Enor\+Di }\end{DoxyParamCaption})}
+
+
+
+Enables or disables the Software Slave Management (SSI) configuration for the SPI peripheral. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+SPIx} & Pointer to the SPI peripheral. \\
+\hline
+{\em Enor\+Di} & ENABLE to enable SSI, DISABLE to disable SSI.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+SSI is used to control the slave select (NSS) pin in software. Enabling SSI ensures that the NSS pin remains high, even when the SPI is configured as a master. Disabling SSI allows the NSS pin to be controlled by the hardware or pulled to low, as specified in the SPI configuration. 
+\end{DoxyNote}
+\mbox{\Hypertarget{group__SPI__APIS_ga6b849bba43cca1f1e0fb3b6907a08b21}\label{group__SPI__APIS_ga6b849bba43cca1f1e0fb3b6907a08b21}} 
+\index{SPI APIs@{SPI APIs}!SPI\_SSOEConfig@{SPI\_SSOEConfig}}
+\index{SPI\_SSOEConfig@{SPI\_SSOEConfig}!SPI APIs@{SPI APIs}}
+\doxysubsubsection{\texorpdfstring{SPI\_SSOEConfig()}{SPI\_SSOEConfig()}}
+{\footnotesize\ttfamily void SPI\+\_\+\+SSOEConfig (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{p\+SPIx,  }\item[{uint8\+\_\+t}]{Enor\+Di }\end{DoxyParamCaption})}
+
+
+
+Enables or disables the SPI Slave Select Output Enable (SSOE) configuration for the SPI peripheral. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+SPIx} & Pointer to the SPI peripheral. \\
+\hline
+{\em Enor\+Di} & ENABLE to enable SSOE, DISABLE to disable SSOE.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+SSOE is used to configure the behavior of the NSS pin when the SPI is configured as a master. When SSOE is enabled, NSS pin output is automatically managed (driven low or high) by the hardware based on the SPI state. When SSOE is disabled, NSS pin is under software control, and you must use the SPI\+\_\+\+SSIConfig function to manage it. 
+\end{DoxyNote}

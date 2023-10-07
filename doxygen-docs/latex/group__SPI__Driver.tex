@@ -1,0 +1,161 @@
+\hypertarget{group__SPI__Driver}{}\doxysection{SPI Driver}
+\label{group__SPI__Driver}\index{SPI Driver@{SPI Driver}}
+
+
+SPI driver APIs for STM32\+F407xx MCU.  
+
+
+Collaboration diagram for SPI Driver\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{group__SPI__Driver}
+\end{center}
+\end{figure}
+\doxysubsection*{Modules}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group__SPI__APIS}{SPI APIs}}
+\begin{DoxyCompactList}\small\item\em APIs supported by the SPI driver. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group__SPI__Macros}{SPI Macros}}
+\begin{DoxyCompactList}\small\item\em Macros related to SPI configuration, flags, and events. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structSPI__Config__t}{SPI\+\_\+\+Config\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Configuration structure for SPI peripheral. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Handle structure for SPI peripheral. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{group__SPI__Driver_ga18cd78cf09f935d713782428b93426a5}{SPI\+\_\+\+Config\+\_\+t\+::\+SPI\+\_\+\+Device\+Mode}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{group__SPI__Driver_ga465e652ec79285325ebd15868372e576}{SPI\+\_\+\+Config\+\_\+t\+::\+SPI\+\_\+\+Bus\+Config}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{group__SPI__Driver_ga1148c614b0747516c4e57d622031da97}{SPI\+\_\+\+Config\+\_\+t\+::\+SPI\+\_\+\+Sclk\+Speed}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{group__SPI__Driver_gaa70e4773630f3b7311def8141cedc239}{SPI\+\_\+\+Config\+\_\+t\+::\+SPI\+\_\+\+DFF}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{group__SPI__Driver_ga40fc355c250c1eca37e3fa18a5428ae7}{SPI\+\_\+\+Config\+\_\+t\+::\+SPI\+\_\+\+CPOL}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{group__SPI__Driver_ga3b804050623608cda41cdbb2af4d9fa9}{SPI\+\_\+\+Config\+\_\+t\+::\+SPI\+\_\+\+CPHA}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{group__SPI__Driver_ga705887157373f103cb29f858ca0d836e}{SPI\+\_\+\+Config\+\_\+t\+::\+SPI\+\_\+\+SSM}}
+\item 
+\mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}} $\ast$ \mbox{\hyperlink{group__SPI__Driver_gaa7db732f0f2920639f3803a2fb5e51bf}{SPI\+\_\+\+Handle\+\_\+t\+::p\+SPIx}}
+\item 
+\mbox{\hyperlink{structSPI__Config__t}{SPI\+\_\+\+Config\+\_\+t}} \mbox{\hyperlink{group__SPI__Driver_ga5d78782039cd455bfc12f0d7583da108}{SPI\+\_\+\+Handle\+\_\+t\+::\+SPI\+\_\+\+Config}}
+\item 
+uint8\+\_\+t $\ast$ \mbox{\hyperlink{group__SPI__Driver_ga51924cca4cfd49a7bf6ca242a7d200fa}{SPI\+\_\+\+Handle\+\_\+t\+::p\+Tx\+Buffer}}
+\item 
+uint8\+\_\+t $\ast$ \mbox{\hyperlink{group__SPI__Driver_gacf2a8d77252121207be8a623147bba59}{SPI\+\_\+\+Handle\+\_\+t\+::p\+Rx\+Buffer}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{group__SPI__Driver_ga0d668964103ff1b3bf3a2b624762bd23}{SPI\+\_\+\+Handle\+\_\+t\+::\+Tx\+Len}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{group__SPI__Driver_gac1f0408b5f711df4d7a80366c35e3277}{SPI\+\_\+\+Handle\+\_\+t\+::\+Rx\+Len}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{group__SPI__Driver_ga85ca237ca87c6654a734971bdd27516d}{SPI\+\_\+\+Handle\+\_\+t\+::\+Tx\+State}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{group__SPI__Driver_gacbfbbeb3c2a55878f6dffe0388b4b320}{SPI\+\_\+\+Handle\+\_\+t\+::\+Rx\+State}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+SPI driver APIs for STM32\+F407xx MCU. 
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{group__SPI__Driver_gacf2a8d77252121207be8a623147bba59}\label{group__SPI__Driver_gacf2a8d77252121207be8a623147bba59}} 
+\index{SPI Driver@{SPI Driver}!pRxBuffer@{pRxBuffer}}
+\index{pRxBuffer@{pRxBuffer}!SPI Driver@{SPI Driver}}
+\doxysubsubsection{\texorpdfstring{pRxBuffer}{pRxBuffer}}
+{\footnotesize\ttfamily uint8\+\_\+t$\ast$ SPI\+\_\+\+Handle\+\_\+t\+::p\+Rx\+Buffer}
+
+Pointer to the receive buffer. \mbox{\Hypertarget{group__SPI__Driver_gaa7db732f0f2920639f3803a2fb5e51bf}\label{group__SPI__Driver_gaa7db732f0f2920639f3803a2fb5e51bf}} 
+\index{SPI Driver@{SPI Driver}!pSPIx@{pSPIx}}
+\index{pSPIx@{pSPIx}!SPI Driver@{SPI Driver}}
+\doxysubsubsection{\texorpdfstring{pSPIx}{pSPIx}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structSPI__RegDef__t}{SPI\+\_\+\+Reg\+Def\+\_\+t}}$\ast$ SPI\+\_\+\+Handle\+\_\+t\+::p\+SPIx}
+
+Pointer to the SPI peripheral\textquotesingle{}s base address. \mbox{\Hypertarget{group__SPI__Driver_ga51924cca4cfd49a7bf6ca242a7d200fa}\label{group__SPI__Driver_ga51924cca4cfd49a7bf6ca242a7d200fa}} 
+\index{SPI Driver@{SPI Driver}!pTxBuffer@{pTxBuffer}}
+\index{pTxBuffer@{pTxBuffer}!SPI Driver@{SPI Driver}}
+\doxysubsubsection{\texorpdfstring{pTxBuffer}{pTxBuffer}}
+{\footnotesize\ttfamily uint8\+\_\+t$\ast$ SPI\+\_\+\+Handle\+\_\+t\+::p\+Tx\+Buffer}
+
+Pointer to the transmit buffer. \mbox{\Hypertarget{group__SPI__Driver_gac1f0408b5f711df4d7a80366c35e3277}\label{group__SPI__Driver_gac1f0408b5f711df4d7a80366c35e3277}} 
+\index{SPI Driver@{SPI Driver}!RxLen@{RxLen}}
+\index{RxLen@{RxLen}!SPI Driver@{SPI Driver}}
+\doxysubsubsection{\texorpdfstring{RxLen}{RxLen}}
+{\footnotesize\ttfamily uint32\+\_\+t SPI\+\_\+\+Handle\+\_\+t\+::\+Rx\+Len}
+
+Length of data to be received. \mbox{\Hypertarget{group__SPI__Driver_gacbfbbeb3c2a55878f6dffe0388b4b320}\label{group__SPI__Driver_gacbfbbeb3c2a55878f6dffe0388b4b320}} 
+\index{SPI Driver@{SPI Driver}!RxState@{RxState}}
+\index{RxState@{RxState}!SPI Driver@{SPI Driver}}
+\doxysubsubsection{\texorpdfstring{RxState}{RxState}}
+{\footnotesize\ttfamily uint8\+\_\+t SPI\+\_\+\+Handle\+\_\+t\+::\+Rx\+State}
+
+Receive state (used for interrupt-\/driven reception). \mbox{\Hypertarget{group__SPI__Driver_ga465e652ec79285325ebd15868372e576}\label{group__SPI__Driver_ga465e652ec79285325ebd15868372e576}} 
+\index{SPI Driver@{SPI Driver}!SPI\_BusConfig@{SPI\_BusConfig}}
+\index{SPI\_BusConfig@{SPI\_BusConfig}!SPI Driver@{SPI Driver}}
+\doxysubsubsection{\texorpdfstring{SPI\_BusConfig}{SPI\_BusConfig}}
+{\footnotesize\ttfamily uint8\+\_\+t SPI\+\_\+\+Config\+\_\+t\+::\+SPI\+\_\+\+Bus\+Config}
+
+SPI bus configuration (Full-\/duplex/\+Half-\/duplex/...). \mbox{\Hypertarget{group__SPI__Driver_ga5d78782039cd455bfc12f0d7583da108}\label{group__SPI__Driver_ga5d78782039cd455bfc12f0d7583da108}} 
+\index{SPI Driver@{SPI Driver}!SPI\_Config@{SPI\_Config}}
+\index{SPI\_Config@{SPI\_Config}!SPI Driver@{SPI Driver}}
+\doxysubsubsection{\texorpdfstring{SPI\_Config}{SPI\_Config}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structSPI__Config__t}{SPI\+\_\+\+Config\+\_\+t}} SPI\+\_\+\+Handle\+\_\+t\+::\+SPI\+\_\+\+Config}
+
+SPI configuration structure. \mbox{\Hypertarget{group__SPI__Driver_ga3b804050623608cda41cdbb2af4d9fa9}\label{group__SPI__Driver_ga3b804050623608cda41cdbb2af4d9fa9}} 
+\index{SPI Driver@{SPI Driver}!SPI\_CPHA@{SPI\_CPHA}}
+\index{SPI\_CPHA@{SPI\_CPHA}!SPI Driver@{SPI Driver}}
+\doxysubsubsection{\texorpdfstring{SPI\_CPHA}{SPI\_CPHA}}
+{\footnotesize\ttfamily uint8\+\_\+t SPI\+\_\+\+Config\+\_\+t\+::\+SPI\+\_\+\+CPHA}
+
+SPI clock phase (Data capture on rising/falling edge). \mbox{\Hypertarget{group__SPI__Driver_ga40fc355c250c1eca37e3fa18a5428ae7}\label{group__SPI__Driver_ga40fc355c250c1eca37e3fa18a5428ae7}} 
+\index{SPI Driver@{SPI Driver}!SPI\_CPOL@{SPI\_CPOL}}
+\index{SPI\_CPOL@{SPI\_CPOL}!SPI Driver@{SPI Driver}}
+\doxysubsubsection{\texorpdfstring{SPI\_CPOL}{SPI\_CPOL}}
+{\footnotesize\ttfamily uint8\+\_\+t SPI\+\_\+\+Config\+\_\+t\+::\+SPI\+\_\+\+CPOL}
+
+SPI clock polarity (Idle state polarity). \mbox{\Hypertarget{group__SPI__Driver_ga18cd78cf09f935d713782428b93426a5}\label{group__SPI__Driver_ga18cd78cf09f935d713782428b93426a5}} 
+\index{SPI Driver@{SPI Driver}!SPI\_DeviceMode@{SPI\_DeviceMode}}
+\index{SPI\_DeviceMode@{SPI\_DeviceMode}!SPI Driver@{SPI Driver}}
+\doxysubsubsection{\texorpdfstring{SPI\_DeviceMode}{SPI\_DeviceMode}}
+{\footnotesize\ttfamily uint8\+\_\+t SPI\+\_\+\+Config\+\_\+t\+::\+SPI\+\_\+\+Device\+Mode}
+
+SPI device mode (Master/\+Slave). \mbox{\Hypertarget{group__SPI__Driver_gaa70e4773630f3b7311def8141cedc239}\label{group__SPI__Driver_gaa70e4773630f3b7311def8141cedc239}} 
+\index{SPI Driver@{SPI Driver}!SPI\_DFF@{SPI\_DFF}}
+\index{SPI\_DFF@{SPI\_DFF}!SPI Driver@{SPI Driver}}
+\doxysubsubsection{\texorpdfstring{SPI\_DFF}{SPI\_DFF}}
+{\footnotesize\ttfamily uint8\+\_\+t SPI\+\_\+\+Config\+\_\+t\+::\+SPI\+\_\+\+DFF}
+
+SPI data frame format (8/16-\/bit data frame). \mbox{\Hypertarget{group__SPI__Driver_ga1148c614b0747516c4e57d622031da97}\label{group__SPI__Driver_ga1148c614b0747516c4e57d622031da97}} 
+\index{SPI Driver@{SPI Driver}!SPI\_SclkSpeed@{SPI\_SclkSpeed}}
+\index{SPI\_SclkSpeed@{SPI\_SclkSpeed}!SPI Driver@{SPI Driver}}
+\doxysubsubsection{\texorpdfstring{SPI\_SclkSpeed}{SPI\_SclkSpeed}}
+{\footnotesize\ttfamily uint8\+\_\+t SPI\+\_\+\+Config\+\_\+t\+::\+SPI\+\_\+\+Sclk\+Speed}
+
+SPI serial clock speed (Prescaler selection). \mbox{\Hypertarget{group__SPI__Driver_ga705887157373f103cb29f858ca0d836e}\label{group__SPI__Driver_ga705887157373f103cb29f858ca0d836e}} 
+\index{SPI Driver@{SPI Driver}!SPI\_SSM@{SPI\_SSM}}
+\index{SPI\_SSM@{SPI\_SSM}!SPI Driver@{SPI Driver}}
+\doxysubsubsection{\texorpdfstring{SPI\_SSM}{SPI\_SSM}}
+{\footnotesize\ttfamily uint8\+\_\+t SPI\+\_\+\+Config\+\_\+t\+::\+SPI\+\_\+\+SSM}
+
+SPI software slave management (Enable/\+Disable). \mbox{\Hypertarget{group__SPI__Driver_ga0d668964103ff1b3bf3a2b624762bd23}\label{group__SPI__Driver_ga0d668964103ff1b3bf3a2b624762bd23}} 
+\index{SPI Driver@{SPI Driver}!TxLen@{TxLen}}
+\index{TxLen@{TxLen}!SPI Driver@{SPI Driver}}
+\doxysubsubsection{\texorpdfstring{TxLen}{TxLen}}
+{\footnotesize\ttfamily uint32\+\_\+t SPI\+\_\+\+Handle\+\_\+t\+::\+Tx\+Len}
+
+Length of data to be transmitted. \mbox{\Hypertarget{group__SPI__Driver_ga85ca237ca87c6654a734971bdd27516d}\label{group__SPI__Driver_ga85ca237ca87c6654a734971bdd27516d}} 
+\index{SPI Driver@{SPI Driver}!TxState@{TxState}}
+\index{TxState@{TxState}!SPI Driver@{SPI Driver}}
+\doxysubsubsection{\texorpdfstring{TxState}{TxState}}
+{\footnotesize\ttfamily uint8\+\_\+t SPI\+\_\+\+Handle\+\_\+t\+::\+Tx\+State}
+
+Transmit state (used for interrupt-\/driven transmission). 

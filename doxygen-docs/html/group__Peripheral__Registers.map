@@ -1,0 +1,4 @@
+<map id="Peripheral Register Definitions" name="Peripheral Register Definitions">
+<area shape="rect" id="node1" title="Structures defining the register layouts for various peripherals." alt="" coords="280,5,427,45"/>
+<area shape="rect" id="node2" href="$group__STM32F407XX__HEADER.html" title="Header file containing all the necessary information about the STM32F407xx MCU." alt="" coords="5,13,232,38"/>
+</map>

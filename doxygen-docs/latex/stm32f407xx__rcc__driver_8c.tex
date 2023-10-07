@@ -1,0 +1,101 @@
+\hypertarget{stm32f407xx__rcc__driver_8c}{}\doxysection{drivers/\+Src/stm32f407xx\+\_\+rcc\+\_\+driver.c File Reference}
+\label{stm32f407xx__rcc__driver_8c}\index{drivers/Src/stm32f407xx\_rcc\_driver.c@{drivers/Src/stm32f407xx\_rcc\_driver.c}}
+
+
+This file contains the RCC (Reset and Clock Control) driver implementation for STM32\+F407xx microcontrollers.  
+
+
+{\ttfamily \#include \char`\"{}../drivers/\+Inc/stm32f407xx\+\_\+rcc\+\_\+driver.\+h\char`\"{}}\newline
+Include dependency graph for stm32f407xx\+\_\+rcc\+\_\+driver.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=224pt]{stm32f407xx__rcc__driver_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{stm32f407xx__rcc__driver_8c_a085a3a0940c3993a61618f10816f38cd}{RCC\+\_\+\+Get\+PCLK1\+Value}} (void)
+\begin{DoxyCompactList}\small\item\em Get the frequency of the PCLK1 (Peripheral Clock 1). \end{DoxyCompactList}\item 
+uint32\+\_\+t \mbox{\hyperlink{stm32f407xx__rcc__driver_8c_ad7e2b4f75bc4da78507c6f7f5ff32154}{RCC\+\_\+\+Get\+PCLK2\+Value}} (void)
+\begin{DoxyCompactList}\small\item\em Get the frequency of the PCLK2 (Peripheral Clock 2). \end{DoxyCompactList}\item 
+uint32\+\_\+t \mbox{\hyperlink{stm32f407xx__rcc__driver_8c_ad90448e5252ea8b6e9d0063909cb9446}{RCC\+\_\+\+Get\+PLLOutput\+Clock}} (void)
+\begin{DoxyCompactList}\small\item\em Get the frequency of the PLL (Phase-\/\+Locked Loop) output clock. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{stm32f407xx__rcc__driver_8c_a3bd02b76aade4a8eafd4c85cf6f2047c}\label{stm32f407xx__rcc__driver_8c_a3bd02b76aade4a8eafd4c85cf6f2047c}} 
+uint16\+\_\+t {\bfseries AHB\+\_\+\+Pre\+Scaler} \mbox{[}8\mbox{]} = \{2, 4, 8, 16, 64, 128, 256, 512\}
+\item 
+\mbox{\Hypertarget{stm32f407xx__rcc__driver_8c_a45bc8e78e3a7f3cf13100ca0588ed6f8}\label{stm32f407xx__rcc__driver_8c_a45bc8e78e3a7f3cf13100ca0588ed6f8}} 
+uint8\+\_\+t {\bfseries APB1\+\_\+\+Pre\+Scaler} \mbox{[}4\mbox{]} = \{2, 4, 8, 16\}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file contains the RCC (Reset and Clock Control) driver implementation for STM32\+F407xx microcontrollers. 
+
+\begin{DoxyAuthor}{Author}
+Mohamed Ali Haoufa
+\end{DoxyAuthor}
+This driver provides functions for configuring and controlling the system clock and peripheral clocks.
+
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2023-\/10-\/07
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2023 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{stm32f407xx__rcc__driver_8c_a085a3a0940c3993a61618f10816f38cd}\label{stm32f407xx__rcc__driver_8c_a085a3a0940c3993a61618f10816f38cd}} 
+\index{stm32f407xx\_rcc\_driver.c@{stm32f407xx\_rcc\_driver.c}!RCC\_GetPCLK1Value@{RCC\_GetPCLK1Value}}
+\index{RCC\_GetPCLK1Value@{RCC\_GetPCLK1Value}!stm32f407xx\_rcc\_driver.c@{stm32f407xx\_rcc\_driver.c}}
+\doxysubsubsection{\texorpdfstring{RCC\_GetPCLK1Value()}{RCC\_GetPCLK1Value()}}
+{\footnotesize\ttfamily uint32\+\_\+t RCC\+\_\+\+Get\+PCLK1\+Value (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Get the frequency of the PCLK1 (Peripheral Clock 1). 
+
+This function calculates and returns the frequency of the PCLK1, which is the peripheral clock for APB1 peripherals.
+
+\begin{DoxyReturn}{Returns}
+The PCLK1 frequency in Hertz. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{stm32f407xx__rcc__driver_8c_ad7e2b4f75bc4da78507c6f7f5ff32154}\label{stm32f407xx__rcc__driver_8c_ad7e2b4f75bc4da78507c6f7f5ff32154}} 
+\index{stm32f407xx\_rcc\_driver.c@{stm32f407xx\_rcc\_driver.c}!RCC\_GetPCLK2Value@{RCC\_GetPCLK2Value}}
+\index{RCC\_GetPCLK2Value@{RCC\_GetPCLK2Value}!stm32f407xx\_rcc\_driver.c@{stm32f407xx\_rcc\_driver.c}}
+\doxysubsubsection{\texorpdfstring{RCC\_GetPCLK2Value()}{RCC\_GetPCLK2Value()}}
+{\footnotesize\ttfamily uint32\+\_\+t RCC\+\_\+\+Get\+PCLK2\+Value (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Get the frequency of the PCLK2 (Peripheral Clock 2). 
+
+This function calculates and returns the frequency of the PCLK2, which is the peripheral clock for APB2 peripherals.
+
+\begin{DoxyReturn}{Returns}
+The PCLK2 frequency in Hertz. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{stm32f407xx__rcc__driver_8c_ad90448e5252ea8b6e9d0063909cb9446}\label{stm32f407xx__rcc__driver_8c_ad90448e5252ea8b6e9d0063909cb9446}} 
+\index{stm32f407xx\_rcc\_driver.c@{stm32f407xx\_rcc\_driver.c}!RCC\_GetPLLOutputClock@{RCC\_GetPLLOutputClock}}
+\index{RCC\_GetPLLOutputClock@{RCC\_GetPLLOutputClock}!stm32f407xx\_rcc\_driver.c@{stm32f407xx\_rcc\_driver.c}}
+\doxysubsubsection{\texorpdfstring{RCC\_GetPLLOutputClock()}{RCC\_GetPLLOutputClock()}}
+{\footnotesize\ttfamily uint32\+\_\+t RCC\+\_\+\+Get\+PLLOutput\+Clock (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Get the frequency of the PLL (Phase-\/\+Locked Loop) output clock. 
+
+This function calculates and returns the frequency of the PLL output clock.
+
+\begin{DoxyReturn}{Returns}
+The PLL output clock frequency in Hertz. 
+\end{DoxyReturn}

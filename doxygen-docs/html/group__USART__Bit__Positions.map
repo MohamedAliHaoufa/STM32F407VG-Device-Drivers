@@ -1,0 +1,11 @@
+<map id="USART Bit Position Definitions" name="USART Bit Position Definitions">
+<area shape="rect" id="node1" href="$group__USART__CR3__Bit__Positions.html" title="Bit position definitions for USART_CR3 register." alt="" coords="477,5,654,45"/>
+<area shape="rect" id="node2" href="$group__USART__CR2__Bit__Positions.html" title="Bit position definitions for USART_CR2 register." alt="" coords="477,69,654,109"/>
+<area shape="rect" id="node3" href="$group__STM32F407XX__HEADER.html" title="Header file containing all the necessary information about the STM32F407xx MCU." alt="" coords="5,205,232,230"/>
+<area shape="rect" id="node6" title="Bit position definitions for various registers in the USART peripheral." alt="" coords="280,197,424,237"/>
+<area shape="rect" id="node4" href="$group__USART__GTPR__Bit__Positions.html" title="Bit position definitions for USART_GTPR register." alt="" coords="472,133,659,173"/>
+<area shape="rect" id="node5" href="$group__USART__CR1__Bit__Positions.html" title="Bit position definitions for USART_CR1 register." alt="" coords="477,197,654,237"/>
+<area shape="rect" id="node7" href="$group__USART__DR__Bit__Positions.html" title="Bit position definitions for USART_DR register." alt="" coords="480,261,651,301"/>
+<area shape="rect" id="node8" href="$group__USART__BRR__Bit__Positions.html" title="Bit position definitions for USART_BRR register." alt="" coords="476,325,655,365"/>
+<area shape="rect" id="node9" href="$group__USART__SR__Bit__Positions.html" title="Bit position definitions for USART_SR register." alt="" coords="481,389,649,429"/>
+</map>

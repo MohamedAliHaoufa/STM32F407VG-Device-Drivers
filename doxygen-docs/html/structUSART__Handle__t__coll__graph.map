@@ -1,0 +1,5 @@
+<map id="USART_Handle_t" name="USART_Handle_t">
+<area shape="rect" id="node1" title="Handle structure for USART peripheral." alt="" coords="81,95,211,121"/>
+<area shape="rect" id="node2" href="$structUSART__Config__t.html" title="Configuration structure for USART (Universal Synchronous Asynchronous Receiver Transmitter) periphera..." alt="" coords="5,5,132,32"/>
+<area shape="rect" id="node3" href="$structUSART__RegDef__t.html" title="USART peripheral register definition structure." alt="" coords="157,5,290,32"/>
+</map>

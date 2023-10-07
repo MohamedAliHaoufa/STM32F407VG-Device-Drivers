@@ -1,0 +1,78 @@
+\hypertarget{stm32f407xx__i2c__driver_8c}{}\doxysection{drivers/\+Src/stm32f407xx\+\_\+i2c\+\_\+driver.c File Reference}
+\label{stm32f407xx__i2c__driver_8c}\index{drivers/Src/stm32f407xx\_i2c\_driver.c@{drivers/Src/stm32f407xx\_i2c\_driver.c}}
+
+
+This file contains the implementation of the I2C driver APIs.  
+
+
+{\ttfamily \#include \char`\"{}../drivers/\+Inc/stm32f407xx\+\_\+i2c\+\_\+driver.\+h\char`\"{}}\newline
+Include dependency graph for stm32f407xx\+\_\+i2c\+\_\+driver.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=224pt]{stm32f407xx__i2c__driver_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__I2C__APIS_gab40caf460b3e6a1636099e498055dba0}{I2\+C\+\_\+\+Generate\+Stop\+Condition}} (\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+I2\+Cx)
+\begin{DoxyCompactList}\small\item\em Generates the stop condition on the I2C bus. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_ga08267d82acca332799ec1b49be4527bd}{I2\+C\+\_\+\+Peri\+Clock\+Control}} (\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+I2\+Cx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Enables or disables the peripheral clock for the given I2C peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_gaf63c91db39ea9e0317d4f341569f479c}{I2\+C\+\_\+\+Init}} (\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$p\+I2\+CHandle)
+\begin{DoxyCompactList}\small\item\em Initializes the I2C peripheral with the provided configuration settings. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_gad7b45b712f04f3c333ed5f6e621e805c}{I2\+C\+\_\+\+De\+Init}} (\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+I2\+Cx)
+\begin{DoxyCompactList}\small\item\em Deinitializes the I2C peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_gad61b8500a55c7cc07c88b373add94b5d}{I2\+C\+\_\+\+Master\+Send\+Data}} (\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$p\+I2\+CHandle, uint8\+\_\+t $\ast$p\+Tx\+Buffer, uint32\+\_\+t Len, uint8\+\_\+t Slave\+Addr, uint8\+\_\+t SR)
+\begin{DoxyCompactList}\small\item\em Sends data over I2C as a master to the specified slave device. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_ga901c740473eedb002561554503b5934c}{I2\+C\+\_\+\+Master\+Receive\+Data}} (\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$p\+I2\+CHandle, uint8\+\_\+t $\ast$p\+Rx\+Buffer, uint8\+\_\+t Len, uint8\+\_\+t Slave\+Addr, uint8\+\_\+t SR)
+\begin{DoxyCompactList}\small\item\em Receives data over I2C as a master from the specified slave device. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_gaeae368db6ff5b65fb3a25cd5d4587fa8}{I2\+C\+\_\+\+IRQInterrupt\+Config}} (uint8\+\_\+t IRQNumber, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Configures the interrupt for the specified IRQ number. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_gaa228276d34ecb3d86e7eb5e809ffaacb}{I2\+C\+\_\+\+IRQPriority\+Config}} (uint8\+\_\+t IRQNumber, uint32\+\_\+t IRQPriority)
+\begin{DoxyCompactList}\small\item\em Configures the priority for the specified IRQ number. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__I2C__APIS_gacdb4d953f6d07ab5a6c8c08dfabdee48}{I2\+C\+\_\+\+Master\+Send\+Data\+IT}} (\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$p\+I2\+CHandle, uint8\+\_\+t $\ast$p\+Tx\+Buffer, uint32\+\_\+t Len, uint8\+\_\+t Slave\+Addr, uint8\+\_\+t Sr)
+\begin{DoxyCompactList}\small\item\em Sends data over I2C as a master using interrupt-\/driven communication. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__I2C__APIS_ga5768c250c2457da7c83002d882c45f57}{I2\+C\+\_\+\+Master\+Receive\+Data\+IT}} (\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$p\+I2\+CHandle, uint8\+\_\+t $\ast$p\+Rx\+Buffer, uint8\+\_\+t Len, uint8\+\_\+t Slave\+Addr, uint8\+\_\+t Sr)
+\begin{DoxyCompactList}\small\item\em Sends data over I2C as a master using interrupt-\/driven communication. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_ga51a0cd15986bb82f4b644feca1909b77}{I2\+C\+\_\+\+EV\+\_\+\+IRQHandling}} (\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$p\+I2\+CHandle)
+\begin{DoxyCompactList}\small\item\em Handles I2C event interrupts and calls appropriate event callback functions. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_gaefdb1ceed9eb03827cacfb1ce6fb2878}{I2\+C\+\_\+\+Close\+Send\+Data}} (\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$p\+I2\+CHandle)
+\begin{DoxyCompactList}\small\item\em Closes the I2C data transmission, disables relevant interrupts, and resets handle members. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_ga2f6de176f474fcd828063b2941c69588}{I2\+C\+\_\+\+Close\+Receive\+Data}} (\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$p\+I2\+CHandle)
+\begin{DoxyCompactList}\small\item\em Closes the I2C data reception in slave mode, disables relevant interrupts, and resets handle members. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_gac5ce1afe81f1092b7c72d839f8f09bf5}{I2\+C\+\_\+\+Slave\+Send\+Data}} (\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+I2\+Cx, uint8\+\_\+t data)
+\begin{DoxyCompactList}\small\item\em Sends data in slave mode. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__I2C__APIS_gaae081cc85ae3dd0049ccd0b9ea0c7c8a}{I2\+C\+\_\+\+Slave\+Receive\+Data}} (\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+I2\+Cx)
+\begin{DoxyCompactList}\small\item\em Receives data in slave mode. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_ga2852185351bf8b4e0ec9ab12a2b89ea7}{I2\+C\+\_\+\+ER\+\_\+\+IRQHandling}} (\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$p\+I2\+CHandle)
+\begin{DoxyCompactList}\small\item\em Handles I2C error interrupts and calls appropriate error callback functions. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_ga6edaa9f836224061ce79e048e6f4750d}{I2\+C\+\_\+\+Peripheral\+Control}} (\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+I2\+Cx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Enables or disables the I2C peripheral. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group__I2C__APIS_gabb432c826524759f4e35fcba2cc9cbb9}{I2\+C\+\_\+\+Get\+Flag\+Status}} (\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+I2\+Cx, uint32\+\_\+t Flag\+Name)
+\begin{DoxyCompactList}\small\item\em Gets the status of a specific flag in the I2C status register. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_ga00ab5652c3c755fc9b4b2f1da778f234}{I2\+C\+\_\+\+Manage\+Acking}} (\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+I2\+Cx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Manages acknowledgment control in I2C communication. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__I2C__APIS_ga062b25b8441b46bbb8668a68c63bfea6}{I2\+C\+\_\+\+Slave\+Enable\+Disable\+Callback\+Events}} (\mbox{\hyperlink{structI2C__RegDef__t}{I2\+C\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+I2\+Cx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Enables or disables callback events for the I2C slave. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group__STM32F407XX__DEFINITIONS_ga5181eb756a197a06d1c4ed1f40a065bc}{\+\_\+\+\_\+weak}} void \mbox{\hyperlink{group__I2C__APIS_ga94f8122013ed34e77c3a97fa4b2d4c9b}{I2\+C\+\_\+\+Application\+Event\+Callback}} (\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} $\ast$p\+I2\+CHandle, uint8\+\_\+t App\+Ev)
+\begin{DoxyCompactList}\small\item\em Application callback function for I2C events. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file contains the implementation of the I2C driver APIs. 
+
+\begin{DoxyAuthor}{Author}
+Mohamed Ali Haoufa 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2023-\/10-\/07
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2023 
+\end{DoxyCopyright}

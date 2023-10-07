@@ -1,0 +1,4 @@
+<map id="LED Control Macros" name="LED Control Macros">
+<area shape="rect" id="node1" href="$group__SPI__Macros.html" title="Macros related to SPI configuration, flags, and events." alt="" coords="5,5,99,31"/>
+<area shape="rect" id="node2" title="Defines macros for controlling LEDs, including the LED state and pin number." alt="" coords="147,5,296,31"/>
+</map>

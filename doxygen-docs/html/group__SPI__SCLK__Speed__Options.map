@@ -1,0 +1,4 @@
+<map id="SPI Serial Clock Speed Options" name="SPI Serial Clock Speed Options">
+<area shape="rect" id="node1" title="Options for SPI serial clock speed." alt="" coords="147,5,313,45"/>
+<area shape="rect" id="node2" href="$group__SPI__Macros.html" title="Macros related to SPI configuration, flags, and events." alt="" coords="5,13,99,38"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="I2C Repeated Start Macros" name="I2C Repeated Start Macros">
+<area shape="rect" id="node1" href="$group__I2C__Macros.html" title="Macros related to I2C configuration, flags, and events." alt="" coords="5,13,100,38"/>
+<area shape="rect" id="node2" title="Macros for enabling or disabling repeated start conditions in I2C communication." alt="" coords="148,5,292,45"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="SPI Communication CMDs" name="SPI Communication CMDs">
+<area shape="rect" id="node1" title="Defines a set of COMMANDs for SPI communication." alt="" coords="147,5,337,31"/>
+<area shape="rect" id="node2" href="$group__SPI__Macros.html" title="Macros related to SPI configuration, flags, and events." alt="" coords="5,5,99,31"/>
+</map>

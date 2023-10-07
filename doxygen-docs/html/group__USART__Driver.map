@@ -1,0 +1,5 @@
+<map id="USART Driver" name="USART Driver">
+<area shape="rect" id="node1" title="USART driver APIs for STM32F407xx MCU." alt="" coords="5,31,116,56"/>
+<area shape="rect" id="node2" href="$group__USART__APIS.html" title="USART driver APIs for STM32F407xx MCU." alt="" coords="173,5,272,31"/>
+<area shape="rect" id="node3" href="$group__USART__Macros.html" title="Macros related to USART configuration, flags, and events." alt="" coords="164,55,281,80"/>
+</map>

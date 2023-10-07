@@ -1,0 +1,70 @@
+\hypertarget{016uart__tx__it_8c}{}\doxysection{Src/016uart\+\_\+tx\+\_\+it.c File Reference}
+\label{016uart__tx__it_8c}\index{Src/016uart\_tx\_it.c@{Src/016uart\_tx\_it.c}}
+{\ttfamily \#include \char`\"{}../drivers/\+Inc/stm32f407xx.\+h\char`\"{}}\newline
+Include dependency graph for 016uart\+\_\+tx\+\_\+it.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{016uart__tx__it_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{016uart__tx__it_8c_a25c7f100d498300fff65568c2fcfe639}\label{016uart__tx__it_8c_a25c7f100d498300fff65568c2fcfe639}} 
+void {\bfseries initialise\+\_\+monitor\+\_\+handles} ()
+\item 
+\mbox{\Hypertarget{016uart__tx__it_8c_a328e85a340d7900411a901f12d6eb0aa}\label{016uart__tx__it_8c_a328e85a340d7900411a901f12d6eb0aa}} 
+void {\bfseries USART2\+\_\+\+Init} (void)
+\item 
+\mbox{\Hypertarget{016uart__tx__it_8c_abd9ca359cbe8b9449fe1b6d84fb8d1b6}\label{016uart__tx__it_8c_abd9ca359cbe8b9449fe1b6d84fb8d1b6}} 
+void {\bfseries USART2\+\_\+\+GPIOInit} (void)
+\item 
+\mbox{\Hypertarget{016uart__tx__it_8c_afc238f2f986435efcf6378616fa989c7}\label{016uart__tx__it_8c_afc238f2f986435efcf6378616fa989c7}} 
+void {\bfseries GPIO\+\_\+\+Button\+Init} (void)
+\item 
+\mbox{\Hypertarget{016uart__tx__it_8c_a341d33c536d663703208ab568f7d1e0e}\label{016uart__tx__it_8c_a341d33c536d663703208ab568f7d1e0e}} 
+void {\bfseries delay} (void)
+\item 
+\mbox{\Hypertarget{016uart__tx__it_8c_a840291bc02cba5474a4cb46a9b9566fe}\label{016uart__tx__it_8c_a840291bc02cba5474a4cb46a9b9566fe}} 
+int {\bfseries main} (void)
+\item 
+\mbox{\Hypertarget{016uart__tx__it_8c_a0ca6fd0e6f77921dd1123539857ba0a8}\label{016uart__tx__it_8c_a0ca6fd0e6f77921dd1123539857ba0a8}} 
+void {\bfseries USART2\+\_\+\+IRQHandler} (void)
+\item 
+void \mbox{\hyperlink{group__USART__APIS_gacd7ff85fb54f0abb82fd1dbaf9267606}{USART\+\_\+\+Application\+Event\+Callback}} (\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} $\ast$p\+USARTHandle, uint8\+\_\+t Ap\+Ev)
+\begin{DoxyCompactList}\small\item\em Application callback function for USART events. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{016uart__tx__it_8c_a7e0bccea1f1e52ffef69bd74fac847c3}\label{016uart__tx__it_8c_a7e0bccea1f1e52ffef69bd74fac847c3}} 
+char $\ast$ {\bfseries msg} \mbox{[}3\mbox{]} = \{\char`\"{}hihihihihihi123\char`\"{}, \char`\"{}Hello How are you ?\char`\"{} , \char`\"{}Today is Monday !\char`\"{}\}
+\item 
+\mbox{\Hypertarget{016uart__tx__it_8c_a9e740fac0d802a71c3ec69d07ee9e541}\label{016uart__tx__it_8c_a9e740fac0d802a71c3ec69d07ee9e541}} 
+char {\bfseries rx\+\_\+buf} \mbox{[}1024\mbox{]}
+\item 
+\mbox{\Hypertarget{016uart__tx__it_8c_a957bfded634816a960c69d53c6e2abf0}\label{016uart__tx__it_8c_a957bfded634816a960c69d53c6e2abf0}} 
+\mbox{\hyperlink{structUSART__Handle__t}{USART\+\_\+\+Handle\+\_\+t}} {\bfseries usart2\+\_\+handle}
+\item 
+\mbox{\Hypertarget{016uart__tx__it_8c_a9adc574a1302628b7b7d3ac72f472f0d}\label{016uart__tx__it_8c_a9adc574a1302628b7b7d3ac72f472f0d}} 
+uint8\+\_\+t {\bfseries rx\+Cmplt} = \mbox{\hyperlink{group__Generic__Macros_gab702106cf3b3e96750b6845ded4e0299}{RESET}}
+\item 
+\mbox{\Hypertarget{016uart__tx__it_8c_ab5399fb62350b4281bae9f766cebec1c}\label{016uart__tx__it_8c_ab5399fb62350b4281bae9f766cebec1c}} 
+uint8\+\_\+t {\bfseries g\+\_\+data} = 0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Mohamed Ali Haoufa 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2023-\/10-\/07
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2023 
+\end{DoxyCopyright}

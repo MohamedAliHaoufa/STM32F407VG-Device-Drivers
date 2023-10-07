@@ -1,0 +1,5 @@
+<map id="SPI_Handle_t" name="SPI_Handle_t">
+<area shape="rect" id="node1" title="Handle structure for SPI peripheral." alt="" coords="69,95,175,121"/>
+<area shape="rect" id="node2" href="$structSPI__Config__t.html" title="Configuration structure for SPI peripheral." alt="" coords="5,5,108,32"/>
+<area shape="rect" id="node3" href="$structSPI__RegDef__t.html" title="SPI peripheral register definition structure." alt="" coords="133,5,242,32"/>
+</map>

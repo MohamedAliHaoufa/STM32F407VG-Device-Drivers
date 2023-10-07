@@ -1,0 +1,4 @@
+<map id="USART Application States" name="USART Application States">
+<area shape="rect" id="node1" title="Defines possible states of the USART application." alt="" coords="171,5,359,31"/>
+<area shape="rect" id="node2" href="$group__USART__Macros.html" title="Macros related to USART configuration, flags, and events." alt="" coords="5,5,123,31"/>
+</map>

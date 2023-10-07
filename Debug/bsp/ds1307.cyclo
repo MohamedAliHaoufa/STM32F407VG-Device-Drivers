@@ -1,0 +1,11 @@
+ds1307.c:34:9:ds1307_init	1
+ds1307.c:55:6:ds1307_set_current_time	3
+ds1307.c:84:6:ds1307_set_current_date	1
+ds1307.c:96:6:ds1307_get_current_time	2
+ds1307.c:123:6:ds1307_get_current_date	1
+ds1307.c:130:13:ds1307_i2c_pin_config	1
+ds1307.c:163:13:ds1307_i2c_config	1
+ds1307.c:182:13:ds1307_write	1
+ds1307.c:200:16:ds1307_read	1
+ds1307.c:226:16:bcd_to_binary	1
+ds1307.c:250:16:binary_to_bcd	2

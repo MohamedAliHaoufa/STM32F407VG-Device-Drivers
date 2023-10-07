@@ -1,0 +1,4 @@
+<map id="USART Hardware Flow Control" name="USART Hardware Flow Control">
+<area shape="rect" id="node1" title="Possible options for USART hardware flow control." alt="" coords="171,5,339,45"/>
+<area shape="rect" id="node2" href="$group__USART__Macros.html" title="Macros related to USART configuration, flags, and events." alt="" coords="5,13,123,38"/>
+</map>

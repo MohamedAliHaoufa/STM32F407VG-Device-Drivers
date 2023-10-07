@@ -1,0 +1,4 @@
+<map id="I2C APIs" name="I2C APIs">
+<area shape="rect" id="node1" title="APIs supported by the I2C driver." alt="" coords="140,5,215,31"/>
+<area shape="rect" id="node2" href="$group__I2C__Driver.html" title="I2C driver APIs for STM32F407xx MCU." alt="" coords="5,5,92,31"/>
+</map>

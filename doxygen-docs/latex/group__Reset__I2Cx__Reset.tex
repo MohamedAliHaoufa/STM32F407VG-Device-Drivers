@@ -1,0 +1,32 @@
+\hypertarget{group__Reset__I2Cx__Reset}{}\doxysection{Reset I2\+Cx Peripherals}
+\label{group__Reset__I2Cx__Reset}\index{Reset I2Cx Peripherals@{Reset I2Cx Peripherals}}
+
+
+Macros for resetting I2C peripherals.  
+
+
+Collaboration diagram for Reset I2\+Cx Peripherals\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__Reset__I2Cx__Reset}
+\end{center}
+\end{figure}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__Reset__I2Cx__Reset_ga2c722b8f7564ed6f471ca3a9c8a375e4}\label{group__Reset__I2Cx__Reset_ga2c722b8f7564ed6f471ca3a9c8a375e4}} 
+\#define {\bfseries I2\+C1\+\_\+\+REG\+\_\+\+RESET}()~do\{ ( RCC-\/$>$APB1\+RSTR $\vert$= (1$<$$<$21) ); ( RCC-\/$>$APB1\+RSTR  \&= $\sim$(1$<$$<$21) );\}while(0)
+\item 
+\mbox{\Hypertarget{group__Reset__I2Cx__Reset_ga1059963aabd5ada3aec6c337a3304685}\label{group__Reset__I2Cx__Reset_ga1059963aabd5ada3aec6c337a3304685}} 
+\#define {\bfseries I2\+C2\+\_\+\+REG\+\_\+\+RESET}()~do\{ ( RCC-\/$>$APB1\+RSTR $\vert$= (1$<$$<$22) ); ( RCC-\/$>$APB1\+RSTR  \&= $\sim$(1$<$$<$22) );\}while(0)
+\item 
+\mbox{\Hypertarget{group__Reset__I2Cx__Reset_ga22c31a82c4d41e30844436fba8e4b693}\label{group__Reset__I2Cx__Reset_ga22c31a82c4d41e30844436fba8e4b693}} 
+\#define {\bfseries I2\+C3\+\_\+\+REG\+\_\+\+RESET}()~do\{ ( RCC-\/$>$APB1\+RSTR $\vert$= (1$<$$<$23) ); ( RCC-\/$>$APB1\+RSTR  \&= $\sim$(1$<$$<$23) );\}while(0)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Macros for resetting I2C peripherals. 
+

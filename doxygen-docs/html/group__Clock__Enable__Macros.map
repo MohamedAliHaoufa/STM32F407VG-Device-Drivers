@@ -1,0 +1,9 @@
+<map id="Clock Enable Macros" name="Clock Enable Macros">
+<area shape="rect" id="node1" href="$group__Clock__Enable__GPIO__Clocks.html" title="Macros for enabling clocks to GPIO peripherals." alt="" coords="485,5,675,31"/>
+<area shape="rect" id="node2" href="$group__Clock__Enable__I2C__Clocks.html" title="Macros for enabling clocks to I2C peripherals." alt="" coords="491,55,669,80"/>
+<area shape="rect" id="node3" href="$group__Clock__Enable__USART__Clocks.html" title="Macros for enabling clocks to USART peripherals." alt="" coords="503,105,657,145"/>
+<area shape="rect" id="node4" href="$group__Clock__Enable__SPI__Clocks.html" title="Macros for enabling clocks to SPI peripherals." alt="" coords="491,169,669,195"/>
+<area shape="rect" id="node5" href="$group__STM32F407XX__HEADER.html" title="Header file containing all the necessary information about the STM32F407xx MCU." alt="" coords="5,112,232,137"/>
+<area shape="rect" id="node6" title=" " alt="" coords="280,112,437,137"/>
+<area shape="rect" id="node7" href="$group__Clock__Enable__SYSCFG__Clocks.html" title="Macros for enabling clocks to SYSCFG peripherals." alt="" coords="499,219,661,259"/>
+</map>

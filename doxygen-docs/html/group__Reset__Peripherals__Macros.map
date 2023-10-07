@@ -1,0 +1,8 @@
+<map id="Reset Peripherals Macros" name="Reset Peripherals Macros">
+<area shape="rect" id="node1" href="$group__Reset__I2Cx__Reset.html" title="Macros for resetting I2C peripherals." alt="" coords="526,5,695,31"/>
+<area shape="rect" id="node2" href="$group__STM32F407XX__HEADER.html" title="Header file containing all the necessary information about the STM32F407xx MCU." alt="" coords="5,80,232,105"/>
+<area shape="rect" id="node5" title="Macros for resetting various peripherals." alt="" coords="280,80,467,105"/>
+<area shape="rect" id="node3" href="$group__Reset__USARTx__Reset.html" title="Macros for resetting USART peripherals." alt="" coords="515,55,707,80"/>
+<area shape="rect" id="node4" href="$group__Reset__SPIx__Reset.html" title="Macros for resetting SPI peripherals." alt="" coords="527,104,695,129"/>
+<area shape="rect" id="node6" href="$group__Reset__GPIOx__Reset.html" title="Macros for resetting GPIO peripherals." alt="" coords="521,153,701,179"/>
+</map>

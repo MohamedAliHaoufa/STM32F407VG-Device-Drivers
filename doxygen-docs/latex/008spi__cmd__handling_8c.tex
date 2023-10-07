@@ -1,0 +1,155 @@
+\hypertarget{008spi__cmd__handling_8c}{}\doxysection{Src/008spi\+\_\+cmd\+\_\+handling.c File Reference}
+\label{008spi__cmd__handling_8c}\index{Src/008spi\_cmd\_handling.c@{Src/008spi\_cmd\_handling.c}}
+{\ttfamily \#include \char`\"{}../drivers/\+Inc/stm32f407xx.\+h\char`\"{}}\newline
+Include dependency graph for 008spi\+\_\+cmd\+\_\+handling.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{008spi__cmd__handling_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{008spi__cmd__handling_8c_a48ddd4b47beb5c10ed4549c4bb3422d1}{CMD\+\_\+\+LED\+\_\+\+CTRL}}~0x50
+\item 
+\#define \mbox{\hyperlink{008spi__cmd__handling_8c_a075437599da345a372d5ee204e04ce8e}{CMD\+\_\+\+SENSOR\+\_\+\+READ}}~0x51
+\item 
+\#define \mbox{\hyperlink{008spi__cmd__handling_8c_a3975cc55cad7da5249001685a809afc0}{CMD\+\_\+\+LED\+\_\+\+READ}}~0x52
+\item 
+\#define \mbox{\hyperlink{008spi__cmd__handling_8c_afd67a594574c05e8d40ec8ff3ead0e61}{CMD\+\_\+\+PRINT}}~0x53
+\item 
+\#define \mbox{\hyperlink{008spi__cmd__handling_8c_a94129c08a9c484dab0323e243e98034e}{CMD\+\_\+\+ID\+\_\+\+READ}}~0x54
+\item 
+\#define \mbox{\hyperlink{008spi__cmd__handling_8c_af2e697ac60e05813d45ea2c9c9e79c25}{LED\+\_\+\+ON}}~1
+\item 
+\#define \mbox{\hyperlink{008spi__cmd__handling_8c_a80700bb63bd56ebabbb4728aa433fd29}{LED\+\_\+\+OFF}}~0
+\item 
+\#define \mbox{\hyperlink{008spi__cmd__handling_8c_ab4553be4db9860d940f81d7447173b2f}{LED\+\_\+\+PIN}}~9
+\item 
+\#define \mbox{\hyperlink{008spi__cmd__handling_8c_aa65e9e325c64d2b004c553139a5a1a69}{ANALOG\+\_\+\+PIN0}}~0
+\item 
+\#define \mbox{\hyperlink{008spi__cmd__handling_8c_aadf9fbcd114f2eae2b57efc5facfaa8c}{ANALOG\+\_\+\+PIN1}}~1
+\item 
+\#define \mbox{\hyperlink{008spi__cmd__handling_8c_a4368d0efe97b174a428e6f8cb73ceab1}{ANALOG\+\_\+\+PIN2}}~2
+\item 
+\#define \mbox{\hyperlink{008spi__cmd__handling_8c_a78742b115898136dba8d0d0818c18921}{ANALOG\+\_\+\+PIN3}}~3
+\item 
+\#define \mbox{\hyperlink{008spi__cmd__handling_8c_a2434f0d2ca41f47f368f2cc6792de7fd}{ANALOG\+\_\+\+PIN4}}~4
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{008spi__cmd__handling_8c_a1e83bf413aad44239bd7648b717a3ab0}\label{008spi__cmd__handling_8c_a1e83bf413aad44239bd7648b717a3ab0}} 
+void {\bfseries SPI2\+\_\+\+GPIOInits} (void)
+\item 
+\mbox{\Hypertarget{008spi__cmd__handling_8c_a3930ec6ca02ee15fd750ce8ce0c1b114}\label{008spi__cmd__handling_8c_a3930ec6ca02ee15fd750ce8ce0c1b114}} 
+void {\bfseries SPI2\+\_\+\+Inits} (void)
+\item 
+\mbox{\Hypertarget{008spi__cmd__handling_8c_afc238f2f986435efcf6378616fa989c7}\label{008spi__cmd__handling_8c_afc238f2f986435efcf6378616fa989c7}} 
+void {\bfseries GPIO\+\_\+\+Button\+Init} (void)
+\item 
+\mbox{\Hypertarget{008spi__cmd__handling_8c_ab032a5a5a50b27e237c74de74731e1c7}\label{008spi__cmd__handling_8c_ab032a5a5a50b27e237c74de74731e1c7}} 
+uint8\+\_\+t {\bfseries SPI\+\_\+\+Verify\+Response} (uint8\+\_\+t ackbyte)
+\item 
+\mbox{\Hypertarget{008spi__cmd__handling_8c_a840291bc02cba5474a4cb46a9b9566fe}\label{008spi__cmd__handling_8c_a840291bc02cba5474a4cb46a9b9566fe}} 
+int {\bfseries main} (void)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Mohamed Ali Haoufa 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2023-\/10-\/07
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2023 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{008spi__cmd__handling_8c_aa65e9e325c64d2b004c553139a5a1a69}\label{008spi__cmd__handling_8c_aa65e9e325c64d2b004c553139a5a1a69}} 
+\index{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!ANALOG\_PIN0@{ANALOG\_PIN0}}
+\index{ANALOG\_PIN0@{ANALOG\_PIN0}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}}
+\doxysubsubsection{\texorpdfstring{ANALOG\_PIN0}{ANALOG\_PIN0}}
+{\footnotesize\ttfamily \#define ANALOG\+\_\+\+PIN0~0}
+
+Represents analog pin 0. \mbox{\Hypertarget{008spi__cmd__handling_8c_aadf9fbcd114f2eae2b57efc5facfaa8c}\label{008spi__cmd__handling_8c_aadf9fbcd114f2eae2b57efc5facfaa8c}} 
+\index{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!ANALOG\_PIN1@{ANALOG\_PIN1}}
+\index{ANALOG\_PIN1@{ANALOG\_PIN1}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}}
+\doxysubsubsection{\texorpdfstring{ANALOG\_PIN1}{ANALOG\_PIN1}}
+{\footnotesize\ttfamily \#define ANALOG\+\_\+\+PIN1~1}
+
+Represents analog pin 1. \mbox{\Hypertarget{008spi__cmd__handling_8c_a4368d0efe97b174a428e6f8cb73ceab1}\label{008spi__cmd__handling_8c_a4368d0efe97b174a428e6f8cb73ceab1}} 
+\index{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!ANALOG\_PIN2@{ANALOG\_PIN2}}
+\index{ANALOG\_PIN2@{ANALOG\_PIN2}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}}
+\doxysubsubsection{\texorpdfstring{ANALOG\_PIN2}{ANALOG\_PIN2}}
+{\footnotesize\ttfamily \#define ANALOG\+\_\+\+PIN2~2}
+
+Represents analog pin 2. \mbox{\Hypertarget{008spi__cmd__handling_8c_a78742b115898136dba8d0d0818c18921}\label{008spi__cmd__handling_8c_a78742b115898136dba8d0d0818c18921}} 
+\index{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!ANALOG\_PIN3@{ANALOG\_PIN3}}
+\index{ANALOG\_PIN3@{ANALOG\_PIN3}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}}
+\doxysubsubsection{\texorpdfstring{ANALOG\_PIN3}{ANALOG\_PIN3}}
+{\footnotesize\ttfamily \#define ANALOG\+\_\+\+PIN3~3}
+
+Represents analog pin 3. \mbox{\Hypertarget{008spi__cmd__handling_8c_a2434f0d2ca41f47f368f2cc6792de7fd}\label{008spi__cmd__handling_8c_a2434f0d2ca41f47f368f2cc6792de7fd}} 
+\index{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!ANALOG\_PIN4@{ANALOG\_PIN4}}
+\index{ANALOG\_PIN4@{ANALOG\_PIN4}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}}
+\doxysubsubsection{\texorpdfstring{ANALOG\_PIN4}{ANALOG\_PIN4}}
+{\footnotesize\ttfamily \#define ANALOG\+\_\+\+PIN4~4}
+
+Represents analog pin 4. \mbox{\Hypertarget{008spi__cmd__handling_8c_a94129c08a9c484dab0323e243e98034e}\label{008spi__cmd__handling_8c_a94129c08a9c484dab0323e243e98034e}} 
+\index{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!CMD\_ID\_READ@{CMD\_ID\_READ}}
+\index{CMD\_ID\_READ@{CMD\_ID\_READ}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}}
+\doxysubsubsection{\texorpdfstring{CMD\_ID\_READ}{CMD\_ID\_READ}}
+{\footnotesize\ttfamily \#define CMD\+\_\+\+ID\+\_\+\+READ~0x54}
+
+CMD to read an ID. \mbox{\Hypertarget{008spi__cmd__handling_8c_a48ddd4b47beb5c10ed4549c4bb3422d1}\label{008spi__cmd__handling_8c_a48ddd4b47beb5c10ed4549c4bb3422d1}} 
+\index{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!CMD\_LED\_CTRL@{CMD\_LED\_CTRL}}
+\index{CMD\_LED\_CTRL@{CMD\_LED\_CTRL}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}}
+\doxysubsubsection{\texorpdfstring{CMD\_LED\_CTRL}{CMD\_LED\_CTRL}}
+{\footnotesize\ttfamily \#define CMD\+\_\+\+LED\+\_\+\+CTRL~0x50}
+
+CMD to control an LED. \mbox{\Hypertarget{008spi__cmd__handling_8c_a3975cc55cad7da5249001685a809afc0}\label{008spi__cmd__handling_8c_a3975cc55cad7da5249001685a809afc0}} 
+\index{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!CMD\_LED\_READ@{CMD\_LED\_READ}}
+\index{CMD\_LED\_READ@{CMD\_LED\_READ}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}}
+\doxysubsubsection{\texorpdfstring{CMD\_LED\_READ}{CMD\_LED\_READ}}
+{\footnotesize\ttfamily \#define CMD\+\_\+\+LED\+\_\+\+READ~0x52}
+
+CMD to read the LED state. \mbox{\Hypertarget{008spi__cmd__handling_8c_afd67a594574c05e8d40ec8ff3ead0e61}\label{008spi__cmd__handling_8c_afd67a594574c05e8d40ec8ff3ead0e61}} 
+\index{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!CMD\_PRINT@{CMD\_PRINT}}
+\index{CMD\_PRINT@{CMD\_PRINT}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}}
+\doxysubsubsection{\texorpdfstring{CMD\_PRINT}{CMD\_PRINT}}
+{\footnotesize\ttfamily \#define CMD\+\_\+\+PRINT~0x53}
+
+CMD to print data. \mbox{\Hypertarget{008spi__cmd__handling_8c_a075437599da345a372d5ee204e04ce8e}\label{008spi__cmd__handling_8c_a075437599da345a372d5ee204e04ce8e}} 
+\index{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!CMD\_SENSOR\_READ@{CMD\_SENSOR\_READ}}
+\index{CMD\_SENSOR\_READ@{CMD\_SENSOR\_READ}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}}
+\doxysubsubsection{\texorpdfstring{CMD\_SENSOR\_READ}{CMD\_SENSOR\_READ}}
+{\footnotesize\ttfamily \#define CMD\+\_\+\+SENSOR\+\_\+\+READ~0x51}
+
+CMD to read a sensor. \mbox{\Hypertarget{008spi__cmd__handling_8c_a80700bb63bd56ebabbb4728aa433fd29}\label{008spi__cmd__handling_8c_a80700bb63bd56ebabbb4728aa433fd29}} 
+\index{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!LED\_OFF@{LED\_OFF}}
+\index{LED\_OFF@{LED\_OFF}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}}
+\doxysubsubsection{\texorpdfstring{LED\_OFF}{LED\_OFF}}
+{\footnotesize\ttfamily \#define LED\+\_\+\+OFF~0}
+
+Represents the LED OFF state. \mbox{\Hypertarget{008spi__cmd__handling_8c_af2e697ac60e05813d45ea2c9c9e79c25}\label{008spi__cmd__handling_8c_af2e697ac60e05813d45ea2c9c9e79c25}} 
+\index{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!LED\_ON@{LED\_ON}}
+\index{LED\_ON@{LED\_ON}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}}
+\doxysubsubsection{\texorpdfstring{LED\_ON}{LED\_ON}}
+{\footnotesize\ttfamily \#define LED\+\_\+\+ON~1}
+
+Represents the LED ON state. \mbox{\Hypertarget{008spi__cmd__handling_8c_ab4553be4db9860d940f81d7447173b2f}\label{008spi__cmd__handling_8c_ab4553be4db9860d940f81d7447173b2f}} 
+\index{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!LED\_PIN@{LED\_PIN}}
+\index{LED\_PIN@{LED\_PIN}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}}
+\doxysubsubsection{\texorpdfstring{LED\_PIN}{LED\_PIN}}
+{\footnotesize\ttfamily \#define LED\+\_\+\+PIN~9}
+
+connected the LED to the Arduino pin number 9. 

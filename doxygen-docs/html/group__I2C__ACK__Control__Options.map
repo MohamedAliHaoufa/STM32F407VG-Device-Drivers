@@ -1,0 +1,4 @@
+<map id="I2C ACK Control Options" name="I2C ACK Control Options">
+<area shape="rect" id="node1" href="$group__I2C__Macros.html" title="Macros related to I2C configuration, flags, and events." alt="" coords="5,5,100,31"/>
+<area shape="rect" id="node2" title="Options for controlling the ACK mechanism in I2C communication." alt="" coords="148,5,327,31"/>
+</map>

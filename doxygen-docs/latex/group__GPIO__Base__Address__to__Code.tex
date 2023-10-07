@@ -1,0 +1,59 @@
+\hypertarget{group__GPIO__Base__Address__to__Code}{}\doxysection{GPIO Base Address to Code Conversion Macros}
+\label{group__GPIO__Base__Address__to__Code}\index{GPIO Base Address to Code Conversion Macros@{GPIO Base Address to Code Conversion Macros}}
+
+
+Macros for converting GPIO base addresses to corresponding port codes.  
+
+
+Collaboration diagram for GPIO Base Address to Code Conversion Macros\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__GPIO__Base__Address__to__Code}
+\end{center}
+\end{figure}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{group__GPIO__Base__Address__to__Code_ga4d6a0a911078e837f4c14cc2201e0f2e}{GPIO\+\_\+\+BASEADDR\+\_\+\+TO\+\_\+\+CODE}}(x)
+\begin{DoxyCompactList}\small\item\em Macro to convert GPIO base address to port code. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Macros for converting GPIO base addresses to corresponding port codes. 
+
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{group__GPIO__Base__Address__to__Code_ga4d6a0a911078e837f4c14cc2201e0f2e}\label{group__GPIO__Base__Address__to__Code_ga4d6a0a911078e837f4c14cc2201e0f2e}} 
+\index{GPIO Base Address to Code Conversion Macros@{GPIO Base Address to Code Conversion Macros}!GPIO\_BASEADDR\_TO\_CODE@{GPIO\_BASEADDR\_TO\_CODE}}
+\index{GPIO\_BASEADDR\_TO\_CODE@{GPIO\_BASEADDR\_TO\_CODE}!GPIO Base Address to Code Conversion Macros@{GPIO Base Address to Code Conversion Macros}}
+\doxysubsubsection{\texorpdfstring{GPIO\_BASEADDR\_TO\_CODE}{GPIO\_BASEADDR\_TO\_CODE}}
+{\footnotesize\ttfamily \#define GPIO\+\_\+\+BASEADDR\+\_\+\+TO\+\_\+\+CODE(\begin{DoxyParamCaption}\item[{}]{x }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                                      (   (x == GPIOA)?0:\(\backslash\)}
+\DoxyCodeLine{                                      (x == GPIOB)?1:\(\backslash\)}
+\DoxyCodeLine{                                      (x == GPIOC)?2:\(\backslash\)}
+\DoxyCodeLine{                                      (x == GPIOD)?3:\(\backslash\)}
+\DoxyCodeLine{                                      (x == GPIOE)?4:\(\backslash\)}
+\DoxyCodeLine{                                      (x == GPIOF)?5:\(\backslash\)}
+\DoxyCodeLine{                                      (x == GPIOG)?6:\(\backslash\)}
+\DoxyCodeLine{                                      (x == GPIOH)?7:\(\backslash\)}
+\DoxyCodeLine{                                      (x == GPIOI)?8:0 )}
+
+\end{DoxyCode}
+
+
+Macro to convert GPIO base address to port code. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & GPIOx base address. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Corresponding port code for the given GPIO base address. 
+\end{DoxyReturn}

@@ -1,0 +1,23 @@
+<map id="STM32F407xx MCU Header File" name="STM32F407xx MCU Header File">
+<area shape="rect" id="node1" href="$group__Peripheral__Registers.html" title="Structures defining the register layouts for various peripherals." alt="" coords="307,5,454,45"/>
+<area shape="rect" id="node2" href="$group__NVIC__Priority__Levels.html" title="Macros for all possible priority levels for NVIC." alt="" coords="305,69,456,109"/>
+<area shape="rect" id="node3" href="$group__Peripheral__Definitions.html" title="Definitions for various peripheral instances based on their base addresses." alt="" coords="299,134,462,159"/>
+<area shape="rect" id="node4" href="$group__Clock__Disable__Macros.html" title=" " alt="" coords="299,183,462,209"/>
+<area shape="rect" id="node5" href="$group__I2C__Bit__Positions.html" title="Bit position definitions for various registers in the I2C peripheral." alt="" coords="283,233,478,258"/>
+<area shape="rect" id="node6" href="$group__Generic__Macros.html" title="Generic macros for enabling/disabling, setting/resetting, and handling flags." alt="" coords="319,282,442,307"/>
+<area shape="rect" id="node7" href="$group__NVIC__PR__BASE.html" title="Base address for NVIC Priority registers calculation." alt="" coords="295,332,466,372"/>
+<area shape="rect" id="node8" href="$group__SPI__Bit__Positions.html" title="Bit position definitions for various registers in the SPI peripheral." alt="" coords="283,397,478,422"/>
+<area shape="rect" id="node9" title="Header file containing all the necessary information about the STM32F407xx MCU." alt="" coords="5,521,232,546"/>
+<area shape="rect" id="node10" href="$group__Clock__Enable__Macros.html" title=" " alt="" coords="302,446,459,471"/>
+<area shape="rect" id="node11" href="$group__NVIC__ISERx.html" title="Base addresses for NVIC ISERx registers." alt="" coords="301,495,461,521"/>
+<area shape="rect" id="node12" href="$group__RCC__Bit__Positions.html" title="Bit position definitions for various registers in the RCC peripheral." alt="" coords="280,545,481,570"/>
+<area shape="rect" id="node13" href="$group__Reset__Peripherals__Macros.html" title="Macros for resetting various peripherals." alt="" coords="287,594,474,619"/>
+<area shape="rect" id="node14" href="$group__USART__Bit__Positions.html" title="Bit position definitions for various registers in the USART peripheral." alt="" coords="309,644,453,684"/>
+<area shape="rect" id="node15" href="$group__PR__BITS__IMPLEMENTED.html" title="Number of Priority bits implemented in the priority register." alt="" coords="286,709,475,734"/>
+<area shape="rect" id="node16" href="$group__NVIC__ICERx.html" title="Base addresses for NVIC ICERx registers." alt="" coords="300,758,461,783"/>
+<area shape="rect" id="node17" href="$group__IRQ__Numbers__Macros.html" title="Macros for interrupt request numbers and priority levels." alt="" coords="301,807,460,833"/>
+<area shape="rect" id="node18" href="$group__STM32F407XX__PERIPHERALS.html" title="Base addresses of various peripherals for the STM32F407xx MCU." alt="" coords="283,857,478,882"/>
+<area shape="rect" id="node19" href="$group__GPIO__Base__Address__to__Code.html" title="Macros for converting GPIO base addresses to corresponding port codes." alt="" coords="287,907,474,947"/>
+<area shape="rect" id="node20" href="$group__STM32F407XX__DEFINITIONS.html" title="Various definitions and macros for the STM32F407xx MCU." alt="" coords="295,971,466,997"/>
+<area shape="rect" id="node21" href="$group__MEMORY__BASE__ADDRESSES.html" title="Base addresses of memory regions." alt="" coords="289,1021,472,1046"/>
+</map>

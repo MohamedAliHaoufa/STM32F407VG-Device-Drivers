@@ -1,0 +1,11 @@
+<map id="I2C Macros" name="I2C Macros">
+<area shape="rect" id="node1" href="$group__I2C__Application__Event__Macros.html" title="Macros for I2C application events." alt="" coords="291,5,453,45"/>
+<area shape="rect" id="node2" title="Macros related to I2C configuration, flags, and events." alt="" coords="140,198,235,223"/>
+<area shape="rect" id="node3" href="$group__I2C__FM__Duty__Cycle__Options.html" title="Options for fast mode duty cycle in I2C communication." alt="" coords="298,69,446,109"/>
+<area shape="rect" id="node4" href="$group__I2C__SCL__Speed__Options.html" title="Options for I2C serial clock speed." alt="" coords="288,133,456,173"/>
+<area shape="rect" id="node5" href="$group__I2C__Flags.html" title="Flags indicating various status conditions in I2C communication." alt="" coords="309,198,435,223"/>
+<area shape="rect" id="node6" href="$group__I2C__ACK__Control__Options.html" title="Options for controlling the ACK mechanism in I2C communication." alt="" coords="283,247,461,273"/>
+<area shape="rect" id="node8" href="$group__I2C__Repeated__Start__Macros.html" title="Macros for enabling or disabling repeated start conditions in I2C communication." alt="" coords="300,297,444,337"/>
+<area shape="rect" id="node9" href="$group__I2C__Application__States.html" title="Possible states of the I2C application." alt="" coords="289,362,455,387"/>
+<area shape="rect" id="node7" href="$group__I2C__Driver.html" title="I2C driver APIs for STM32F407xx MCU." alt="" coords="5,198,92,223"/>
+</map>

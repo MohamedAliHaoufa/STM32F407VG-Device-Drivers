@@ -1,0 +1,89 @@
+\hypertarget{lcd_8h}{}\doxysection{bsp/lcd.h File Reference}
+\label{lcd_8h}\index{bsp/lcd.h@{bsp/lcd.h}}
+
+
+This file contains definitions and function prototypes for interfacing with an LCD (Liquid Crystal Display).  
+
+
+{\ttfamily \#include \char`\"{}../drivers/\+Inc/stm32f407xx.\+h\char`\"{}}\newline
+Include dependency graph for lcd.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{lcd_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{lcd_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries LCD\+\_\+\+GPIO\+\_\+\+PORT}~GPIOD
+\item 
+\#define {\bfseries LCD\+\_\+\+GPIO\+\_\+\+RS}~GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+0
+\item 
+\#define {\bfseries LCD\+\_\+\+GPIO\+\_\+\+RW}~GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+1
+\item 
+\#define {\bfseries LCD\+\_\+\+GPIO\+\_\+\+EN}~GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+2
+\item 
+\#define {\bfseries LCD\+\_\+\+GPIO\+\_\+\+D4}~GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+3
+\item 
+\#define {\bfseries LCD\+\_\+\+GPIO\+\_\+\+D5}~GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+4
+\item 
+\#define {\bfseries LCD\+\_\+\+GPIO\+\_\+\+D6}~GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+5
+\item 
+\#define {\bfseries LCD\+\_\+\+GPIO\+\_\+\+D7}~GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+6
+\item 
+\#define {\bfseries LCD\+\_\+\+CMD\+\_\+4\+DL\+\_\+2\+N\+\_\+5\+X8F}~0x28
+\item 
+\#define {\bfseries LCD\+\_\+\+CMD\+\_\+\+DON\+\_\+\+CON}~0x0E
+\item 
+\#define {\bfseries LCD\+\_\+\+CMD\+\_\+\+DIS\+\_\+\+CLEAR}~0x01
+\item 
+\#define {\bfseries LCD\+\_\+\+CMD\+\_\+\+INCADD}~0x06
+\item 
+\#define {\bfseries LCD\+\_\+\+CMD\+\_\+\+DIS\+\_\+\+RETURN\+\_\+\+HOME}~0x02
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__LCD__APIS_ga6842775ba83d166f02b8fef8bb63b1e6}{lcd\+\_\+init}} (void)
+\begin{DoxyCompactList}\small\item\em Initialize the LCD module. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__LCD__APIS_ga64386ad6108c11b9b87062542ec23c6b}{lcd\+\_\+send\+\_\+command}} (uint8\+\_\+t cmd)
+\begin{DoxyCompactList}\small\item\em Send a command to the LCD. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__LCD__APIS_ga23e41d78d276a2be8ac1f7198bf65f95}{lcd\+\_\+print\+\_\+char}} (uint8\+\_\+t data)
+\begin{DoxyCompactList}\small\item\em Print a character on the LCD. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__LCD__APIS_ga542bd801a4ce716e05d205632c7c52d3}{lcd\+\_\+print\+\_\+string}} (char $\ast$message)
+\begin{DoxyCompactList}\small\item\em Print a string on the LCD. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__LCD__APIS_ga4f7e474c3b149be3e1d53c2dd05e3d54}{lcd\+\_\+set\+\_\+cursor}} (uint8\+\_\+t row, uint8\+\_\+t column)
+\begin{DoxyCompactList}\small\item\em Set the cursor position on the LCD. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__LCD__APIS_gac3968364fc5a2e3371224f283a68484b}{lcd\+\_\+display\+\_\+clear}} (void)
+\begin{DoxyCompactList}\small\item\em Clear the LCD display. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__LCD__APIS_ga05315b677f8dcb3518ce8afa6ab8da18}{lcd\+\_\+display\+\_\+return\+\_\+home}} (void)
+\begin{DoxyCompactList}\small\item\em Return the cursor to the home position on the LCD. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file contains definitions and function prototypes for interfacing with an LCD (Liquid Crystal Display). 
+
+\begin{DoxyAuthor}{Author}
+Mohamed Ali Haoufa 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2023-\/10-\/07
+\end{DoxyDate}
+This header file provides definitions for GPIO pins and LCD commands, as well as function prototypes for initializing, controlling, and displaying text on an LCD. It serves as an interface to abstract the low-\/level hardware interactions required for LCD operation, making it easier to integrate LCD functionality into embedded applications.
+
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2023 
+\end{DoxyCopyright}

@@ -1,0 +1,5 @@
+<map id="IRQ Numbers Macros" name="IRQ Numbers Macros">
+<area shape="rect" id="node1" href="$group__STM32F407XX__HEADER.html" title="Header file containing all the necessary information about the STM32F407xx MCU." alt="" coords="5,13,232,38"/>
+<area shape="rect" id="node3" title="Macros for interrupt request numbers and priority levels." alt="" coords="280,13,439,38"/>
+<area shape="rect" id="node2" href="$group__IRQ__Numbers.html" title="IRQ numbers for EXTI (External Interrupt) sources." alt="" coords="487,5,665,45"/>
+</map>

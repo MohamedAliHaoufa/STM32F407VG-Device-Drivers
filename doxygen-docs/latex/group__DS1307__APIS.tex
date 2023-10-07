@@ -1,0 +1,113 @@
+\hypertarget{group__DS1307__APIS}{}\doxysection{DS1307 APIs}
+\label{group__DS1307__APIS}\index{DS1307 APIs@{DS1307 APIs}}
+
+
+APIs supported by the DS1307 driver.  
+
+
+Collaboration diagram for DS1307 APIs\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{group__DS1307__APIS}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{group__DS1307__APIS_ga3803c7add6775f7dfa12048ab7d80dc4}{ds1307\+\_\+init}} ()
+\begin{DoxyCompactList}\small\item\em Initialize the DS1307 module. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__DS1307__APIS_gaf94e883b4a27c40e9faad1a90657c470}{ds1307\+\_\+set\+\_\+current\+\_\+time}} (\mbox{\hyperlink{structRTC__time__t}{RTC\+\_\+time\+\_\+t}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Set the current time on the DS1307 RTC module. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__DS1307__APIS_ga94ef7f3c71aab0ee1464864760645be3}{ds1307\+\_\+get\+\_\+current\+\_\+time}} (\mbox{\hyperlink{structRTC__time__t}{RTC\+\_\+time\+\_\+t}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Get the current time from the DS1307 RTC module. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__DS1307__APIS_gad778d517c250c5fbef83c977d177e824}{ds1307\+\_\+set\+\_\+current\+\_\+date}} (\mbox{\hyperlink{structRTC__date__t}{RTC\+\_\+date\+\_\+t}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Set the current date on the DS1307 RTC module. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__DS1307__APIS_ga1531a89de130e91e301bc7319dde3bb3}{ds1307\+\_\+get\+\_\+current\+\_\+date}} (\mbox{\hyperlink{structRTC__date__t}{RTC\+\_\+date\+\_\+t}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Get the current date from the DS1307 RTC module. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+APIs supported by the DS1307 driver. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group__DS1307__APIS_ga1531a89de130e91e301bc7319dde3bb3}\label{group__DS1307__APIS_ga1531a89de130e91e301bc7319dde3bb3}} 
+\index{DS1307 APIs@{DS1307 APIs}!ds1307\_get\_current\_date@{ds1307\_get\_current\_date}}
+\index{ds1307\_get\_current\_date@{ds1307\_get\_current\_date}!DS1307 APIs@{DS1307 APIs}}
+\doxysubsubsection{\texorpdfstring{ds1307\_get\_current\_date()}{ds1307\_get\_current\_date()}}
+{\footnotesize\ttfamily void ds1307\+\_\+get\+\_\+current\+\_\+date (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structRTC__date__t}{RTC\+\_\+date\+\_\+t}} $\ast$}]{rtc\+\_\+date }\end{DoxyParamCaption})}
+
+
+
+Get the current date from the DS1307 RTC module. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ out}}  & {\em Pointer} & to a structure to store the retrieved date. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__DS1307__APIS_ga94ef7f3c71aab0ee1464864760645be3}\label{group__DS1307__APIS_ga94ef7f3c71aab0ee1464864760645be3}} 
+\index{DS1307 APIs@{DS1307 APIs}!ds1307\_get\_current\_time@{ds1307\_get\_current\_time}}
+\index{ds1307\_get\_current\_time@{ds1307\_get\_current\_time}!DS1307 APIs@{DS1307 APIs}}
+\doxysubsubsection{\texorpdfstring{ds1307\_get\_current\_time()}{ds1307\_get\_current\_time()}}
+{\footnotesize\ttfamily void ds1307\+\_\+get\+\_\+current\+\_\+time (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structRTC__time__t}{RTC\+\_\+time\+\_\+t}} $\ast$}]{rtc\+\_\+time }\end{DoxyParamCaption})}
+
+
+
+Get the current time from the DS1307 RTC module. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ out}}  & {\em Pointer} & to a structure to store the retrieved time. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__DS1307__APIS_ga3803c7add6775f7dfa12048ab7d80dc4}\label{group__DS1307__APIS_ga3803c7add6775f7dfa12048ab7d80dc4}} 
+\index{DS1307 APIs@{DS1307 APIs}!ds1307\_init@{ds1307\_init}}
+\index{ds1307\_init@{ds1307\_init}!DS1307 APIs@{DS1307 APIs}}
+\doxysubsubsection{\texorpdfstring{ds1307\_init()}{ds1307\_init()}}
+{\footnotesize\ttfamily uint8\+\_\+t ds1307\+\_\+init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initialize the DS1307 module. 
+
+\begin{DoxyReturn}{Returns}
+Status\+:
+\begin{DoxyItemize}
+\item 0\+: Success
+\item 1\+: Error 
+\end{DoxyItemize}
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__DS1307__APIS_gad778d517c250c5fbef83c977d177e824}\label{group__DS1307__APIS_gad778d517c250c5fbef83c977d177e824}} 
+\index{DS1307 APIs@{DS1307 APIs}!ds1307\_set\_current\_date@{ds1307\_set\_current\_date}}
+\index{ds1307\_set\_current\_date@{ds1307\_set\_current\_date}!DS1307 APIs@{DS1307 APIs}}
+\doxysubsubsection{\texorpdfstring{ds1307\_set\_current\_date()}{ds1307\_set\_current\_date()}}
+{\footnotesize\ttfamily void ds1307\+\_\+set\+\_\+current\+\_\+date (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structRTC__date__t}{RTC\+\_\+date\+\_\+t}} $\ast$}]{rtc\+\_\+date }\end{DoxyParamCaption})}
+
+
+
+Set the current date on the DS1307 RTC module. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em Pointer} & to a structure containing the date to set. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__DS1307__APIS_gaf94e883b4a27c40e9faad1a90657c470}\label{group__DS1307__APIS_gaf94e883b4a27c40e9faad1a90657c470}} 
+\index{DS1307 APIs@{DS1307 APIs}!ds1307\_set\_current\_time@{ds1307\_set\_current\_time}}
+\index{ds1307\_set\_current\_time@{ds1307\_set\_current\_time}!DS1307 APIs@{DS1307 APIs}}
+\doxysubsubsection{\texorpdfstring{ds1307\_set\_current\_time()}{ds1307\_set\_current\_time()}}
+{\footnotesize\ttfamily void ds1307\+\_\+set\+\_\+current\+\_\+time (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structRTC__time__t}{RTC\+\_\+time\+\_\+t}} $\ast$}]{rtc\+\_\+time }\end{DoxyParamCaption})}
+
+
+
+Set the current time on the DS1307 RTC module. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em Pointer} & to a structure containing the time to set. \\
+\hline
+\end{DoxyParams}

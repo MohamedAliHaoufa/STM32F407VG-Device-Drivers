@@ -1,0 +1,1620 @@
+\indexentry{DS1307 RTC Driver@{DS1307 RTC Driver}|hyperpage}{9}
+\indexentry{DS1307 Macros@{DS1307 Macros}|hyperpage}{10}
+\indexentry{DS1307 Configurable Items@{DS1307 Configurable Items}|hyperpage}{11}
+\indexentry{Register Addresses@{Register Addresses}|hyperpage}{11}
+\indexentry{Time Formats@{Time Formats}|hyperpage}{12}
+\indexentry{Days of the Week@{Days of the Week}|hyperpage}{12}
+\indexentry{DS1307 APIs@{DS1307 APIs}|hyperpage}{13}
+\indexentry{DS1307 APIs@{DS1307 APIs}!ds1307\_get\_current\_date@{ds1307\_get\_current\_date}|hyperpage}{14}
+\indexentry{ds1307\_get\_current\_date@{ds1307\_get\_current\_date}!DS1307 APIs@{DS1307 APIs}|hyperpage}{14}
+\indexentry{DS1307 APIs@{DS1307 APIs}!ds1307\_get\_current\_time@{ds1307\_get\_current\_time}|hyperpage}{14}
+\indexentry{ds1307\_get\_current\_time@{ds1307\_get\_current\_time}!DS1307 APIs@{DS1307 APIs}|hyperpage}{14}
+\indexentry{DS1307 APIs@{DS1307 APIs}!ds1307\_init@{ds1307\_init}|hyperpage}{14}
+\indexentry{ds1307\_init@{ds1307\_init}!DS1307 APIs@{DS1307 APIs}|hyperpage}{14}
+\indexentry{DS1307 APIs@{DS1307 APIs}!ds1307\_set\_current\_date@{ds1307\_set\_current\_date}|hyperpage}{14}
+\indexentry{ds1307\_set\_current\_date@{ds1307\_set\_current\_date}!DS1307 APIs@{DS1307 APIs}|hyperpage}{14}
+\indexentry{DS1307 APIs@{DS1307 APIs}!ds1307\_set\_current\_time@{ds1307\_set\_current\_time}|hyperpage}{15}
+\indexentry{ds1307\_set\_current\_time@{ds1307\_set\_current\_time}!DS1307 APIs@{DS1307 APIs}|hyperpage}{15}
+\indexentry{KEYPAD Driver@{KEYPAD Driver}|hyperpage}{15}
+\indexentry{KEYPAD Driver@{KEYPAD Driver}!Keypad\_ScanAndPrint@{Keypad\_ScanAndPrint}|hyperpage}{15}
+\indexentry{Keypad\_ScanAndPrint@{Keypad\_ScanAndPrint}!KEYPAD Driver@{KEYPAD Driver}|hyperpage}{15}
+\indexentry{LCD Driver@{LCD Driver}|hyperpage}{16}
+\indexentry{LCD Macros@{LCD Macros}|hyperpage}{17}
+\indexentry{Application Configurable Items@{Application Configurable Items}|hyperpage}{17}
+\indexentry{LCD Commands@{LCD Commands}|hyperpage}{18}
+\indexentry{LCD APIs@{LCD APIs}|hyperpage}{19}
+\indexentry{LCD APIs@{LCD APIs}!lcd\_display\_clear@{lcd\_display\_clear}|hyperpage}{19}
+\indexentry{lcd\_display\_clear@{lcd\_display\_clear}!LCD APIs@{LCD APIs}|hyperpage}{19}
+\indexentry{LCD APIs@{LCD APIs}!lcd\_display\_return\_home@{lcd\_display\_return\_home}|hyperpage}{19}
+\indexentry{lcd\_display\_return\_home@{lcd\_display\_return\_home}!LCD APIs@{LCD APIs}|hyperpage}{19}
+\indexentry{LCD APIs@{LCD APIs}!lcd\_init@{lcd\_init}|hyperpage}{20}
+\indexentry{lcd\_init@{lcd\_init}!LCD APIs@{LCD APIs}|hyperpage}{20}
+\indexentry{LCD APIs@{LCD APIs}!lcd\_print\_char@{lcd\_print\_char}|hyperpage}{20}
+\indexentry{lcd\_print\_char@{lcd\_print\_char}!LCD APIs@{LCD APIs}|hyperpage}{20}
+\indexentry{LCD APIs@{LCD APIs}!lcd\_print\_string@{lcd\_print\_string}|hyperpage}{20}
+\indexentry{lcd\_print\_string@{lcd\_print\_string}!LCD APIs@{LCD APIs}|hyperpage}{20}
+\indexentry{LCD APIs@{LCD APIs}!lcd\_send\_command@{lcd\_send\_command}|hyperpage}{21}
+\indexentry{lcd\_send\_command@{lcd\_send\_command}!LCD APIs@{LCD APIs}|hyperpage}{21}
+\indexentry{LCD APIs@{LCD APIs}!lcd\_set\_cursor@{lcd\_set\_cursor}|hyperpage}{21}
+\indexentry{lcd\_set\_cursor@{lcd\_set\_cursor}!LCD APIs@{LCD APIs}|hyperpage}{21}
+\indexentry{STM32F407xx MCU Header File@{STM32F407xx MCU Header File}|hyperpage}{22}
+\indexentry{Definitions and Macros@{Definitions and Macros}|hyperpage}{24}
+\indexentry{NVIC ISERx Registers@{NVIC ISERx Registers}|hyperpage}{24}
+\indexentry{NVIC ICERx Registers@{NVIC ICERx Registers}|hyperpage}{25}
+\indexentry{NVIC Priority Registers Base Address@{NVIC Priority Registers Base Address}|hyperpage}{25}
+\indexentry{Priority Bits Implemented@{Priority Bits Implemented}|hyperpage}{26}
+\indexentry{Memory Base Addresses@{Memory Base Addresses}|hyperpage}{26}
+\indexentry{Memory Base Addresses@{Memory Base Addresses}!FLASH\_BASEADDR@{FLASH\_BASEADDR}|hyperpage}{27}
+\indexentry{FLASH\_BASEADDR@{FLASH\_BASEADDR}!Memory Base Addresses@{Memory Base Addresses}|hyperpage}{27}
+\indexentry{Memory Base Addresses@{Memory Base Addresses}!ROM\_BASEADDR@{ROM\_BASEADDR}|hyperpage}{27}
+\indexentry{ROM\_BASEADDR@{ROM\_BASEADDR}!Memory Base Addresses@{Memory Base Addresses}|hyperpage}{27}
+\indexentry{Memory Base Addresses@{Memory Base Addresses}!SRAM1\_BASEADDR@{SRAM1\_BASEADDR}|hyperpage}{27}
+\indexentry{SRAM1\_BASEADDR@{SRAM1\_BASEADDR}!Memory Base Addresses@{Memory Base Addresses}|hyperpage}{27}
+\indexentry{Memory Base Addresses@{Memory Base Addresses}!SRAM2\_BASEADDR@{SRAM2\_BASEADDR}|hyperpage}{27}
+\indexentry{SRAM2\_BASEADDR@{SRAM2\_BASEADDR}!Memory Base Addresses@{Memory Base Addresses}|hyperpage}{27}
+\indexentry{Peripheral Base Addresses@{Peripheral Base Addresses}|hyperpage}{28}
+\indexentry{Peripheral Base Addresses@{Peripheral Base Addresses}|hyperpage}{28}
+\indexentry{Peripheral Base Addresses@{Peripheral Base Addresses}!AHB1PERIPH\_BASEADDR@{AHB1PERIPH\_BASEADDR}|hyperpage}{29}
+\indexentry{AHB1PERIPH\_BASEADDR@{AHB1PERIPH\_BASEADDR}!Peripheral Base Addresses@{Peripheral Base Addresses}|hyperpage}{29}
+\indexentry{Peripheral Base Addresses@{Peripheral Base Addresses}!AHB2PERIPH\_BASEADDR@{AHB2PERIPH\_BASEADDR}|hyperpage}{29}
+\indexentry{AHB2PERIPH\_BASEADDR@{AHB2PERIPH\_BASEADDR}!Peripheral Base Addresses@{Peripheral Base Addresses}|hyperpage}{29}
+\indexentry{Peripheral Base Addresses@{Peripheral Base Addresses}!APB1PERIPH\_BASEADDR@{APB1PERIPH\_BASEADDR}|hyperpage}{29}
+\indexentry{APB1PERIPH\_BASEADDR@{APB1PERIPH\_BASEADDR}!Peripheral Base Addresses@{Peripheral Base Addresses}|hyperpage}{29}
+\indexentry{Peripheral Base Addresses@{Peripheral Base Addresses}!APB2PERIPH\_BASEADDR@{APB2PERIPH\_BASEADDR}|hyperpage}{29}
+\indexentry{APB2PERIPH\_BASEADDR@{APB2PERIPH\_BASEADDR}!Peripheral Base Addresses@{Peripheral Base Addresses}|hyperpage}{29}
+\indexentry{Peripheral Base Addresses@{Peripheral Base Addresses}!PERIPH\_BASEADDR@{PERIPH\_BASEADDR}|hyperpage}{29}
+\indexentry{PERIPH\_BASEADDR@{PERIPH\_BASEADDR}!Peripheral Base Addresses@{Peripheral Base Addresses}|hyperpage}{29}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{30}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!CRC\_BASEADDR@{CRC\_BASEADDR}|hyperpage}{30}
+\indexentry{CRC\_BASEADDR@{CRC\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{30}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!DMA1\_BASEADDR@{DMA1\_BASEADDR}|hyperpage}{31}
+\indexentry{DMA1\_BASEADDR@{DMA1\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{31}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!DMA2\_BASEADDR@{DMA2\_BASEADDR}|hyperpage}{31}
+\indexentry{DMA2\_BASEADDR@{DMA2\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{31}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!FIR\_BASEADDR@{FIR\_BASEADDR}|hyperpage}{31}
+\indexentry{FIR\_BASEADDR@{FIR\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{31}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!GPIOA\_BASEADDR@{GPIOA\_BASEADDR}|hyperpage}{31}
+\indexentry{GPIOA\_BASEADDR@{GPIOA\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{31}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!GPIOB\_BASEADDR@{GPIOB\_BASEADDR}|hyperpage}{31}
+\indexentry{GPIOB\_BASEADDR@{GPIOB\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{31}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!GPIOC\_BASEADDR@{GPIOC\_BASEADDR}|hyperpage}{31}
+\indexentry{GPIOC\_BASEADDR@{GPIOC\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{31}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!GPIOD\_BASEADDR@{GPIOD\_BASEADDR}|hyperpage}{31}
+\indexentry{GPIOD\_BASEADDR@{GPIOD\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{31}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!GPIOE\_BASEADDR@{GPIOE\_BASEADDR}|hyperpage}{31}
+\indexentry{GPIOE\_BASEADDR@{GPIOE\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{31}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!GPIOF\_BASEADDR@{GPIOF\_BASEADDR}|hyperpage}{32}
+\indexentry{GPIOF\_BASEADDR@{GPIOF\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{32}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!GPIOG\_BASEADDR@{GPIOG\_BASEADDR}|hyperpage}{32}
+\indexentry{GPIOG\_BASEADDR@{GPIOG\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{32}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!GPIOH\_BASEADDR@{GPIOH\_BASEADDR}|hyperpage}{32}
+\indexentry{GPIOH\_BASEADDR@{GPIOH\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{32}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!GPIOI\_BASEADDR@{GPIOI\_BASEADDR}|hyperpage}{32}
+\indexentry{GPIOI\_BASEADDR@{GPIOI\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{32}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!I2C1\_BASEADDR@{I2C1\_BASEADDR}|hyperpage}{32}
+\indexentry{I2C1\_BASEADDR@{I2C1\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{32}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!I2C2\_BASEADDR@{I2C2\_BASEADDR}|hyperpage}{32}
+\indexentry{I2C2\_BASEADDR@{I2C2\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{32}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!I2C3\_BASEADDR@{I2C3\_BASEADDR}|hyperpage}{32}
+\indexentry{I2C3\_BASEADDR@{I2C3\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{32}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!RCC\_BASEADDR@{RCC\_BASEADDR}|hyperpage}{32}
+\indexentry{RCC\_BASEADDR@{RCC\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{32}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!SPI2\_BASEADDR@{SPI2\_BASEADDR}|hyperpage}{33}
+\indexentry{SPI2\_BASEADDR@{SPI2\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{33}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!SPI3\_BASEADDR@{SPI3\_BASEADDR}|hyperpage}{33}
+\indexentry{SPI3\_BASEADDR@{SPI3\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{33}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!UART4\_BASEADDR@{UART4\_BASEADDR}|hyperpage}{33}
+\indexentry{UART4\_BASEADDR@{UART4\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{33}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!UART5\_BASEADDR@{UART5\_BASEADDR}|hyperpage}{33}
+\indexentry{UART5\_BASEADDR@{UART5\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{33}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!USART2\_BASEADDR@{USART2\_BASEADDR}|hyperpage}{33}
+\indexentry{USART2\_BASEADDR@{USART2\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{33}
+\indexentry{Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}!USART3\_BASEADDR@{USART3\_BASEADDR}|hyperpage}{33}
+\indexentry{USART3\_BASEADDR@{USART3\_BASEADDR}!Peripheral Base Addresses on APB1 Bus@{Peripheral Base Addresses on APB1 Bus}|hyperpage}{33}
+\indexentry{Peripheral Base Addresses on APB2 Bus@{Peripheral Base Addresses on APB2 Bus}|hyperpage}{34}
+\indexentry{Peripheral Base Addresses on APB2 Bus@{Peripheral Base Addresses on APB2 Bus}!EXTI\_BASEADDR@{EXTI\_BASEADDR}|hyperpage}{34}
+\indexentry{EXTI\_BASEADDR@{EXTI\_BASEADDR}!Peripheral Base Addresses on APB2 Bus@{Peripheral Base Addresses on APB2 Bus}|hyperpage}{34}
+\indexentry{Peripheral Base Addresses on APB2 Bus@{Peripheral Base Addresses on APB2 Bus}!SPI1\_BASEADDR@{SPI1\_BASEADDR}|hyperpage}{34}
+\indexentry{SPI1\_BASEADDR@{SPI1\_BASEADDR}!Peripheral Base Addresses on APB2 Bus@{Peripheral Base Addresses on APB2 Bus}|hyperpage}{34}
+\indexentry{Peripheral Base Addresses on APB2 Bus@{Peripheral Base Addresses on APB2 Bus}!SPI4\_BASEADDR@{SPI4\_BASEADDR}|hyperpage}{34}
+\indexentry{SPI4\_BASEADDR@{SPI4\_BASEADDR}!Peripheral Base Addresses on APB2 Bus@{Peripheral Base Addresses on APB2 Bus}|hyperpage}{34}
+\indexentry{Peripheral Base Addresses on APB2 Bus@{Peripheral Base Addresses on APB2 Bus}!SYSCFG\_BASEADDR@{SYSCFG\_BASEADDR}|hyperpage}{35}
+\indexentry{SYSCFG\_BASEADDR@{SYSCFG\_BASEADDR}!Peripheral Base Addresses on APB2 Bus@{Peripheral Base Addresses on APB2 Bus}|hyperpage}{35}
+\indexentry{Peripheral Base Addresses on APB2 Bus@{Peripheral Base Addresses on APB2 Bus}!USART1\_BASEADDR@{USART1\_BASEADDR}|hyperpage}{35}
+\indexentry{USART1\_BASEADDR@{USART1\_BASEADDR}!Peripheral Base Addresses on APB2 Bus@{Peripheral Base Addresses on APB2 Bus}|hyperpage}{35}
+\indexentry{Peripheral Base Addresses on APB2 Bus@{Peripheral Base Addresses on APB2 Bus}!USART6\_BASEADDR@{USART6\_BASEADDR}|hyperpage}{35}
+\indexentry{USART6\_BASEADDR@{USART6\_BASEADDR}!Peripheral Base Addresses on APB2 Bus@{Peripheral Base Addresses on APB2 Bus}|hyperpage}{35}
+\indexentry{Peripheral Register Definitions@{Peripheral Register Definitions}|hyperpage}{35}
+\indexentry{Peripheral Definitions@{Peripheral Definitions}|hyperpage}{36}
+\indexentry{Clock Enable Macros@{Clock Enable Macros}|hyperpage}{37}
+\indexentry{Clock Enable GPIO Clocks@{Clock Enable GPIO Clocks}|hyperpage}{38}
+\indexentry{Clock Enable I2C Clocks@{Clock Enable I2C Clocks}|hyperpage}{38}
+\indexentry{Clock Enable SPI Clocks@{Clock Enable SPI Clocks}|hyperpage}{39}
+\indexentry{Clock Enable USART Clocks@{Clock Enable USART Clocks}|hyperpage}{39}
+\indexentry{Clock Enable SYSCFG Clocks@{Clock Enable SYSCFG Clocks}|hyperpage}{40}
+\indexentry{Clock Disable Macros@{Clock Disable Macros}|hyperpage}{41}
+\indexentry{Disable clock for GPIOx peripherals@{Disable clock for GPIOx peripherals}|hyperpage}{41}
+\indexentry{Disable clock for I2Cx peripherals@{Disable clock for I2Cx peripherals}|hyperpage}{42}
+\indexentry{Disable clock for SPIx peripherals@{Disable clock for SPIx peripherals}|hyperpage}{42}
+\indexentry{Disable clock for USARTx peripherals@{Disable clock for USARTx peripherals}|hyperpage}{43}
+\indexentry{Disable clock for SYSCFG peripherals@{Disable clock for SYSCFG peripherals}|hyperpage}{43}
+\indexentry{Reset Peripherals Macros@{Reset Peripherals Macros}|hyperpage}{44}
+\indexentry{Reset GPIOx Peripherals@{Reset GPIOx Peripherals}|hyperpage}{44}
+\indexentry{Reset I2Cx Peripherals@{Reset I2Cx Peripherals}|hyperpage}{45}
+\indexentry{Reset SPIx Peripherals@{Reset SPIx Peripherals}|hyperpage}{46}
+\indexentry{Reset USARTx Peripherals@{Reset USARTx Peripherals}|hyperpage}{46}
+\indexentry{GPIO Base Address to Code Conversion Macros@{GPIO Base Address to Code Conversion Macros}|hyperpage}{47}
+\indexentry{GPIO Base Address to Code Conversion Macros@{GPIO Base Address to Code Conversion Macros}!GPIO\_BASEADDR\_TO\_CODE@{GPIO\_BASEADDR\_TO\_CODE}|hyperpage}{47}
+\indexentry{GPIO\_BASEADDR\_TO\_CODE@{GPIO\_BASEADDR\_TO\_CODE}!GPIO Base Address to Code Conversion Macros@{GPIO Base Address to Code Conversion Macros}|hyperpage}{47}
+\indexentry{IRQ Numbers Macros@{IRQ Numbers Macros}|hyperpage}{48}
+\indexentry{EXTI (External Interrupt) IRQ Numbers@{EXTI (External Interrupt) IRQ Numbers}|hyperpage}{49}
+\indexentry{NVIC Priority Levels Macros@{NVIC Priority Levels Macros}|hyperpage}{50}
+\indexentry{SPI Bit Position Definitions@{SPI Bit Position Definitions}|hyperpage}{50}
+\indexentry{SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}|hyperpage}{51}
+\indexentry{SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}!SPI\_CR1\_BIDIMODE@{SPI\_CR1\_BIDIMODE}|hyperpage}{52}
+\indexentry{SPI\_CR1\_BIDIMODE@{SPI\_CR1\_BIDIMODE}!SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}|hyperpage}{52}
+\indexentry{SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}!SPI\_CR1\_BIDIOE@{SPI\_CR1\_BIDIOE}|hyperpage}{52}
+\indexentry{SPI\_CR1\_BIDIOE@{SPI\_CR1\_BIDIOE}!SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}|hyperpage}{52}
+\indexentry{SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}!SPI\_CR1\_BR@{SPI\_CR1\_BR}|hyperpage}{52}
+\indexentry{SPI\_CR1\_BR@{SPI\_CR1\_BR}!SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}|hyperpage}{52}
+\indexentry{SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}!SPI\_CR1\_CPHA@{SPI\_CR1\_CPHA}|hyperpage}{52}
+\indexentry{SPI\_CR1\_CPHA@{SPI\_CR1\_CPHA}!SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}|hyperpage}{52}
+\indexentry{SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}!SPI\_CR1\_CPOL@{SPI\_CR1\_CPOL}|hyperpage}{52}
+\indexentry{SPI\_CR1\_CPOL@{SPI\_CR1\_CPOL}!SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}|hyperpage}{52}
+\indexentry{SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}!SPI\_CR1\_CRCEN@{SPI\_CR1\_CRCEN}|hyperpage}{52}
+\indexentry{SPI\_CR1\_CRCEN@{SPI\_CR1\_CRCEN}!SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}|hyperpage}{52}
+\indexentry{SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}!SPI\_CR1\_CRCNEXT@{SPI\_CR1\_CRCNEXT}|hyperpage}{52}
+\indexentry{SPI\_CR1\_CRCNEXT@{SPI\_CR1\_CRCNEXT}!SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}|hyperpage}{52}
+\indexentry{SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}!SPI\_CR1\_DFF@{SPI\_CR1\_DFF}|hyperpage}{52}
+\indexentry{SPI\_CR1\_DFF@{SPI\_CR1\_DFF}!SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}|hyperpage}{52}
+\indexentry{SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}!SPI\_CR1\_LSBFIRST@{SPI\_CR1\_LSBFIRST}|hyperpage}{53}
+\indexentry{SPI\_CR1\_LSBFIRST@{SPI\_CR1\_LSBFIRST}!SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}|hyperpage}{53}
+\indexentry{SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}!SPI\_CR1\_MSTR@{SPI\_CR1\_MSTR}|hyperpage}{53}
+\indexentry{SPI\_CR1\_MSTR@{SPI\_CR1\_MSTR}!SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}|hyperpage}{53}
+\indexentry{SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}!SPI\_CR1\_RXONLY@{SPI\_CR1\_RXONLY}|hyperpage}{53}
+\indexentry{SPI\_CR1\_RXONLY@{SPI\_CR1\_RXONLY}!SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}|hyperpage}{53}
+\indexentry{SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}!SPI\_CR1\_SPE@{SPI\_CR1\_SPE}|hyperpage}{53}
+\indexentry{SPI\_CR1\_SPE@{SPI\_CR1\_SPE}!SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}|hyperpage}{53}
+\indexentry{SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}!SPI\_CR1\_SSI@{SPI\_CR1\_SSI}|hyperpage}{53}
+\indexentry{SPI\_CR1\_SSI@{SPI\_CR1\_SSI}!SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}|hyperpage}{53}
+\indexentry{SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}!SPI\_CR1\_SSM@{SPI\_CR1\_SSM}|hyperpage}{53}
+\indexentry{SPI\_CR1\_SSM@{SPI\_CR1\_SSM}!SPI\_CR1 Bit Position Definitions@{SPI\_CR1 Bit Position Definitions}|hyperpage}{53}
+\indexentry{SPI\_CR2 Bit Position Definitions@{SPI\_CR2 Bit Position Definitions}|hyperpage}{54}
+\indexentry{SPI\_CR2 Bit Position Definitions@{SPI\_CR2 Bit Position Definitions}!SPI\_CR2\_ERRIE@{SPI\_CR2\_ERRIE}|hyperpage}{54}
+\indexentry{SPI\_CR2\_ERRIE@{SPI\_CR2\_ERRIE}!SPI\_CR2 Bit Position Definitions@{SPI\_CR2 Bit Position Definitions}|hyperpage}{54}
+\indexentry{SPI\_CR2 Bit Position Definitions@{SPI\_CR2 Bit Position Definitions}!SPI\_CR2\_FRF@{SPI\_CR2\_FRF}|hyperpage}{54}
+\indexentry{SPI\_CR2\_FRF@{SPI\_CR2\_FRF}!SPI\_CR2 Bit Position Definitions@{SPI\_CR2 Bit Position Definitions}|hyperpage}{54}
+\indexentry{SPI\_CR2 Bit Position Definitions@{SPI\_CR2 Bit Position Definitions}!SPI\_CR2\_RXDMAEN@{SPI\_CR2\_RXDMAEN}|hyperpage}{54}
+\indexentry{SPI\_CR2\_RXDMAEN@{SPI\_CR2\_RXDMAEN}!SPI\_CR2 Bit Position Definitions@{SPI\_CR2 Bit Position Definitions}|hyperpage}{54}
+\indexentry{SPI\_CR2 Bit Position Definitions@{SPI\_CR2 Bit Position Definitions}!SPI\_CR2\_RXNEIE@{SPI\_CR2\_RXNEIE}|hyperpage}{55}
+\indexentry{SPI\_CR2\_RXNEIE@{SPI\_CR2\_RXNEIE}!SPI\_CR2 Bit Position Definitions@{SPI\_CR2 Bit Position Definitions}|hyperpage}{55}
+\indexentry{SPI\_CR2 Bit Position Definitions@{SPI\_CR2 Bit Position Definitions}!SPI\_CR2\_SSOE@{SPI\_CR2\_SSOE}|hyperpage}{55}
+\indexentry{SPI\_CR2\_SSOE@{SPI\_CR2\_SSOE}!SPI\_CR2 Bit Position Definitions@{SPI\_CR2 Bit Position Definitions}|hyperpage}{55}
+\indexentry{SPI\_CR2 Bit Position Definitions@{SPI\_CR2 Bit Position Definitions}!SPI\_CR2\_TXDMAEN@{SPI\_CR2\_TXDMAEN}|hyperpage}{55}
+\indexentry{SPI\_CR2\_TXDMAEN@{SPI\_CR2\_TXDMAEN}!SPI\_CR2 Bit Position Definitions@{SPI\_CR2 Bit Position Definitions}|hyperpage}{55}
+\indexentry{SPI\_CR2 Bit Position Definitions@{SPI\_CR2 Bit Position Definitions}!SPI\_CR2\_TXEIE@{SPI\_CR2\_TXEIE}|hyperpage}{55}
+\indexentry{SPI\_CR2\_TXEIE@{SPI\_CR2\_TXEIE}!SPI\_CR2 Bit Position Definitions@{SPI\_CR2 Bit Position Definitions}|hyperpage}{55}
+\indexentry{SPI\_SR Bit Position Definitions@{SPI\_SR Bit Position Definitions}|hyperpage}{55}
+\indexentry{SPI\_SR Bit Position Definitions@{SPI\_SR Bit Position Definitions}!SPI\_SR\_BSY@{SPI\_SR\_BSY}|hyperpage}{56}
+\indexentry{SPI\_SR\_BSY@{SPI\_SR\_BSY}!SPI\_SR Bit Position Definitions@{SPI\_SR Bit Position Definitions}|hyperpage}{56}
+\indexentry{SPI\_SR Bit Position Definitions@{SPI\_SR Bit Position Definitions}!SPI\_SR\_CHSIDE@{SPI\_SR\_CHSIDE}|hyperpage}{56}
+\indexentry{SPI\_SR\_CHSIDE@{SPI\_SR\_CHSIDE}!SPI\_SR Bit Position Definitions@{SPI\_SR Bit Position Definitions}|hyperpage}{56}
+\indexentry{SPI\_SR Bit Position Definitions@{SPI\_SR Bit Position Definitions}!SPI\_SR\_CRCERR@{SPI\_SR\_CRCERR}|hyperpage}{56}
+\indexentry{SPI\_SR\_CRCERR@{SPI\_SR\_CRCERR}!SPI\_SR Bit Position Definitions@{SPI\_SR Bit Position Definitions}|hyperpage}{56}
+\indexentry{SPI\_SR Bit Position Definitions@{SPI\_SR Bit Position Definitions}!SPI\_SR\_FRE@{SPI\_SR\_FRE}|hyperpage}{56}
+\indexentry{SPI\_SR\_FRE@{SPI\_SR\_FRE}!SPI\_SR Bit Position Definitions@{SPI\_SR Bit Position Definitions}|hyperpage}{56}
+\indexentry{SPI\_SR Bit Position Definitions@{SPI\_SR Bit Position Definitions}!SPI\_SR\_MODF@{SPI\_SR\_MODF}|hyperpage}{56}
+\indexentry{SPI\_SR\_MODF@{SPI\_SR\_MODF}!SPI\_SR Bit Position Definitions@{SPI\_SR Bit Position Definitions}|hyperpage}{56}
+\indexentry{SPI\_SR Bit Position Definitions@{SPI\_SR Bit Position Definitions}!SPI\_SR\_OVR@{SPI\_SR\_OVR}|hyperpage}{57}
+\indexentry{SPI\_SR\_OVR@{SPI\_SR\_OVR}!SPI\_SR Bit Position Definitions@{SPI\_SR Bit Position Definitions}|hyperpage}{57}
+\indexentry{SPI\_SR Bit Position Definitions@{SPI\_SR Bit Position Definitions}!SPI\_SR\_RXNE@{SPI\_SR\_RXNE}|hyperpage}{57}
+\indexentry{SPI\_SR\_RXNE@{SPI\_SR\_RXNE}!SPI\_SR Bit Position Definitions@{SPI\_SR Bit Position Definitions}|hyperpage}{57}
+\indexentry{SPI\_SR Bit Position Definitions@{SPI\_SR Bit Position Definitions}!SPI\_SR\_TXE@{SPI\_SR\_TXE}|hyperpage}{57}
+\indexentry{SPI\_SR\_TXE@{SPI\_SR\_TXE}!SPI\_SR Bit Position Definitions@{SPI\_SR Bit Position Definitions}|hyperpage}{57}
+\indexentry{SPI\_SR Bit Position Definitions@{SPI\_SR Bit Position Definitions}!SPI\_SR\_UDR@{SPI\_SR\_UDR}|hyperpage}{57}
+\indexentry{SPI\_SR\_UDR@{SPI\_SR\_UDR}!SPI\_SR Bit Position Definitions@{SPI\_SR Bit Position Definitions}|hyperpage}{57}
+\indexentry{I2C Bit Position Definitions@{I2C Bit Position Definitions}|hyperpage}{57}
+\indexentry{I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}|hyperpage}{59}
+\indexentry{I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}!I2C\_CR1\_ACK@{I2C\_CR1\_ACK}|hyperpage}{59}
+\indexentry{I2C\_CR1\_ACK@{I2C\_CR1\_ACK}!I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}|hyperpage}{59}
+\indexentry{I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}!I2C\_CR1\_ALERT@{I2C\_CR1\_ALERT}|hyperpage}{59}
+\indexentry{I2C\_CR1\_ALERT@{I2C\_CR1\_ALERT}!I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}|hyperpage}{59}
+\indexentry{I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}!I2C\_CR1\_ENARP@{I2C\_CR1\_ENARP}|hyperpage}{60}
+\indexentry{I2C\_CR1\_ENARP@{I2C\_CR1\_ENARP}!I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}|hyperpage}{60}
+\indexentry{I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}!I2C\_CR1\_ENGC@{I2C\_CR1\_ENGC}|hyperpage}{60}
+\indexentry{I2C\_CR1\_ENGC@{I2C\_CR1\_ENGC}!I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}|hyperpage}{60}
+\indexentry{I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}!I2C\_CR1\_ENPEC@{I2C\_CR1\_ENPEC}|hyperpage}{60}
+\indexentry{I2C\_CR1\_ENPEC@{I2C\_CR1\_ENPEC}!I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}|hyperpage}{60}
+\indexentry{I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}!I2C\_CR1\_NOSTRETCH@{I2C\_CR1\_NOSTRETCH}|hyperpage}{60}
+\indexentry{I2C\_CR1\_NOSTRETCH@{I2C\_CR1\_NOSTRETCH}!I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}|hyperpage}{60}
+\indexentry{I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}!I2C\_CR1\_PE@{I2C\_CR1\_PE}|hyperpage}{60}
+\indexentry{I2C\_CR1\_PE@{I2C\_CR1\_PE}!I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}|hyperpage}{60}
+\indexentry{I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}!I2C\_CR1\_PEC@{I2C\_CR1\_PEC}|hyperpage}{60}
+\indexentry{I2C\_CR1\_PEC@{I2C\_CR1\_PEC}!I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}|hyperpage}{60}
+\indexentry{I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}!I2C\_CR1\_POS@{I2C\_CR1\_POS}|hyperpage}{60}
+\indexentry{I2C\_CR1\_POS@{I2C\_CR1\_POS}!I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}|hyperpage}{60}
+\indexentry{I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}!I2C\_CR1\_SMBTYPE@{I2C\_CR1\_SMBTYPE}|hyperpage}{60}
+\indexentry{I2C\_CR1\_SMBTYPE@{I2C\_CR1\_SMBTYPE}!I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}|hyperpage}{60}
+\indexentry{I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}!I2C\_CR1\_SMBUS@{I2C\_CR1\_SMBUS}|hyperpage}{61}
+\indexentry{I2C\_CR1\_SMBUS@{I2C\_CR1\_SMBUS}!I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}|hyperpage}{61}
+\indexentry{I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}!I2C\_CR1\_START@{I2C\_CR1\_START}|hyperpage}{61}
+\indexentry{I2C\_CR1\_START@{I2C\_CR1\_START}!I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}|hyperpage}{61}
+\indexentry{I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}!I2C\_CR1\_STOP@{I2C\_CR1\_STOP}|hyperpage}{61}
+\indexentry{I2C\_CR1\_STOP@{I2C\_CR1\_STOP}!I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}|hyperpage}{61}
+\indexentry{I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}!I2C\_CR1\_SWRST@{I2C\_CR1\_SWRST}|hyperpage}{61}
+\indexentry{I2C\_CR1\_SWRST@{I2C\_CR1\_SWRST}!I2C\_CR1 Bit Position Definitions@{I2C\_CR1 Bit Position Definitions}|hyperpage}{61}
+\indexentry{I2C\_OAR1 Bit Position Definitions@{I2C\_OAR1 Bit Position Definitions}|hyperpage}{61}
+\indexentry{I2C\_OAR1 Bit Position Definitions@{I2C\_OAR1 Bit Position Definitions}!I2C\_OAR1\_ADD@{I2C\_OAR1\_ADD}|hyperpage}{62}
+\indexentry{I2C\_OAR1\_ADD@{I2C\_OAR1\_ADD}!I2C\_OAR1 Bit Position Definitions@{I2C\_OAR1 Bit Position Definitions}|hyperpage}{62}
+\indexentry{I2C\_OAR1 Bit Position Definitions@{I2C\_OAR1 Bit Position Definitions}!I2C\_OAR1\_ADD0@{I2C\_OAR1\_ADD0}|hyperpage}{62}
+\indexentry{I2C\_OAR1\_ADD0@{I2C\_OAR1\_ADD0}!I2C\_OAR1 Bit Position Definitions@{I2C\_OAR1 Bit Position Definitions}|hyperpage}{62}
+\indexentry{I2C\_OAR1 Bit Position Definitions@{I2C\_OAR1 Bit Position Definitions}!I2C\_OAR1\_ADDMODE@{I2C\_OAR1\_ADDMODE}|hyperpage}{62}
+\indexentry{I2C\_OAR1\_ADDMODE@{I2C\_OAR1\_ADDMODE}!I2C\_OAR1 Bit Position Definitions@{I2C\_OAR1 Bit Position Definitions}|hyperpage}{62}
+\indexentry{I2C\_OAR2 Bit Position Definitions@{I2C\_OAR2 Bit Position Definitions}|hyperpage}{62}
+\indexentry{I2C\_OAR2 Bit Position Definitions@{I2C\_OAR2 Bit Position Definitions}!I2C\_OAR2\_ADD2@{I2C\_OAR2\_ADD2}|hyperpage}{63}
+\indexentry{I2C\_OAR2\_ADD2@{I2C\_OAR2\_ADD2}!I2C\_OAR2 Bit Position Definitions@{I2C\_OAR2 Bit Position Definitions}|hyperpage}{63}
+\indexentry{I2C\_OAR2 Bit Position Definitions@{I2C\_OAR2 Bit Position Definitions}!I2C\_OAR2\_ENDUAL@{I2C\_OAR2\_ENDUAL}|hyperpage}{63}
+\indexentry{I2C\_OAR2\_ENDUAL@{I2C\_OAR2\_ENDUAL}!I2C\_OAR2 Bit Position Definitions@{I2C\_OAR2 Bit Position Definitions}|hyperpage}{63}
+\indexentry{I2C\_CR2 Bit Position Definitions@{I2C\_CR2 Bit Position Definitions}|hyperpage}{63}
+\indexentry{I2C\_CR2 Bit Position Definitions@{I2C\_CR2 Bit Position Definitions}!I2C\_CR2\_DMAEN@{I2C\_CR2\_DMAEN}|hyperpage}{64}
+\indexentry{I2C\_CR2\_DMAEN@{I2C\_CR2\_DMAEN}!I2C\_CR2 Bit Position Definitions@{I2C\_CR2 Bit Position Definitions}|hyperpage}{64}
+\indexentry{I2C\_CR2 Bit Position Definitions@{I2C\_CR2 Bit Position Definitions}!I2C\_CR2\_FREQ@{I2C\_CR2\_FREQ}|hyperpage}{64}
+\indexentry{I2C\_CR2\_FREQ@{I2C\_CR2\_FREQ}!I2C\_CR2 Bit Position Definitions@{I2C\_CR2 Bit Position Definitions}|hyperpage}{64}
+\indexentry{I2C\_CR2 Bit Position Definitions@{I2C\_CR2 Bit Position Definitions}!I2C\_CR2\_ITBUFEN@{I2C\_CR2\_ITBUFEN}|hyperpage}{64}
+\indexentry{I2C\_CR2\_ITBUFEN@{I2C\_CR2\_ITBUFEN}!I2C\_CR2 Bit Position Definitions@{I2C\_CR2 Bit Position Definitions}|hyperpage}{64}
+\indexentry{I2C\_CR2 Bit Position Definitions@{I2C\_CR2 Bit Position Definitions}!I2C\_CR2\_ITERREN@{I2C\_CR2\_ITERREN}|hyperpage}{64}
+\indexentry{I2C\_CR2\_ITERREN@{I2C\_CR2\_ITERREN}!I2C\_CR2 Bit Position Definitions@{I2C\_CR2 Bit Position Definitions}|hyperpage}{64}
+\indexentry{I2C\_CR2 Bit Position Definitions@{I2C\_CR2 Bit Position Definitions}!I2C\_CR2\_ITEVTEN@{I2C\_CR2\_ITEVTEN}|hyperpage}{64}
+\indexentry{I2C\_CR2\_ITEVTEN@{I2C\_CR2\_ITEVTEN}!I2C\_CR2 Bit Position Definitions@{I2C\_CR2 Bit Position Definitions}|hyperpage}{64}
+\indexentry{I2C\_CR2 Bit Position Definitions@{I2C\_CR2 Bit Position Definitions}!I2C\_CR2\_LAST@{I2C\_CR2\_LAST}|hyperpage}{64}
+\indexentry{I2C\_CR2\_LAST@{I2C\_CR2\_LAST}!I2C\_CR2 Bit Position Definitions@{I2C\_CR2 Bit Position Definitions}|hyperpage}{64}
+\indexentry{I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}|hyperpage}{65}
+\indexentry{I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}!I2C\_SR1\_ADD10@{I2C\_SR1\_ADD10}|hyperpage}{65}
+\indexentry{I2C\_SR1\_ADD10@{I2C\_SR1\_ADD10}!I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}|hyperpage}{65}
+\indexentry{I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}!I2C\_SR1\_ADDR@{I2C\_SR1\_ADDR}|hyperpage}{65}
+\indexentry{I2C\_SR1\_ADDR@{I2C\_SR1\_ADDR}!I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}|hyperpage}{65}
+\indexentry{I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}!I2C\_SR1\_AF@{I2C\_SR1\_AF}|hyperpage}{66}
+\indexentry{I2C\_SR1\_AF@{I2C\_SR1\_AF}!I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}|hyperpage}{66}
+\indexentry{I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}!I2C\_SR1\_ARLO@{I2C\_SR1\_ARLO}|hyperpage}{66}
+\indexentry{I2C\_SR1\_ARLO@{I2C\_SR1\_ARLO}!I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}|hyperpage}{66}
+\indexentry{I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}!I2C\_SR1\_BERR@{I2C\_SR1\_BERR}|hyperpage}{66}
+\indexentry{I2C\_SR1\_BERR@{I2C\_SR1\_BERR}!I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}|hyperpage}{66}
+\indexentry{I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}!I2C\_SR1\_BTF@{I2C\_SR1\_BTF}|hyperpage}{66}
+\indexentry{I2C\_SR1\_BTF@{I2C\_SR1\_BTF}!I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}|hyperpage}{66}
+\indexentry{I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}!I2C\_SR1\_OVR@{I2C\_SR1\_OVR}|hyperpage}{66}
+\indexentry{I2C\_SR1\_OVR@{I2C\_SR1\_OVR}!I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}|hyperpage}{66}
+\indexentry{I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}!I2C\_SR1\_PECERR@{I2C\_SR1\_PECERR}|hyperpage}{66}
+\indexentry{I2C\_SR1\_PECERR@{I2C\_SR1\_PECERR}!I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}|hyperpage}{66}
+\indexentry{I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}!I2C\_SR1\_RxNE@{I2C\_SR1\_RxNE}|hyperpage}{66}
+\indexentry{I2C\_SR1\_RxNE@{I2C\_SR1\_RxNE}!I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}|hyperpage}{66}
+\indexentry{I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}!I2C\_SR1\_SB@{I2C\_SR1\_SB}|hyperpage}{66}
+\indexentry{I2C\_SR1\_SB@{I2C\_SR1\_SB}!I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}|hyperpage}{66}
+\indexentry{I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}!I2C\_SR1\_SMBALERT@{I2C\_SR1\_SMBALERT}|hyperpage}{67}
+\indexentry{I2C\_SR1\_SMBALERT@{I2C\_SR1\_SMBALERT}!I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}|hyperpage}{67}
+\indexentry{I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}!I2C\_SR1\_STOPF@{I2C\_SR1\_STOPF}|hyperpage}{67}
+\indexentry{I2C\_SR1\_STOPF@{I2C\_SR1\_STOPF}!I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}|hyperpage}{67}
+\indexentry{I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}!I2C\_SR1\_TIMEOUT@{I2C\_SR1\_TIMEOUT}|hyperpage}{67}
+\indexentry{I2C\_SR1\_TIMEOUT@{I2C\_SR1\_TIMEOUT}!I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}|hyperpage}{67}
+\indexentry{I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}!I2C\_SR1\_TxE@{I2C\_SR1\_TxE}|hyperpage}{67}
+\indexentry{I2C\_SR1\_TxE@{I2C\_SR1\_TxE}!I2C\_SR1 Bit Position Definitions@{I2C\_SR1 Bit Position Definitions}|hyperpage}{67}
+\indexentry{I2C\_SR2 Bit Position Definitions@{I2C\_SR2 Bit Position Definitions}|hyperpage}{67}
+\indexentry{I2C\_SR2 Bit Position Definitions@{I2C\_SR2 Bit Position Definitions}!I2C\_SR2\_BUSY@{I2C\_SR2\_BUSY}|hyperpage}{68}
+\indexentry{I2C\_SR2\_BUSY@{I2C\_SR2\_BUSY}!I2C\_SR2 Bit Position Definitions@{I2C\_SR2 Bit Position Definitions}|hyperpage}{68}
+\indexentry{I2C\_SR2 Bit Position Definitions@{I2C\_SR2 Bit Position Definitions}!I2C\_SR2\_DUALF@{I2C\_SR2\_DUALF}|hyperpage}{68}
+\indexentry{I2C\_SR2\_DUALF@{I2C\_SR2\_DUALF}!I2C\_SR2 Bit Position Definitions@{I2C\_SR2 Bit Position Definitions}|hyperpage}{68}
+\indexentry{I2C\_SR2 Bit Position Definitions@{I2C\_SR2 Bit Position Definitions}!I2C\_SR2\_GENCALL@{I2C\_SR2\_GENCALL}|hyperpage}{68}
+\indexentry{I2C\_SR2\_GENCALL@{I2C\_SR2\_GENCALL}!I2C\_SR2 Bit Position Definitions@{I2C\_SR2 Bit Position Definitions}|hyperpage}{68}
+\indexentry{I2C\_SR2 Bit Position Definitions@{I2C\_SR2 Bit Position Definitions}!I2C\_SR2\_MSL@{I2C\_SR2\_MSL}|hyperpage}{68}
+\indexentry{I2C\_SR2\_MSL@{I2C\_SR2\_MSL}!I2C\_SR2 Bit Position Definitions@{I2C\_SR2 Bit Position Definitions}|hyperpage}{68}
+\indexentry{I2C\_SR2 Bit Position Definitions@{I2C\_SR2 Bit Position Definitions}!I2C\_SR2\_PEC@{I2C\_SR2\_PEC}|hyperpage}{68}
+\indexentry{I2C\_SR2\_PEC@{I2C\_SR2\_PEC}!I2C\_SR2 Bit Position Definitions@{I2C\_SR2 Bit Position Definitions}|hyperpage}{68}
+\indexentry{I2C\_SR2 Bit Position Definitions@{I2C\_SR2 Bit Position Definitions}!I2C\_SR2\_SMBDEFAULT@{I2C\_SR2\_SMBDEFAULT}|hyperpage}{69}
+\indexentry{I2C\_SR2\_SMBDEFAULT@{I2C\_SR2\_SMBDEFAULT}!I2C\_SR2 Bit Position Definitions@{I2C\_SR2 Bit Position Definitions}|hyperpage}{69}
+\indexentry{I2C\_SR2 Bit Position Definitions@{I2C\_SR2 Bit Position Definitions}!I2C\_SR2\_SMBHOST@{I2C\_SR2\_SMBHOST}|hyperpage}{69}
+\indexentry{I2C\_SR2\_SMBHOST@{I2C\_SR2\_SMBHOST}!I2C\_SR2 Bit Position Definitions@{I2C\_SR2 Bit Position Definitions}|hyperpage}{69}
+\indexentry{I2C\_SR2 Bit Position Definitions@{I2C\_SR2 Bit Position Definitions}!I2C\_SR2\_TRA@{I2C\_SR2\_TRA}|hyperpage}{69}
+\indexentry{I2C\_SR2\_TRA@{I2C\_SR2\_TRA}!I2C\_SR2 Bit Position Definitions@{I2C\_SR2 Bit Position Definitions}|hyperpage}{69}
+\indexentry{I2C\_CCR Bit Position Definitions@{I2C\_CCR Bit Position Definitions}|hyperpage}{69}
+\indexentry{I2C\_CCR Bit Position Definitions@{I2C\_CCR Bit Position Definitions}!I2C\_CCR\_CCR@{I2C\_CCR\_CCR}|hyperpage}{70}
+\indexentry{I2C\_CCR\_CCR@{I2C\_CCR\_CCR}!I2C\_CCR Bit Position Definitions@{I2C\_CCR Bit Position Definitions}|hyperpage}{70}
+\indexentry{I2C\_CCR Bit Position Definitions@{I2C\_CCR Bit Position Definitions}!I2C\_CCR\_DUTY@{I2C\_CCR\_DUTY}|hyperpage}{70}
+\indexentry{I2C\_CCR\_DUTY@{I2C\_CCR\_DUTY}!I2C\_CCR Bit Position Definitions@{I2C\_CCR Bit Position Definitions}|hyperpage}{70}
+\indexentry{I2C\_CCR Bit Position Definitions@{I2C\_CCR Bit Position Definitions}!I2C\_CCR\_FS@{I2C\_CCR\_FS}|hyperpage}{70}
+\indexentry{I2C\_CCR\_FS@{I2C\_CCR\_FS}!I2C\_CCR Bit Position Definitions@{I2C\_CCR Bit Position Definitions}|hyperpage}{70}
+\indexentry{I2C\_TRISE Bit Position Definitions@{I2C\_TRISE Bit Position Definitions}|hyperpage}{70}
+\indexentry{I2C\_TRISE Bit Position Definitions@{I2C\_TRISE Bit Position Definitions}!I2C\_TRISE\_TRISE@{I2C\_TRISE\_TRISE}|hyperpage}{71}
+\indexentry{I2C\_TRISE\_TRISE@{I2C\_TRISE\_TRISE}!I2C\_TRISE Bit Position Definitions@{I2C\_TRISE Bit Position Definitions}|hyperpage}{71}
+\indexentry{I2C\_FLTR Bit Position Definitions@{I2C\_FLTR Bit Position Definitions}|hyperpage}{71}
+\indexentry{I2C\_FLTR Bit Position Definitions@{I2C\_FLTR Bit Position Definitions}!I2C\_FLTR\_ANOFF@{I2C\_FLTR\_ANOFF}|hyperpage}{71}
+\indexentry{I2C\_FLTR\_ANOFF@{I2C\_FLTR\_ANOFF}!I2C\_FLTR Bit Position Definitions@{I2C\_FLTR Bit Position Definitions}|hyperpage}{71}
+\indexentry{I2C\_FLTR Bit Position Definitions@{I2C\_FLTR Bit Position Definitions}!I2C\_FLTR\_DNF@{I2C\_FLTR\_DNF}|hyperpage}{72}
+\indexentry{I2C\_FLTR\_DNF@{I2C\_FLTR\_DNF}!I2C\_FLTR Bit Position Definitions@{I2C\_FLTR Bit Position Definitions}|hyperpage}{72}
+\indexentry{USART Bit Position Definitions@{USART Bit Position Definitions}|hyperpage}{72}
+\indexentry{USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}|hyperpage}{73}
+\indexentry{USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}!USART\_SR\_CTS@{USART\_SR\_CTS}|hyperpage}{73}
+\indexentry{USART\_SR\_CTS@{USART\_SR\_CTS}!USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}|hyperpage}{73}
+\indexentry{USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}!USART\_SR\_FE@{USART\_SR\_FE}|hyperpage}{73}
+\indexentry{USART\_SR\_FE@{USART\_SR\_FE}!USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}|hyperpage}{73}
+\indexentry{USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}!USART\_SR\_IDLE@{USART\_SR\_IDLE}|hyperpage}{74}
+\indexentry{USART\_SR\_IDLE@{USART\_SR\_IDLE}!USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}|hyperpage}{74}
+\indexentry{USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}!USART\_SR\_LBD@{USART\_SR\_LBD}|hyperpage}{74}
+\indexentry{USART\_SR\_LBD@{USART\_SR\_LBD}!USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}|hyperpage}{74}
+\indexentry{USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}!USART\_SR\_NF@{USART\_SR\_NF}|hyperpage}{74}
+\indexentry{USART\_SR\_NF@{USART\_SR\_NF}!USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}|hyperpage}{74}
+\indexentry{USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}!USART\_SR\_ORE@{USART\_SR\_ORE}|hyperpage}{74}
+\indexentry{USART\_SR\_ORE@{USART\_SR\_ORE}!USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}|hyperpage}{74}
+\indexentry{USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}!USART\_SR\_PE@{USART\_SR\_PE}|hyperpage}{74}
+\indexentry{USART\_SR\_PE@{USART\_SR\_PE}!USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}|hyperpage}{74}
+\indexentry{USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}!USART\_SR\_RXNE@{USART\_SR\_RXNE}|hyperpage}{74}
+\indexentry{USART\_SR\_RXNE@{USART\_SR\_RXNE}!USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}|hyperpage}{74}
+\indexentry{USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}!USART\_SR\_TC@{USART\_SR\_TC}|hyperpage}{74}
+\indexentry{USART\_SR\_TC@{USART\_SR\_TC}!USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}|hyperpage}{74}
+\indexentry{USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}!USART\_SR\_TXE@{USART\_SR\_TXE}|hyperpage}{74}
+\indexentry{USART\_SR\_TXE@{USART\_SR\_TXE}!USART\_SR Bit Position Definitions@{USART\_SR Bit Position Definitions}|hyperpage}{74}
+\indexentry{USART\_DR Bit Position Definitions@{USART\_DR Bit Position Definitions}|hyperpage}{75}
+\indexentry{USART\_DR Bit Position Definitions@{USART\_DR Bit Position Definitions}!USART\_DR\_DR@{USART\_DR\_DR}|hyperpage}{75}
+\indexentry{USART\_DR\_DR@{USART\_DR\_DR}!USART\_DR Bit Position Definitions@{USART\_DR Bit Position Definitions}|hyperpage}{75}
+\indexentry{USART\_BRR Bit Position Definitions@{USART\_BRR Bit Position Definitions}|hyperpage}{76}
+\indexentry{USART\_BRR Bit Position Definitions@{USART\_BRR Bit Position Definitions}!USART\_BRR\_DIV\_FRACTION@{USART\_BRR\_DIV\_FRACTION}|hyperpage}{76}
+\indexentry{USART\_BRR\_DIV\_FRACTION@{USART\_BRR\_DIV\_FRACTION}!USART\_BRR Bit Position Definitions@{USART\_BRR Bit Position Definitions}|hyperpage}{76}
+\indexentry{USART\_BRR Bit Position Definitions@{USART\_BRR Bit Position Definitions}!USART\_BRR\_DIV\_MANTISSA@{USART\_BRR\_DIV\_MANTISSA}|hyperpage}{76}
+\indexentry{USART\_BRR\_DIV\_MANTISSA@{USART\_BRR\_DIV\_MANTISSA}!USART\_BRR Bit Position Definitions@{USART\_BRR Bit Position Definitions}|hyperpage}{76}
+\indexentry{USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}|hyperpage}{77}
+\indexentry{USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}!USART\_CR1\_IDLEIE@{USART\_CR1\_IDLEIE}|hyperpage}{77}
+\indexentry{USART\_CR1\_IDLEIE@{USART\_CR1\_IDLEIE}!USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}|hyperpage}{77}
+\indexentry{USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}!USART\_CR1\_M@{USART\_CR1\_M}|hyperpage}{77}
+\indexentry{USART\_CR1\_M@{USART\_CR1\_M}!USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}|hyperpage}{77}
+\indexentry{USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}!USART\_CR1\_OVER8@{USART\_CR1\_OVER8}|hyperpage}{78}
+\indexentry{USART\_CR1\_OVER8@{USART\_CR1\_OVER8}!USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}|hyperpage}{78}
+\indexentry{USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}!USART\_CR1\_PCE@{USART\_CR1\_PCE}|hyperpage}{78}
+\indexentry{USART\_CR1\_PCE@{USART\_CR1\_PCE}!USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}|hyperpage}{78}
+\indexentry{USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}!USART\_CR1\_PEIE@{USART\_CR1\_PEIE}|hyperpage}{78}
+\indexentry{USART\_CR1\_PEIE@{USART\_CR1\_PEIE}!USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}|hyperpage}{78}
+\indexentry{USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}!USART\_CR1\_PS@{USART\_CR1\_PS}|hyperpage}{78}
+\indexentry{USART\_CR1\_PS@{USART\_CR1\_PS}!USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}|hyperpage}{78}
+\indexentry{USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}!USART\_CR1\_RE@{USART\_CR1\_RE}|hyperpage}{78}
+\indexentry{USART\_CR1\_RE@{USART\_CR1\_RE}!USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}|hyperpage}{78}
+\indexentry{USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}!USART\_CR1\_RWU@{USART\_CR1\_RWU}|hyperpage}{78}
+\indexentry{USART\_CR1\_RWU@{USART\_CR1\_RWU}!USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}|hyperpage}{78}
+\indexentry{USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}!USART\_CR1\_RXNEIE@{USART\_CR1\_RXNEIE}|hyperpage}{78}
+\indexentry{USART\_CR1\_RXNEIE@{USART\_CR1\_RXNEIE}!USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}|hyperpage}{78}
+\indexentry{USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}!USART\_CR1\_SBK@{USART\_CR1\_SBK}|hyperpage}{78}
+\indexentry{USART\_CR1\_SBK@{USART\_CR1\_SBK}!USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}|hyperpage}{78}
+\indexentry{USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}!USART\_CR1\_TCIE@{USART\_CR1\_TCIE}|hyperpage}{79}
+\indexentry{USART\_CR1\_TCIE@{USART\_CR1\_TCIE}!USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}|hyperpage}{79}
+\indexentry{USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}!USART\_CR1\_TE@{USART\_CR1\_TE}|hyperpage}{79}
+\indexentry{USART\_CR1\_TE@{USART\_CR1\_TE}!USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}|hyperpage}{79}
+\indexentry{USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}!USART\_CR1\_TXEIE@{USART\_CR1\_TXEIE}|hyperpage}{79}
+\indexentry{USART\_CR1\_TXEIE@{USART\_CR1\_TXEIE}!USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}|hyperpage}{79}
+\indexentry{USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}!USART\_CR1\_UE@{USART\_CR1\_UE}|hyperpage}{79}
+\indexentry{USART\_CR1\_UE@{USART\_CR1\_UE}!USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}|hyperpage}{79}
+\indexentry{USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}!USART\_CR1\_WAKE@{USART\_CR1\_WAKE}|hyperpage}{79}
+\indexentry{USART\_CR1\_WAKE@{USART\_CR1\_WAKE}!USART\_CR1 Bit Position Definitions@{USART\_CR1 Bit Position Definitions}|hyperpage}{79}
+\indexentry{USART\_CR2 Bit Position Definitions@{USART\_CR2 Bit Position Definitions}|hyperpage}{79}
+\indexentry{USART\_CR2 Bit Position Definitions@{USART\_CR2 Bit Position Definitions}!USART\_CR2\_ADD@{USART\_CR2\_ADD}|hyperpage}{80}
+\indexentry{USART\_CR2\_ADD@{USART\_CR2\_ADD}!USART\_CR2 Bit Position Definitions@{USART\_CR2 Bit Position Definitions}|hyperpage}{80}
+\indexentry{USART\_CR2 Bit Position Definitions@{USART\_CR2 Bit Position Definitions}!USART\_CR2\_CLKEN@{USART\_CR2\_CLKEN}|hyperpage}{80}
+\indexentry{USART\_CR2\_CLKEN@{USART\_CR2\_CLKEN}!USART\_CR2 Bit Position Definitions@{USART\_CR2 Bit Position Definitions}|hyperpage}{80}
+\indexentry{USART\_CR2 Bit Position Definitions@{USART\_CR2 Bit Position Definitions}!USART\_CR2\_CPHA@{USART\_CR2\_CPHA}|hyperpage}{80}
+\indexentry{USART\_CR2\_CPHA@{USART\_CR2\_CPHA}!USART\_CR2 Bit Position Definitions@{USART\_CR2 Bit Position Definitions}|hyperpage}{80}
+\indexentry{USART\_CR2 Bit Position Definitions@{USART\_CR2 Bit Position Definitions}!USART\_CR2\_CPOL@{USART\_CR2\_CPOL}|hyperpage}{80}
+\indexentry{USART\_CR2\_CPOL@{USART\_CR2\_CPOL}!USART\_CR2 Bit Position Definitions@{USART\_CR2 Bit Position Definitions}|hyperpage}{80}
+\indexentry{USART\_CR2 Bit Position Definitions@{USART\_CR2 Bit Position Definitions}!USART\_CR2\_LBCL@{USART\_CR2\_LBCL}|hyperpage}{80}
+\indexentry{USART\_CR2\_LBCL@{USART\_CR2\_LBCL}!USART\_CR2 Bit Position Definitions@{USART\_CR2 Bit Position Definitions}|hyperpage}{80}
+\indexentry{USART\_CR2 Bit Position Definitions@{USART\_CR2 Bit Position Definitions}!USART\_CR2\_LBDIE@{USART\_CR2\_LBDIE}|hyperpage}{81}
+\indexentry{USART\_CR2\_LBDIE@{USART\_CR2\_LBDIE}!USART\_CR2 Bit Position Definitions@{USART\_CR2 Bit Position Definitions}|hyperpage}{81}
+\indexentry{USART\_CR2 Bit Position Definitions@{USART\_CR2 Bit Position Definitions}!USART\_CR2\_LBDL@{USART\_CR2\_LBDL}|hyperpage}{81}
+\indexentry{USART\_CR2\_LBDL@{USART\_CR2\_LBDL}!USART\_CR2 Bit Position Definitions@{USART\_CR2 Bit Position Definitions}|hyperpage}{81}
+\indexentry{USART\_CR2 Bit Position Definitions@{USART\_CR2 Bit Position Definitions}!USART\_CR2\_LINEN@{USART\_CR2\_LINEN}|hyperpage}{81}
+\indexentry{USART\_CR2\_LINEN@{USART\_CR2\_LINEN}!USART\_CR2 Bit Position Definitions@{USART\_CR2 Bit Position Definitions}|hyperpage}{81}
+\indexentry{USART\_CR2 Bit Position Definitions@{USART\_CR2 Bit Position Definitions}!USART\_CR2\_STOP@{USART\_CR2\_STOP}|hyperpage}{81}
+\indexentry{USART\_CR2\_STOP@{USART\_CR2\_STOP}!USART\_CR2 Bit Position Definitions@{USART\_CR2 Bit Position Definitions}|hyperpage}{81}
+\indexentry{USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}|hyperpage}{81}
+\indexentry{USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}!USART\_CR3\_CTSE@{USART\_CR3\_CTSE}|hyperpage}{82}
+\indexentry{USART\_CR3\_CTSE@{USART\_CR3\_CTSE}!USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}|hyperpage}{82}
+\indexentry{USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}!USART\_CR3\_CTSIE@{USART\_CR3\_CTSIE}|hyperpage}{82}
+\indexentry{USART\_CR3\_CTSIE@{USART\_CR3\_CTSIE}!USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}|hyperpage}{82}
+\indexentry{USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}!USART\_CR3\_DMAR@{USART\_CR3\_DMAR}|hyperpage}{82}
+\indexentry{USART\_CR3\_DMAR@{USART\_CR3\_DMAR}!USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}|hyperpage}{82}
+\indexentry{USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}!USART\_CR3\_DMAT@{USART\_CR3\_DMAT}|hyperpage}{82}
+\indexentry{USART\_CR3\_DMAT@{USART\_CR3\_DMAT}!USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}|hyperpage}{82}
+\indexentry{USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}!USART\_CR3\_EIE@{USART\_CR3\_EIE}|hyperpage}{82}
+\indexentry{USART\_CR3\_EIE@{USART\_CR3\_EIE}!USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}|hyperpage}{82}
+\indexentry{USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}!USART\_CR3\_HDSEL@{USART\_CR3\_HDSEL}|hyperpage}{83}
+\indexentry{USART\_CR3\_HDSEL@{USART\_CR3\_HDSEL}!USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}|hyperpage}{83}
+\indexentry{USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}!USART\_CR3\_IREN@{USART\_CR3\_IREN}|hyperpage}{83}
+\indexentry{USART\_CR3\_IREN@{USART\_CR3\_IREN}!USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}|hyperpage}{83}
+\indexentry{USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}!USART\_CR3\_IRLP@{USART\_CR3\_IRLP}|hyperpage}{83}
+\indexentry{USART\_CR3\_IRLP@{USART\_CR3\_IRLP}!USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}|hyperpage}{83}
+\indexentry{USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}!USART\_CR3\_NACK@{USART\_CR3\_NACK}|hyperpage}{83}
+\indexentry{USART\_CR3\_NACK@{USART\_CR3\_NACK}!USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}|hyperpage}{83}
+\indexentry{USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}!USART\_CR3\_ONEBIT@{USART\_CR3\_ONEBIT}|hyperpage}{83}
+\indexentry{USART\_CR3\_ONEBIT@{USART\_CR3\_ONEBIT}!USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}|hyperpage}{83}
+\indexentry{USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}!USART\_CR3\_RTSE@{USART\_CR3\_RTSE}|hyperpage}{83}
+\indexentry{USART\_CR3\_RTSE@{USART\_CR3\_RTSE}!USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}|hyperpage}{83}
+\indexentry{USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}!USART\_CR3\_SCEN@{USART\_CR3\_SCEN}|hyperpage}{83}
+\indexentry{USART\_CR3\_SCEN@{USART\_CR3\_SCEN}!USART\_CR3 Bit Position Definitions@{USART\_CR3 Bit Position Definitions}|hyperpage}{83}
+\indexentry{USART\_GTPR Bit Position Definitions@{USART\_GTPR Bit Position Definitions}|hyperpage}{84}
+\indexentry{USART\_GTPR Bit Position Definitions@{USART\_GTPR Bit Position Definitions}!USART\_GTPR\_GT@{USART\_GTPR\_GT}|hyperpage}{84}
+\indexentry{USART\_GTPR\_GT@{USART\_GTPR\_GT}!USART\_GTPR Bit Position Definitions@{USART\_GTPR Bit Position Definitions}|hyperpage}{84}
+\indexentry{USART\_GTPR Bit Position Definitions@{USART\_GTPR Bit Position Definitions}!USART\_GTPR\_PSC@{USART\_GTPR\_PSC}|hyperpage}{84}
+\indexentry{USART\_GTPR\_PSC@{USART\_GTPR\_PSC}!USART\_GTPR Bit Position Definitions@{USART\_GTPR Bit Position Definitions}|hyperpage}{84}
+\indexentry{RCC Bit Position Definitions@{RCC Bit Position Definitions}|hyperpage}{85}
+\indexentry{RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}|hyperpage}{86}
+\indexentry{RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}!RCC\_CR\_CSSON@{RCC\_CR\_CSSON}|hyperpage}{87}
+\indexentry{RCC\_CR\_CSSON@{RCC\_CR\_CSSON}!RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}|hyperpage}{87}
+\indexentry{RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}!RCC\_CR\_HSEBYP@{RCC\_CR\_HSEBYP}|hyperpage}{87}
+\indexentry{RCC\_CR\_HSEBYP@{RCC\_CR\_HSEBYP}!RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}|hyperpage}{87}
+\indexentry{RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}!RCC\_CR\_HSEON@{RCC\_CR\_HSEON}|hyperpage}{87}
+\indexentry{RCC\_CR\_HSEON@{RCC\_CR\_HSEON}!RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}|hyperpage}{87}
+\indexentry{RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}!RCC\_CR\_HSERDY@{RCC\_CR\_HSERDY}|hyperpage}{87}
+\indexentry{RCC\_CR\_HSERDY@{RCC\_CR\_HSERDY}!RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}|hyperpage}{87}
+\indexentry{RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}!RCC\_CR\_HSICAL@{RCC\_CR\_HSICAL}|hyperpage}{87}
+\indexentry{RCC\_CR\_HSICAL@{RCC\_CR\_HSICAL}!RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}|hyperpage}{87}
+\indexentry{RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}!RCC\_CR\_HSION@{RCC\_CR\_HSION}|hyperpage}{88}
+\indexentry{RCC\_CR\_HSION@{RCC\_CR\_HSION}!RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}|hyperpage}{88}
+\indexentry{RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}!RCC\_CR\_HSIRDY@{RCC\_CR\_HSIRDY}|hyperpage}{88}
+\indexentry{RCC\_CR\_HSIRDY@{RCC\_CR\_HSIRDY}!RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}|hyperpage}{88}
+\indexentry{RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}!RCC\_CR\_HSITRIM@{RCC\_CR\_HSITRIM}|hyperpage}{88}
+\indexentry{RCC\_CR\_HSITRIM@{RCC\_CR\_HSITRIM}!RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}|hyperpage}{88}
+\indexentry{RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}!RCC\_CR\_PLLI2SON@{RCC\_CR\_PLLI2SON}|hyperpage}{88}
+\indexentry{RCC\_CR\_PLLI2SON@{RCC\_CR\_PLLI2SON}!RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}|hyperpage}{88}
+\indexentry{RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}!RCC\_CR\_PLLI2SRDY@{RCC\_CR\_PLLI2SRDY}|hyperpage}{88}
+\indexentry{RCC\_CR\_PLLI2SRDY@{RCC\_CR\_PLLI2SRDY}!RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}|hyperpage}{88}
+\indexentry{RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}!RCC\_CR\_PLLON@{RCC\_CR\_PLLON}|hyperpage}{88}
+\indexentry{RCC\_CR\_PLLON@{RCC\_CR\_PLLON}!RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}|hyperpage}{88}
+\indexentry{RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}!RCC\_CR\_PLLRDY@{RCC\_CR\_PLLRDY}|hyperpage}{88}
+\indexentry{RCC\_CR\_PLLRDY@{RCC\_CR\_PLLRDY}!RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}|hyperpage}{88}
+\indexentry{RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}!RCC\_CR\_PLLSAION@{RCC\_CR\_PLLSAION}|hyperpage}{88}
+\indexentry{RCC\_CR\_PLLSAION@{RCC\_CR\_PLLSAION}!RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}|hyperpage}{88}
+\indexentry{RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}!RCC\_CR\_PLLSAIRDY@{RCC\_CR\_PLLSAIRDY}|hyperpage}{89}
+\indexentry{RCC\_CR\_PLLSAIRDY@{RCC\_CR\_PLLSAIRDY}!RCC\_CR Bit Position Definitions@{RCC\_CR Bit Position Definitions}|hyperpage}{89}
+\indexentry{RCC\_PLLCFGR Bit Position Definitions@{RCC\_PLLCFGR Bit Position Definitions}|hyperpage}{89}
+\indexentry{RCC\_PLLCFGR Bit Position Definitions@{RCC\_PLLCFGR Bit Position Definitions}!RCC\_PLLCFGR\_PLLM@{RCC\_PLLCFGR\_PLLM}|hyperpage}{89}
+\indexentry{RCC\_PLLCFGR\_PLLM@{RCC\_PLLCFGR\_PLLM}!RCC\_PLLCFGR Bit Position Definitions@{RCC\_PLLCFGR Bit Position Definitions}|hyperpage}{89}
+\indexentry{RCC\_PLLCFGR Bit Position Definitions@{RCC\_PLLCFGR Bit Position Definitions}!RCC\_PLLCFGR\_PLLN@{RCC\_PLLCFGR\_PLLN}|hyperpage}{90}
+\indexentry{RCC\_PLLCFGR\_PLLN@{RCC\_PLLCFGR\_PLLN}!RCC\_PLLCFGR Bit Position Definitions@{RCC\_PLLCFGR Bit Position Definitions}|hyperpage}{90}
+\indexentry{RCC\_PLLCFGR Bit Position Definitions@{RCC\_PLLCFGR Bit Position Definitions}!RCC\_PLLCFGR\_PLLP@{RCC\_PLLCFGR\_PLLP}|hyperpage}{90}
+\indexentry{RCC\_PLLCFGR\_PLLP@{RCC\_PLLCFGR\_PLLP}!RCC\_PLLCFGR Bit Position Definitions@{RCC\_PLLCFGR Bit Position Definitions}|hyperpage}{90}
+\indexentry{RCC\_PLLCFGR Bit Position Definitions@{RCC\_PLLCFGR Bit Position Definitions}!RCC\_PLLCFGR\_PLLQ@{RCC\_PLLCFGR\_PLLQ}|hyperpage}{90}
+\indexentry{RCC\_PLLCFGR\_PLLQ@{RCC\_PLLCFGR\_PLLQ}!RCC\_PLLCFGR Bit Position Definitions@{RCC\_PLLCFGR Bit Position Definitions}|hyperpage}{90}
+\indexentry{RCC\_PLLCFGR Bit Position Definitions@{RCC\_PLLCFGR Bit Position Definitions}!RCC\_PLLCFGR\_PLLSRC@{RCC\_PLLCFGR\_PLLSRC}|hyperpage}{90}
+\indexentry{RCC\_PLLCFGR\_PLLSRC@{RCC\_PLLCFGR\_PLLSRC}!RCC\_PLLCFGR Bit Position Definitions@{RCC\_PLLCFGR Bit Position Definitions}|hyperpage}{90}
+\indexentry{RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}|hyperpage}{90}
+\indexentry{RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}!RCC\_CFGR\_HPRE@{RCC\_CFGR\_HPRE}|hyperpage}{91}
+\indexentry{RCC\_CFGR\_HPRE@{RCC\_CFGR\_HPRE}!RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}|hyperpage}{91}
+\indexentry{RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}!RCC\_CFGR\_I2SSRC@{RCC\_CFGR\_I2SSRC}|hyperpage}{91}
+\indexentry{RCC\_CFGR\_I2SSRC@{RCC\_CFGR\_I2SSRC}!RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}|hyperpage}{91}
+\indexentry{RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}!RCC\_CFGR\_MCO1@{RCC\_CFGR\_MCO1}|hyperpage}{91}
+\indexentry{RCC\_CFGR\_MCO1@{RCC\_CFGR\_MCO1}!RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}|hyperpage}{91}
+\indexentry{RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}!RCC\_CFGR\_MCO1PRE@{RCC\_CFGR\_MCO1PRE}|hyperpage}{91}
+\indexentry{RCC\_CFGR\_MCO1PRE@{RCC\_CFGR\_MCO1PRE}!RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}|hyperpage}{91}
+\indexentry{RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}!RCC\_CFGR\_MCO2@{RCC\_CFGR\_MCO2}|hyperpage}{91}
+\indexentry{RCC\_CFGR\_MCO2@{RCC\_CFGR\_MCO2}!RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}|hyperpage}{91}
+\indexentry{RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}!RCC\_CFGR\_MCO2PRE@{RCC\_CFGR\_MCO2PRE}|hyperpage}{92}
+\indexentry{RCC\_CFGR\_MCO2PRE@{RCC\_CFGR\_MCO2PRE}!RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}|hyperpage}{92}
+\indexentry{RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}!RCC\_CFGR\_PPRE1@{RCC\_CFGR\_PPRE1}|hyperpage}{92}
+\indexentry{RCC\_CFGR\_PPRE1@{RCC\_CFGR\_PPRE1}!RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}|hyperpage}{92}
+\indexentry{RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}!RCC\_CFGR\_PPRE2@{RCC\_CFGR\_PPRE2}|hyperpage}{92}
+\indexentry{RCC\_CFGR\_PPRE2@{RCC\_CFGR\_PPRE2}!RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}|hyperpage}{92}
+\indexentry{RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}!RCC\_CFGR\_RTCPRE@{RCC\_CFGR\_RTCPRE}|hyperpage}{92}
+\indexentry{RCC\_CFGR\_RTCPRE@{RCC\_CFGR\_RTCPRE}!RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}|hyperpage}{92}
+\indexentry{RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}!RCC\_CFGR\_SW@{RCC\_CFGR\_SW}|hyperpage}{92}
+\indexentry{RCC\_CFGR\_SW@{RCC\_CFGR\_SW}!RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}|hyperpage}{92}
+\indexentry{RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}!RCC\_CFGR\_SWS@{RCC\_CFGR\_SWS}|hyperpage}{92}
+\indexentry{RCC\_CFGR\_SWS@{RCC\_CFGR\_SWS}!RCC\_CFGR Bit Position Definitions@{RCC\_CFGR Bit Position Definitions}|hyperpage}{92}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{93}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_CSSF@{RCC\_CIR\_CSSF}|hyperpage}{93}
+\indexentry{RCC\_CIR\_CSSF@{RCC\_CIR\_CSSF}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{93}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_HSERDYC@{RCC\_CIR\_HSERDYC}|hyperpage}{94}
+\indexentry{RCC\_CIR\_HSERDYC@{RCC\_CIR\_HSERDYC}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{94}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_HSERDYF@{RCC\_CIR\_HSERDYF}|hyperpage}{94}
+\indexentry{RCC\_CIR\_HSERDYF@{RCC\_CIR\_HSERDYF}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{94}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_HSERDYIE@{RCC\_CIR\_HSERDYIE}|hyperpage}{94}
+\indexentry{RCC\_CIR\_HSERDYIE@{RCC\_CIR\_HSERDYIE}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{94}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_HSIRDYC@{RCC\_CIR\_HSIRDYC}|hyperpage}{94}
+\indexentry{RCC\_CIR\_HSIRDYC@{RCC\_CIR\_HSIRDYC}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{94}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_HSIRDYF@{RCC\_CIR\_HSIRDYF}|hyperpage}{94}
+\indexentry{RCC\_CIR\_HSIRDYF@{RCC\_CIR\_HSIRDYF}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{94}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_HSIRDYIE@{RCC\_CIR\_HSIRDYIE}|hyperpage}{94}
+\indexentry{RCC\_CIR\_HSIRDYIE@{RCC\_CIR\_HSIRDYIE}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{94}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_LSERDYC@{RCC\_CIR\_LSERDYC}|hyperpage}{94}
+\indexentry{RCC\_CIR\_LSERDYC@{RCC\_CIR\_LSERDYC}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{94}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_LSERDYF@{RCC\_CIR\_LSERDYF}|hyperpage}{94}
+\indexentry{RCC\_CIR\_LSERDYF@{RCC\_CIR\_LSERDYF}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{94}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_LSERDYIE@{RCC\_CIR\_LSERDYIE}|hyperpage}{95}
+\indexentry{RCC\_CIR\_LSERDYIE@{RCC\_CIR\_LSERDYIE}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{95}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_LSIRDYC@{RCC\_CIR\_LSIRDYC}|hyperpage}{95}
+\indexentry{RCC\_CIR\_LSIRDYC@{RCC\_CIR\_LSIRDYC}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{95}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_LSIRDYF@{RCC\_CIR\_LSIRDYF}|hyperpage}{95}
+\indexentry{RCC\_CIR\_LSIRDYF@{RCC\_CIR\_LSIRDYF}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{95}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_LSIRDYIE@{RCC\_CIR\_LSIRDYIE}|hyperpage}{95}
+\indexentry{RCC\_CIR\_LSIRDYIE@{RCC\_CIR\_LSIRDYIE}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{95}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_PLLI2SRDYC@{RCC\_CIR\_PLLI2SRDYC}|hyperpage}{95}
+\indexentry{RCC\_CIR\_PLLI2SRDYC@{RCC\_CIR\_PLLI2SRDYC}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{95}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_PLLI2SRDYF@{RCC\_CIR\_PLLI2SRDYF}|hyperpage}{95}
+\indexentry{RCC\_CIR\_PLLI2SRDYF@{RCC\_CIR\_PLLI2SRDYF}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{95}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_PLLI2SRDYIE@{RCC\_CIR\_PLLI2SRDYIE}|hyperpage}{95}
+\indexentry{RCC\_CIR\_PLLI2SRDYIE@{RCC\_CIR\_PLLI2SRDYIE}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{95}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_PLLRDYC@{RCC\_CIR\_PLLRDYC}|hyperpage}{95}
+\indexentry{RCC\_CIR\_PLLRDYC@{RCC\_CIR\_PLLRDYC}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{95}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_PLLRDYF@{RCC\_CIR\_PLLRDYF}|hyperpage}{96}
+\indexentry{RCC\_CIR\_PLLRDYF@{RCC\_CIR\_PLLRDYF}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{96}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_PLLRDYIE@{RCC\_CIR\_PLLRDYIE}|hyperpage}{96}
+\indexentry{RCC\_CIR\_PLLRDYIE@{RCC\_CIR\_PLLRDYIE}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{96}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_PLLSAIRDYC@{RCC\_CIR\_PLLSAIRDYC}|hyperpage}{96}
+\indexentry{RCC\_CIR\_PLLSAIRDYC@{RCC\_CIR\_PLLSAIRDYC}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{96}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_PLLSAIRDYF@{RCC\_CIR\_PLLSAIRDYF}|hyperpage}{96}
+\indexentry{RCC\_CIR\_PLLSAIRDYF@{RCC\_CIR\_PLLSAIRDYF}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{96}
+\indexentry{RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}!RCC\_CIR\_PLLSAIRDYIE@{RCC\_CIR\_PLLSAIRDYIE}|hyperpage}{96}
+\indexentry{RCC\_CIR\_PLLSAIRDYIE@{RCC\_CIR\_PLLSAIRDYIE}!RCC\_CIR Bit Position Definitions@{RCC\_CIR Bit Position Definitions}|hyperpage}{96}
+\indexentry{RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}|hyperpage}{96}
+\indexentry{RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}!RCC\_AHB1RSTR\_CRC@{RCC\_AHB1RSTR\_CRC}|hyperpage}{97}
+\indexentry{RCC\_AHB1RSTR\_CRC@{RCC\_AHB1RSTR\_CRC}!RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}|hyperpage}{97}
+\indexentry{RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}!RCC\_AHB1RSTR\_DMA1@{RCC\_AHB1RSTR\_DMA1}|hyperpage}{97}
+\indexentry{RCC\_AHB1RSTR\_DMA1@{RCC\_AHB1RSTR\_DMA1}!RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}|hyperpage}{97}
+\indexentry{RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}!RCC\_AHB1RSTR\_DMA2@{RCC\_AHB1RSTR\_DMA2}|hyperpage}{97}
+\indexentry{RCC\_AHB1RSTR\_DMA2@{RCC\_AHB1RSTR\_DMA2}!RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}|hyperpage}{97}
+\indexentry{RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}!RCC\_AHB1RSTR\_ETHMAC@{RCC\_AHB1RSTR\_ETHMAC}|hyperpage}{97}
+\indexentry{RCC\_AHB1RSTR\_ETHMAC@{RCC\_AHB1RSTR\_ETHMAC}!RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}|hyperpage}{97}
+\indexentry{RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}!RCC\_AHB1RSTR\_GPIOA@{RCC\_AHB1RSTR\_GPIOA}|hyperpage}{98}
+\indexentry{RCC\_AHB1RSTR\_GPIOA@{RCC\_AHB1RSTR\_GPIOA}!RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}|hyperpage}{98}
+\indexentry{RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}!RCC\_AHB1RSTR\_GPIOB@{RCC\_AHB1RSTR\_GPIOB}|hyperpage}{98}
+\indexentry{RCC\_AHB1RSTR\_GPIOB@{RCC\_AHB1RSTR\_GPIOB}!RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}|hyperpage}{98}
+\indexentry{RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}!RCC\_AHB1RSTR\_GPIOC@{RCC\_AHB1RSTR\_GPIOC}|hyperpage}{98}
+\indexentry{RCC\_AHB1RSTR\_GPIOC@{RCC\_AHB1RSTR\_GPIOC}!RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}|hyperpage}{98}
+\indexentry{RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}!RCC\_AHB1RSTR\_GPIOD@{RCC\_AHB1RSTR\_GPIOD}|hyperpage}{98}
+\indexentry{RCC\_AHB1RSTR\_GPIOD@{RCC\_AHB1RSTR\_GPIOD}!RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}|hyperpage}{98}
+\indexentry{RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}!RCC\_AHB1RSTR\_GPIOE@{RCC\_AHB1RSTR\_GPIOE}|hyperpage}{98}
+\indexentry{RCC\_AHB1RSTR\_GPIOE@{RCC\_AHB1RSTR\_GPIOE}!RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}|hyperpage}{98}
+\indexentry{RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}!RCC\_AHB1RSTR\_GPIOF@{RCC\_AHB1RSTR\_GPIOF}|hyperpage}{98}
+\indexentry{RCC\_AHB1RSTR\_GPIOF@{RCC\_AHB1RSTR\_GPIOF}!RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}|hyperpage}{98}
+\indexentry{RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}!RCC\_AHB1RSTR\_GPIOG@{RCC\_AHB1RSTR\_GPIOG}|hyperpage}{98}
+\indexentry{RCC\_AHB1RSTR\_GPIOG@{RCC\_AHB1RSTR\_GPIOG}!RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}|hyperpage}{98}
+\indexentry{RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}!RCC\_AHB1RSTR\_GPIOH@{RCC\_AHB1RSTR\_GPIOH}|hyperpage}{98}
+\indexentry{RCC\_AHB1RSTR\_GPIOH@{RCC\_AHB1RSTR\_GPIOH}!RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}|hyperpage}{98}
+\indexentry{RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}!RCC\_AHB1RSTR\_GPIOI@{RCC\_AHB1RSTR\_GPIOI}|hyperpage}{99}
+\indexentry{RCC\_AHB1RSTR\_GPIOI@{RCC\_AHB1RSTR\_GPIOI}!RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}|hyperpage}{99}
+\indexentry{RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}!RCC\_AHB1RSTR\_OTGHS@{RCC\_AHB1RSTR\_OTGHS}|hyperpage}{99}
+\indexentry{RCC\_AHB1RSTR\_OTGHS@{RCC\_AHB1RSTR\_OTGHS}!RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}|hyperpage}{99}
+\indexentry{RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}!RCC\_AHB1RSTR\_OTGHSULPI@{RCC\_AHB1RSTR\_OTGHSULPI}|hyperpage}{99}
+\indexentry{RCC\_AHB1RSTR\_OTGHSULPI@{RCC\_AHB1RSTR\_OTGHSULPI}!RCC\_AHB1RSTR Bit Position Definitions@{RCC\_AHB1RSTR Bit Position Definitions}|hyperpage}{99}
+\indexentry{RCC\_AHB2RSTR Bit Position Definitions@{RCC\_AHB2RSTR Bit Position Definitions}|hyperpage}{99}
+\indexentry{RCC\_AHB2RSTR Bit Position Definitions@{RCC\_AHB2RSTR Bit Position Definitions}!RCC\_AHB2RSTR\_CRYP@{RCC\_AHB2RSTR\_CRYP}|hyperpage}{100}
+\indexentry{RCC\_AHB2RSTR\_CRYP@{RCC\_AHB2RSTR\_CRYP}!RCC\_AHB2RSTR Bit Position Definitions@{RCC\_AHB2RSTR Bit Position Definitions}|hyperpage}{100}
+\indexentry{RCC\_AHB2RSTR Bit Position Definitions@{RCC\_AHB2RSTR Bit Position Definitions}!RCC\_AHB2RSTR\_DCMI@{RCC\_AHB2RSTR\_DCMI}|hyperpage}{100}
+\indexentry{RCC\_AHB2RSTR\_DCMI@{RCC\_AHB2RSTR\_DCMI}!RCC\_AHB2RSTR Bit Position Definitions@{RCC\_AHB2RSTR Bit Position Definitions}|hyperpage}{100}
+\indexentry{RCC\_AHB2RSTR Bit Position Definitions@{RCC\_AHB2RSTR Bit Position Definitions}!RCC\_AHB2RSTR\_HASH@{RCC\_AHB2RSTR\_HASH}|hyperpage}{100}
+\indexentry{RCC\_AHB2RSTR\_HASH@{RCC\_AHB2RSTR\_HASH}!RCC\_AHB2RSTR Bit Position Definitions@{RCC\_AHB2RSTR Bit Position Definitions}|hyperpage}{100}
+\indexentry{RCC\_AHB2RSTR Bit Position Definitions@{RCC\_AHB2RSTR Bit Position Definitions}!RCC\_AHB2RSTR\_OTGFS@{RCC\_AHB2RSTR\_OTGFS}|hyperpage}{100}
+\indexentry{RCC\_AHB2RSTR\_OTGFS@{RCC\_AHB2RSTR\_OTGFS}!RCC\_AHB2RSTR Bit Position Definitions@{RCC\_AHB2RSTR Bit Position Definitions}|hyperpage}{100}
+\indexentry{RCC\_AHB2RSTR Bit Position Definitions@{RCC\_AHB2RSTR Bit Position Definitions}!RCC\_AHB2RSTR\_RNG@{RCC\_AHB2RSTR\_RNG}|hyperpage}{100}
+\indexentry{RCC\_AHB2RSTR\_RNG@{RCC\_AHB2RSTR\_RNG}!RCC\_AHB2RSTR Bit Position Definitions@{RCC\_AHB2RSTR Bit Position Definitions}|hyperpage}{100}
+\indexentry{RCC\_AHB3RSTR Bit Position Definitions@{RCC\_AHB3RSTR Bit Position Definitions}|hyperpage}{101}
+\indexentry{RCC\_AHB3RSTR Bit Position Definitions@{RCC\_AHB3RSTR Bit Position Definitions}!RCC\_AHB3RSTR\_FSMC@{RCC\_AHB3RSTR\_FSMC}|hyperpage}{101}
+\indexentry{RCC\_AHB3RSTR\_FSMC@{RCC\_AHB3RSTR\_FSMC}!RCC\_AHB3RSTR Bit Position Definitions@{RCC\_AHB3RSTR Bit Position Definitions}|hyperpage}{101}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{101}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_CAN1@{RCC\_APB1RSTR\_CAN1}|hyperpage}{102}
+\indexentry{RCC\_APB1RSTR\_CAN1@{RCC\_APB1RSTR\_CAN1}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{102}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_CAN2@{RCC\_APB1RSTR\_CAN2}|hyperpage}{102}
+\indexentry{RCC\_APB1RSTR\_CAN2@{RCC\_APB1RSTR\_CAN2}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{102}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_DAC@{RCC\_APB1RSTR\_DAC}|hyperpage}{102}
+\indexentry{RCC\_APB1RSTR\_DAC@{RCC\_APB1RSTR\_DAC}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{102}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_I2C1@{RCC\_APB1RSTR\_I2C1}|hyperpage}{103}
+\indexentry{RCC\_APB1RSTR\_I2C1@{RCC\_APB1RSTR\_I2C1}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{103}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_I2C2@{RCC\_APB1RSTR\_I2C2}|hyperpage}{103}
+\indexentry{RCC\_APB1RSTR\_I2C2@{RCC\_APB1RSTR\_I2C2}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{103}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_I2C3@{RCC\_APB1RSTR\_I2C3}|hyperpage}{103}
+\indexentry{RCC\_APB1RSTR\_I2C3@{RCC\_APB1RSTR\_I2C3}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{103}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_PWR@{RCC\_APB1RSTR\_PWR}|hyperpage}{103}
+\indexentry{RCC\_APB1RSTR\_PWR@{RCC\_APB1RSTR\_PWR}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{103}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_SPI2@{RCC\_APB1RSTR\_SPI2}|hyperpage}{103}
+\indexentry{RCC\_APB1RSTR\_SPI2@{RCC\_APB1RSTR\_SPI2}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{103}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_SPI3@{RCC\_APB1RSTR\_SPI3}|hyperpage}{103}
+\indexentry{RCC\_APB1RSTR\_SPI3@{RCC\_APB1RSTR\_SPI3}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{103}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_TIM12@{RCC\_APB1RSTR\_TIM12}|hyperpage}{103}
+\indexentry{RCC\_APB1RSTR\_TIM12@{RCC\_APB1RSTR\_TIM12}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{103}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_TIM13@{RCC\_APB1RSTR\_TIM13}|hyperpage}{103}
+\indexentry{RCC\_APB1RSTR\_TIM13@{RCC\_APB1RSTR\_TIM13}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{103}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_TIM14@{RCC\_APB1RSTR\_TIM14}|hyperpage}{104}
+\indexentry{RCC\_APB1RSTR\_TIM14@{RCC\_APB1RSTR\_TIM14}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{104}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_TIM2@{RCC\_APB1RSTR\_TIM2}|hyperpage}{104}
+\indexentry{RCC\_APB1RSTR\_TIM2@{RCC\_APB1RSTR\_TIM2}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{104}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_TIM3@{RCC\_APB1RSTR\_TIM3}|hyperpage}{104}
+\indexentry{RCC\_APB1RSTR\_TIM3@{RCC\_APB1RSTR\_TIM3}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{104}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_TIM4@{RCC\_APB1RSTR\_TIM4}|hyperpage}{104}
+\indexentry{RCC\_APB1RSTR\_TIM4@{RCC\_APB1RSTR\_TIM4}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{104}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_TIM5@{RCC\_APB1RSTR\_TIM5}|hyperpage}{104}
+\indexentry{RCC\_APB1RSTR\_TIM5@{RCC\_APB1RSTR\_TIM5}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{104}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_TIM6@{RCC\_APB1RSTR\_TIM6}|hyperpage}{104}
+\indexentry{RCC\_APB1RSTR\_TIM6@{RCC\_APB1RSTR\_TIM6}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{104}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_TIM7@{RCC\_APB1RSTR\_TIM7}|hyperpage}{104}
+\indexentry{RCC\_APB1RSTR\_TIM7@{RCC\_APB1RSTR\_TIM7}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{104}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_UART4@{RCC\_APB1RSTR\_UART4}|hyperpage}{104}
+\indexentry{RCC\_APB1RSTR\_UART4@{RCC\_APB1RSTR\_UART4}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{104}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_UART5@{RCC\_APB1RSTR\_UART5}|hyperpage}{105}
+\indexentry{RCC\_APB1RSTR\_UART5@{RCC\_APB1RSTR\_UART5}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{105}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_UART7@{RCC\_APB1RSTR\_UART7}|hyperpage}{105}
+\indexentry{RCC\_APB1RSTR\_UART7@{RCC\_APB1RSTR\_UART7}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{105}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_UART8@{RCC\_APB1RSTR\_UART8}|hyperpage}{105}
+\indexentry{RCC\_APB1RSTR\_UART8@{RCC\_APB1RSTR\_UART8}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{105}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_USART2@{RCC\_APB1RSTR\_USART2}|hyperpage}{105}
+\indexentry{RCC\_APB1RSTR\_USART2@{RCC\_APB1RSTR\_USART2}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{105}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_USART3@{RCC\_APB1RSTR\_USART3}|hyperpage}{105}
+\indexentry{RCC\_APB1RSTR\_USART3@{RCC\_APB1RSTR\_USART3}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{105}
+\indexentry{RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}!RCC\_APB1RSTR\_WWDG@{RCC\_APB1RSTR\_WWDG}|hyperpage}{105}
+\indexentry{RCC\_APB1RSTR\_WWDG@{RCC\_APB1RSTR\_WWDG}!RCC\_APB1RSTR Bit Position Definitions@{RCC\_APB1RSTR Bit Position Definitions}|hyperpage}{105}
+\indexentry{RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}|hyperpage}{106}
+\indexentry{RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}!RCC\_APB2RSTR\_ADC@{RCC\_APB2RSTR\_ADC}|hyperpage}{106}
+\indexentry{RCC\_APB2RSTR\_ADC@{RCC\_APB2RSTR\_ADC}!RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}|hyperpage}{106}
+\indexentry{RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}!RCC\_APB2RSTR\_SDIO@{RCC\_APB2RSTR\_SDIO}|hyperpage}{106}
+\indexentry{RCC\_APB2RSTR\_SDIO@{RCC\_APB2RSTR\_SDIO}!RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}|hyperpage}{106}
+\indexentry{RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}!RCC\_APB2RSTR\_SPI1@{RCC\_APB2RSTR\_SPI1}|hyperpage}{106}
+\indexentry{RCC\_APB2RSTR\_SPI1@{RCC\_APB2RSTR\_SPI1}!RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}|hyperpage}{106}
+\indexentry{RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}!RCC\_APB2RSTR\_SYSCFG@{RCC\_APB2RSTR\_SYSCFG}|hyperpage}{107}
+\indexentry{RCC\_APB2RSTR\_SYSCFG@{RCC\_APB2RSTR\_SYSCFG}!RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}|hyperpage}{107}
+\indexentry{RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}!RCC\_APB2RSTR\_TIM1@{RCC\_APB2RSTR\_TIM1}|hyperpage}{107}
+\indexentry{RCC\_APB2RSTR\_TIM1@{RCC\_APB2RSTR\_TIM1}!RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}|hyperpage}{107}
+\indexentry{RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}!RCC\_APB2RSTR\_TIM10@{RCC\_APB2RSTR\_TIM10}|hyperpage}{107}
+\indexentry{RCC\_APB2RSTR\_TIM10@{RCC\_APB2RSTR\_TIM10}!RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}|hyperpage}{107}
+\indexentry{RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}!RCC\_APB2RSTR\_TIM11@{RCC\_APB2RSTR\_TIM11}|hyperpage}{107}
+\indexentry{RCC\_APB2RSTR\_TIM11@{RCC\_APB2RSTR\_TIM11}!RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}|hyperpage}{107}
+\indexentry{RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}!RCC\_APB2RSTR\_TIM8@{RCC\_APB2RSTR\_TIM8}|hyperpage}{107}
+\indexentry{RCC\_APB2RSTR\_TIM8@{RCC\_APB2RSTR\_TIM8}!RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}|hyperpage}{107}
+\indexentry{RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}!RCC\_APB2RSTR\_TIM9@{RCC\_APB2RSTR\_TIM9}|hyperpage}{107}
+\indexentry{RCC\_APB2RSTR\_TIM9@{RCC\_APB2RSTR\_TIM9}!RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}|hyperpage}{107}
+\indexentry{RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}!RCC\_APB2RSTR\_USART1@{RCC\_APB2RSTR\_USART1}|hyperpage}{107}
+\indexentry{RCC\_APB2RSTR\_USART1@{RCC\_APB2RSTR\_USART1}!RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}|hyperpage}{107}
+\indexentry{RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}!RCC\_APB2RSTR\_USART6@{RCC\_APB2RSTR\_USART6}|hyperpage}{107}
+\indexentry{RCC\_APB2RSTR\_USART6@{RCC\_APB2RSTR\_USART6}!RCC\_APB2RSTR Bit Position Definitions@{RCC\_APB2RSTR Bit Position Definitions}|hyperpage}{107}
+\indexentry{RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}|hyperpage}{108}
+\indexentry{RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}!RCC\_AHB1LPENR\_CRCEN@{RCC\_AHB1LPENR\_CRCEN}|hyperpage}{108}
+\indexentry{RCC\_AHB1LPENR\_CRCEN@{RCC\_AHB1LPENR\_CRCEN}!RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}|hyperpage}{108}
+\indexentry{RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}!RCC\_AHB1LPENR\_DMA1LPEN@{RCC\_AHB1LPENR\_DMA1LPEN}|hyperpage}{109}
+\indexentry{RCC\_AHB1LPENR\_DMA1LPEN@{RCC\_AHB1LPENR\_DMA1LPEN}!RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}|hyperpage}{109}
+\indexentry{RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}!RCC\_AHB1LPENR\_DMA2LPEN@{RCC\_AHB1LPENR\_DMA2LPEN}|hyperpage}{109}
+\indexentry{RCC\_AHB1LPENR\_DMA2LPEN@{RCC\_AHB1LPENR\_DMA2LPEN}!RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}|hyperpage}{109}
+\indexentry{RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}!RCC\_AHB1LPENR\_ETHMACLPEN@{RCC\_AHB1LPENR\_ETHMACLPEN}|hyperpage}{109}
+\indexentry{RCC\_AHB1LPENR\_ETHMACLPEN@{RCC\_AHB1LPENR\_ETHMACLPEN}!RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}|hyperpage}{109}
+\indexentry{RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}!RCC\_AHB1LPENR\_ETHMACPTPLPEN@{RCC\_AHB1LPENR\_ETHMACPTPLPEN}|hyperpage}{109}
+\indexentry{RCC\_AHB1LPENR\_ETHMACPTPLPEN@{RCC\_AHB1LPENR\_ETHMACPTPLPEN}!RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}|hyperpage}{109}
+\indexentry{RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}!RCC\_AHB1LPENR\_ETHMACRXLPEN@{RCC\_AHB1LPENR\_ETHMACRXLPEN}|hyperpage}{109}
+\indexentry{RCC\_AHB1LPENR\_ETHMACRXLPEN@{RCC\_AHB1LPENR\_ETHMACRXLPEN}!RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}|hyperpage}{109}
+\indexentry{RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}!RCC\_AHB1LPENR\_ETHMACTXLPEN@{RCC\_AHB1LPENR\_ETHMACTXLPEN}|hyperpage}{109}
+\indexentry{RCC\_AHB1LPENR\_ETHMACTXLPEN@{RCC\_AHB1LPENR\_ETHMACTXLPEN}!RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}|hyperpage}{109}
+\indexentry{RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}!RCC\_AHB1LPENR\_GPIOALPEN@{RCC\_AHB1LPENR\_GPIOALPEN}|hyperpage}{109}
+\indexentry{RCC\_AHB1LPENR\_GPIOALPEN@{RCC\_AHB1LPENR\_GPIOALPEN}!RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}|hyperpage}{109}
+\indexentry{RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}!RCC\_AHB1LPENR\_GPIOBLPEN@{RCC\_AHB1LPENR\_GPIOBLPEN}|hyperpage}{109}
+\indexentry{RCC\_AHB1LPENR\_GPIOBLPEN@{RCC\_AHB1LPENR\_GPIOBLPEN}!RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}|hyperpage}{109}
+\indexentry{RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}!RCC\_AHB1LPENR\_GPIOCLPEN@{RCC\_AHB1LPENR\_GPIOCLPEN}|hyperpage}{110}
+\indexentry{RCC\_AHB1LPENR\_GPIOCLPEN@{RCC\_AHB1LPENR\_GPIOCLPEN}!RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}|hyperpage}{110}
+\indexentry{RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}!RCC\_AHB1LPENR\_GPIODLPEN@{RCC\_AHB1LPENR\_GPIODLPEN}|hyperpage}{110}
+\indexentry{RCC\_AHB1LPENR\_GPIODLPEN@{RCC\_AHB1LPENR\_GPIODLPEN}!RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}|hyperpage}{110}
+\indexentry{RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}!RCC\_AHB1LPENR\_GPIOELPEN@{RCC\_AHB1LPENR\_GPIOELPEN}|hyperpage}{110}
+\indexentry{RCC\_AHB1LPENR\_GPIOELPEN@{RCC\_AHB1LPENR\_GPIOELPEN}!RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}|hyperpage}{110}
+\indexentry{RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}!RCC\_AHB1LPENR\_GPIOFLPEN@{RCC\_AHB1LPENR\_GPIOFLPEN}|hyperpage}{110}
+\indexentry{RCC\_AHB1LPENR\_GPIOFLPEN@{RCC\_AHB1LPENR\_GPIOFLPEN}!RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}|hyperpage}{110}
+\indexentry{RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}!RCC\_AHB1LPENR\_GPIOGLPEN@{RCC\_AHB1LPENR\_GPIOGLPEN}|hyperpage}{110}
+\indexentry{RCC\_AHB1LPENR\_GPIOGLPEN@{RCC\_AHB1LPENR\_GPIOGLPEN}!RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}|hyperpage}{110}
+\indexentry{RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}!RCC\_AHB1LPENR\_GPIOHLPEN@{RCC\_AHB1LPENR\_GPIOHLPEN}|hyperpage}{110}
+\indexentry{RCC\_AHB1LPENR\_GPIOHLPEN@{RCC\_AHB1LPENR\_GPIOHLPEN}!RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}|hyperpage}{110}
+\indexentry{RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}!RCC\_AHB1LPENR\_GPIOILPEN@{RCC\_AHB1LPENR\_GPIOILPEN}|hyperpage}{110}
+\indexentry{RCC\_AHB1LPENR\_GPIOILPEN@{RCC\_AHB1LPENR\_GPIOILPEN}!RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}|hyperpage}{110}
+\indexentry{RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}!RCC\_AHB1LPENR\_OTGHSHULPI@{RCC\_AHB1LPENR\_OTGHSHULPI}|hyperpage}{110}
+\indexentry{RCC\_AHB1LPENR\_OTGHSHULPI@{RCC\_AHB1LPENR\_OTGHSHULPI}!RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}|hyperpage}{110}
+\indexentry{RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}!RCC\_AHB1LPENR\_OTGHSLPEN@{RCC\_AHB1LPENR\_OTGHSLPEN}|hyperpage}{111}
+\indexentry{RCC\_AHB1LPENR\_OTGHSLPEN@{RCC\_AHB1LPENR\_OTGHSLPEN}!RCC\_AHB1LPENR Bit Position Definitions@{RCC\_AHB1LPENR Bit Position Definitions}|hyperpage}{111}
+\indexentry{RCC\_AHB2LPENR Bit Position Definitions@{RCC\_AHB2LPENR Bit Position Definitions}|hyperpage}{111}
+\indexentry{RCC\_AHB2LPENR Bit Position Definitions@{RCC\_AHB2LPENR Bit Position Definitions}!RCC\_AHB2LPENR\_CRYPLPEN@{RCC\_AHB2LPENR\_CRYPLPEN}|hyperpage}{111}
+\indexentry{RCC\_AHB2LPENR\_CRYPLPEN@{RCC\_AHB2LPENR\_CRYPLPEN}!RCC\_AHB2LPENR Bit Position Definitions@{RCC\_AHB2LPENR Bit Position Definitions}|hyperpage}{111}
+\indexentry{RCC\_AHB2LPENR Bit Position Definitions@{RCC\_AHB2LPENR Bit Position Definitions}!RCC\_AHB2LPENR\_DCMILPEN@{RCC\_AHB2LPENR\_DCMILPEN}|hyperpage}{111}
+\indexentry{RCC\_AHB2LPENR\_DCMILPEN@{RCC\_AHB2LPENR\_DCMILPEN}!RCC\_AHB2LPENR Bit Position Definitions@{RCC\_AHB2LPENR Bit Position Definitions}|hyperpage}{111}
+\indexentry{RCC\_AHB2LPENR Bit Position Definitions@{RCC\_AHB2LPENR Bit Position Definitions}!RCC\_AHB2LPENR\_HASHLPEN@{RCC\_AHB2LPENR\_HASHLPEN}|hyperpage}{112}
+\indexentry{RCC\_AHB2LPENR\_HASHLPEN@{RCC\_AHB2LPENR\_HASHLPEN}!RCC\_AHB2LPENR Bit Position Definitions@{RCC\_AHB2LPENR Bit Position Definitions}|hyperpage}{112}
+\indexentry{RCC\_AHB2LPENR Bit Position Definitions@{RCC\_AHB2LPENR Bit Position Definitions}!RCC\_AHB2LPENR\_OTGFSLPEN@{RCC\_AHB2LPENR\_OTGFSLPEN}|hyperpage}{112}
+\indexentry{RCC\_AHB2LPENR\_OTGFSLPEN@{RCC\_AHB2LPENR\_OTGFSLPEN}!RCC\_AHB2LPENR Bit Position Definitions@{RCC\_AHB2LPENR Bit Position Definitions}|hyperpage}{112}
+\indexentry{RCC\_AHB2LPENR Bit Position Definitions@{RCC\_AHB2LPENR Bit Position Definitions}!RCC\_AHB2LPENR\_RNGLPEN@{RCC\_AHB2LPENR\_RNGLPEN}|hyperpage}{112}
+\indexentry{RCC\_AHB2LPENR\_RNGLPEN@{RCC\_AHB2LPENR\_RNGLPEN}!RCC\_AHB2LPENR Bit Position Definitions@{RCC\_AHB2LPENR Bit Position Definitions}|hyperpage}{112}
+\indexentry{RCC\_AHB3LPENR Bit Position Definitions@{RCC\_AHB3LPENR Bit Position Definitions}|hyperpage}{112}
+\indexentry{RCC\_AHB3LPENR Bit Position Definitions@{RCC\_AHB3LPENR Bit Position Definitions}!RCC\_AHB3LPENR\_FSMCLPEN@{RCC\_AHB3LPENR\_FSMCLPEN}|hyperpage}{113}
+\indexentry{RCC\_AHB3LPENR\_FSMCLPEN@{RCC\_AHB3LPENR\_FSMCLPEN}!RCC\_AHB3LPENR Bit Position Definitions@{RCC\_AHB3LPENR Bit Position Definitions}|hyperpage}{113}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{113}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_CAN1LPEN@{RCC\_APB1LPENR\_CAN1LPEN}|hyperpage}{114}
+\indexentry{RCC\_APB1LPENR\_CAN1LPEN@{RCC\_APB1LPENR\_CAN1LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{114}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_CAN2LPEN@{RCC\_APB1LPENR\_CAN2LPEN}|hyperpage}{114}
+\indexentry{RCC\_APB1LPENR\_CAN2LPEN@{RCC\_APB1LPENR\_CAN2LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{114}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_DACLPEN@{RCC\_APB1LPENR\_DACLPEN}|hyperpage}{114}
+\indexentry{RCC\_APB1LPENR\_DACLPEN@{RCC\_APB1LPENR\_DACLPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{114}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_I2C1LPEN@{RCC\_APB1LPENR\_I2C1LPEN}|hyperpage}{114}
+\indexentry{RCC\_APB1LPENR\_I2C1LPEN@{RCC\_APB1LPENR\_I2C1LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{114}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_I2C2LPEN@{RCC\_APB1LPENR\_I2C2LPEN}|hyperpage}{114}
+\indexentry{RCC\_APB1LPENR\_I2C2LPEN@{RCC\_APB1LPENR\_I2C2LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{114}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_I2C3LPEN@{RCC\_APB1LPENR\_I2C3LPEN}|hyperpage}{114}
+\indexentry{RCC\_APB1LPENR\_I2C3LPEN@{RCC\_APB1LPENR\_I2C3LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{114}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_PWRLPEN@{RCC\_APB1LPENR\_PWRLPEN}|hyperpage}{114}
+\indexentry{RCC\_APB1LPENR\_PWRLPEN@{RCC\_APB1LPENR\_PWRLPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{114}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_SPI2LPEN@{RCC\_APB1LPENR\_SPI2LPEN}|hyperpage}{115}
+\indexentry{RCC\_APB1LPENR\_SPI2LPEN@{RCC\_APB1LPENR\_SPI2LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{115}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_SPI3LPEN@{RCC\_APB1LPENR\_SPI3LPEN}|hyperpage}{115}
+\indexentry{RCC\_APB1LPENR\_SPI3LPEN@{RCC\_APB1LPENR\_SPI3LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{115}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_TIM12LPEN@{RCC\_APB1LPENR\_TIM12LPEN}|hyperpage}{115}
+\indexentry{RCC\_APB1LPENR\_TIM12LPEN@{RCC\_APB1LPENR\_TIM12LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{115}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_TIM13LPEN@{RCC\_APB1LPENR\_TIM13LPEN}|hyperpage}{115}
+\indexentry{RCC\_APB1LPENR\_TIM13LPEN@{RCC\_APB1LPENR\_TIM13LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{115}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_TIM14LPEN@{RCC\_APB1LPENR\_TIM14LPEN}|hyperpage}{115}
+\indexentry{RCC\_APB1LPENR\_TIM14LPEN@{RCC\_APB1LPENR\_TIM14LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{115}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_TIM2LPEN@{RCC\_APB1LPENR\_TIM2LPEN}|hyperpage}{115}
+\indexentry{RCC\_APB1LPENR\_TIM2LPEN@{RCC\_APB1LPENR\_TIM2LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{115}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_TIM3LPEN@{RCC\_APB1LPENR\_TIM3LPEN}|hyperpage}{115}
+\indexentry{RCC\_APB1LPENR\_TIM3LPEN@{RCC\_APB1LPENR\_TIM3LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{115}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_TIM4LPEN@{RCC\_APB1LPENR\_TIM4LPEN}|hyperpage}{115}
+\indexentry{RCC\_APB1LPENR\_TIM4LPEN@{RCC\_APB1LPENR\_TIM4LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{115}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_TIM5LPEN@{RCC\_APB1LPENR\_TIM5LPEN}|hyperpage}{116}
+\indexentry{RCC\_APB1LPENR\_TIM5LPEN@{RCC\_APB1LPENR\_TIM5LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{116}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_TIM6LPEN@{RCC\_APB1LPENR\_TIM6LPEN}|hyperpage}{116}
+\indexentry{RCC\_APB1LPENR\_TIM6LPEN@{RCC\_APB1LPENR\_TIM6LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{116}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_TIM7LPEN@{RCC\_APB1LPENR\_TIM7LPEN}|hyperpage}{116}
+\indexentry{RCC\_APB1LPENR\_TIM7LPEN@{RCC\_APB1LPENR\_TIM7LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{116}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_UART4LPEN@{RCC\_APB1LPENR\_UART4LPEN}|hyperpage}{116}
+\indexentry{RCC\_APB1LPENR\_UART4LPEN@{RCC\_APB1LPENR\_UART4LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{116}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_UART5LPEN@{RCC\_APB1LPENR\_UART5LPEN}|hyperpage}{116}
+\indexentry{RCC\_APB1LPENR\_UART5LPEN@{RCC\_APB1LPENR\_UART5LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{116}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_UART7LPEN@{RCC\_APB1LPENR\_UART7LPEN}|hyperpage}{116}
+\indexentry{RCC\_APB1LPENR\_UART7LPEN@{RCC\_APB1LPENR\_UART7LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{116}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_UART8LPEN@{RCC\_APB1LPENR\_UART8LPEN}|hyperpage}{116}
+\indexentry{RCC\_APB1LPENR\_UART8LPEN@{RCC\_APB1LPENR\_UART8LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{116}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_USART2LPEN@{RCC\_APB1LPENR\_USART2LPEN}|hyperpage}{116}
+\indexentry{RCC\_APB1LPENR\_USART2LPEN@{RCC\_APB1LPENR\_USART2LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{116}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_USART3LPEN@{RCC\_APB1LPENR\_USART3LPEN}|hyperpage}{117}
+\indexentry{RCC\_APB1LPENR\_USART3LPEN@{RCC\_APB1LPENR\_USART3LPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{117}
+\indexentry{RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}!RCC\_APB1LPENR\_WWDGLPEN@{RCC\_APB1LPENR\_WWDGLPEN}|hyperpage}{117}
+\indexentry{RCC\_APB1LPENR\_WWDGLPEN@{RCC\_APB1LPENR\_WWDGLPEN}!RCC\_APB1LPENR Bit Position Definitions@{RCC\_APB1LPENR Bit Position Definitions}|hyperpage}{117}
+\indexentry{RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}|hyperpage}{117}
+\indexentry{RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}!RCC\_APB2LPENR\_ADCLPEN@{RCC\_APB2LPENR\_ADCLPEN}|hyperpage}{118}
+\indexentry{RCC\_APB2LPENR\_ADCLPEN@{RCC\_APB2LPENR\_ADCLPEN}!RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}|hyperpage}{118}
+\indexentry{RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}!RCC\_APB2LPENR\_SDIOLPEN@{RCC\_APB2LPENR\_SDIOLPEN}|hyperpage}{118}
+\indexentry{RCC\_APB2LPENR\_SDIOLPEN@{RCC\_APB2LPENR\_SDIOLPEN}!RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}|hyperpage}{118}
+\indexentry{RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}!RCC\_APB2LPENR\_SPI1LPEN@{RCC\_APB2LPENR\_SPI1LPEN}|hyperpage}{118}
+\indexentry{RCC\_APB2LPENR\_SPI1LPEN@{RCC\_APB2LPENR\_SPI1LPEN}!RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}|hyperpage}{118}
+\indexentry{RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}!RCC\_APB2LPENR\_SYSCFGLPEN@{RCC\_APB2LPENR\_SYSCFGLPEN}|hyperpage}{118}
+\indexentry{RCC\_APB2LPENR\_SYSCFGLPEN@{RCC\_APB2LPENR\_SYSCFGLPEN}!RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}|hyperpage}{118}
+\indexentry{RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}!RCC\_APB2LPENR\_TIM10LPEN@{RCC\_APB2LPENR\_TIM10LPEN}|hyperpage}{118}
+\indexentry{RCC\_APB2LPENR\_TIM10LPEN@{RCC\_APB2LPENR\_TIM10LPEN}!RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}|hyperpage}{118}
+\indexentry{RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}!RCC\_APB2LPENR\_TIM11LPEN@{RCC\_APB2LPENR\_TIM11LPEN}|hyperpage}{118}
+\indexentry{RCC\_APB2LPENR\_TIM11LPEN@{RCC\_APB2LPENR\_TIM11LPEN}!RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}|hyperpage}{118}
+\indexentry{RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}!RCC\_APB2LPENR\_TIM1LPEN@{RCC\_APB2LPENR\_TIM1LPEN}|hyperpage}{118}
+\indexentry{RCC\_APB2LPENR\_TIM1LPEN@{RCC\_APB2LPENR\_TIM1LPEN}!RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}|hyperpage}{118}
+\indexentry{RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}!RCC\_APB2LPENR\_TIM8LPEN@{RCC\_APB2LPENR\_TIM8LPEN}|hyperpage}{119}
+\indexentry{RCC\_APB2LPENR\_TIM8LPEN@{RCC\_APB2LPENR\_TIM8LPEN}!RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}|hyperpage}{119}
+\indexentry{RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}!RCC\_APB2LPENR\_TIM9LPEN@{RCC\_APB2LPENR\_TIM9LPEN}|hyperpage}{119}
+\indexentry{RCC\_APB2LPENR\_TIM9LPEN@{RCC\_APB2LPENR\_TIM9LPEN}!RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}|hyperpage}{119}
+\indexentry{RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}!RCC\_APB2LPENR\_USART1LPEN@{RCC\_APB2LPENR\_USART1LPEN}|hyperpage}{119}
+\indexentry{RCC\_APB2LPENR\_USART1LPEN@{RCC\_APB2LPENR\_USART1LPEN}!RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}|hyperpage}{119}
+\indexentry{RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}!RCC\_APB2LPENR\_USART6LPEN@{RCC\_APB2LPENR\_USART6LPEN}|hyperpage}{119}
+\indexentry{RCC\_APB2LPENR\_USART6LPEN@{RCC\_APB2LPENR\_USART6LPEN}!RCC\_APB2LPENR Bit Position Definitions@{RCC\_APB2LPENR Bit Position Definitions}|hyperpage}{119}
+\indexentry{RCC\_BDCR Bit Position Definitions@{RCC\_BDCR Bit Position Definitions}|hyperpage}{119}
+\indexentry{RCC\_BDCR Bit Position Definitions@{RCC\_BDCR Bit Position Definitions}!RCC\_BDCR\_BDRST@{RCC\_BDCR\_BDRST}|hyperpage}{120}
+\indexentry{RCC\_BDCR\_BDRST@{RCC\_BDCR\_BDRST}!RCC\_BDCR Bit Position Definitions@{RCC\_BDCR Bit Position Definitions}|hyperpage}{120}
+\indexentry{RCC\_BDCR Bit Position Definitions@{RCC\_BDCR Bit Position Definitions}!RCC\_BDCR\_LSEBYP@{RCC\_BDCR\_LSEBYP}|hyperpage}{120}
+\indexentry{RCC\_BDCR\_LSEBYP@{RCC\_BDCR\_LSEBYP}!RCC\_BDCR Bit Position Definitions@{RCC\_BDCR Bit Position Definitions}|hyperpage}{120}
+\indexentry{RCC\_BDCR Bit Position Definitions@{RCC\_BDCR Bit Position Definitions}!RCC\_BDCR\_LSEON@{RCC\_BDCR\_LSEON}|hyperpage}{120}
+\indexentry{RCC\_BDCR\_LSEON@{RCC\_BDCR\_LSEON}!RCC\_BDCR Bit Position Definitions@{RCC\_BDCR Bit Position Definitions}|hyperpage}{120}
+\indexentry{RCC\_BDCR Bit Position Definitions@{RCC\_BDCR Bit Position Definitions}!RCC\_BDCR\_LSERDY@{RCC\_BDCR\_LSERDY}|hyperpage}{120}
+\indexentry{RCC\_BDCR\_LSERDY@{RCC\_BDCR\_LSERDY}!RCC\_BDCR Bit Position Definitions@{RCC\_BDCR Bit Position Definitions}|hyperpage}{120}
+\indexentry{RCC\_BDCR Bit Position Definitions@{RCC\_BDCR Bit Position Definitions}!RCC\_BDCR\_RTCEN@{RCC\_BDCR\_RTCEN}|hyperpage}{120}
+\indexentry{RCC\_BDCR\_RTCEN@{RCC\_BDCR\_RTCEN}!RCC\_BDCR Bit Position Definitions@{RCC\_BDCR Bit Position Definitions}|hyperpage}{120}
+\indexentry{RCC\_BDCR Bit Position Definitions@{RCC\_BDCR Bit Position Definitions}!RCC\_BDCR\_RTCSEL@{RCC\_BDCR\_RTCSEL}|hyperpage}{120}
+\indexentry{RCC\_BDCR\_RTCSEL@{RCC\_BDCR\_RTCSEL}!RCC\_BDCR Bit Position Definitions@{RCC\_BDCR Bit Position Definitions}|hyperpage}{120}
+\indexentry{RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}|hyperpage}{121}
+\indexentry{RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}!RCC\_CSR\_IWDGRSTF@{RCC\_CSR\_IWDGRSTF}|hyperpage}{121}
+\indexentry{RCC\_CSR\_IWDGRSTF@{RCC\_CSR\_IWDGRSTF}!RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}|hyperpage}{121}
+\indexentry{RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}!RCC\_CSR\_LPWRRSTF@{RCC\_CSR\_LPWRRSTF}|hyperpage}{121}
+\indexentry{RCC\_CSR\_LPWRRSTF@{RCC\_CSR\_LPWRRSTF}!RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}|hyperpage}{121}
+\indexentry{RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}!RCC\_CSR\_LSION@{RCC\_CSR\_LSION}|hyperpage}{122}
+\indexentry{RCC\_CSR\_LSION@{RCC\_CSR\_LSION}!RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}|hyperpage}{122}
+\indexentry{RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}!RCC\_CSR\_LSIRDY@{RCC\_CSR\_LSIRDY}|hyperpage}{122}
+\indexentry{RCC\_CSR\_LSIRDY@{RCC\_CSR\_LSIRDY}!RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}|hyperpage}{122}
+\indexentry{RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}!RCC\_CSR\_OBLRSTF@{RCC\_CSR\_OBLRSTF}|hyperpage}{122}
+\indexentry{RCC\_CSR\_OBLRSTF@{RCC\_CSR\_OBLRSTF}!RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}|hyperpage}{122}
+\indexentry{RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}!RCC\_CSR\_PINRSTF@{RCC\_CSR\_PINRSTF}|hyperpage}{122}
+\indexentry{RCC\_CSR\_PINRSTF@{RCC\_CSR\_PINRSTF}!RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}|hyperpage}{122}
+\indexentry{RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}!RCC\_CSR\_PORRSTF@{RCC\_CSR\_PORRSTF}|hyperpage}{122}
+\indexentry{RCC\_CSR\_PORRSTF@{RCC\_CSR\_PORRSTF}!RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}|hyperpage}{122}
+\indexentry{RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}!RCC\_CSR\_RMVF@{RCC\_CSR\_RMVF}|hyperpage}{122}
+\indexentry{RCC\_CSR\_RMVF@{RCC\_CSR\_RMVF}!RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}|hyperpage}{122}
+\indexentry{RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}!RCC\_CSR\_SFTRSTF@{RCC\_CSR\_SFTRSTF}|hyperpage}{122}
+\indexentry{RCC\_CSR\_SFTRSTF@{RCC\_CSR\_SFTRSTF}!RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}|hyperpage}{122}
+\indexentry{RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}!RCC\_CSR\_WWDGRSTF@{RCC\_CSR\_WWDGRSTF}|hyperpage}{122}
+\indexentry{RCC\_CSR\_WWDGRSTF@{RCC\_CSR\_WWDGRSTF}!RCC\_CSR Bit Position Definitions@{RCC\_CSR Bit Position Definitions}|hyperpage}{122}
+\indexentry{RCC\_SSCGR Bit Position Definitions@{RCC\_SSCGR Bit Position Definitions}|hyperpage}{123}
+\indexentry{RCC\_SSCGR Bit Position Definitions@{RCC\_SSCGR Bit Position Definitions}!RCC\_SSCGR\_INCSTEP@{RCC\_SSCGR\_INCSTEP}|hyperpage}{123}
+\indexentry{RCC\_SSCGR\_INCSTEP@{RCC\_SSCGR\_INCSTEP}!RCC\_SSCGR Bit Position Definitions@{RCC\_SSCGR Bit Position Definitions}|hyperpage}{123}
+\indexentry{RCC\_SSCGR Bit Position Definitions@{RCC\_SSCGR Bit Position Definitions}!RCC\_SSCGR\_MODPER@{RCC\_SSCGR\_MODPER}|hyperpage}{123}
+\indexentry{RCC\_SSCGR\_MODPER@{RCC\_SSCGR\_MODPER}!RCC\_SSCGR Bit Position Definitions@{RCC\_SSCGR Bit Position Definitions}|hyperpage}{123}
+\indexentry{RCC\_SSCGR Bit Position Definitions@{RCC\_SSCGR Bit Position Definitions}!RCC\_SSCGR\_SPREADSEL@{RCC\_SSCGR\_SPREADSEL}|hyperpage}{123}
+\indexentry{RCC\_SSCGR\_SPREADSEL@{RCC\_SSCGR\_SPREADSEL}!RCC\_SSCGR Bit Position Definitions@{RCC\_SSCGR Bit Position Definitions}|hyperpage}{123}
+\indexentry{RCC\_SSCGR Bit Position Definitions@{RCC\_SSCGR Bit Position Definitions}!RCC\_SSCGR\_SSCGEN@{RCC\_SSCGR\_SSCGEN}|hyperpage}{124}
+\indexentry{RCC\_SSCGR\_SSCGEN@{RCC\_SSCGR\_SSCGEN}!RCC\_SSCGR Bit Position Definitions@{RCC\_SSCGR Bit Position Definitions}|hyperpage}{124}
+\indexentry{RCC\_PLLI2SCFGR Bit Position Definitions@{RCC\_PLLI2SCFGR Bit Position Definitions}|hyperpage}{124}
+\indexentry{RCC\_PLLI2SCFGR Bit Position Definitions@{RCC\_PLLI2SCFGR Bit Position Definitions}!RCC\_PLLI2SCFGR\_PLLI2SN@{RCC\_PLLI2SCFGR\_PLLI2SN}|hyperpage}{124}
+\indexentry{RCC\_PLLI2SCFGR\_PLLI2SN@{RCC\_PLLI2SCFGR\_PLLI2SN}!RCC\_PLLI2SCFGR Bit Position Definitions@{RCC\_PLLI2SCFGR Bit Position Definitions}|hyperpage}{124}
+\indexentry{RCC\_PLLI2SCFGR Bit Position Definitions@{RCC\_PLLI2SCFGR Bit Position Definitions}!RCC\_PLLI2SCFGR\_PLLI2SR@{RCC\_PLLI2SCFGR\_PLLI2SR}|hyperpage}{124}
+\indexentry{RCC\_PLLI2SCFGR\_PLLI2SR@{RCC\_PLLI2SCFGR\_PLLI2SR}!RCC\_PLLI2SCFGR Bit Position Definitions@{RCC\_PLLI2SCFGR Bit Position Definitions}|hyperpage}{124}
+\indexentry{Generic Macros@{Generic Macros}|hyperpage}{125}
+\indexentry{Generic Macros@{Generic Macros}!DISABLE@{DISABLE}|hyperpage}{125}
+\indexentry{DISABLE@{DISABLE}!Generic Macros@{Generic Macros}|hyperpage}{125}
+\indexentry{Generic Macros@{Generic Macros}!ENABLE@{ENABLE}|hyperpage}{125}
+\indexentry{ENABLE@{ENABLE}!Generic Macros@{Generic Macros}|hyperpage}{125}
+\indexentry{Generic Macros@{Generic Macros}!FLAG\_RESET@{FLAG\_RESET}|hyperpage}{126}
+\indexentry{FLAG\_RESET@{FLAG\_RESET}!Generic Macros@{Generic Macros}|hyperpage}{126}
+\indexentry{Generic Macros@{Generic Macros}!FLAG\_SET@{FLAG\_SET}|hyperpage}{126}
+\indexentry{FLAG\_SET@{FLAG\_SET}!Generic Macros@{Generic Macros}|hyperpage}{126}
+\indexentry{Generic Macros@{Generic Macros}!GPIO\_PIN\_RESET@{GPIO\_PIN\_RESET}|hyperpage}{126}
+\indexentry{GPIO\_PIN\_RESET@{GPIO\_PIN\_RESET}!Generic Macros@{Generic Macros}|hyperpage}{126}
+\indexentry{Generic Macros@{Generic Macros}!GPIO\_PIN\_SET@{GPIO\_PIN\_SET}|hyperpage}{126}
+\indexentry{GPIO\_PIN\_SET@{GPIO\_PIN\_SET}!Generic Macros@{Generic Macros}|hyperpage}{126}
+\indexentry{Generic Macros@{Generic Macros}!RESET@{RESET}|hyperpage}{126}
+\indexentry{RESET@{RESET}!Generic Macros@{Generic Macros}|hyperpage}{126}
+\indexentry{Generic Macros@{Generic Macros}!SET@{SET}|hyperpage}{126}
+\indexentry{SET@{SET}!Generic Macros@{Generic Macros}|hyperpage}{126}
+\indexentry{GPIO Driver@{GPIO Driver}|hyperpage}{127}
+\indexentry{GPIO Driver@{GPIO Driver}!GPIO\_PinAltFunMode@{GPIO\_PinAltFunMode}|hyperpage}{128}
+\indexentry{GPIO\_PinAltFunMode@{GPIO\_PinAltFunMode}!GPIO Driver@{GPIO Driver}|hyperpage}{128}
+\indexentry{GPIO Driver@{GPIO Driver}!GPIO\_PinConfig@{GPIO\_PinConfig}|hyperpage}{128}
+\indexentry{GPIO\_PinConfig@{GPIO\_PinConfig}!GPIO Driver@{GPIO Driver}|hyperpage}{128}
+\indexentry{GPIO Driver@{GPIO Driver}!GPIO\_PinMode@{GPIO\_PinMode}|hyperpage}{128}
+\indexentry{GPIO\_PinMode@{GPIO\_PinMode}!GPIO Driver@{GPIO Driver}|hyperpage}{128}
+\indexentry{GPIO Driver@{GPIO Driver}!GPIO\_PinNumber@{GPIO\_PinNumber}|hyperpage}{128}
+\indexentry{GPIO\_PinNumber@{GPIO\_PinNumber}!GPIO Driver@{GPIO Driver}|hyperpage}{128}
+\indexentry{GPIO Driver@{GPIO Driver}!GPIO\_PinPinOPType@{GPIO\_PinPinOPType}|hyperpage}{128}
+\indexentry{GPIO\_PinPinOPType@{GPIO\_PinPinOPType}!GPIO Driver@{GPIO Driver}|hyperpage}{128}
+\indexentry{GPIO Driver@{GPIO Driver}!GPIO\_PinPuPdControl@{GPIO\_PinPuPdControl}|hyperpage}{128}
+\indexentry{GPIO\_PinPuPdControl@{GPIO\_PinPuPdControl}!GPIO Driver@{GPIO Driver}|hyperpage}{128}
+\indexentry{GPIO Driver@{GPIO Driver}!GPIO\_PinSpeed@{GPIO\_PinSpeed}|hyperpage}{128}
+\indexentry{GPIO\_PinSpeed@{GPIO\_PinSpeed}!GPIO Driver@{GPIO Driver}|hyperpage}{128}
+\indexentry{GPIO Driver@{GPIO Driver}!pGPIOx@{pGPIOx}|hyperpage}{128}
+\indexentry{pGPIOx@{pGPIOx}!GPIO Driver@{GPIO Driver}|hyperpage}{128}
+\indexentry{GPIO Macros@{GPIO Macros}|hyperpage}{129}
+\indexentry{GPIO Pin Numbers@{GPIO Pin Numbers}|hyperpage}{130}
+\indexentry{GPIO Pin Modes@{GPIO Pin Modes}|hyperpage}{130}
+\indexentry{GPIO Pin Modes@{GPIO Pin Modes}!GPIO\_MODE\_ALTFN@{GPIO\_MODE\_ALTFN}|hyperpage}{131}
+\indexentry{GPIO\_MODE\_ALTFN@{GPIO\_MODE\_ALTFN}!GPIO Pin Modes@{GPIO Pin Modes}|hyperpage}{131}
+\indexentry{GPIO Pin Modes@{GPIO Pin Modes}!GPIO\_MODE\_ANALOG@{GPIO\_MODE\_ANALOG}|hyperpage}{131}
+\indexentry{GPIO\_MODE\_ANALOG@{GPIO\_MODE\_ANALOG}!GPIO Pin Modes@{GPIO Pin Modes}|hyperpage}{131}
+\indexentry{GPIO Pin Modes@{GPIO Pin Modes}!GPIO\_MODE\_IN@{GPIO\_MODE\_IN}|hyperpage}{131}
+\indexentry{GPIO\_MODE\_IN@{GPIO\_MODE\_IN}!GPIO Pin Modes@{GPIO Pin Modes}|hyperpage}{131}
+\indexentry{GPIO Pin Modes@{GPIO Pin Modes}!GPIO\_MODE\_IT\_FT@{GPIO\_MODE\_IT\_FT}|hyperpage}{131}
+\indexentry{GPIO\_MODE\_IT\_FT@{GPIO\_MODE\_IT\_FT}!GPIO Pin Modes@{GPIO Pin Modes}|hyperpage}{131}
+\indexentry{GPIO Pin Modes@{GPIO Pin Modes}!GPIO\_MODE\_IT\_RFT@{GPIO\_MODE\_IT\_RFT}|hyperpage}{131}
+\indexentry{GPIO\_MODE\_IT\_RFT@{GPIO\_MODE\_IT\_RFT}!GPIO Pin Modes@{GPIO Pin Modes}|hyperpage}{131}
+\indexentry{GPIO Pin Modes@{GPIO Pin Modes}!GPIO\_MODE\_IT\_RT@{GPIO\_MODE\_IT\_RT}|hyperpage}{131}
+\indexentry{GPIO\_MODE\_IT\_RT@{GPIO\_MODE\_IT\_RT}!GPIO Pin Modes@{GPIO Pin Modes}|hyperpage}{131}
+\indexentry{GPIO Pin Modes@{GPIO Pin Modes}!GPIO\_MODE\_OUT@{GPIO\_MODE\_OUT}|hyperpage}{132}
+\indexentry{GPIO\_MODE\_OUT@{GPIO\_MODE\_OUT}!GPIO Pin Modes@{GPIO Pin Modes}|hyperpage}{132}
+\indexentry{GPIO Output Speeds@{GPIO Output Speeds}|hyperpage}{132}
+\indexentry{GPIO Output Speeds@{GPIO Output Speeds}!GPIO\_SPEED\_FAST@{GPIO\_SPEED\_FAST}|hyperpage}{132}
+\indexentry{GPIO\_SPEED\_FAST@{GPIO\_SPEED\_FAST}!GPIO Output Speeds@{GPIO Output Speeds}|hyperpage}{132}
+\indexentry{GPIO Output Speeds@{GPIO Output Speeds}!GPIO\_SPEED\_HIGH@{GPIO\_SPEED\_HIGH}|hyperpage}{132}
+\indexentry{GPIO\_SPEED\_HIGH@{GPIO\_SPEED\_HIGH}!GPIO Output Speeds@{GPIO Output Speeds}|hyperpage}{132}
+\indexentry{GPIO Output Speeds@{GPIO Output Speeds}!GPIO\_SPEED\_LOW@{GPIO\_SPEED\_LOW}|hyperpage}{133}
+\indexentry{GPIO\_SPEED\_LOW@{GPIO\_SPEED\_LOW}!GPIO Output Speeds@{GPIO Output Speeds}|hyperpage}{133}
+\indexentry{GPIO Output Speeds@{GPIO Output Speeds}!GPIO\_SPEED\_MEDIUM@{GPIO\_SPEED\_MEDIUM}|hyperpage}{133}
+\indexentry{GPIO\_SPEED\_MEDIUM@{GPIO\_SPEED\_MEDIUM}!GPIO Output Speeds@{GPIO Output Speeds}|hyperpage}{133}
+\indexentry{GPIO Pull-\/up/Pull-\/down Configurations@{GPIO Pull-\/up/Pull-\/down Configurations}|hyperpage}{133}
+\indexentry{GPIO Pull-\/up/Pull-\/down Configurations@{GPIO Pull-\/up/Pull-\/down Configurations}!GPIO\_NO\_PUPD@{GPIO\_NO\_PUPD}|hyperpage}{134}
+\indexentry{GPIO\_NO\_PUPD@{GPIO\_NO\_PUPD}!GPIO Pull-\/up/Pull-\/down Configurations@{GPIO Pull-\/up/Pull-\/down Configurations}|hyperpage}{134}
+\indexentry{GPIO Pull-\/up/Pull-\/down Configurations@{GPIO Pull-\/up/Pull-\/down Configurations}!GPIO\_PIN\_PD@{GPIO\_PIN\_PD}|hyperpage}{134}
+\indexentry{GPIO\_PIN\_PD@{GPIO\_PIN\_PD}!GPIO Pull-\/up/Pull-\/down Configurations@{GPIO Pull-\/up/Pull-\/down Configurations}|hyperpage}{134}
+\indexentry{GPIO Pull-\/up/Pull-\/down Configurations@{GPIO Pull-\/up/Pull-\/down Configurations}!GPIO\_PIN\_PU@{GPIO\_PIN\_PU}|hyperpage}{134}
+\indexentry{GPIO\_PIN\_PU@{GPIO\_PIN\_PU}!GPIO Pull-\/up/Pull-\/down Configurations@{GPIO Pull-\/up/Pull-\/down Configurations}|hyperpage}{134}
+\indexentry{GPIO Output Types@{GPIO Output Types}|hyperpage}{134}
+\indexentry{GPIO Output Types@{GPIO Output Types}!GPIO\_OP\_TYPE\_OD@{GPIO\_OP\_TYPE\_OD}|hyperpage}{135}
+\indexentry{GPIO\_OP\_TYPE\_OD@{GPIO\_OP\_TYPE\_OD}!GPIO Output Types@{GPIO Output Types}|hyperpage}{135}
+\indexentry{GPIO Output Types@{GPIO Output Types}!GPIO\_OP\_TYPE\_PP@{GPIO\_OP\_TYPE\_PP}|hyperpage}{135}
+\indexentry{GPIO\_OP\_TYPE\_PP@{GPIO\_OP\_TYPE\_PP}!GPIO Output Types@{GPIO Output Types}|hyperpage}{135}
+\indexentry{GPIO APIs@{GPIO APIs}|hyperpage}{135}
+\indexentry{GPIO APIs@{GPIO APIs}!GPIO\_DeInit@{GPIO\_DeInit}|hyperpage}{136}
+\indexentry{GPIO\_DeInit@{GPIO\_DeInit}!GPIO APIs@{GPIO APIs}|hyperpage}{136}
+\indexentry{GPIO APIs@{GPIO APIs}!GPIO\_Init@{GPIO\_Init}|hyperpage}{136}
+\indexentry{GPIO\_Init@{GPIO\_Init}!GPIO APIs@{GPIO APIs}|hyperpage}{136}
+\indexentry{GPIO APIs@{GPIO APIs}!GPIO\_IRQHandling@{GPIO\_IRQHandling}|hyperpage}{136}
+\indexentry{GPIO\_IRQHandling@{GPIO\_IRQHandling}!GPIO APIs@{GPIO APIs}|hyperpage}{136}
+\indexentry{GPIO APIs@{GPIO APIs}!GPIO\_IRQInterruptConfig@{GPIO\_IRQInterruptConfig}|hyperpage}{137}
+\indexentry{GPIO\_IRQInterruptConfig@{GPIO\_IRQInterruptConfig}!GPIO APIs@{GPIO APIs}|hyperpage}{137}
+\indexentry{GPIO APIs@{GPIO APIs}!GPIO\_IRQPriorityConfig@{GPIO\_IRQPriorityConfig}|hyperpage}{137}
+\indexentry{GPIO\_IRQPriorityConfig@{GPIO\_IRQPriorityConfig}!GPIO APIs@{GPIO APIs}|hyperpage}{137}
+\indexentry{GPIO APIs@{GPIO APIs}!GPIO\_PeripheralClockControl@{GPIO\_PeripheralClockControl}|hyperpage}{138}
+\indexentry{GPIO\_PeripheralClockControl@{GPIO\_PeripheralClockControl}!GPIO APIs@{GPIO APIs}|hyperpage}{138}
+\indexentry{GPIO APIs@{GPIO APIs}!GPIO\_ReadFromInputPin@{GPIO\_ReadFromInputPin}|hyperpage}{138}
+\indexentry{GPIO\_ReadFromInputPin@{GPIO\_ReadFromInputPin}!GPIO APIs@{GPIO APIs}|hyperpage}{138}
+\indexentry{GPIO APIs@{GPIO APIs}!GPIO\_ReadFromInputPort@{GPIO\_ReadFromInputPort}|hyperpage}{139}
+\indexentry{GPIO\_ReadFromInputPort@{GPIO\_ReadFromInputPort}!GPIO APIs@{GPIO APIs}|hyperpage}{139}
+\indexentry{GPIO APIs@{GPIO APIs}!GPIO\_ToggleOutputPin@{GPIO\_ToggleOutputPin}|hyperpage}{139}
+\indexentry{GPIO\_ToggleOutputPin@{GPIO\_ToggleOutputPin}!GPIO APIs@{GPIO APIs}|hyperpage}{139}
+\indexentry{GPIO APIs@{GPIO APIs}!GPIO\_WriteToOutputPin@{GPIO\_WriteToOutputPin}|hyperpage}{140}
+\indexentry{GPIO\_WriteToOutputPin@{GPIO\_WriteToOutputPin}!GPIO APIs@{GPIO APIs}|hyperpage}{140}
+\indexentry{GPIO APIs@{GPIO APIs}!GPIO\_WriteToOutputPort@{GPIO\_WriteToOutputPort}|hyperpage}{140}
+\indexentry{GPIO\_WriteToOutputPort@{GPIO\_WriteToOutputPort}!GPIO APIs@{GPIO APIs}|hyperpage}{140}
+\indexentry{I2C Driver@{I2C Driver}|hyperpage}{141}
+\indexentry{I2C Macros@{I2C Macros}|hyperpage}{142}
+\indexentry{I2C Application States@{I2C Application States}|hyperpage}{143}
+\indexentry{I2C Application States@{I2C Application States}!I2C\_BUSY\_IN\_RX@{I2C\_BUSY\_IN\_RX}|hyperpage}{144}
+\indexentry{I2C\_BUSY\_IN\_RX@{I2C\_BUSY\_IN\_RX}!I2C Application States@{I2C Application States}|hyperpage}{144}
+\indexentry{I2C Application States@{I2C Application States}!I2C\_BUSY\_IN\_TX@{I2C\_BUSY\_IN\_TX}|hyperpage}{144}
+\indexentry{I2C\_BUSY\_IN\_TX@{I2C\_BUSY\_IN\_TX}!I2C Application States@{I2C Application States}|hyperpage}{144}
+\indexentry{I2C Application States@{I2C Application States}!I2C\_READY@{I2C\_READY}|hyperpage}{144}
+\indexentry{I2C\_READY@{I2C\_READY}!I2C Application States@{I2C Application States}|hyperpage}{144}
+\indexentry{I2C Serial Clock Speed Options@{I2C Serial Clock Speed Options}|hyperpage}{144}
+\indexentry{I2C Serial Clock Speed Options@{I2C Serial Clock Speed Options}!I2C\_SC\_SPEED\_FM2K@{I2C\_SC\_SPEED\_FM2K}|hyperpage}{145}
+\indexentry{I2C\_SC\_SPEED\_FM2K@{I2C\_SC\_SPEED\_FM2K}!I2C Serial Clock Speed Options@{I2C Serial Clock Speed Options}|hyperpage}{145}
+\indexentry{I2C Serial Clock Speed Options@{I2C Serial Clock Speed Options}!I2C\_SC\_SPEED\_FM4K@{I2C\_SC\_SPEED\_FM4K}|hyperpage}{145}
+\indexentry{I2C\_SC\_SPEED\_FM4K@{I2C\_SC\_SPEED\_FM4K}!I2C Serial Clock Speed Options@{I2C Serial Clock Speed Options}|hyperpage}{145}
+\indexentry{I2C Serial Clock Speed Options@{I2C Serial Clock Speed Options}!I2C\_SC\_SPEED\_SM@{I2C\_SC\_SPEED\_SM}|hyperpage}{145}
+\indexentry{I2C\_SC\_SPEED\_SM@{I2C\_SC\_SPEED\_SM}!I2C Serial Clock Speed Options@{I2C Serial Clock Speed Options}|hyperpage}{145}
+\indexentry{I2C ACK Control Options@{I2C ACK Control Options}|hyperpage}{145}
+\indexentry{I2C ACK Control Options@{I2C ACK Control Options}!I2C\_ACK\_DISABLE@{I2C\_ACK\_DISABLE}|hyperpage}{146}
+\indexentry{I2C\_ACK\_DISABLE@{I2C\_ACK\_DISABLE}!I2C ACK Control Options@{I2C ACK Control Options}|hyperpage}{146}
+\indexentry{I2C ACK Control Options@{I2C ACK Control Options}!I2C\_ACK\_ENABLE@{I2C\_ACK\_ENABLE}|hyperpage}{146}
+\indexentry{I2C\_ACK\_ENABLE@{I2C\_ACK\_ENABLE}!I2C ACK Control Options@{I2C ACK Control Options}|hyperpage}{146}
+\indexentry{I2C Fast Mode Duty Cycle Options@{I2C Fast Mode Duty Cycle Options}|hyperpage}{146}
+\indexentry{I2C Fast Mode Duty Cycle Options@{I2C Fast Mode Duty Cycle Options}!I2C\_FM\_DUTY\_16\_9@{I2C\_FM\_DUTY\_16\_9}|hyperpage}{147}
+\indexentry{I2C\_FM\_DUTY\_16\_9@{I2C\_FM\_DUTY\_16\_9}!I2C Fast Mode Duty Cycle Options@{I2C Fast Mode Duty Cycle Options}|hyperpage}{147}
+\indexentry{I2C Fast Mode Duty Cycle Options@{I2C Fast Mode Duty Cycle Options}!I2C\_FM\_DUTY\_2@{I2C\_FM\_DUTY\_2}|hyperpage}{147}
+\indexentry{I2C\_FM\_DUTY\_2@{I2C\_FM\_DUTY\_2}!I2C Fast Mode Duty Cycle Options@{I2C Fast Mode Duty Cycle Options}|hyperpage}{147}
+\indexentry{I2C Status Flags@{I2C Status Flags}|hyperpage}{147}
+\indexentry{I2C Status Flags@{I2C Status Flags}!I2C\_FLAG\_ADD10@{I2C\_FLAG\_ADD10}|hyperpage}{148}
+\indexentry{I2C\_FLAG\_ADD10@{I2C\_FLAG\_ADD10}!I2C Status Flags@{I2C Status Flags}|hyperpage}{148}
+\indexentry{I2C Status Flags@{I2C Status Flags}!I2C\_FLAG\_ADDR@{I2C\_FLAG\_ADDR}|hyperpage}{148}
+\indexentry{I2C\_FLAG\_ADDR@{I2C\_FLAG\_ADDR}!I2C Status Flags@{I2C Status Flags}|hyperpage}{148}
+\indexentry{I2C Status Flags@{I2C Status Flags}!I2C\_FLAG\_AF@{I2C\_FLAG\_AF}|hyperpage}{148}
+\indexentry{I2C\_FLAG\_AF@{I2C\_FLAG\_AF}!I2C Status Flags@{I2C Status Flags}|hyperpage}{148}
+\indexentry{I2C Status Flags@{I2C Status Flags}!I2C\_FLAG\_ARLO@{I2C\_FLAG\_ARLO}|hyperpage}{148}
+\indexentry{I2C\_FLAG\_ARLO@{I2C\_FLAG\_ARLO}!I2C Status Flags@{I2C Status Flags}|hyperpage}{148}
+\indexentry{I2C Status Flags@{I2C Status Flags}!I2C\_FLAG\_BERR@{I2C\_FLAG\_BERR}|hyperpage}{148}
+\indexentry{I2C\_FLAG\_BERR@{I2C\_FLAG\_BERR}!I2C Status Flags@{I2C Status Flags}|hyperpage}{148}
+\indexentry{I2C Status Flags@{I2C Status Flags}!I2C\_FLAG\_BTF@{I2C\_FLAG\_BTF}|hyperpage}{148}
+\indexentry{I2C\_FLAG\_BTF@{I2C\_FLAG\_BTF}!I2C Status Flags@{I2C Status Flags}|hyperpage}{148}
+\indexentry{I2C Status Flags@{I2C Status Flags}!I2C\_FLAG\_OVR@{I2C\_FLAG\_OVR}|hyperpage}{148}
+\indexentry{I2C\_FLAG\_OVR@{I2C\_FLAG\_OVR}!I2C Status Flags@{I2C Status Flags}|hyperpage}{148}
+\indexentry{I2C Status Flags@{I2C Status Flags}!I2C\_FLAG\_PECERR@{I2C\_FLAG\_PECERR}|hyperpage}{149}
+\indexentry{I2C\_FLAG\_PECERR@{I2C\_FLAG\_PECERR}!I2C Status Flags@{I2C Status Flags}|hyperpage}{149}
+\indexentry{I2C Status Flags@{I2C Status Flags}!I2C\_FLAG\_RxNE@{I2C\_FLAG\_RxNE}|hyperpage}{149}
+\indexentry{I2C\_FLAG\_RxNE@{I2C\_FLAG\_RxNE}!I2C Status Flags@{I2C Status Flags}|hyperpage}{149}
+\indexentry{I2C Status Flags@{I2C Status Flags}!I2C\_FLAG\_SB@{I2C\_FLAG\_SB}|hyperpage}{149}
+\indexentry{I2C\_FLAG\_SB@{I2C\_FLAG\_SB}!I2C Status Flags@{I2C Status Flags}|hyperpage}{149}
+\indexentry{I2C Status Flags@{I2C Status Flags}!I2C\_FLAG\_SMBALERT@{I2C\_FLAG\_SMBALERT}|hyperpage}{149}
+\indexentry{I2C\_FLAG\_SMBALERT@{I2C\_FLAG\_SMBALERT}!I2C Status Flags@{I2C Status Flags}|hyperpage}{149}
+\indexentry{I2C Status Flags@{I2C Status Flags}!I2C\_FLAG\_STOPF@{I2C\_FLAG\_STOPF}|hyperpage}{149}
+\indexentry{I2C\_FLAG\_STOPF@{I2C\_FLAG\_STOPF}!I2C Status Flags@{I2C Status Flags}|hyperpage}{149}
+\indexentry{I2C Status Flags@{I2C Status Flags}!I2C\_FLAG\_TIMEOUT@{I2C\_FLAG\_TIMEOUT}|hyperpage}{149}
+\indexentry{I2C\_FLAG\_TIMEOUT@{I2C\_FLAG\_TIMEOUT}!I2C Status Flags@{I2C Status Flags}|hyperpage}{149}
+\indexentry{I2C Status Flags@{I2C Status Flags}!I2C\_FLAG\_TxE@{I2C\_FLAG\_TxE}|hyperpage}{149}
+\indexentry{I2C\_FLAG\_TxE@{I2C\_FLAG\_TxE}!I2C Status Flags@{I2C Status Flags}|hyperpage}{149}
+\indexentry{I2C Repeated Start Macros@{I2C Repeated Start Macros}|hyperpage}{150}
+\indexentry{I2C Repeated Start Macros@{I2C Repeated Start Macros}!I2C\_DISABLE\_SR@{I2C\_DISABLE\_SR}|hyperpage}{150}
+\indexentry{I2C\_DISABLE\_SR@{I2C\_DISABLE\_SR}!I2C Repeated Start Macros@{I2C Repeated Start Macros}|hyperpage}{150}
+\indexentry{I2C Repeated Start Macros@{I2C Repeated Start Macros}!I2C\_ENABLE\_SR@{I2C\_ENABLE\_SR}|hyperpage}{150}
+\indexentry{I2C\_ENABLE\_SR@{I2C\_ENABLE\_SR}!I2C Repeated Start Macros@{I2C Repeated Start Macros}|hyperpage}{150}
+\indexentry{I2C Application Event Macros@{I2C Application Event Macros}|hyperpage}{151}
+\indexentry{I2C Application Event Macros@{I2C Application Event Macros}!I2C\_ERROR\_AF@{I2C\_ERROR\_AF}|hyperpage}{151}
+\indexentry{I2C\_ERROR\_AF@{I2C\_ERROR\_AF}!I2C Application Event Macros@{I2C Application Event Macros}|hyperpage}{151}
+\indexentry{I2C Application Event Macros@{I2C Application Event Macros}!I2C\_ERROR\_ARLO@{I2C\_ERROR\_ARLO}|hyperpage}{151}
+\indexentry{I2C\_ERROR\_ARLO@{I2C\_ERROR\_ARLO}!I2C Application Event Macros@{I2C Application Event Macros}|hyperpage}{151}
+\indexentry{I2C Application Event Macros@{I2C Application Event Macros}!I2C\_ERROR\_BERR@{I2C\_ERROR\_BERR}|hyperpage}{151}
+\indexentry{I2C\_ERROR\_BERR@{I2C\_ERROR\_BERR}!I2C Application Event Macros@{I2C Application Event Macros}|hyperpage}{151}
+\indexentry{I2C Application Event Macros@{I2C Application Event Macros}!I2C\_ERROR\_OVR@{I2C\_ERROR\_OVR}|hyperpage}{152}
+\indexentry{I2C\_ERROR\_OVR@{I2C\_ERROR\_OVR}!I2C Application Event Macros@{I2C Application Event Macros}|hyperpage}{152}
+\indexentry{I2C Application Event Macros@{I2C Application Event Macros}!I2C\_ERROR\_TIMEOUT@{I2C\_ERROR\_TIMEOUT}|hyperpage}{152}
+\indexentry{I2C\_ERROR\_TIMEOUT@{I2C\_ERROR\_TIMEOUT}!I2C Application Event Macros@{I2C Application Event Macros}|hyperpage}{152}
+\indexentry{I2C Application Event Macros@{I2C Application Event Macros}!I2C\_EV\_DATA\_RCV@{I2C\_EV\_DATA\_RCV}|hyperpage}{152}
+\indexentry{I2C\_EV\_DATA\_RCV@{I2C\_EV\_DATA\_RCV}!I2C Application Event Macros@{I2C Application Event Macros}|hyperpage}{152}
+\indexentry{I2C Application Event Macros@{I2C Application Event Macros}!I2C\_EV\_DATA\_REQ@{I2C\_EV\_DATA\_REQ}|hyperpage}{152}
+\indexentry{I2C\_EV\_DATA\_REQ@{I2C\_EV\_DATA\_REQ}!I2C Application Event Macros@{I2C Application Event Macros}|hyperpage}{152}
+\indexentry{I2C Application Event Macros@{I2C Application Event Macros}!I2C\_EV\_RX\_CMPLT@{I2C\_EV\_RX\_CMPLT}|hyperpage}{152}
+\indexentry{I2C\_EV\_RX\_CMPLT@{I2C\_EV\_RX\_CMPLT}!I2C Application Event Macros@{I2C Application Event Macros}|hyperpage}{152}
+\indexentry{I2C Application Event Macros@{I2C Application Event Macros}!I2C\_EV\_STOP@{I2C\_EV\_STOP}|hyperpage}{152}
+\indexentry{I2C\_EV\_STOP@{I2C\_EV\_STOP}!I2C Application Event Macros@{I2C Application Event Macros}|hyperpage}{152}
+\indexentry{I2C Application Event Macros@{I2C Application Event Macros}!I2C\_EV\_TX\_CMPLT@{I2C\_EV\_TX\_CMPLT}|hyperpage}{152}
+\indexentry{I2C\_EV\_TX\_CMPLT@{I2C\_EV\_TX\_CMPLT}!I2C Application Event Macros@{I2C Application Event Macros}|hyperpage}{152}
+\indexentry{I2C APIs@{I2C APIs}|hyperpage}{153}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_ApplicationEventCallback@{I2C\_ApplicationEventCallback}|hyperpage}{154}
+\indexentry{I2C\_ApplicationEventCallback@{I2C\_ApplicationEventCallback}!I2C APIs@{I2C APIs}|hyperpage}{154}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_CloseReceiveData@{I2C\_CloseReceiveData}|hyperpage}{155}
+\indexentry{I2C\_CloseReceiveData@{I2C\_CloseReceiveData}!I2C APIs@{I2C APIs}|hyperpage}{155}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_CloseSendData@{I2C\_CloseSendData}|hyperpage}{155}
+\indexentry{I2C\_CloseSendData@{I2C\_CloseSendData}!I2C APIs@{I2C APIs}|hyperpage}{155}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_DeInit@{I2C\_DeInit}|hyperpage}{155}
+\indexentry{I2C\_DeInit@{I2C\_DeInit}!I2C APIs@{I2C APIs}|hyperpage}{155}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_ER\_IRQHandling@{I2C\_ER\_IRQHandling}|hyperpage}{156}
+\indexentry{I2C\_ER\_IRQHandling@{I2C\_ER\_IRQHandling}!I2C APIs@{I2C APIs}|hyperpage}{156}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_EV\_IRQHandling@{I2C\_EV\_IRQHandling}|hyperpage}{156}
+\indexentry{I2C\_EV\_IRQHandling@{I2C\_EV\_IRQHandling}!I2C APIs@{I2C APIs}|hyperpage}{156}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_GenerateStopCondition@{I2C\_GenerateStopCondition}|hyperpage}{156}
+\indexentry{I2C\_GenerateStopCondition@{I2C\_GenerateStopCondition}!I2C APIs@{I2C APIs}|hyperpage}{156}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_GetFlagStatus@{I2C\_GetFlagStatus}|hyperpage}{157}
+\indexentry{I2C\_GetFlagStatus@{I2C\_GetFlagStatus}!I2C APIs@{I2C APIs}|hyperpage}{157}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_Init@{I2C\_Init}|hyperpage}{157}
+\indexentry{I2C\_Init@{I2C\_Init}!I2C APIs@{I2C APIs}|hyperpage}{157}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_IRQInterruptConfig@{I2C\_IRQInterruptConfig}|hyperpage}{158}
+\indexentry{I2C\_IRQInterruptConfig@{I2C\_IRQInterruptConfig}!I2C APIs@{I2C APIs}|hyperpage}{158}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_IRQPriorityConfig@{I2C\_IRQPriorityConfig}|hyperpage}{158}
+\indexentry{I2C\_IRQPriorityConfig@{I2C\_IRQPriorityConfig}!I2C APIs@{I2C APIs}|hyperpage}{158}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_ManageAcking@{I2C\_ManageAcking}|hyperpage}{159}
+\indexentry{I2C\_ManageAcking@{I2C\_ManageAcking}!I2C APIs@{I2C APIs}|hyperpage}{159}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_MasterReceiveData@{I2C\_MasterReceiveData}|hyperpage}{159}
+\indexentry{I2C\_MasterReceiveData@{I2C\_MasterReceiveData}!I2C APIs@{I2C APIs}|hyperpage}{159}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_MasterReceiveDataIT@{I2C\_MasterReceiveDataIT}|hyperpage}{160}
+\indexentry{I2C\_MasterReceiveDataIT@{I2C\_MasterReceiveDataIT}!I2C APIs@{I2C APIs}|hyperpage}{160}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_MasterSendData@{I2C\_MasterSendData}|hyperpage}{161}
+\indexentry{I2C\_MasterSendData@{I2C\_MasterSendData}!I2C APIs@{I2C APIs}|hyperpage}{161}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_MasterSendDataIT@{I2C\_MasterSendDataIT}|hyperpage}{161}
+\indexentry{I2C\_MasterSendDataIT@{I2C\_MasterSendDataIT}!I2C APIs@{I2C APIs}|hyperpage}{161}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_PeriClockControl@{I2C\_PeriClockControl}|hyperpage}{162}
+\indexentry{I2C\_PeriClockControl@{I2C\_PeriClockControl}!I2C APIs@{I2C APIs}|hyperpage}{162}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_PeripheralControl@{I2C\_PeripheralControl}|hyperpage}{163}
+\indexentry{I2C\_PeripheralControl@{I2C\_PeripheralControl}!I2C APIs@{I2C APIs}|hyperpage}{163}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_SlaveEnableDisableCallbackEvents@{I2C\_SlaveEnableDisableCallbackEvents}|hyperpage}{163}
+\indexentry{I2C\_SlaveEnableDisableCallbackEvents@{I2C\_SlaveEnableDisableCallbackEvents}!I2C APIs@{I2C APIs}|hyperpage}{163}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_SlaveReceiveData@{I2C\_SlaveReceiveData}|hyperpage}{163}
+\indexentry{I2C\_SlaveReceiveData@{I2C\_SlaveReceiveData}!I2C APIs@{I2C APIs}|hyperpage}{163}
+\indexentry{I2C APIs@{I2C APIs}!I2C\_SlaveSendData@{I2C\_SlaveSendData}|hyperpage}{164}
+\indexentry{I2C\_SlaveSendData@{I2C\_SlaveSendData}!I2C APIs@{I2C APIs}|hyperpage}{164}
+\indexentry{SPI Driver@{SPI Driver}|hyperpage}{165}
+\indexentry{SPI Driver@{SPI Driver}!pRxBuffer@{pRxBuffer}|hyperpage}{166}
+\indexentry{pRxBuffer@{pRxBuffer}!SPI Driver@{SPI Driver}|hyperpage}{166}
+\indexentry{SPI Driver@{SPI Driver}!pSPIx@{pSPIx}|hyperpage}{166}
+\indexentry{pSPIx@{pSPIx}!SPI Driver@{SPI Driver}|hyperpage}{166}
+\indexentry{SPI Driver@{SPI Driver}!pTxBuffer@{pTxBuffer}|hyperpage}{166}
+\indexentry{pTxBuffer@{pTxBuffer}!SPI Driver@{SPI Driver}|hyperpage}{166}
+\indexentry{SPI Driver@{SPI Driver}!RxLen@{RxLen}|hyperpage}{166}
+\indexentry{RxLen@{RxLen}!SPI Driver@{SPI Driver}|hyperpage}{166}
+\indexentry{SPI Driver@{SPI Driver}!RxState@{RxState}|hyperpage}{166}
+\indexentry{RxState@{RxState}!SPI Driver@{SPI Driver}|hyperpage}{166}
+\indexentry{SPI Driver@{SPI Driver}!SPI\_BusConfig@{SPI\_BusConfig}|hyperpage}{166}
+\indexentry{SPI\_BusConfig@{SPI\_BusConfig}!SPI Driver@{SPI Driver}|hyperpage}{166}
+\indexentry{SPI Driver@{SPI Driver}!SPI\_Config@{SPI\_Config}|hyperpage}{166}
+\indexentry{SPI\_Config@{SPI\_Config}!SPI Driver@{SPI Driver}|hyperpage}{166}
+\indexentry{SPI Driver@{SPI Driver}!SPI\_CPHA@{SPI\_CPHA}|hyperpage}{167}
+\indexentry{SPI\_CPHA@{SPI\_CPHA}!SPI Driver@{SPI Driver}|hyperpage}{167}
+\indexentry{SPI Driver@{SPI Driver}!SPI\_CPOL@{SPI\_CPOL}|hyperpage}{167}
+\indexentry{SPI\_CPOL@{SPI\_CPOL}!SPI Driver@{SPI Driver}|hyperpage}{167}
+\indexentry{SPI Driver@{SPI Driver}!SPI\_DeviceMode@{SPI\_DeviceMode}|hyperpage}{167}
+\indexentry{SPI\_DeviceMode@{SPI\_DeviceMode}!SPI Driver@{SPI Driver}|hyperpage}{167}
+\indexentry{SPI Driver@{SPI Driver}!SPI\_DFF@{SPI\_DFF}|hyperpage}{167}
+\indexentry{SPI\_DFF@{SPI\_DFF}!SPI Driver@{SPI Driver}|hyperpage}{167}
+\indexentry{SPI Driver@{SPI Driver}!SPI\_SclkSpeed@{SPI\_SclkSpeed}|hyperpage}{167}
+\indexentry{SPI\_SclkSpeed@{SPI\_SclkSpeed}!SPI Driver@{SPI Driver}|hyperpage}{167}
+\indexentry{SPI Driver@{SPI Driver}!SPI\_SSM@{SPI\_SSM}|hyperpage}{167}
+\indexentry{SPI\_SSM@{SPI\_SSM}!SPI Driver@{SPI Driver}|hyperpage}{167}
+\indexentry{SPI Driver@{SPI Driver}!TxLen@{TxLen}|hyperpage}{167}
+\indexentry{TxLen@{TxLen}!SPI Driver@{SPI Driver}|hyperpage}{167}
+\indexentry{SPI Driver@{SPI Driver}!TxState@{TxState}|hyperpage}{167}
+\indexentry{TxState@{TxState}!SPI Driver@{SPI Driver}|hyperpage}{167}
+\indexentry{SPI APIs@{SPI APIs}|hyperpage}{168}
+\indexentry{SPI APIs@{SPI APIs}!SPI\_ApplicationEventCallback@{SPI\_ApplicationEventCallback}|hyperpage}{169}
+\indexentry{SPI\_ApplicationEventCallback@{SPI\_ApplicationEventCallback}!SPI APIs@{SPI APIs}|hyperpage}{169}
+\indexentry{SPI APIs@{SPI APIs}!SPI\_ClearOVRFlag@{SPI\_ClearOVRFlag}|hyperpage}{169}
+\indexentry{SPI\_ClearOVRFlag@{SPI\_ClearOVRFlag}!SPI APIs@{SPI APIs}|hyperpage}{169}
+\indexentry{SPI APIs@{SPI APIs}!SPI\_CloseReception@{SPI\_CloseReception}|hyperpage}{170}
+\indexentry{SPI\_CloseReception@{SPI\_CloseReception}!SPI APIs@{SPI APIs}|hyperpage}{170}
+\indexentry{SPI APIs@{SPI APIs}!SPI\_CloseTransmission@{SPI\_CloseTransmission}|hyperpage}{170}
+\indexentry{SPI\_CloseTransmission@{SPI\_CloseTransmission}!SPI APIs@{SPI APIs}|hyperpage}{170}
+\indexentry{SPI APIs@{SPI APIs}!SPI\_DeInit@{SPI\_DeInit}|hyperpage}{170}
+\indexentry{SPI\_DeInit@{SPI\_DeInit}!SPI APIs@{SPI APIs}|hyperpage}{170}
+\indexentry{SPI APIs@{SPI APIs}!SPI\_GetFlagStatus@{SPI\_GetFlagStatus}|hyperpage}{171}
+\indexentry{SPI\_GetFlagStatus@{SPI\_GetFlagStatus}!SPI APIs@{SPI APIs}|hyperpage}{171}
+\indexentry{SPI APIs@{SPI APIs}!SPI\_Init@{SPI\_Init}|hyperpage}{171}
+\indexentry{SPI\_Init@{SPI\_Init}!SPI APIs@{SPI APIs}|hyperpage}{171}
+\indexentry{SPI APIs@{SPI APIs}!SPI\_IRQHandling@{SPI\_IRQHandling}|hyperpage}{171}
+\indexentry{SPI\_IRQHandling@{SPI\_IRQHandling}!SPI APIs@{SPI APIs}|hyperpage}{171}
+\indexentry{SPI APIs@{SPI APIs}!SPI\_IRQinterruptConfig@{SPI\_IRQinterruptConfig}|hyperpage}{171}
+\indexentry{SPI\_IRQinterruptConfig@{SPI\_IRQinterruptConfig}!SPI APIs@{SPI APIs}|hyperpage}{171}
+\indexentry{SPI APIs@{SPI APIs}!SPI\_IRQperiorityConfig@{SPI\_IRQperiorityConfig}|hyperpage}{172}
+\indexentry{SPI\_IRQperiorityConfig@{SPI\_IRQperiorityConfig}!SPI APIs@{SPI APIs}|hyperpage}{172}
+\indexentry{SPI APIs@{SPI APIs}!SPI\_PeripheralClockControl@{SPI\_PeripheralClockControl}|hyperpage}{172}
+\indexentry{SPI\_PeripheralClockControl@{SPI\_PeripheralClockControl}!SPI APIs@{SPI APIs}|hyperpage}{172}
+\indexentry{SPI APIs@{SPI APIs}!SPI\_PeripheralControl@{SPI\_PeripheralControl}|hyperpage}{172}
+\indexentry{SPI\_PeripheralControl@{SPI\_PeripheralControl}!SPI APIs@{SPI APIs}|hyperpage}{172}
+\indexentry{SPI APIs@{SPI APIs}!SPI\_ReceiveData@{SPI\_ReceiveData}|hyperpage}{173}
+\indexentry{SPI\_ReceiveData@{SPI\_ReceiveData}!SPI APIs@{SPI APIs}|hyperpage}{173}
+\indexentry{SPI APIs@{SPI APIs}!SPI\_ReceiveDataIT@{SPI\_ReceiveDataIT}|hyperpage}{173}
+\indexentry{SPI\_ReceiveDataIT@{SPI\_ReceiveDataIT}!SPI APIs@{SPI APIs}|hyperpage}{173}
+\indexentry{SPI APIs@{SPI APIs}!SPI\_SendData@{SPI\_SendData}|hyperpage}{174}
+\indexentry{SPI\_SendData@{SPI\_SendData}!SPI APIs@{SPI APIs}|hyperpage}{174}
+\indexentry{SPI APIs@{SPI APIs}!SPI\_SendDataIT@{SPI\_SendDataIT}|hyperpage}{174}
+\indexentry{SPI\_SendDataIT@{SPI\_SendDataIT}!SPI APIs@{SPI APIs}|hyperpage}{174}
+\indexentry{SPI APIs@{SPI APIs}!SPI\_SSIConfig@{SPI\_SSIConfig}|hyperpage}{175}
+\indexentry{SPI\_SSIConfig@{SPI\_SSIConfig}!SPI APIs@{SPI APIs}|hyperpage}{175}
+\indexentry{SPI APIs@{SPI APIs}!SPI\_SSOEConfig@{SPI\_SSOEConfig}|hyperpage}{175}
+\indexentry{SPI\_SSOEConfig@{SPI\_SSOEConfig}!SPI APIs@{SPI APIs}|hyperpage}{175}
+\indexentry{SPI Macros@{SPI Macros}|hyperpage}{176}
+\indexentry{SPI Application States@{SPI Application States}|hyperpage}{177}
+\indexentry{SPI Application States@{SPI Application States}!SPI\_BUSY\_IN\_RX@{SPI\_BUSY\_IN\_RX}|hyperpage}{178}
+\indexentry{SPI\_BUSY\_IN\_RX@{SPI\_BUSY\_IN\_RX}!SPI Application States@{SPI Application States}|hyperpage}{178}
+\indexentry{SPI Application States@{SPI Application States}!SPI\_BUSY\_IN\_TX@{SPI\_BUSY\_IN\_TX}|hyperpage}{178}
+\indexentry{SPI\_BUSY\_IN\_TX@{SPI\_BUSY\_IN\_TX}!SPI Application States@{SPI Application States}|hyperpage}{178}
+\indexentry{SPI Application States@{SPI Application States}!SPI\_DEVICE\_MODE\_MASTER@{SPI\_DEVICE\_MODE\_MASTER}|hyperpage}{178}
+\indexentry{SPI\_DEVICE\_MODE\_MASTER@{SPI\_DEVICE\_MODE\_MASTER}!SPI Application States@{SPI Application States}|hyperpage}{178}
+\indexentry{SPI Application States@{SPI Application States}!SPI\_DEVICE\_MODE\_SLAVE@{SPI\_DEVICE\_MODE\_SLAVE}|hyperpage}{178}
+\indexentry{SPI\_DEVICE\_MODE\_SLAVE@{SPI\_DEVICE\_MODE\_SLAVE}!SPI Application States@{SPI Application States}|hyperpage}{178}
+\indexentry{SPI Application States@{SPI Application States}!SPI\_READY@{SPI\_READY}|hyperpage}{178}
+\indexentry{SPI\_READY@{SPI\_READY}!SPI Application States@{SPI Application States}|hyperpage}{178}
+\indexentry{SPI ACK Control Options@{SPI ACK Control Options}|hyperpage}{179}
+\indexentry{SPI ACK Control Options@{SPI ACK Control Options}!SPI\_BUS\_CONFIG\_FULL\_DUPLEX@{SPI\_BUS\_CONFIG\_FULL\_DUPLEX}|hyperpage}{179}
+\indexentry{SPI\_BUS\_CONFIG\_FULL\_DUPLEX@{SPI\_BUS\_CONFIG\_FULL\_DUPLEX}!SPI ACK Control Options@{SPI ACK Control Options}|hyperpage}{179}
+\indexentry{SPI ACK Control Options@{SPI ACK Control Options}!SPI\_BUS\_CONFIG\_HALF\_DUPLEX@{SPI\_BUS\_CONFIG\_HALF\_DUPLEX}|hyperpage}{179}
+\indexentry{SPI\_BUS\_CONFIG\_HALF\_DUPLEX@{SPI\_BUS\_CONFIG\_HALF\_DUPLEX}!SPI ACK Control Options@{SPI ACK Control Options}|hyperpage}{179}
+\indexentry{SPI ACK Control Options@{SPI ACK Control Options}!SPI\_BUS\_CONFIG\_SIMPLEX\_RX\_ONLY@{SPI\_BUS\_CONFIG\_SIMPLEX\_RX\_ONLY}|hyperpage}{179}
+\indexentry{SPI\_BUS\_CONFIG\_SIMPLEX\_RX\_ONLY@{SPI\_BUS\_CONFIG\_SIMPLEX\_RX\_ONLY}!SPI ACK Control Options@{SPI ACK Control Options}|hyperpage}{179}
+\indexentry{SPI Serial Clock Speed Options@{SPI Serial Clock Speed Options}|hyperpage}{180}
+\indexentry{SPI Serial Clock Speed Options@{SPI Serial Clock Speed Options}!SPI\_SCLK\_SPEED\_DIV128@{SPI\_SCLK\_SPEED\_DIV128}|hyperpage}{180}
+\indexentry{SPI\_SCLK\_SPEED\_DIV128@{SPI\_SCLK\_SPEED\_DIV128}!SPI Serial Clock Speed Options@{SPI Serial Clock Speed Options}|hyperpage}{180}
+\indexentry{SPI Serial Clock Speed Options@{SPI Serial Clock Speed Options}!SPI\_SCLK\_SPEED\_DIV16@{SPI\_SCLK\_SPEED\_DIV16}|hyperpage}{180}
+\indexentry{SPI\_SCLK\_SPEED\_DIV16@{SPI\_SCLK\_SPEED\_DIV16}!SPI Serial Clock Speed Options@{SPI Serial Clock Speed Options}|hyperpage}{180}
+\indexentry{SPI Serial Clock Speed Options@{SPI Serial Clock Speed Options}!SPI\_SCLK\_SPEED\_DIV2@{SPI\_SCLK\_SPEED\_DIV2}|hyperpage}{180}
+\indexentry{SPI\_SCLK\_SPEED\_DIV2@{SPI\_SCLK\_SPEED\_DIV2}!SPI Serial Clock Speed Options@{SPI Serial Clock Speed Options}|hyperpage}{180}
+\indexentry{SPI Serial Clock Speed Options@{SPI Serial Clock Speed Options}!SPI\_SCLK\_SPEED\_DIV256@{SPI\_SCLK\_SPEED\_DIV256}|hyperpage}{181}
+\indexentry{SPI\_SCLK\_SPEED\_DIV256@{SPI\_SCLK\_SPEED\_DIV256}!SPI Serial Clock Speed Options@{SPI Serial Clock Speed Options}|hyperpage}{181}
+\indexentry{SPI Serial Clock Speed Options@{SPI Serial Clock Speed Options}!SPI\_SCLK\_SPEED\_DIV32@{SPI\_SCLK\_SPEED\_DIV32}|hyperpage}{181}
+\indexentry{SPI\_SCLK\_SPEED\_DIV32@{SPI\_SCLK\_SPEED\_DIV32}!SPI Serial Clock Speed Options@{SPI Serial Clock Speed Options}|hyperpage}{181}
+\indexentry{SPI Serial Clock Speed Options@{SPI Serial Clock Speed Options}!SPI\_SCLK\_SPEED\_DIV4@{SPI\_SCLK\_SPEED\_DIV4}|hyperpage}{181}
+\indexentry{SPI\_SCLK\_SPEED\_DIV4@{SPI\_SCLK\_SPEED\_DIV4}!SPI Serial Clock Speed Options@{SPI Serial Clock Speed Options}|hyperpage}{181}
+\indexentry{SPI Serial Clock Speed Options@{SPI Serial Clock Speed Options}!SPI\_SCLK\_SPEED\_DIV64@{SPI\_SCLK\_SPEED\_DIV64}|hyperpage}{181}
+\indexentry{SPI\_SCLK\_SPEED\_DIV64@{SPI\_SCLK\_SPEED\_DIV64}!SPI Serial Clock Speed Options@{SPI Serial Clock Speed Options}|hyperpage}{181}
+\indexentry{SPI Serial Clock Speed Options@{SPI Serial Clock Speed Options}!SPI\_SCLK\_SPEED\_DIV8@{SPI\_SCLK\_SPEED\_DIV8}|hyperpage}{181}
+\indexentry{SPI\_SCLK\_SPEED\_DIV8@{SPI\_SCLK\_SPEED\_DIV8}!SPI Serial Clock Speed Options@{SPI Serial Clock Speed Options}|hyperpage}{181}
+\indexentry{SPI Data Frame Format Options@{SPI Data Frame Format Options}|hyperpage}{181}
+\indexentry{SPI Data Frame Format Options@{SPI Data Frame Format Options}!SPI\_DFF\_16BITS@{SPI\_DFF\_16BITS}|hyperpage}{182}
+\indexentry{SPI\_DFF\_16BITS@{SPI\_DFF\_16BITS}!SPI Data Frame Format Options@{SPI Data Frame Format Options}|hyperpage}{182}
+\indexentry{SPI Data Frame Format Options@{SPI Data Frame Format Options}!SPI\_DFF\_8BITS@{SPI\_DFF\_8BITS}|hyperpage}{182}
+\indexentry{SPI\_DFF\_8BITS@{SPI\_DFF\_8BITS}!SPI Data Frame Format Options@{SPI Data Frame Format Options}|hyperpage}{182}
+\indexentry{SPI Clock Polarity Options@{SPI Clock Polarity Options}|hyperpage}{182}
+\indexentry{SPI Clock Polarity Options@{SPI Clock Polarity Options}!SPI\_CPOL\_HIGH@{SPI\_CPOL\_HIGH}|hyperpage}{183}
+\indexentry{SPI\_CPOL\_HIGH@{SPI\_CPOL\_HIGH}!SPI Clock Polarity Options@{SPI Clock Polarity Options}|hyperpage}{183}
+\indexentry{SPI Clock Polarity Options@{SPI Clock Polarity Options}!SPI\_CPOL\_LOW@{SPI\_CPOL\_LOW}|hyperpage}{183}
+\indexentry{SPI\_CPOL\_LOW@{SPI\_CPOL\_LOW}!SPI Clock Polarity Options@{SPI Clock Polarity Options}|hyperpage}{183}
+\indexentry{SPI Clock Phase Options@{SPI Clock Phase Options}|hyperpage}{183}
+\indexentry{SPI Clock Phase Options@{SPI Clock Phase Options}!SPI\_CPHA\_HIGH@{SPI\_CPHA\_HIGH}|hyperpage}{184}
+\indexentry{SPI\_CPHA\_HIGH@{SPI\_CPHA\_HIGH}!SPI Clock Phase Options@{SPI Clock Phase Options}|hyperpage}{184}
+\indexentry{SPI Clock Phase Options@{SPI Clock Phase Options}!SPI\_CPHA\_LOW@{SPI\_CPHA\_LOW}|hyperpage}{184}
+\indexentry{SPI\_CPHA\_LOW@{SPI\_CPHA\_LOW}!SPI Clock Phase Options@{SPI Clock Phase Options}|hyperpage}{184}
+\indexentry{SPI Slave Select Management Options@{SPI Slave Select Management Options}|hyperpage}{184}
+\indexentry{SPI Slave Select Management Options@{SPI Slave Select Management Options}!SPI\_SSM\_DI@{SPI\_SSM\_DI}|hyperpage}{184}
+\indexentry{SPI\_SSM\_DI@{SPI\_SSM\_DI}!SPI Slave Select Management Options@{SPI Slave Select Management Options}|hyperpage}{184}
+\indexentry{SPI Slave Select Management Options@{SPI Slave Select Management Options}!SPI\_SSM\_EN@{SPI\_SSM\_EN}|hyperpage}{185}
+\indexentry{SPI\_SSM\_EN@{SPI\_SSM\_EN}!SPI Slave Select Management Options@{SPI Slave Select Management Options}|hyperpage}{185}
+\indexentry{SPI Status Flags@{SPI Status Flags}|hyperpage}{185}
+\indexentry{SPI Status Flags@{SPI Status Flags}!SPI\_BUSY\_FLAG@{SPI\_BUSY\_FLAG}|hyperpage}{186}
+\indexentry{SPI\_BUSY\_FLAG@{SPI\_BUSY\_FLAG}!SPI Status Flags@{SPI Status Flags}|hyperpage}{186}
+\indexentry{SPI Status Flags@{SPI Status Flags}!SPI\_CHSIDE\_FLAG@{SPI\_CHSIDE\_FLAG}|hyperpage}{186}
+\indexentry{SPI\_CHSIDE\_FLAG@{SPI\_CHSIDE\_FLAG}!SPI Status Flags@{SPI Status Flags}|hyperpage}{186}
+\indexentry{SPI Status Flags@{SPI Status Flags}!SPI\_CRCERR\_FLAG@{SPI\_CRCERR\_FLAG}|hyperpage}{186}
+\indexentry{SPI\_CRCERR\_FLAG@{SPI\_CRCERR\_FLAG}!SPI Status Flags@{SPI Status Flags}|hyperpage}{186}
+\indexentry{SPI Status Flags@{SPI Status Flags}!SPI\_FRE\_FLAG@{SPI\_FRE\_FLAG}|hyperpage}{186}
+\indexentry{SPI\_FRE\_FLAG@{SPI\_FRE\_FLAG}!SPI Status Flags@{SPI Status Flags}|hyperpage}{186}
+\indexentry{SPI Status Flags@{SPI Status Flags}!SPI\_MODF\_FLAG@{SPI\_MODF\_FLAG}|hyperpage}{186}
+\indexentry{SPI\_MODF\_FLAG@{SPI\_MODF\_FLAG}!SPI Status Flags@{SPI Status Flags}|hyperpage}{186}
+\indexentry{SPI Status Flags@{SPI Status Flags}!SPI\_OVR\_FLAG@{SPI\_OVR\_FLAG}|hyperpage}{186}
+\indexentry{SPI\_OVR\_FLAG@{SPI\_OVR\_FLAG}!SPI Status Flags@{SPI Status Flags}|hyperpage}{186}
+\indexentry{SPI Status Flags@{SPI Status Flags}!SPI\_RXNE\_FLAG@{SPI\_RXNE\_FLAG}|hyperpage}{186}
+\indexentry{SPI\_RXNE\_FLAG@{SPI\_RXNE\_FLAG}!SPI Status Flags@{SPI Status Flags}|hyperpage}{186}
+\indexentry{SPI Status Flags@{SPI Status Flags}!SPI\_TXE\_FLAG@{SPI\_TXE\_FLAG}|hyperpage}{186}
+\indexentry{SPI\_TXE\_FLAG@{SPI\_TXE\_FLAG}!SPI Status Flags@{SPI Status Flags}|hyperpage}{186}
+\indexentry{SPI Status Flags@{SPI Status Flags}!SPI\_UDR\_FLAG@{SPI\_UDR\_FLAG}|hyperpage}{187}
+\indexentry{SPI\_UDR\_FLAG@{SPI\_UDR\_FLAG}!SPI Status Flags@{SPI Status Flags}|hyperpage}{187}
+\indexentry{SPI Application Events@{SPI Application Events}|hyperpage}{187}
+\indexentry{SPI Application Events@{SPI Application Events}!SPI\_EVENT\_CRC\_ERR@{SPI\_EVENT\_CRC\_ERR}|hyperpage}{187}
+\indexentry{SPI\_EVENT\_CRC\_ERR@{SPI\_EVENT\_CRC\_ERR}!SPI Application Events@{SPI Application Events}|hyperpage}{187}
+\indexentry{SPI Application Events@{SPI Application Events}!SPI\_EVENT\_OVR\_ERR@{SPI\_EVENT\_OVR\_ERR}|hyperpage}{187}
+\indexentry{SPI\_EVENT\_OVR\_ERR@{SPI\_EVENT\_OVR\_ERR}!SPI Application Events@{SPI Application Events}|hyperpage}{187}
+\indexentry{SPI Application Events@{SPI Application Events}!SPI\_EVENT\_RX\_CMPLT@{SPI\_EVENT\_RX\_CMPLT}|hyperpage}{188}
+\indexentry{SPI\_EVENT\_RX\_CMPLT@{SPI\_EVENT\_RX\_CMPLT}!SPI Application Events@{SPI Application Events}|hyperpage}{188}
+\indexentry{SPI Application Events@{SPI Application Events}!SPI\_EVENT\_TX\_CMPLT@{SPI\_EVENT\_TX\_CMPLT}|hyperpage}{188}
+\indexentry{SPI\_EVENT\_TX\_CMPLT@{SPI\_EVENT\_TX\_CMPLT}!SPI Application Events@{SPI Application Events}|hyperpage}{188}
+\indexentry{SPI Communication CMDs@{SPI Communication CMDs}|hyperpage}{188}
+\indexentry{SPI Communication CMDs@{SPI Communication CMDs}!CMD\_ID\_READ@{CMD\_ID\_READ}|hyperpage}{189}
+\indexentry{CMD\_ID\_READ@{CMD\_ID\_READ}!SPI Communication CMDs@{SPI Communication CMDs}|hyperpage}{189}
+\indexentry{SPI Communication CMDs@{SPI Communication CMDs}!CMD\_LED\_CTRL@{CMD\_LED\_CTRL}|hyperpage}{189}
+\indexentry{CMD\_LED\_CTRL@{CMD\_LED\_CTRL}!SPI Communication CMDs@{SPI Communication CMDs}|hyperpage}{189}
+\indexentry{SPI Communication CMDs@{SPI Communication CMDs}!CMD\_LED\_READ@{CMD\_LED\_READ}|hyperpage}{189}
+\indexentry{CMD\_LED\_READ@{CMD\_LED\_READ}!SPI Communication CMDs@{SPI Communication CMDs}|hyperpage}{189}
+\indexentry{SPI Communication CMDs@{SPI Communication CMDs}!CMD\_PRINT@{CMD\_PRINT}|hyperpage}{189}
+\indexentry{CMD\_PRINT@{CMD\_PRINT}!SPI Communication CMDs@{SPI Communication CMDs}|hyperpage}{189}
+\indexentry{SPI Communication CMDs@{SPI Communication CMDs}!CMD\_SENSOR\_READ@{CMD\_SENSOR\_READ}|hyperpage}{189}
+\indexentry{CMD\_SENSOR\_READ@{CMD\_SENSOR\_READ}!SPI Communication CMDs@{SPI Communication CMDs}|hyperpage}{189}
+\indexentry{LED Control Macros@{LED Control Macros}|hyperpage}{189}
+\indexentry{LED Control Macros@{LED Control Macros}!LED\_OFF@{LED\_OFF}|hyperpage}{190}
+\indexentry{LED\_OFF@{LED\_OFF}!LED Control Macros@{LED Control Macros}|hyperpage}{190}
+\indexentry{LED Control Macros@{LED Control Macros}!LED\_ON@{LED\_ON}|hyperpage}{190}
+\indexentry{LED\_ON@{LED\_ON}!LED Control Macros@{LED Control Macros}|hyperpage}{190}
+\indexentry{LED Control Macros@{LED Control Macros}!LED\_PIN@{LED\_PIN}|hyperpage}{190}
+\indexentry{LED\_PIN@{LED\_PIN}!LED Control Macros@{LED Control Macros}|hyperpage}{190}
+\indexentry{Arduino Analog Pins@{Arduino Analog Pins}|hyperpage}{190}
+\indexentry{Arduino Analog Pins@{Arduino Analog Pins}!ANALOG\_PIN0@{ANALOG\_PIN0}|hyperpage}{191}
+\indexentry{ANALOG\_PIN0@{ANALOG\_PIN0}!Arduino Analog Pins@{Arduino Analog Pins}|hyperpage}{191}
+\indexentry{Arduino Analog Pins@{Arduino Analog Pins}!ANALOG\_PIN1@{ANALOG\_PIN1}|hyperpage}{191}
+\indexentry{ANALOG\_PIN1@{ANALOG\_PIN1}!Arduino Analog Pins@{Arduino Analog Pins}|hyperpage}{191}
+\indexentry{Arduino Analog Pins@{Arduino Analog Pins}!ANALOG\_PIN2@{ANALOG\_PIN2}|hyperpage}{191}
+\indexentry{ANALOG\_PIN2@{ANALOG\_PIN2}!Arduino Analog Pins@{Arduino Analog Pins}|hyperpage}{191}
+\indexentry{Arduino Analog Pins@{Arduino Analog Pins}!ANALOG\_PIN3@{ANALOG\_PIN3}|hyperpage}{191}
+\indexentry{ANALOG\_PIN3@{ANALOG\_PIN3}!Arduino Analog Pins@{Arduino Analog Pins}|hyperpage}{191}
+\indexentry{Arduino Analog Pins@{Arduino Analog Pins}!ANALOG\_PIN4@{ANALOG\_PIN4}|hyperpage}{191}
+\indexentry{ANALOG\_PIN4@{ANALOG\_PIN4}!Arduino Analog Pins@{Arduino Analog Pins}|hyperpage}{191}
+\indexentry{USART Driver@{USART Driver}|hyperpage}{192}
+\indexentry{USART APIs@{USART APIs}|hyperpage}{192}
+\indexentry{USART APIs@{USART APIs}!USART\_ApplicationEventCallback@{USART\_ApplicationEventCallback}|hyperpage}{193}
+\indexentry{USART\_ApplicationEventCallback@{USART\_ApplicationEventCallback}!USART APIs@{USART APIs}|hyperpage}{193}
+\indexentry{USART APIs@{USART APIs}!USART\_ClearEventErrFlag@{USART\_ClearEventErrFlag}|hyperpage}{194}
+\indexentry{USART\_ClearEventErrFlag@{USART\_ClearEventErrFlag}!USART APIs@{USART APIs}|hyperpage}{194}
+\indexentry{USART APIs@{USART APIs}!USART\_ClearFlag@{USART\_ClearFlag}|hyperpage}{195}
+\indexentry{USART\_ClearFlag@{USART\_ClearFlag}!USART APIs@{USART APIs}|hyperpage}{195}
+\indexentry{USART APIs@{USART APIs}!USART\_CloseReception@{USART\_CloseReception}|hyperpage}{195}
+\indexentry{USART\_CloseReception@{USART\_CloseReception}!USART APIs@{USART APIs}|hyperpage}{195}
+\indexentry{USART APIs@{USART APIs}!USART\_CloseTransmission@{USART\_CloseTransmission}|hyperpage}{195}
+\indexentry{USART\_CloseTransmission@{USART\_CloseTransmission}!USART APIs@{USART APIs}|hyperpage}{195}
+\indexentry{USART APIs@{USART APIs}!USART\_DeInit@{USART\_DeInit}|hyperpage}{195}
+\indexentry{USART\_DeInit@{USART\_DeInit}!USART APIs@{USART APIs}|hyperpage}{195}
+\indexentry{USART APIs@{USART APIs}!USART\_GetFlagStatus@{USART\_GetFlagStatus}|hyperpage}{196}
+\indexentry{USART\_GetFlagStatus@{USART\_GetFlagStatus}!USART APIs@{USART APIs}|hyperpage}{196}
+\indexentry{USART APIs@{USART APIs}!USART\_Init@{USART\_Init}|hyperpage}{196}
+\indexentry{USART\_Init@{USART\_Init}!USART APIs@{USART APIs}|hyperpage}{196}
+\indexentry{USART APIs@{USART APIs}!USART\_IRQHandling@{USART\_IRQHandling}|hyperpage}{196}
+\indexentry{USART\_IRQHandling@{USART\_IRQHandling}!USART APIs@{USART APIs}|hyperpage}{196}
+\indexentry{USART APIs@{USART APIs}!USART\_IRQInterruptConfig@{USART\_IRQInterruptConfig}|hyperpage}{197}
+\indexentry{USART\_IRQInterruptConfig@{USART\_IRQInterruptConfig}!USART APIs@{USART APIs}|hyperpage}{197}
+\indexentry{USART APIs@{USART APIs}!USART\_IRQPriorityConfig@{USART\_IRQPriorityConfig}|hyperpage}{197}
+\indexentry{USART\_IRQPriorityConfig@{USART\_IRQPriorityConfig}!USART APIs@{USART APIs}|hyperpage}{197}
+\indexentry{USART APIs@{USART APIs}!USART\_PeripheralClockControl@{USART\_PeripheralClockControl}|hyperpage}{197}
+\indexentry{USART\_PeripheralClockControl@{USART\_PeripheralClockControl}!USART APIs@{USART APIs}|hyperpage}{197}
+\indexentry{USART APIs@{USART APIs}!USART\_PeripheralControl@{USART\_PeripheralControl}|hyperpage}{198}
+\indexentry{USART\_PeripheralControl@{USART\_PeripheralControl}!USART APIs@{USART APIs}|hyperpage}{198}
+\indexentry{USART APIs@{USART APIs}!USART\_ReceiveData@{USART\_ReceiveData}|hyperpage}{198}
+\indexentry{USART\_ReceiveData@{USART\_ReceiveData}!USART APIs@{USART APIs}|hyperpage}{198}
+\indexentry{USART APIs@{USART APIs}!USART\_ReceiveDataIT@{USART\_ReceiveDataIT}|hyperpage}{198}
+\indexentry{USART\_ReceiveDataIT@{USART\_ReceiveDataIT}!USART APIs@{USART APIs}|hyperpage}{198}
+\indexentry{USART APIs@{USART APIs}!USART\_SendData@{USART\_SendData}|hyperpage}{199}
+\indexentry{USART\_SendData@{USART\_SendData}!USART APIs@{USART APIs}|hyperpage}{199}
+\indexentry{USART APIs@{USART APIs}!USART\_SendDataIT@{USART\_SendDataIT}|hyperpage}{199}
+\indexentry{USART\_SendDataIT@{USART\_SendDataIT}!USART APIs@{USART APIs}|hyperpage}{199}
+\indexentry{USART APIs@{USART APIs}!USART\_SetBaudRate@{USART\_SetBaudRate}|hyperpage}{199}
+\indexentry{USART\_SetBaudRate@{USART\_SetBaudRate}!USART APIs@{USART APIs}|hyperpage}{199}
+\indexentry{USART Macros@{USART Macros}|hyperpage}{200}
+\indexentry{USART Transmission Modes@{USART Transmission Modes}|hyperpage}{202}
+\indexentry{USART Transmission Modes@{USART Transmission Modes}!USART\_MODE\_ONLY\_RX@{USART\_MODE\_ONLY\_RX}|hyperpage}{202}
+\indexentry{USART\_MODE\_ONLY\_RX@{USART\_MODE\_ONLY\_RX}!USART Transmission Modes@{USART Transmission Modes}|hyperpage}{202}
+\indexentry{USART Transmission Modes@{USART Transmission Modes}!USART\_MODE\_ONLY\_TX@{USART\_MODE\_ONLY\_TX}|hyperpage}{202}
+\indexentry{USART\_MODE\_ONLY\_TX@{USART\_MODE\_ONLY\_TX}!USART Transmission Modes@{USART Transmission Modes}|hyperpage}{202}
+\indexentry{USART Transmission Modes@{USART Transmission Modes}!USART\_MODE\_TXRX@{USART\_MODE\_TXRX}|hyperpage}{202}
+\indexentry{USART\_MODE\_TXRX@{USART\_MODE\_TXRX}!USART Transmission Modes@{USART Transmission Modes}|hyperpage}{202}
+\indexentry{USART Baud Rates@{USART Baud Rates}|hyperpage}{203}
+\indexentry{USART Parity Control@{USART Parity Control}|hyperpage}{203}
+\indexentry{USART Parity Control@{USART Parity Control}!USART\_PARITY\_DISABLE@{USART\_PARITY\_DISABLE}|hyperpage}{204}
+\indexentry{USART\_PARITY\_DISABLE@{USART\_PARITY\_DISABLE}!USART Parity Control@{USART Parity Control}|hyperpage}{204}
+\indexentry{USART Parity Control@{USART Parity Control}!USART\_PARITY\_EN\_EVEN@{USART\_PARITY\_EN\_EVEN}|hyperpage}{204}
+\indexentry{USART\_PARITY\_EN\_EVEN@{USART\_PARITY\_EN\_EVEN}!USART Parity Control@{USART Parity Control}|hyperpage}{204}
+\indexentry{USART Parity Control@{USART Parity Control}!USART\_PARITY\_EN\_ODD@{USART\_PARITY\_EN\_ODD}|hyperpage}{204}
+\indexentry{USART\_PARITY\_EN\_ODD@{USART\_PARITY\_EN\_ODD}!USART Parity Control@{USART Parity Control}|hyperpage}{204}
+\indexentry{USART Word Lengths@{USART Word Lengths}|hyperpage}{204}
+\indexentry{USART Word Lengths@{USART Word Lengths}!USART\_WORDLEN\_8BITS@{USART\_WORDLEN\_8BITS}|hyperpage}{205}
+\indexentry{USART\_WORDLEN\_8BITS@{USART\_WORDLEN\_8BITS}!USART Word Lengths@{USART Word Lengths}|hyperpage}{205}
+\indexentry{USART Word Lengths@{USART Word Lengths}!USART\_WORDLEN\_9BITS@{USART\_WORDLEN\_9BITS}|hyperpage}{205}
+\indexentry{USART\_WORDLEN\_9BITS@{USART\_WORDLEN\_9BITS}!USART Word Lengths@{USART Word Lengths}|hyperpage}{205}
+\indexentry{USART Stop Bits@{USART Stop Bits}|hyperpage}{205}
+\indexentry{USART Stop Bits@{USART Stop Bits}!USART\_STOPBITS\_0\_5@{USART\_STOPBITS\_0\_5}|hyperpage}{206}
+\indexentry{USART\_STOPBITS\_0\_5@{USART\_STOPBITS\_0\_5}!USART Stop Bits@{USART Stop Bits}|hyperpage}{206}
+\indexentry{USART Stop Bits@{USART Stop Bits}!USART\_STOPBITS\_1@{USART\_STOPBITS\_1}|hyperpage}{206}
+\indexentry{USART\_STOPBITS\_1@{USART\_STOPBITS\_1}!USART Stop Bits@{USART Stop Bits}|hyperpage}{206}
+\indexentry{USART Stop Bits@{USART Stop Bits}!USART\_STOPBITS\_1\_5@{USART\_STOPBITS\_1\_5}|hyperpage}{206}
+\indexentry{USART\_STOPBITS\_1\_5@{USART\_STOPBITS\_1\_5}!USART Stop Bits@{USART Stop Bits}|hyperpage}{206}
+\indexentry{USART Stop Bits@{USART Stop Bits}!USART\_STOPBITS\_2@{USART\_STOPBITS\_2}|hyperpage}{206}
+\indexentry{USART\_STOPBITS\_2@{USART\_STOPBITS\_2}!USART Stop Bits@{USART Stop Bits}|hyperpage}{206}
+\indexentry{USART Hardware Flow Control@{USART Hardware Flow Control}|hyperpage}{206}
+\indexentry{USART Hardware Flow Control@{USART Hardware Flow Control}!USART\_HW\_FLOW\_CTRL\_CTS@{USART\_HW\_FLOW\_CTRL\_CTS}|hyperpage}{207}
+\indexentry{USART\_HW\_FLOW\_CTRL\_CTS@{USART\_HW\_FLOW\_CTRL\_CTS}!USART Hardware Flow Control@{USART Hardware Flow Control}|hyperpage}{207}
+\indexentry{USART Hardware Flow Control@{USART Hardware Flow Control}!USART\_HW\_FLOW\_CTRL\_CTS\_RTS@{USART\_HW\_FLOW\_CTRL\_CTS\_RTS}|hyperpage}{207}
+\indexentry{USART\_HW\_FLOW\_CTRL\_CTS\_RTS@{USART\_HW\_FLOW\_CTRL\_CTS\_RTS}!USART Hardware Flow Control@{USART Hardware Flow Control}|hyperpage}{207}
+\indexentry{USART Hardware Flow Control@{USART Hardware Flow Control}!USART\_HW\_FLOW\_CTRL\_NONE@{USART\_HW\_FLOW\_CTRL\_NONE}|hyperpage}{207}
+\indexentry{USART\_HW\_FLOW\_CTRL\_NONE@{USART\_HW\_FLOW\_CTRL\_NONE}!USART Hardware Flow Control@{USART Hardware Flow Control}|hyperpage}{207}
+\indexentry{USART Hardware Flow Control@{USART Hardware Flow Control}!USART\_HW\_FLOW\_CTRL\_RTS@{USART\_HW\_FLOW\_CTRL\_RTS}|hyperpage}{207}
+\indexentry{USART\_HW\_FLOW\_CTRL\_RTS@{USART\_HW\_FLOW\_CTRL\_RTS}!USART Hardware Flow Control@{USART Hardware Flow Control}|hyperpage}{207}
+\indexentry{USART Status Flags@{USART Status Flags}|hyperpage}{208}
+\indexentry{USART Status Flags@{USART Status Flags}!USART\_FLAG\_FE@{USART\_FLAG\_FE}|hyperpage}{208}
+\indexentry{USART\_FLAG\_FE@{USART\_FLAG\_FE}!USART Status Flags@{USART Status Flags}|hyperpage}{208}
+\indexentry{USART Status Flags@{USART Status Flags}!USART\_FLAG\_IDLE@{USART\_FLAG\_IDLE}|hyperpage}{208}
+\indexentry{USART\_FLAG\_IDLE@{USART\_FLAG\_IDLE}!USART Status Flags@{USART Status Flags}|hyperpage}{208}
+\indexentry{USART Status Flags@{USART Status Flags}!USART\_FLAG\_NE@{USART\_FLAG\_NE}|hyperpage}{208}
+\indexentry{USART\_FLAG\_NE@{USART\_FLAG\_NE}!USART Status Flags@{USART Status Flags}|hyperpage}{208}
+\indexentry{USART Status Flags@{USART Status Flags}!USART\_FLAG\_ORE@{USART\_FLAG\_ORE}|hyperpage}{209}
+\indexentry{USART\_FLAG\_ORE@{USART\_FLAG\_ORE}!USART Status Flags@{USART Status Flags}|hyperpage}{209}
+\indexentry{USART Status Flags@{USART Status Flags}!USART\_FLAG\_PE@{USART\_FLAG\_PE}|hyperpage}{209}
+\indexentry{USART\_FLAG\_PE@{USART\_FLAG\_PE}!USART Status Flags@{USART Status Flags}|hyperpage}{209}
+\indexentry{USART Status Flags@{USART Status Flags}!USART\_FLAG\_RXNE@{USART\_FLAG\_RXNE}|hyperpage}{209}
+\indexentry{USART\_FLAG\_RXNE@{USART\_FLAG\_RXNE}!USART Status Flags@{USART Status Flags}|hyperpage}{209}
+\indexentry{USART Status Flags@{USART Status Flags}!USART\_FLAG\_TC@{USART\_FLAG\_TC}|hyperpage}{209}
+\indexentry{USART\_FLAG\_TC@{USART\_FLAG\_TC}!USART Status Flags@{USART Status Flags}|hyperpage}{209}
+\indexentry{USART Status Flags@{USART Status Flags}!USART\_FLAG\_TXE@{USART\_FLAG\_TXE}|hyperpage}{209}
+\indexentry{USART\_FLAG\_TXE@{USART\_FLAG\_TXE}!USART Status Flags@{USART Status Flags}|hyperpage}{209}
+\indexentry{USART Application States@{USART Application States}|hyperpage}{209}
+\indexentry{USART Application States@{USART Application States}!USART\_BUSY\_IN\_RX@{USART\_BUSY\_IN\_RX}|hyperpage}{210}
+\indexentry{USART\_BUSY\_IN\_RX@{USART\_BUSY\_IN\_RX}!USART Application States@{USART Application States}|hyperpage}{210}
+\indexentry{USART Application States@{USART Application States}!USART\_BUSY\_IN\_TX@{USART\_BUSY\_IN\_TX}|hyperpage}{210}
+\indexentry{USART\_BUSY\_IN\_TX@{USART\_BUSY\_IN\_TX}!USART Application States@{USART Application States}|hyperpage}{210}
+\indexentry{USART Application States@{USART Application States}!USART\_READY@{USART\_READY}|hyperpage}{210}
+\indexentry{USART\_READY@{USART\_READY}!USART Application States@{USART Application States}|hyperpage}{210}
+\indexentry{USART Application Events@{USART Application Events}|hyperpage}{210}
+\indexentry{USART Application Events@{USART Application Events}!USART\_ERR\_FE@{USART\_ERR\_FE}|hyperpage}{211}
+\indexentry{USART\_ERR\_FE@{USART\_ERR\_FE}!USART Application Events@{USART Application Events}|hyperpage}{211}
+\indexentry{USART Application Events@{USART Application Events}!USART\_ERR\_NE@{USART\_ERR\_NE}|hyperpage}{211}
+\indexentry{USART\_ERR\_NE@{USART\_ERR\_NE}!USART Application Events@{USART Application Events}|hyperpage}{211}
+\indexentry{USART Application Events@{USART Application Events}!USART\_ERR\_ORE@{USART\_ERR\_ORE}|hyperpage}{211}
+\indexentry{USART\_ERR\_ORE@{USART\_ERR\_ORE}!USART Application Events@{USART Application Events}|hyperpage}{211}
+\indexentry{USART Application Events@{USART Application Events}!USART\_EVENT\_CTS@{USART\_EVENT\_CTS}|hyperpage}{211}
+\indexentry{USART\_EVENT\_CTS@{USART\_EVENT\_CTS}!USART Application Events@{USART Application Events}|hyperpage}{211}
+\indexentry{USART Application Events@{USART Application Events}!USART\_EVENT\_IDLE@{USART\_EVENT\_IDLE}|hyperpage}{211}
+\indexentry{USART\_EVENT\_IDLE@{USART\_EVENT\_IDLE}!USART Application Events@{USART Application Events}|hyperpage}{211}
+\indexentry{USART Application Events@{USART Application Events}!USART\_EVENT\_PE@{USART\_EVENT\_PE}|hyperpage}{212}
+\indexentry{USART\_EVENT\_PE@{USART\_EVENT\_PE}!USART Application Events@{USART Application Events}|hyperpage}{212}
+\indexentry{USART Application Events@{USART Application Events}!USART\_EVENT\_RX\_CMPLT@{USART\_EVENT\_RX\_CMPLT}|hyperpage}{212}
+\indexentry{USART\_EVENT\_RX\_CMPLT@{USART\_EVENT\_RX\_CMPLT}!USART Application Events@{USART Application Events}|hyperpage}{212}
+\indexentry{USART Application Events@{USART Application Events}!USART\_EVENT\_TX\_CMPLT@{USART\_EVENT\_TX\_CMPLT}|hyperpage}{212}
+\indexentry{USART\_EVENT\_TX\_CMPLT@{USART\_EVENT\_TX\_CMPLT}!USART Application Events@{USART Application Events}|hyperpage}{212}
+\indexentry{SPI Private Helper Functions@{SPI Private Helper Functions}|hyperpage}{212}
+\indexentry{USART Private Helper Functions@{USART Private Helper Functions}|hyperpage}{212}
+\indexentry{EXTI\_RegDef\_t@{EXTI\_RegDef\_t}|hyperpage}{213}
+\indexentry{EXTI\_RegDef\_t@{EXTI\_RegDef\_t}!EMR@{EMR}|hyperpage}{213}
+\indexentry{EMR@{EMR}!EXTI\_RegDef\_t@{EXTI\_RegDef\_t}|hyperpage}{213}
+\indexentry{EXTI\_RegDef\_t@{EXTI\_RegDef\_t}!FTSR@{FTSR}|hyperpage}{213}
+\indexentry{FTSR@{FTSR}!EXTI\_RegDef\_t@{EXTI\_RegDef\_t}|hyperpage}{213}
+\indexentry{EXTI\_RegDef\_t@{EXTI\_RegDef\_t}!IMR@{IMR}|hyperpage}{214}
+\indexentry{IMR@{IMR}!EXTI\_RegDef\_t@{EXTI\_RegDef\_t}|hyperpage}{214}
+\indexentry{EXTI\_RegDef\_t@{EXTI\_RegDef\_t}!PR@{PR}|hyperpage}{214}
+\indexentry{PR@{PR}!EXTI\_RegDef\_t@{EXTI\_RegDef\_t}|hyperpage}{214}
+\indexentry{EXTI\_RegDef\_t@{EXTI\_RegDef\_t}!RTSR@{RTSR}|hyperpage}{214}
+\indexentry{RTSR@{RTSR}!EXTI\_RegDef\_t@{EXTI\_RegDef\_t}|hyperpage}{214}
+\indexentry{EXTI\_RegDef\_t@{EXTI\_RegDef\_t}!SWIER@{SWIER}|hyperpage}{214}
+\indexentry{SWIER@{SWIER}!EXTI\_RegDef\_t@{EXTI\_RegDef\_t}|hyperpage}{214}
+\indexentry{GPIO\_Handle\_t@{GPIO\_Handle\_t}|hyperpage}{214}
+\indexentry{GPIO\_PinConfig\_t@{GPIO\_PinConfig\_t}|hyperpage}{215}
+\indexentry{GPIO\_RegDef\_t@{GPIO\_RegDef\_t}|hyperpage}{215}
+\indexentry{GPIO\_RegDef\_t@{GPIO\_RegDef\_t}!AFR@{AFR}|hyperpage}{216}
+\indexentry{AFR@{AFR}!GPIO\_RegDef\_t@{GPIO\_RegDef\_t}|hyperpage}{216}
+\indexentry{GPIO\_RegDef\_t@{GPIO\_RegDef\_t}!BSRR@{BSRR}|hyperpage}{216}
+\indexentry{BSRR@{BSRR}!GPIO\_RegDef\_t@{GPIO\_RegDef\_t}|hyperpage}{216}
+\indexentry{GPIO\_RegDef\_t@{GPIO\_RegDef\_t}!IDR@{IDR}|hyperpage}{216}
+\indexentry{IDR@{IDR}!GPIO\_RegDef\_t@{GPIO\_RegDef\_t}|hyperpage}{216}
+\indexentry{GPIO\_RegDef\_t@{GPIO\_RegDef\_t}!LCKR@{LCKR}|hyperpage}{216}
+\indexentry{LCKR@{LCKR}!GPIO\_RegDef\_t@{GPIO\_RegDef\_t}|hyperpage}{216}
+\indexentry{GPIO\_RegDef\_t@{GPIO\_RegDef\_t}!MODER@{MODER}|hyperpage}{216}
+\indexentry{MODER@{MODER}!GPIO\_RegDef\_t@{GPIO\_RegDef\_t}|hyperpage}{216}
+\indexentry{GPIO\_RegDef\_t@{GPIO\_RegDef\_t}!ODR@{ODR}|hyperpage}{217}
+\indexentry{ODR@{ODR}!GPIO\_RegDef\_t@{GPIO\_RegDef\_t}|hyperpage}{217}
+\indexentry{GPIO\_RegDef\_t@{GPIO\_RegDef\_t}!OSPEEDR@{OSPEEDR}|hyperpage}{217}
+\indexentry{OSPEEDR@{OSPEEDR}!GPIO\_RegDef\_t@{GPIO\_RegDef\_t}|hyperpage}{217}
+\indexentry{GPIO\_RegDef\_t@{GPIO\_RegDef\_t}!OTYPER@{OTYPER}|hyperpage}{217}
+\indexentry{OTYPER@{OTYPER}!GPIO\_RegDef\_t@{GPIO\_RegDef\_t}|hyperpage}{217}
+\indexentry{GPIO\_RegDef\_t@{GPIO\_RegDef\_t}!PUPDR@{PUPDR}|hyperpage}{217}
+\indexentry{PUPDR@{PUPDR}!GPIO\_RegDef\_t@{GPIO\_RegDef\_t}|hyperpage}{217}
+\indexentry{I2C\_Config\_t@{I2C\_Config\_t}|hyperpage}{217}
+\indexentry{I2C\_Handle\_t@{I2C\_Handle\_t}|hyperpage}{218}
+\indexentry{I2C\_RegDef\_t@{I2C\_RegDef\_t}|hyperpage}{219}
+\indexentry{I2C\_RegDef\_t@{I2C\_RegDef\_t}!CCR@{CCR}|hyperpage}{219}
+\indexentry{CCR@{CCR}!I2C\_RegDef\_t@{I2C\_RegDef\_t}|hyperpage}{219}
+\indexentry{I2C\_RegDef\_t@{I2C\_RegDef\_t}!CR1@{CR1}|hyperpage}{219}
+\indexentry{CR1@{CR1}!I2C\_RegDef\_t@{I2C\_RegDef\_t}|hyperpage}{219}
+\indexentry{I2C\_RegDef\_t@{I2C\_RegDef\_t}!CR2@{CR2}|hyperpage}{219}
+\indexentry{CR2@{CR2}!I2C\_RegDef\_t@{I2C\_RegDef\_t}|hyperpage}{219}
+\indexentry{I2C\_RegDef\_t@{I2C\_RegDef\_t}!DR@{DR}|hyperpage}{219}
+\indexentry{DR@{DR}!I2C\_RegDef\_t@{I2C\_RegDef\_t}|hyperpage}{219}
+\indexentry{I2C\_RegDef\_t@{I2C\_RegDef\_t}!FLTR@{FLTR}|hyperpage}{220}
+\indexentry{FLTR@{FLTR}!I2C\_RegDef\_t@{I2C\_RegDef\_t}|hyperpage}{220}
+\indexentry{I2C\_RegDef\_t@{I2C\_RegDef\_t}!OAR1@{OAR1}|hyperpage}{220}
+\indexentry{OAR1@{OAR1}!I2C\_RegDef\_t@{I2C\_RegDef\_t}|hyperpage}{220}
+\indexentry{I2C\_RegDef\_t@{I2C\_RegDef\_t}!OAR2@{OAR2}|hyperpage}{220}
+\indexentry{OAR2@{OAR2}!I2C\_RegDef\_t@{I2C\_RegDef\_t}|hyperpage}{220}
+\indexentry{I2C\_RegDef\_t@{I2C\_RegDef\_t}!SR1@{SR1}|hyperpage}{220}
+\indexentry{SR1@{SR1}!I2C\_RegDef\_t@{I2C\_RegDef\_t}|hyperpage}{220}
+\indexentry{I2C\_RegDef\_t@{I2C\_RegDef\_t}!SR2@{SR2}|hyperpage}{220}
+\indexentry{SR2@{SR2}!I2C\_RegDef\_t@{I2C\_RegDef\_t}|hyperpage}{220}
+\indexentry{I2C\_RegDef\_t@{I2C\_RegDef\_t}!TRISE@{TRISE}|hyperpage}{220}
+\indexentry{TRISE@{TRISE}!I2C\_RegDef\_t@{I2C\_RegDef\_t}|hyperpage}{220}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{221}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!AHB1ENR@{AHB1ENR}|hyperpage}{221}
+\indexentry{AHB1ENR@{AHB1ENR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{221}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!AHB1LPENR@{AHB1LPENR}|hyperpage}{222}
+\indexentry{AHB1LPENR@{AHB1LPENR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{222}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!AHB1RSTR@{AHB1RSTR}|hyperpage}{222}
+\indexentry{AHB1RSTR@{AHB1RSTR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{222}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!AHB2ENR@{AHB2ENR}|hyperpage}{222}
+\indexentry{AHB2ENR@{AHB2ENR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{222}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!AHB2LPENR@{AHB2LPENR}|hyperpage}{222}
+\indexentry{AHB2LPENR@{AHB2LPENR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{222}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!AHB2RSTR@{AHB2RSTR}|hyperpage}{222}
+\indexentry{AHB2RSTR@{AHB2RSTR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{222}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!AHB3ENR@{AHB3ENR}|hyperpage}{222}
+\indexentry{AHB3ENR@{AHB3ENR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{222}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!AHB3LPENR@{AHB3LPENR}|hyperpage}{222}
+\indexentry{AHB3LPENR@{AHB3LPENR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{222}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!AHB3RSTR@{AHB3RSTR}|hyperpage}{222}
+\indexentry{AHB3RSTR@{AHB3RSTR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{222}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!APB1ENR@{APB1ENR}|hyperpage}{223}
+\indexentry{APB1ENR@{APB1ENR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{223}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!APB1LPENR@{APB1LPENR}|hyperpage}{223}
+\indexentry{APB1LPENR@{APB1LPENR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{223}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!APB1RSTR@{APB1RSTR}|hyperpage}{223}
+\indexentry{APB1RSTR@{APB1RSTR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{223}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!APB2ENR@{APB2ENR}|hyperpage}{223}
+\indexentry{APB2ENR@{APB2ENR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{223}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!APB2LPENR@{APB2LPENR}|hyperpage}{223}
+\indexentry{APB2LPENR@{APB2LPENR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{223}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!APB2RSTR@{APB2RSTR}|hyperpage}{223}
+\indexentry{APB2RSTR@{APB2RSTR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{223}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!BDCR@{BDCR}|hyperpage}{223}
+\indexentry{BDCR@{BDCR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{223}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!CFGR@{CFGR}|hyperpage}{223}
+\indexentry{CFGR@{CFGR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{223}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!CIR@{CIR}|hyperpage}{224}
+\indexentry{CIR@{CIR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{224}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!CKGATENR@{CKGATENR}|hyperpage}{224}
+\indexentry{CKGATENR@{CKGATENR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{224}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!CR@{CR}|hyperpage}{224}
+\indexentry{CR@{CR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{224}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!CSR@{CSR}|hyperpage}{224}
+\indexentry{CSR@{CSR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{224}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!DCKCFGR@{DCKCFGR}|hyperpage}{224}
+\indexentry{DCKCFGR@{DCKCFGR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{224}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!DCKCFGR2@{DCKCFGR2}|hyperpage}{224}
+\indexentry{DCKCFGR2@{DCKCFGR2}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{224}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!PLLCFGR@{PLLCFGR}|hyperpage}{224}
+\indexentry{PLLCFGR@{PLLCFGR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{224}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!PLLI2SCFGR@{PLLI2SCFGR}|hyperpage}{224}
+\indexentry{PLLI2SCFGR@{PLLI2SCFGR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{224}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!PLLSAICFGR@{PLLSAICFGR}|hyperpage}{225}
+\indexentry{PLLSAICFGR@{PLLSAICFGR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{225}
+\indexentry{RCC\_RegDef\_t@{RCC\_RegDef\_t}!SSCGR@{SSCGR}|hyperpage}{225}
+\indexentry{SSCGR@{SSCGR}!RCC\_RegDef\_t@{RCC\_RegDef\_t}|hyperpage}{225}
+\indexentry{RTC\_date\_t@{RTC\_date\_t}|hyperpage}{225}
+\indexentry{RTC\_date\_t@{RTC\_date\_t}!date@{date}|hyperpage}{225}
+\indexentry{date@{date}!RTC\_date\_t@{RTC\_date\_t}|hyperpage}{225}
+\indexentry{RTC\_date\_t@{RTC\_date\_t}!day@{day}|hyperpage}{226}
+\indexentry{day@{day}!RTC\_date\_t@{RTC\_date\_t}|hyperpage}{226}
+\indexentry{RTC\_date\_t@{RTC\_date\_t}!month@{month}|hyperpage}{226}
+\indexentry{month@{month}!RTC\_date\_t@{RTC\_date\_t}|hyperpage}{226}
+\indexentry{RTC\_date\_t@{RTC\_date\_t}!year@{year}|hyperpage}{226}
+\indexentry{year@{year}!RTC\_date\_t@{RTC\_date\_t}|hyperpage}{226}
+\indexentry{RTC\_time\_t@{RTC\_time\_t}|hyperpage}{226}
+\indexentry{RTC\_time\_t@{RTC\_time\_t}!hours@{hours}|hyperpage}{227}
+\indexentry{hours@{hours}!RTC\_time\_t@{RTC\_time\_t}|hyperpage}{227}
+\indexentry{RTC\_time\_t@{RTC\_time\_t}!minutes@{minutes}|hyperpage}{227}
+\indexentry{minutes@{minutes}!RTC\_time\_t@{RTC\_time\_t}|hyperpage}{227}
+\indexentry{RTC\_time\_t@{RTC\_time\_t}!seconds@{seconds}|hyperpage}{227}
+\indexentry{seconds@{seconds}!RTC\_time\_t@{RTC\_time\_t}|hyperpage}{227}
+\indexentry{RTC\_time\_t@{RTC\_time\_t}!time\_format@{time\_format}|hyperpage}{227}
+\indexentry{time\_format@{time\_format}!RTC\_time\_t@{RTC\_time\_t}|hyperpage}{227}
+\indexentry{SPI\_Config\_t@{SPI\_Config\_t}|hyperpage}{227}
+\indexentry{SPI\_Handle\_t@{SPI\_Handle\_t}|hyperpage}{228}
+\indexentry{SPI\_RegDef\_t@{SPI\_RegDef\_t}|hyperpage}{229}
+\indexentry{SYSCFG\_RegDef\_t@{SYSCFG\_RegDef\_t}|hyperpage}{229}
+\indexentry{SYSCFG\_RegDef\_t@{SYSCFG\_RegDef\_t}!CFGR@{CFGR}|hyperpage}{230}
+\indexentry{CFGR@{CFGR}!SYSCFG\_RegDef\_t@{SYSCFG\_RegDef\_t}|hyperpage}{230}
+\indexentry{SYSCFG\_RegDef\_t@{SYSCFG\_RegDef\_t}!CMPCR@{CMPCR}|hyperpage}{230}
+\indexentry{CMPCR@{CMPCR}!SYSCFG\_RegDef\_t@{SYSCFG\_RegDef\_t}|hyperpage}{230}
+\indexentry{SYSCFG\_RegDef\_t@{SYSCFG\_RegDef\_t}!EXTICR@{EXTICR}|hyperpage}{230}
+\indexentry{EXTICR@{EXTICR}!SYSCFG\_RegDef\_t@{SYSCFG\_RegDef\_t}|hyperpage}{230}
+\indexentry{SYSCFG\_RegDef\_t@{SYSCFG\_RegDef\_t}!MEMRMP@{MEMRMP}|hyperpage}{230}
+\indexentry{MEMRMP@{MEMRMP}!SYSCFG\_RegDef\_t@{SYSCFG\_RegDef\_t}|hyperpage}{230}
+\indexentry{SYSCFG\_RegDef\_t@{SYSCFG\_RegDef\_t}!PMC@{PMC}|hyperpage}{230}
+\indexentry{PMC@{PMC}!SYSCFG\_RegDef\_t@{SYSCFG\_RegDef\_t}|hyperpage}{230}
+\indexentry{SYSCFG\_RegDef\_t@{SYSCFG\_RegDef\_t}!RESERVED1@{RESERVED1}|hyperpage}{230}
+\indexentry{RESERVED1@{RESERVED1}!SYSCFG\_RegDef\_t@{SYSCFG\_RegDef\_t}|hyperpage}{230}
+\indexentry{SYSCFG\_RegDef\_t@{SYSCFG\_RegDef\_t}!RESERVED2@{RESERVED2}|hyperpage}{230}
+\indexentry{RESERVED2@{RESERVED2}!SYSCFG\_RegDef\_t@{SYSCFG\_RegDef\_t}|hyperpage}{230}
+\indexentry{USART\_Config\_t@{USART\_Config\_t}|hyperpage}{231}
+\indexentry{USART\_Config\_t@{USART\_Config\_t}!USART\_Baud@{USART\_Baud}|hyperpage}{231}
+\indexentry{USART\_Baud@{USART\_Baud}!USART\_Config\_t@{USART\_Config\_t}|hyperpage}{231}
+\indexentry{USART\_Config\_t@{USART\_Config\_t}!USART\_HWFlowControl@{USART\_HWFlowControl}|hyperpage}{231}
+\indexentry{USART\_HWFlowControl@{USART\_HWFlowControl}!USART\_Config\_t@{USART\_Config\_t}|hyperpage}{231}
+\indexentry{USART\_Config\_t@{USART\_Config\_t}!USART\_Mode@{USART\_Mode}|hyperpage}{231}
+\indexentry{USART\_Mode@{USART\_Mode}!USART\_Config\_t@{USART\_Config\_t}|hyperpage}{231}
+\indexentry{USART\_Config\_t@{USART\_Config\_t}!USART\_NoOfStopBits@{USART\_NoOfStopBits}|hyperpage}{231}
+\indexentry{USART\_NoOfStopBits@{USART\_NoOfStopBits}!USART\_Config\_t@{USART\_Config\_t}|hyperpage}{231}
+\indexentry{USART\_Config\_t@{USART\_Config\_t}!USART\_ParityControl@{USART\_ParityControl}|hyperpage}{231}
+\indexentry{USART\_ParityControl@{USART\_ParityControl}!USART\_Config\_t@{USART\_Config\_t}|hyperpage}{231}
+\indexentry{USART\_Config\_t@{USART\_Config\_t}!USART\_WordLength@{USART\_WordLength}|hyperpage}{232}
+\indexentry{USART\_WordLength@{USART\_WordLength}!USART\_Config\_t@{USART\_Config\_t}|hyperpage}{232}
+\indexentry{USART\_Handle\_t@{USART\_Handle\_t}|hyperpage}{232}
+\indexentry{USART\_Handle\_t@{USART\_Handle\_t}!pRxBuffer@{pRxBuffer}|hyperpage}{233}
+\indexentry{pRxBuffer@{pRxBuffer}!USART\_Handle\_t@{USART\_Handle\_t}|hyperpage}{233}
+\indexentry{USART\_Handle\_t@{USART\_Handle\_t}!pTxBuffer@{pTxBuffer}|hyperpage}{233}
+\indexentry{pTxBuffer@{pTxBuffer}!USART\_Handle\_t@{USART\_Handle\_t}|hyperpage}{233}
+\indexentry{USART\_Handle\_t@{USART\_Handle\_t}!pUSARTx@{pUSARTx}|hyperpage}{233}
+\indexentry{pUSARTx@{pUSARTx}!USART\_Handle\_t@{USART\_Handle\_t}|hyperpage}{233}
+\indexentry{USART\_Handle\_t@{USART\_Handle\_t}!RxBusyState@{RxBusyState}|hyperpage}{233}
+\indexentry{RxBusyState@{RxBusyState}!USART\_Handle\_t@{USART\_Handle\_t}|hyperpage}{233}
+\indexentry{USART\_Handle\_t@{USART\_Handle\_t}!RxLen@{RxLen}|hyperpage}{233}
+\indexentry{RxLen@{RxLen}!USART\_Handle\_t@{USART\_Handle\_t}|hyperpage}{233}
+\indexentry{USART\_Handle\_t@{USART\_Handle\_t}!TxBusyState@{TxBusyState}|hyperpage}{233}
+\indexentry{TxBusyState@{TxBusyState}!USART\_Handle\_t@{USART\_Handle\_t}|hyperpage}{233}
+\indexentry{USART\_Handle\_t@{USART\_Handle\_t}!TxLen@{TxLen}|hyperpage}{233}
+\indexentry{TxLen@{TxLen}!USART\_Handle\_t@{USART\_Handle\_t}|hyperpage}{233}
+\indexentry{USART\_Handle\_t@{USART\_Handle\_t}!USART\_Config@{USART\_Config}|hyperpage}{234}
+\indexentry{USART\_Config@{USART\_Config}!USART\_Handle\_t@{USART\_Handle\_t}|hyperpage}{234}
+\indexentry{USART\_RegDef\_t@{USART\_RegDef\_t}|hyperpage}{234}
+\indexentry{bsp/ds1307.c@{bsp/ds1307.c}|hyperpage}{235}
+\indexentry{bsp/ds1307.h@{bsp/ds1307.h}|hyperpage}{236}
+\indexentry{bsp/keypad.c@{bsp/keypad.c}|hyperpage}{238}
+\indexentry{keypad.c@{keypad.c}!Keypad@{Keypad}|hyperpage}{239}
+\indexentry{Keypad@{Keypad}!keypad.c@{keypad.c}|hyperpage}{239}
+\indexentry{bsp/keypad.h@{bsp/keypad.h}|hyperpage}{240}
+\indexentry{bsp/lcd.c@{bsp/lcd.c}|hyperpage}{241}
+\indexentry{bsp/lcd.h@{bsp/lcd.h}|hyperpage}{242}
+\indexentry{drivers/Inc/stm32f407xx.h@{drivers/Inc/stm32f407xx.h}|hyperpage}{244}
+\indexentry{drivers/Inc/stm32f407xx\_gpio\_driver.h@{drivers/Inc/stm32f407xx\_gpio\_driver.h}|hyperpage}{255}
+\indexentry{drivers/Inc/stm32f407xx\_i2c\_driver.h@{drivers/Inc/stm32f407xx\_i2c\_driver.h}|hyperpage}{257}
+\indexentry{drivers/Inc/stm32f407xx\_rcc\_driver.h@{drivers/Inc/stm32f407xx\_rcc\_driver.h}|hyperpage}{260}
+\indexentry{stm32f407xx\_rcc\_driver.h@{stm32f407xx\_rcc\_driver.h}!RCC\_GetPCLK1Value@{RCC\_GetPCLK1Value}|hyperpage}{261}
+\indexentry{RCC\_GetPCLK1Value@{RCC\_GetPCLK1Value}!stm32f407xx\_rcc\_driver.h@{stm32f407xx\_rcc\_driver.h}|hyperpage}{261}
+\indexentry{stm32f407xx\_rcc\_driver.h@{stm32f407xx\_rcc\_driver.h}!RCC\_GetPCLK2Value@{RCC\_GetPCLK2Value}|hyperpage}{261}
+\indexentry{RCC\_GetPCLK2Value@{RCC\_GetPCLK2Value}!stm32f407xx\_rcc\_driver.h@{stm32f407xx\_rcc\_driver.h}|hyperpage}{261}
+\indexentry{stm32f407xx\_rcc\_driver.h@{stm32f407xx\_rcc\_driver.h}!RCC\_GetPLLOutputClock@{RCC\_GetPLLOutputClock}|hyperpage}{262}
+\indexentry{RCC\_GetPLLOutputClock@{RCC\_GetPLLOutputClock}!stm32f407xx\_rcc\_driver.h@{stm32f407xx\_rcc\_driver.h}|hyperpage}{262}
+\indexentry{drivers/Inc/stm32f407xx\_spi\_driver.h@{drivers/Inc/stm32f407xx\_spi\_driver.h}|hyperpage}{262}
+\indexentry{drivers/Inc/stm32f407xx\_usart\_driver.h@{drivers/Inc/stm32f407xx\_usart\_driver.h}|hyperpage}{265}
+\indexentry{drivers/Src/stm32f407xx\_gpio\_driver.c@{drivers/Src/stm32f407xx\_gpio\_driver.c}|hyperpage}{268}
+\indexentry{drivers/Src/stm32f407xx\_i2c\_driver.c@{drivers/Src/stm32f407xx\_i2c\_driver.c}|hyperpage}{269}
+\indexentry{drivers/Src/stm32f407xx\_rcc\_driver.c@{drivers/Src/stm32f407xx\_rcc\_driver.c}|hyperpage}{271}
+\indexentry{stm32f407xx\_rcc\_driver.c@{stm32f407xx\_rcc\_driver.c}!RCC\_GetPCLK1Value@{RCC\_GetPCLK1Value}|hyperpage}{272}
+\indexentry{RCC\_GetPCLK1Value@{RCC\_GetPCLK1Value}!stm32f407xx\_rcc\_driver.c@{stm32f407xx\_rcc\_driver.c}|hyperpage}{272}
+\indexentry{stm32f407xx\_rcc\_driver.c@{stm32f407xx\_rcc\_driver.c}!RCC\_GetPCLK2Value@{RCC\_GetPCLK2Value}|hyperpage}{272}
+\indexentry{RCC\_GetPCLK2Value@{RCC\_GetPCLK2Value}!stm32f407xx\_rcc\_driver.c@{stm32f407xx\_rcc\_driver.c}|hyperpage}{272}
+\indexentry{stm32f407xx\_rcc\_driver.c@{stm32f407xx\_rcc\_driver.c}!RCC\_GetPLLOutputClock@{RCC\_GetPLLOutputClock}|hyperpage}{273}
+\indexentry{RCC\_GetPLLOutputClock@{RCC\_GetPLLOutputClock}!stm32f407xx\_rcc\_driver.c@{stm32f407xx\_rcc\_driver.c}|hyperpage}{273}
+\indexentry{drivers/Src/stm32f407xx\_spi\_driver.c@{drivers/Src/stm32f407xx\_spi\_driver.c}|hyperpage}{273}
+\indexentry{drivers/Src/stm32f407xx\_usart\_driver.c@{drivers/Src/stm32f407xx\_usart\_driver.c}|hyperpage}{275}
+\indexentry{Src/001led\_Toggle.c@{Src/001led\_Toggle.c}|hyperpage}{276}
+\indexentry{001led\_Toggle.c@{001led\_Toggle.c}!main@{main}|hyperpage}{277}
+\indexentry{main@{main}!001led\_Toggle.c@{001led\_Toggle.c}|hyperpage}{277}
+\indexentry{Src/003led\_Button\_ext.c@{Src/003led\_Button\_ext.c}|hyperpage}{277}
+\indexentry{Src/004gpio\_freq.c@{Src/004gpio\_freq.c}|hyperpage}{278}
+\indexentry{Src/005Button\_interrupt.c@{Src/005Button\_interrupt.c}|hyperpage}{279}
+\indexentry{Src/005Button\_interrupt\_ext.c@{Src/005Button\_interrupt\_ext.c}|hyperpage}{280}
+\indexentry{Src/006spi\_tx\_tesing.c@{Src/006spi\_tx\_tesing.c}|hyperpage}{281}
+\indexentry{Src/007spi\_txonly\_arduino.c@{Src/007spi\_txonly\_arduino.c}|hyperpage}{281}
+\indexentry{Src/008spi\_cmd\_handling.c@{Src/008spi\_cmd\_handling.c}|hyperpage}{282}
+\indexentry{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!ANALOG\_PIN0@{ANALOG\_PIN0}|hyperpage}{283}
+\indexentry{ANALOG\_PIN0@{ANALOG\_PIN0}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}|hyperpage}{283}
+\indexentry{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!ANALOG\_PIN1@{ANALOG\_PIN1}|hyperpage}{283}
+\indexentry{ANALOG\_PIN1@{ANALOG\_PIN1}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}|hyperpage}{283}
+\indexentry{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!ANALOG\_PIN2@{ANALOG\_PIN2}|hyperpage}{283}
+\indexentry{ANALOG\_PIN2@{ANALOG\_PIN2}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}|hyperpage}{283}
+\indexentry{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!ANALOG\_PIN3@{ANALOG\_PIN3}|hyperpage}{283}
+\indexentry{ANALOG\_PIN3@{ANALOG\_PIN3}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}|hyperpage}{283}
+\indexentry{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!ANALOG\_PIN4@{ANALOG\_PIN4}|hyperpage}{284}
+\indexentry{ANALOG\_PIN4@{ANALOG\_PIN4}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}|hyperpage}{284}
+\indexentry{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!CMD\_ID\_READ@{CMD\_ID\_READ}|hyperpage}{284}
+\indexentry{CMD\_ID\_READ@{CMD\_ID\_READ}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}|hyperpage}{284}
+\indexentry{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!CMD\_LED\_CTRL@{CMD\_LED\_CTRL}|hyperpage}{284}
+\indexentry{CMD\_LED\_CTRL@{CMD\_LED\_CTRL}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}|hyperpage}{284}
+\indexentry{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!CMD\_LED\_READ@{CMD\_LED\_READ}|hyperpage}{284}
+\indexentry{CMD\_LED\_READ@{CMD\_LED\_READ}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}|hyperpage}{284}
+\indexentry{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!CMD\_PRINT@{CMD\_PRINT}|hyperpage}{284}
+\indexentry{CMD\_PRINT@{CMD\_PRINT}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}|hyperpage}{284}
+\indexentry{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!CMD\_SENSOR\_READ@{CMD\_SENSOR\_READ}|hyperpage}{284}
+\indexentry{CMD\_SENSOR\_READ@{CMD\_SENSOR\_READ}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}|hyperpage}{284}
+\indexentry{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!LED\_OFF@{LED\_OFF}|hyperpage}{284}
+\indexentry{LED\_OFF@{LED\_OFF}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}|hyperpage}{284}
+\indexentry{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!LED\_ON@{LED\_ON}|hyperpage}{284}
+\indexentry{LED\_ON@{LED\_ON}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}|hyperpage}{284}
+\indexentry{008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}!LED\_PIN@{LED\_PIN}|hyperpage}{285}
+\indexentry{LED\_PIN@{LED\_PIN}!008spi\_cmd\_handling.c@{008spi\_cmd\_handling.c}|hyperpage}{285}
+\indexentry{Src/009spi\_message\_rcv\_it.c@{Src/009spi\_message\_rcv\_it.c}|hyperpage}{285}
+\indexentry{Src/010i2c\_master\_tx\_testing.c@{Src/010i2c\_master\_tx\_testing.c}|hyperpage}{286}
+\indexentry{Src/011i2c\_master\_rx\_testing.c@{Src/011i2c\_master\_rx\_testing.c}|hyperpage}{287}
+\indexentry{Src/012i2c\_master\_rx\_testingIT.c@{Src/012i2c\_master\_rx\_testingIT.c}|hyperpage}{288}
+\indexentry{Src/013i2c\_slave\_tx\_string.c@{Src/013i2c\_slave\_tx\_string.c}|hyperpage}{289}
+\indexentry{Src/014i2c\_slave\_tx\_string2.c@{Src/014i2c\_slave\_tx\_string2.c}|hyperpage}{290}
+\indexentry{Src/015uart\_tx.c@{Src/015uart\_tx.c}|hyperpage}{291}
+\indexentry{Src/016uart\_tx\_it.c@{Src/016uart\_tx\_it.c}|hyperpage}{292}
+\indexentry{Src/syscalls.c@{Src/syscalls.c}|hyperpage}{293}
+\indexentry{Src/sysmem.c@{Src/sysmem.c}|hyperpage}{295}
+\indexentry{sysmem.c@{sysmem.c}!\_sbrk@{\_sbrk}|hyperpage}{295}
+\indexentry{\_sbrk@{\_sbrk}!sysmem.c@{sysmem.c}|hyperpage}{295}

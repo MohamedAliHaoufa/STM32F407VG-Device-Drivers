@@ -1,0 +1,56 @@
+\hypertarget{group__KEYPAD}{}\doxysection{KEYPAD Driver}
+\label{group__KEYPAD}\index{KEYPAD Driver@{KEYPAD Driver}}
+
+
+Driver for interfacing with a keypad.  
+
+
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__KEYPAD_ga734357822f1510790800177ac0a7ab85}{Keypad\+\_\+\+Scan\+And\+Print}} (uint8\+\_\+t row\+\_\+number, uint8\+\_\+t row\+\_\+pin, uint8\+\_\+t column\+\_\+pin, \mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$p\+GPIOx)
+\begin{DoxyCompactList}\small\item\em Scan and print the pressed key on the keypad. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Driver for interfacing with a keypad. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group__KEYPAD_ga734357822f1510790800177ac0a7ab85}\label{group__KEYPAD_ga734357822f1510790800177ac0a7ab85}} 
+\index{KEYPAD Driver@{KEYPAD Driver}!Keypad\_ScanAndPrint@{Keypad\_ScanAndPrint}}
+\index{Keypad\_ScanAndPrint@{Keypad\_ScanAndPrint}!KEYPAD Driver@{KEYPAD Driver}}
+\doxysubsubsection{\texorpdfstring{Keypad\_ScanAndPrint()}{Keypad\_ScanAndPrint()}}
+{\footnotesize\ttfamily void Keypad\+\_\+\+Scan\+And\+Print (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{row\+\_\+number,  }\item[{uint8\+\_\+t}]{row\+\_\+pin,  }\item[{uint8\+\_\+t}]{column\+\_\+pin,  }\item[{\mbox{\hyperlink{structGPIO__RegDef__t}{GPIO\+\_\+\+Reg\+Def\+\_\+t}} $\ast$}]{Input\+Output\+\_\+port }\end{DoxyParamCaption})}
+
+
+
+Scan and print the pressed key on the keypad. 
+
+This function scans a specific row of the keypad for keypress and prints the pressed key on an LCD.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em row\+\_\+number} & The row number to scan (0 to 3 for a 4x4 keypad). \\
+\hline
+\mbox{\texttt{ in}}  & {\em row\+\_\+pin} & The GPIO pin number connected to the row. \\
+\hline
+\mbox{\texttt{ in}}  & {\em column\+\_\+pin} & The GPIO port connected to the column. \\
+\hline
+\mbox{\texttt{ in}}  & {\em p\+GPIOx} & Pointer to the GPIO peripheral associated with the keypad.\\
+\hline
+\end{DoxyParams}
+This function scans a specific row of the keypad for keypress and prints the pressed key on an LCD.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em row\+\_\+number} & The row number to scan (0 to 3 for a 4x4 keypad). \\
+\hline
+\mbox{\texttt{ in}}  & {\em row\+\_\+pin} & The GPIO pin number connected to the row. \\
+\hline
+\mbox{\texttt{ in}}  & {\em column\+\_\+pin} & The GPIO port connected to the column. \\
+\hline
+\mbox{\texttt{ in}}  & {\em Input\+Output\+\_\+port} & Pointer to the GPIO peripheral associated with the keypad. \\
+\hline
+\end{DoxyParams}

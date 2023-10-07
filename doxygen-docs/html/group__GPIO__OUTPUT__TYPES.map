@@ -1,0 +1,4 @@
+<map id="GPIO Output Types" name="GPIO Output Types">
+<area shape="rect" id="node1" title="Possible GPIO pin output types." alt="" coords="159,5,301,31"/>
+<area shape="rect" id="node2" href="$group__GPIO__MACROS.html" title="Macros for GPIO configuration and settings." alt="" coords="5,5,111,31"/>
+</map>

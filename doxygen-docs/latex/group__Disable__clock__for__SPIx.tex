@@ -1,0 +1,28 @@
+\hypertarget{group__Disable__clock__for__SPIx}{}\doxysection{Disable clock for SPIx peripherals}
+\label{group__Disable__clock__for__SPIx}\index{Disable clock for SPIx peripherals@{Disable clock for SPIx peripherals}}
+Collaboration diagram for Disable clock for SPIx peripherals\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__Disable__clock__for__SPIx}
+\end{center}
+\end{figure}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__Disable__clock__for__SPIx_ga5d981b8f6a68cd77963d57d42693d170}\label{group__Disable__clock__for__SPIx_ga5d981b8f6a68cd77963d57d42693d170}} 
+\#define {\bfseries SPI1\+\_\+\+PCLK\+\_\+\+DI}()~( RCC-\/$>$APB2\+ENR \&= $\sim$(uint32\+\_\+t)(1$<$$<$12) )
+\item 
+\mbox{\Hypertarget{group__Disable__clock__for__SPIx_ga8155a469b85817f3e6d37e4ff09f727f}\label{group__Disable__clock__for__SPIx_ga8155a469b85817f3e6d37e4ff09f727f}} 
+\#define {\bfseries SPI2\+\_\+\+PCLK\+\_\+\+DI}()~( RCC-\/$>$APB1\+ENR \&= $\sim$(uint32\+\_\+t)(1$<$$<$14) )
+\item 
+\mbox{\Hypertarget{group__Disable__clock__for__SPIx_gad4de3e58530324cb9a9a1c32504b8c26}\label{group__Disable__clock__for__SPIx_gad4de3e58530324cb9a9a1c32504b8c26}} 
+\#define {\bfseries SPI3\+\_\+\+PCLK\+\_\+\+DI}()~( RCC-\/$>$APB1\+ENR \&= $\sim$(uint32\+\_\+t)(1$<$$<$15) )
+\item 
+\mbox{\Hypertarget{group__Disable__clock__for__SPIx_ga30c26071cf3d08af993808262f790cdf}\label{group__Disable__clock__for__SPIx_ga30c26071cf3d08af993808262f790cdf}} 
+\#define {\bfseries SPI4\+\_\+\+PCLK\+\_\+\+DI}()~( RCC-\/$>$APB2\+ENR \&= $\sim$(uint32\+\_\+t)(1$<$$<$13) )
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}

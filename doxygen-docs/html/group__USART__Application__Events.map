@@ -1,0 +1,4 @@
+<map id="USART Application Events" name="USART Application Events">
+<area shape="rect" id="node1" title="Defines possible events that can occur in the USART application." alt="" coords="171,5,361,31"/>
+<area shape="rect" id="node2" href="$group__USART__Macros.html" title="Macros related to USART configuration, flags, and events." alt="" coords="5,5,123,31"/>
+</map>

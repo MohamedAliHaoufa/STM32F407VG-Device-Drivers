@@ -1,0 +1,112 @@
+\hypertarget{ds1307_8h}{}\doxysection{bsp/ds1307.h File Reference}
+\label{ds1307_8h}\index{bsp/ds1307.h@{bsp/ds1307.h}}
+
+
+This file contains definitions and function prototypes for interfacing with a DS1307 Real-\/\+Time Clock (RTC) module.  
+
+
+{\ttfamily \#include \char`\"{}../drivers/\+Inc/stm32f407xx.\+h\char`\"{}}\newline
+Include dependency graph for ds1307.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ds1307_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=161pt]{ds1307_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structRTC__date__t}{RTC\+\_\+date\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Data structure for holding date information. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structRTC__time__t}{RTC\+\_\+time\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Data structure for holding time information. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries DS1307\+\_\+\+I2C}~I2\+C1
+\item 
+\#define {\bfseries DS1307\+\_\+\+I2\+C\+\_\+\+GPIO\+\_\+\+PORT}~GPIOB
+\item 
+\#define {\bfseries DS1307\+\_\+\+I2\+C\+\_\+\+SDA\+\_\+\+PIN}~GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+7
+\item 
+\#define {\bfseries DS1307\+\_\+\+I2\+C\+\_\+\+SCL\+\_\+\+PIN}~GPIO\+\_\+\+PIN\+\_\+\+NO\+\_\+6
+\item 
+\#define {\bfseries DS1307\+\_\+\+I2\+C\+\_\+\+SPEED}~\mbox{\hyperlink{group__I2C__SCL__Speed__Options_gabd848712ca5875045ae1a2e1549957ae}{I2\+C\+\_\+\+SC\+\_\+\+SPEED\+\_\+\+SM}}
+\item 
+\#define {\bfseries DS1307\+\_\+\+I2\+C\+\_\+\+PUPD}~\mbox{\hyperlink{group__GPIO__PUPD_gaa2215266368daa06caed64d2e142abec}{GPIO\+\_\+\+PIN\+\_\+\+PU}}
+\item 
+\#define {\bfseries DS1307\+\_\+\+I2\+C\+\_\+\+ADDRESS}~0x68
+\item 
+\#define {\bfseries DS1307\+\_\+\+ADDR\+\_\+\+SEC}~0x00
+\item 
+\#define {\bfseries DS1307\+\_\+\+ADDR\+\_\+\+MIN}~0x01
+\item 
+\#define {\bfseries DS1307\+\_\+\+ADDR\+\_\+\+HRS}~0x02
+\item 
+\#define {\bfseries DS1307\+\_\+\+ADDR\+\_\+\+DAY}~0x03
+\item 
+\#define {\bfseries DS1307\+\_\+\+ADDR\+\_\+\+DATE}~0x04
+\item 
+\#define {\bfseries DS1307\+\_\+\+ADDR\+\_\+\+MONTH}~0x05
+\item 
+\#define {\bfseries DS1307\+\_\+\+ADDR\+\_\+\+YEAR}~0x06
+\item 
+\#define {\bfseries TIME\+\_\+\+FORMAT\+\_\+12\+HRS\+\_\+\+AM}~0
+\item 
+\#define {\bfseries TIME\+\_\+\+FORMAT\+\_\+12\+HRS\+\_\+\+PM}~1
+\item 
+\#define {\bfseries TIME\+\_\+\+FORMAT\+\_\+24\+HRS}~2
+\item 
+\#define {\bfseries SUNDAY}~1
+\item 
+\#define {\bfseries MONDAY}~2
+\item 
+\#define {\bfseries TUESDAY}~3
+\item 
+\#define {\bfseries WEDNESDAY}~4
+\item 
+\#define {\bfseries THURSDAY}~5
+\item 
+\#define {\bfseries FRIDAY}~6
+\item 
+\#define {\bfseries SATURDAY}~7
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{group__DS1307__APIS_ga3803c7add6775f7dfa12048ab7d80dc4}{ds1307\+\_\+init}} ()
+\begin{DoxyCompactList}\small\item\em Initialize the DS1307 module. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__DS1307__APIS_gaf94e883b4a27c40e9faad1a90657c470}{ds1307\+\_\+set\+\_\+current\+\_\+time}} (\mbox{\hyperlink{structRTC__time__t}{RTC\+\_\+time\+\_\+t}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Set the current time on the DS1307 RTC module. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__DS1307__APIS_ga94ef7f3c71aab0ee1464864760645be3}{ds1307\+\_\+get\+\_\+current\+\_\+time}} (\mbox{\hyperlink{structRTC__time__t}{RTC\+\_\+time\+\_\+t}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Get the current time from the DS1307 RTC module. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__DS1307__APIS_gad778d517c250c5fbef83c977d177e824}{ds1307\+\_\+set\+\_\+current\+\_\+date}} (\mbox{\hyperlink{structRTC__date__t}{RTC\+\_\+date\+\_\+t}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Set the current date on the DS1307 RTC module. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__DS1307__APIS_ga1531a89de130e91e301bc7319dde3bb3}{ds1307\+\_\+get\+\_\+current\+\_\+date}} (\mbox{\hyperlink{structRTC__date__t}{RTC\+\_\+date\+\_\+t}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Get the current date from the DS1307 RTC module. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file contains definitions and function prototypes for interfacing with a DS1307 Real-\/\+Time Clock (RTC) module. 
+
+\begin{DoxyAuthor}{Author}
+Mohamed Ali Haoufa 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2023-\/10-\/07
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2023 
+\end{DoxyCopyright}

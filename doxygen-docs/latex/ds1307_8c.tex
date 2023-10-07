@@ -1,0 +1,54 @@
+\hypertarget{ds1307_8c}{}\doxysection{bsp/ds1307.c File Reference}
+\label{ds1307_8c}\index{bsp/ds1307.c@{bsp/ds1307.c}}
+
+
+This file contains the implementation of functions for interfacing with a DS1307 Real-\/\+Time Clock (RTC) module.  
+
+
+{\ttfamily \#include \char`\"{}ds1307.\+h\char`\"{}}\newline
+Include dependency graph for ds1307.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ds1307_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{group__DS1307__APIS_ga3803c7add6775f7dfa12048ab7d80dc4}{ds1307\+\_\+init}} ()
+\begin{DoxyCompactList}\small\item\em Initialize the DS1307 module. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__DS1307__APIS_gaf94e883b4a27c40e9faad1a90657c470}{ds1307\+\_\+set\+\_\+current\+\_\+time}} (\mbox{\hyperlink{structRTC__time__t}{RTC\+\_\+time\+\_\+t}} $\ast$rtc\+\_\+time)
+\begin{DoxyCompactList}\small\item\em Set the current time on the DS1307 RTC module. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__DS1307__APIS_gad778d517c250c5fbef83c977d177e824}{ds1307\+\_\+set\+\_\+current\+\_\+date}} (\mbox{\hyperlink{structRTC__date__t}{RTC\+\_\+date\+\_\+t}} $\ast$rtc\+\_\+date)
+\begin{DoxyCompactList}\small\item\em Set the current date on the DS1307 RTC module. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__DS1307__APIS_ga94ef7f3c71aab0ee1464864760645be3}{ds1307\+\_\+get\+\_\+current\+\_\+time}} (\mbox{\hyperlink{structRTC__time__t}{RTC\+\_\+time\+\_\+t}} $\ast$rtc\+\_\+time)
+\begin{DoxyCompactList}\small\item\em Get the current time from the DS1307 RTC module. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__DS1307__APIS_ga1531a89de130e91e301bc7319dde3bb3}{ds1307\+\_\+get\+\_\+current\+\_\+date}} (\mbox{\hyperlink{structRTC__date__t}{RTC\+\_\+date\+\_\+t}} $\ast$rtc\+\_\+date)
+\begin{DoxyCompactList}\small\item\em Get the current date from the DS1307 RTC module. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{ds1307_8c_af7d47149aa382ed4ee632096607e4258}\label{ds1307_8c_af7d47149aa382ed4ee632096607e4258}} 
+\mbox{\hyperlink{structI2C__Handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} {\bfseries g\+\_\+ds1307\+I2c\+Handle}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file contains the implementation of functions for interfacing with a DS1307 Real-\/\+Time Clock (RTC) module. 
+
+\begin{DoxyAuthor}{Author}
+Mohamed Ali Haoufa 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2023-\/10-\/07
+\end{DoxyDate}
+This source file provides the implementation of functions for initializing, configuring, reading, and writing data to a DS1307 Real-\/\+Time Clock (RTC) module using the I2C communication protocol. It includes functions to set and retrieve time and date information, convert between binary and Binary-\/\+Coded Decimal (BCD) formats, and manage the DS1307\textquotesingle{}s control registers. These functions facilitate the integration of DS1307 RTC functionality into embedded applications.
+
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2023 
+\end{DoxyCopyright}

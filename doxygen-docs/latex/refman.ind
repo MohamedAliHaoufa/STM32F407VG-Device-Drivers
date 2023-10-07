@@ -1,0 +1,2390 @@
+\begin{theindex}
+
+  \item {\_sbrk}
+    \subitem {sysmem.c}, \hyperpage{295}
+  \item {001led\_Toggle.c}
+    \subitem {main}, \hyperpage{277}
+  \item {008spi\_cmd\_handling.c}
+    \subitem {ANALOG\_PIN0}, \hyperpage{283}
+    \subitem {ANALOG\_PIN1}, \hyperpage{283}
+    \subitem {ANALOG\_PIN2}, \hyperpage{283}
+    \subitem {ANALOG\_PIN3}, \hyperpage{283}
+    \subitem {ANALOG\_PIN4}, \hyperpage{284}
+    \subitem {CMD\_ID\_READ}, \hyperpage{284}
+    \subitem {CMD\_LED\_CTRL}, \hyperpage{284}
+    \subitem {CMD\_LED\_READ}, \hyperpage{284}
+    \subitem {CMD\_PRINT}, \hyperpage{284}
+    \subitem {CMD\_SENSOR\_READ}, \hyperpage{284}
+    \subitem {LED\_OFF}, \hyperpage{284}
+    \subitem {LED\_ON}, \hyperpage{284}
+    \subitem {LED\_PIN}, \hyperpage{285}
+
+  \indexspace
+
+  \item {AFR}
+    \subitem {GPIO\_RegDef\_t}, \hyperpage{216}
+  \item {AHB1ENR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{221}
+  \item {AHB1LPENR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{222}
+  \item {AHB1PERIPH\_BASEADDR}
+    \subitem {Peripheral Base Addresses}, \hyperpage{29}
+  \item {AHB1RSTR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{222}
+  \item {AHB2ENR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{222}
+  \item {AHB2LPENR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{222}
+  \item {AHB2PERIPH\_BASEADDR}
+    \subitem {Peripheral Base Addresses}, \hyperpage{29}
+  \item {AHB2RSTR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{222}
+  \item {AHB3ENR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{222}
+  \item {AHB3LPENR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{222}
+  \item {AHB3RSTR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{222}
+  \item {ANALOG\_PIN0}
+    \subitem {008spi\_cmd\_handling.c}, \hyperpage{283}
+    \subitem {Arduino Analog Pins}, \hyperpage{191}
+  \item {ANALOG\_PIN1}
+    \subitem {008spi\_cmd\_handling.c}, \hyperpage{283}
+    \subitem {Arduino Analog Pins}, \hyperpage{191}
+  \item {ANALOG\_PIN2}
+    \subitem {008spi\_cmd\_handling.c}, \hyperpage{283}
+    \subitem {Arduino Analog Pins}, \hyperpage{191}
+  \item {ANALOG\_PIN3}
+    \subitem {008spi\_cmd\_handling.c}, \hyperpage{283}
+    \subitem {Arduino Analog Pins}, \hyperpage{191}
+  \item {ANALOG\_PIN4}
+    \subitem {008spi\_cmd\_handling.c}, \hyperpage{284}
+    \subitem {Arduino Analog Pins}, \hyperpage{191}
+  \item {APB1ENR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{223}
+  \item {APB1LPENR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{223}
+  \item {APB1PERIPH\_BASEADDR}
+    \subitem {Peripheral Base Addresses}, \hyperpage{29}
+  \item {APB1RSTR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{223}
+  \item {APB2ENR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{223}
+  \item {APB2LPENR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{223}
+  \item {APB2PERIPH\_BASEADDR}
+    \subitem {Peripheral Base Addresses}, \hyperpage{29}
+  \item {APB2RSTR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{223}
+  \item {Application Configurable Items}, \hyperpage{17}
+  \item {Arduino Analog Pins}, \hyperpage{190}
+    \subitem {ANALOG\_PIN0}, \hyperpage{191}
+    \subitem {ANALOG\_PIN1}, \hyperpage{191}
+    \subitem {ANALOG\_PIN2}, \hyperpage{191}
+    \subitem {ANALOG\_PIN3}, \hyperpage{191}
+    \subitem {ANALOG\_PIN4}, \hyperpage{191}
+
+  \indexspace
+
+  \item {BDCR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{223}
+  \item {bsp/ds1307.c}, \hyperpage{235}
+  \item {bsp/ds1307.h}, \hyperpage{236}
+  \item {bsp/keypad.c}, \hyperpage{238}
+  \item {bsp/keypad.h}, \hyperpage{240}
+  \item {bsp/lcd.c}, \hyperpage{241}
+  \item {bsp/lcd.h}, \hyperpage{242}
+  \item {BSRR}
+    \subitem {GPIO\_RegDef\_t}, \hyperpage{216}
+
+  \indexspace
+
+  \item {CCR}
+    \subitem {I2C\_RegDef\_t}, \hyperpage{219}
+  \item {CFGR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{223}
+    \subitem {SYSCFG\_RegDef\_t}, \hyperpage{230}
+  \item {CIR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{224}
+  \item {CKGATENR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{224}
+  \item {Clock Disable Macros}, \hyperpage{41}
+  \item {Clock Enable GPIO Clocks}, \hyperpage{38}
+  \item {Clock Enable I2C Clocks}, \hyperpage{38}
+  \item {Clock Enable Macros}, \hyperpage{37}
+  \item {Clock Enable SPI Clocks}, \hyperpage{39}
+  \item {Clock Enable SYSCFG Clocks}, \hyperpage{40}
+  \item {Clock Enable USART Clocks}, \hyperpage{39}
+  \item {CMD\_ID\_READ}
+    \subitem {008spi\_cmd\_handling.c}, \hyperpage{284}
+    \subitem {SPI Communication CMDs}, \hyperpage{189}
+  \item {CMD\_LED\_CTRL}
+    \subitem {008spi\_cmd\_handling.c}, \hyperpage{284}
+    \subitem {SPI Communication CMDs}, \hyperpage{189}
+  \item {CMD\_LED\_READ}
+    \subitem {008spi\_cmd\_handling.c}, \hyperpage{284}
+    \subitem {SPI Communication CMDs}, \hyperpage{189}
+  \item {CMD\_PRINT}
+    \subitem {008spi\_cmd\_handling.c}, \hyperpage{284}
+    \subitem {SPI Communication CMDs}, \hyperpage{189}
+  \item {CMD\_SENSOR\_READ}
+    \subitem {008spi\_cmd\_handling.c}, \hyperpage{284}
+    \subitem {SPI Communication CMDs}, \hyperpage{189}
+  \item {CMPCR}
+    \subitem {SYSCFG\_RegDef\_t}, \hyperpage{230}
+  \item {CR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{224}
+  \item {CR1}
+    \subitem {I2C\_RegDef\_t}, \hyperpage{219}
+  \item {CR2}
+    \subitem {I2C\_RegDef\_t}, \hyperpage{219}
+  \item {CRC\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{30}
+  \item {CSR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{224}
+
+  \indexspace
+
+  \item {date}
+    \subitem {RTC\_date\_t}, \hyperpage{225}
+  \item {day}
+    \subitem {RTC\_date\_t}, \hyperpage{226}
+  \item {Days of the Week}, \hyperpage{12}
+  \item {DCKCFGR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{224}
+  \item {DCKCFGR2}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{224}
+  \item {Definitions and Macros}, \hyperpage{24}
+  \item {DISABLE}
+    \subitem {Generic Macros}, \hyperpage{125}
+  \item {Disable clock for GPIOx peripherals}, \hyperpage{41}
+  \item {Disable clock for I2Cx peripherals}, \hyperpage{42}
+  \item {Disable clock for SPIx peripherals}, \hyperpage{42}
+  \item {Disable clock for SYSCFG peripherals}, \hyperpage{43}
+  \item {Disable clock for USARTx peripherals}, \hyperpage{43}
+  \item {DMA1\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{31}
+  \item {DMA2\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{31}
+  \item {DR}
+    \subitem {I2C\_RegDef\_t}, \hyperpage{219}
+  \item {drivers/Inc/stm32f407xx.h}, \hyperpage{244}
+  \item {drivers/Inc/stm32f407xx\_gpio\_driver.h}, \hyperpage{255}
+  \item {drivers/Inc/stm32f407xx\_i2c\_driver.h}, \hyperpage{257}
+  \item {drivers/Inc/stm32f407xx\_rcc\_driver.h}, \hyperpage{260}
+  \item {drivers/Inc/stm32f407xx\_spi\_driver.h}, \hyperpage{262}
+  \item {drivers/Inc/stm32f407xx\_usart\_driver.h}, \hyperpage{265}
+  \item {drivers/Src/stm32f407xx\_gpio\_driver.c}, \hyperpage{268}
+  \item {drivers/Src/stm32f407xx\_i2c\_driver.c}, \hyperpage{269}
+  \item {drivers/Src/stm32f407xx\_rcc\_driver.c}, \hyperpage{271}
+  \item {drivers/Src/stm32f407xx\_spi\_driver.c}, \hyperpage{273}
+  \item {drivers/Src/stm32f407xx\_usart\_driver.c}, \hyperpage{275}
+  \item {DS1307 APIs}, \hyperpage{13}
+    \subitem {ds1307\_get\_current\_date}, \hyperpage{14}
+    \subitem {ds1307\_get\_current\_time}, \hyperpage{14}
+    \subitem {ds1307\_init}, \hyperpage{14}
+    \subitem {ds1307\_set\_current\_date}, \hyperpage{14}
+    \subitem {ds1307\_set\_current\_time}, \hyperpage{15}
+  \item {DS1307 Configurable Items}, \hyperpage{11}
+  \item {DS1307 Macros}, \hyperpage{10}
+  \item {DS1307 RTC Driver}, \hyperpage{9}
+  \item {ds1307\_get\_current\_date}
+    \subitem {DS1307 APIs}, \hyperpage{14}
+  \item {ds1307\_get\_current\_time}
+    \subitem {DS1307 APIs}, \hyperpage{14}
+  \item {ds1307\_init}
+    \subitem {DS1307 APIs}, \hyperpage{14}
+  \item {ds1307\_set\_current\_date}
+    \subitem {DS1307 APIs}, \hyperpage{14}
+  \item {ds1307\_set\_current\_time}
+    \subitem {DS1307 APIs}, \hyperpage{15}
+
+  \indexspace
+
+  \item {EMR}
+    \subitem {EXTI\_RegDef\_t}, \hyperpage{213}
+  \item {ENABLE}
+    \subitem {Generic Macros}, \hyperpage{125}
+  \item {EXTI (External Interrupt) IRQ Numbers}, \hyperpage{49}
+  \item {EXTI\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB2 Bus}, \hyperpage{34}
+  \item {EXTI\_RegDef\_t}, \hyperpage{213}
+    \subitem {EMR}, \hyperpage{213}
+    \subitem {FTSR}, \hyperpage{213}
+    \subitem {IMR}, \hyperpage{214}
+    \subitem {PR}, \hyperpage{214}
+    \subitem {RTSR}, \hyperpage{214}
+    \subitem {SWIER}, \hyperpage{214}
+  \item {EXTICR}
+    \subitem {SYSCFG\_RegDef\_t}, \hyperpage{230}
+
+  \indexspace
+
+  \item {FIR\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{31}
+  \item {FLAG\_RESET}
+    \subitem {Generic Macros}, \hyperpage{126}
+  \item {FLAG\_SET}
+    \subitem {Generic Macros}, \hyperpage{126}
+  \item {FLASH\_BASEADDR}
+    \subitem {Memory Base Addresses}, \hyperpage{27}
+  \item {FLTR}
+    \subitem {I2C\_RegDef\_t}, \hyperpage{220}
+  \item {FTSR}
+    \subitem {EXTI\_RegDef\_t}, \hyperpage{213}
+
+  \indexspace
+
+  \item {Generic Macros}, \hyperpage{125}
+    \subitem {DISABLE}, \hyperpage{125}
+    \subitem {ENABLE}, \hyperpage{125}
+    \subitem {FLAG\_RESET}, \hyperpage{126}
+    \subitem {FLAG\_SET}, \hyperpage{126}
+    \subitem {GPIO\_PIN\_RESET}, \hyperpage{126}
+    \subitem {GPIO\_PIN\_SET}, \hyperpage{126}
+    \subitem {RESET}, \hyperpage{126}
+    \subitem {SET}, \hyperpage{126}
+  \item {GPIO APIs}, \hyperpage{135}
+    \subitem {GPIO\_DeInit}, \hyperpage{136}
+    \subitem {GPIO\_Init}, \hyperpage{136}
+    \subitem {GPIO\_IRQHandling}, \hyperpage{136}
+    \subitem {GPIO\_IRQInterruptConfig}, \hyperpage{137}
+    \subitem {GPIO\_IRQPriorityConfig}, \hyperpage{137}
+    \subitem {GPIO\_PeripheralClockControl}, \hyperpage{138}
+    \subitem {GPIO\_ReadFromInputPin}, \hyperpage{138}
+    \subitem {GPIO\_ReadFromInputPort}, \hyperpage{139}
+    \subitem {GPIO\_ToggleOutputPin}, \hyperpage{139}
+    \subitem {GPIO\_WriteToOutputPin}, \hyperpage{140}
+    \subitem {GPIO\_WriteToOutputPort}, \hyperpage{140}
+  \item {GPIO Base Address to Code Conversion Macros}, \hyperpage{47}
+    \subitem {GPIO\_BASEADDR\_TO\_CODE}, \hyperpage{47}
+  \item {GPIO Driver}, \hyperpage{127}
+    \subitem {GPIO\_PinAltFunMode}, \hyperpage{128}
+    \subitem {GPIO\_PinConfig}, \hyperpage{128}
+    \subitem {GPIO\_PinMode}, \hyperpage{128}
+    \subitem {GPIO\_PinNumber}, \hyperpage{128}
+    \subitem {GPIO\_PinPinOPType}, \hyperpage{128}
+    \subitem {GPIO\_PinPuPdControl}, \hyperpage{128}
+    \subitem {GPIO\_PinSpeed}, \hyperpage{128}
+    \subitem {pGPIOx}, \hyperpage{128}
+  \item {GPIO Macros}, \hyperpage{129}
+  \item {GPIO Output Speeds}, \hyperpage{132}
+    \subitem {GPIO\_SPEED\_FAST}, \hyperpage{132}
+    \subitem {GPIO\_SPEED\_HIGH}, \hyperpage{132}
+    \subitem {GPIO\_SPEED\_LOW}, \hyperpage{133}
+    \subitem {GPIO\_SPEED\_MEDIUM}, \hyperpage{133}
+  \item {GPIO Output Types}, \hyperpage{134}
+    \subitem {GPIO\_OP\_TYPE\_OD}, \hyperpage{135}
+    \subitem {GPIO\_OP\_TYPE\_PP}, \hyperpage{135}
+  \item {GPIO Pin Modes}, \hyperpage{130}
+    \subitem {GPIO\_MODE\_ALTFN}, \hyperpage{131}
+    \subitem {GPIO\_MODE\_ANALOG}, \hyperpage{131}
+    \subitem {GPIO\_MODE\_IN}, \hyperpage{131}
+    \subitem {GPIO\_MODE\_IT\_FT}, \hyperpage{131}
+    \subitem {GPIO\_MODE\_IT\_RFT}, \hyperpage{131}
+    \subitem {GPIO\_MODE\_IT\_RT}, \hyperpage{131}
+    \subitem {GPIO\_MODE\_OUT}, \hyperpage{132}
+  \item {GPIO Pin Numbers}, \hyperpage{130}
+  \item {GPIO Pull-\/up/Pull-\/down Configurations}, \hyperpage{133}
+    \subitem {GPIO\_NO\_PUPD}, \hyperpage{134}
+    \subitem {GPIO\_PIN\_PD}, \hyperpage{134}
+    \subitem {GPIO\_PIN\_PU}, \hyperpage{134}
+  \item {GPIO\_BASEADDR\_TO\_CODE}
+    \subitem {GPIO Base Address to Code Conversion Macros}, 
+		\hyperpage{47}
+  \item {GPIO\_DeInit}
+    \subitem {GPIO APIs}, \hyperpage{136}
+  \item {GPIO\_Handle\_t}, \hyperpage{214}
+  \item {GPIO\_Init}
+    \subitem {GPIO APIs}, \hyperpage{136}
+  \item {GPIO\_IRQHandling}
+    \subitem {GPIO APIs}, \hyperpage{136}
+  \item {GPIO\_IRQInterruptConfig}
+    \subitem {GPIO APIs}, \hyperpage{137}
+  \item {GPIO\_IRQPriorityConfig}
+    \subitem {GPIO APIs}, \hyperpage{137}
+  \item {GPIO\_MODE\_ALTFN}
+    \subitem {GPIO Pin Modes}, \hyperpage{131}
+  \item {GPIO\_MODE\_ANALOG}
+    \subitem {GPIO Pin Modes}, \hyperpage{131}
+  \item {GPIO\_MODE\_IN}
+    \subitem {GPIO Pin Modes}, \hyperpage{131}
+  \item {GPIO\_MODE\_IT\_FT}
+    \subitem {GPIO Pin Modes}, \hyperpage{131}
+  \item {GPIO\_MODE\_IT\_RFT}
+    \subitem {GPIO Pin Modes}, \hyperpage{131}
+  \item {GPIO\_MODE\_IT\_RT}
+    \subitem {GPIO Pin Modes}, \hyperpage{131}
+  \item {GPIO\_MODE\_OUT}
+    \subitem {GPIO Pin Modes}, \hyperpage{132}
+  \item {GPIO\_NO\_PUPD}
+    \subitem {GPIO Pull-\/up/Pull-\/down Configurations}, 
+		\hyperpage{134}
+  \item {GPIO\_OP\_TYPE\_OD}
+    \subitem {GPIO Output Types}, \hyperpage{135}
+  \item {GPIO\_OP\_TYPE\_PP}
+    \subitem {GPIO Output Types}, \hyperpage{135}
+  \item {GPIO\_PeripheralClockControl}
+    \subitem {GPIO APIs}, \hyperpage{138}
+  \item {GPIO\_PIN\_PD}
+    \subitem {GPIO Pull-\/up/Pull-\/down Configurations}, 
+		\hyperpage{134}
+  \item {GPIO\_PIN\_PU}
+    \subitem {GPIO Pull-\/up/Pull-\/down Configurations}, 
+		\hyperpage{134}
+  \item {GPIO\_PIN\_RESET}
+    \subitem {Generic Macros}, \hyperpage{126}
+  \item {GPIO\_PIN\_SET}
+    \subitem {Generic Macros}, \hyperpage{126}
+  \item {GPIO\_PinAltFunMode}
+    \subitem {GPIO Driver}, \hyperpage{128}
+  \item {GPIO\_PinConfig}
+    \subitem {GPIO Driver}, \hyperpage{128}
+  \item {GPIO\_PinConfig\_t}, \hyperpage{215}
+  \item {GPIO\_PinMode}
+    \subitem {GPIO Driver}, \hyperpage{128}
+  \item {GPIO\_PinNumber}
+    \subitem {GPIO Driver}, \hyperpage{128}
+  \item {GPIO\_PinPinOPType}
+    \subitem {GPIO Driver}, \hyperpage{128}
+  \item {GPIO\_PinPuPdControl}
+    \subitem {GPIO Driver}, \hyperpage{128}
+  \item {GPIO\_PinSpeed}
+    \subitem {GPIO Driver}, \hyperpage{128}
+  \item {GPIO\_ReadFromInputPin}
+    \subitem {GPIO APIs}, \hyperpage{138}
+  \item {GPIO\_ReadFromInputPort}
+    \subitem {GPIO APIs}, \hyperpage{139}
+  \item {GPIO\_RegDef\_t}, \hyperpage{215}
+    \subitem {AFR}, \hyperpage{216}
+    \subitem {BSRR}, \hyperpage{216}
+    \subitem {IDR}, \hyperpage{216}
+    \subitem {LCKR}, \hyperpage{216}
+    \subitem {MODER}, \hyperpage{216}
+    \subitem {ODR}, \hyperpage{217}
+    \subitem {OSPEEDR}, \hyperpage{217}
+    \subitem {OTYPER}, \hyperpage{217}
+    \subitem {PUPDR}, \hyperpage{217}
+  \item {GPIO\_SPEED\_FAST}
+    \subitem {GPIO Output Speeds}, \hyperpage{132}
+  \item {GPIO\_SPEED\_HIGH}
+    \subitem {GPIO Output Speeds}, \hyperpage{132}
+  \item {GPIO\_SPEED\_LOW}
+    \subitem {GPIO Output Speeds}, \hyperpage{133}
+  \item {GPIO\_SPEED\_MEDIUM}
+    \subitem {GPIO Output Speeds}, \hyperpage{133}
+  \item {GPIO\_ToggleOutputPin}
+    \subitem {GPIO APIs}, \hyperpage{139}
+  \item {GPIO\_WriteToOutputPin}
+    \subitem {GPIO APIs}, \hyperpage{140}
+  \item {GPIO\_WriteToOutputPort}
+    \subitem {GPIO APIs}, \hyperpage{140}
+  \item {GPIOA\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{31}
+  \item {GPIOB\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{31}
+  \item {GPIOC\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{31}
+  \item {GPIOD\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{31}
+  \item {GPIOE\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{31}
+  \item {GPIOF\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{32}
+  \item {GPIOG\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{32}
+  \item {GPIOH\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{32}
+  \item {GPIOI\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{32}
+
+  \indexspace
+
+  \item {hours}
+    \subitem {RTC\_time\_t}, \hyperpage{227}
+
+  \indexspace
+
+  \item {I2C ACK Control Options}, \hyperpage{145}
+    \subitem {I2C\_ACK\_DISABLE}, \hyperpage{146}
+    \subitem {I2C\_ACK\_ENABLE}, \hyperpage{146}
+  \item {I2C APIs}, \hyperpage{153}
+    \subitem {I2C\_ApplicationEventCallback}, \hyperpage{154}
+    \subitem {I2C\_CloseReceiveData}, \hyperpage{155}
+    \subitem {I2C\_CloseSendData}, \hyperpage{155}
+    \subitem {I2C\_DeInit}, \hyperpage{155}
+    \subitem {I2C\_ER\_IRQHandling}, \hyperpage{156}
+    \subitem {I2C\_EV\_IRQHandling}, \hyperpage{156}
+    \subitem {I2C\_GenerateStopCondition}, \hyperpage{156}
+    \subitem {I2C\_GetFlagStatus}, \hyperpage{157}
+    \subitem {I2C\_Init}, \hyperpage{157}
+    \subitem {I2C\_IRQInterruptConfig}, \hyperpage{158}
+    \subitem {I2C\_IRQPriorityConfig}, \hyperpage{158}
+    \subitem {I2C\_ManageAcking}, \hyperpage{159}
+    \subitem {I2C\_MasterReceiveData}, \hyperpage{159}
+    \subitem {I2C\_MasterReceiveDataIT}, \hyperpage{160}
+    \subitem {I2C\_MasterSendData}, \hyperpage{161}
+    \subitem {I2C\_MasterSendDataIT}, \hyperpage{161}
+    \subitem {I2C\_PeriClockControl}, \hyperpage{162}
+    \subitem {I2C\_PeripheralControl}, \hyperpage{163}
+    \subitem {I2C\_SlaveEnableDisableCallbackEvents}, \hyperpage{163}
+    \subitem {I2C\_SlaveReceiveData}, \hyperpage{163}
+    \subitem {I2C\_SlaveSendData}, \hyperpage{164}
+  \item {I2C Application Event Macros}, \hyperpage{151}
+    \subitem {I2C\_ERROR\_AF}, \hyperpage{151}
+    \subitem {I2C\_ERROR\_ARLO}, \hyperpage{151}
+    \subitem {I2C\_ERROR\_BERR}, \hyperpage{151}
+    \subitem {I2C\_ERROR\_OVR}, \hyperpage{152}
+    \subitem {I2C\_ERROR\_TIMEOUT}, \hyperpage{152}
+    \subitem {I2C\_EV\_DATA\_RCV}, \hyperpage{152}
+    \subitem {I2C\_EV\_DATA\_REQ}, \hyperpage{152}
+    \subitem {I2C\_EV\_RX\_CMPLT}, \hyperpage{152}
+    \subitem {I2C\_EV\_STOP}, \hyperpage{152}
+    \subitem {I2C\_EV\_TX\_CMPLT}, \hyperpage{152}
+  \item {I2C Application States}, \hyperpage{143}
+    \subitem {I2C\_BUSY\_IN\_RX}, \hyperpage{144}
+    \subitem {I2C\_BUSY\_IN\_TX}, \hyperpage{144}
+    \subitem {I2C\_READY}, \hyperpage{144}
+  \item {I2C Bit Position Definitions}, \hyperpage{57}
+  \item {I2C Driver}, \hyperpage{141}
+  \item {I2C Fast Mode Duty Cycle Options}, \hyperpage{146}
+    \subitem {I2C\_FM\_DUTY\_16\_9}, \hyperpage{147}
+    \subitem {I2C\_FM\_DUTY\_2}, \hyperpage{147}
+  \item {I2C Macros}, \hyperpage{142}
+  \item {I2C Repeated Start Macros}, \hyperpage{150}
+    \subitem {I2C\_DISABLE\_SR}, \hyperpage{150}
+    \subitem {I2C\_ENABLE\_SR}, \hyperpage{150}
+  \item {I2C Serial Clock Speed Options}, \hyperpage{144}
+    \subitem {I2C\_SC\_SPEED\_FM2K}, \hyperpage{145}
+    \subitem {I2C\_SC\_SPEED\_FM4K}, \hyperpage{145}
+    \subitem {I2C\_SC\_SPEED\_SM}, \hyperpage{145}
+  \item {I2C Status Flags}, \hyperpage{147}
+    \subitem {I2C\_FLAG\_ADD10}, \hyperpage{148}
+    \subitem {I2C\_FLAG\_ADDR}, \hyperpage{148}
+    \subitem {I2C\_FLAG\_AF}, \hyperpage{148}
+    \subitem {I2C\_FLAG\_ARLO}, \hyperpage{148}
+    \subitem {I2C\_FLAG\_BERR}, \hyperpage{148}
+    \subitem {I2C\_FLAG\_BTF}, \hyperpage{148}
+    \subitem {I2C\_FLAG\_OVR}, \hyperpage{148}
+    \subitem {I2C\_FLAG\_PECERR}, \hyperpage{149}
+    \subitem {I2C\_FLAG\_RxNE}, \hyperpage{149}
+    \subitem {I2C\_FLAG\_SB}, \hyperpage{149}
+    \subitem {I2C\_FLAG\_SMBALERT}, \hyperpage{149}
+    \subitem {I2C\_FLAG\_STOPF}, \hyperpage{149}
+    \subitem {I2C\_FLAG\_TIMEOUT}, \hyperpage{149}
+    \subitem {I2C\_FLAG\_TxE}, \hyperpage{149}
+  \item {I2C1\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{32}
+  \item {I2C2\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{32}
+  \item {I2C3\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{32}
+  \item {I2C\_ACK\_DISABLE}
+    \subitem {I2C ACK Control Options}, \hyperpage{146}
+  \item {I2C\_ACK\_ENABLE}
+    \subitem {I2C ACK Control Options}, \hyperpage{146}
+  \item {I2C\_ApplicationEventCallback}
+    \subitem {I2C APIs}, \hyperpage{154}
+  \item {I2C\_BUSY\_IN\_RX}
+    \subitem {I2C Application States}, \hyperpage{144}
+  \item {I2C\_BUSY\_IN\_TX}
+    \subitem {I2C Application States}, \hyperpage{144}
+  \item {I2C\_CCR Bit Position Definitions}, \hyperpage{69}
+    \subitem {I2C\_CCR\_CCR}, \hyperpage{70}
+    \subitem {I2C\_CCR\_DUTY}, \hyperpage{70}
+    \subitem {I2C\_CCR\_FS}, \hyperpage{70}
+  \item {I2C\_CCR\_CCR}
+    \subitem {I2C\_CCR Bit Position Definitions}, \hyperpage{70}
+  \item {I2C\_CCR\_DUTY}
+    \subitem {I2C\_CCR Bit Position Definitions}, \hyperpage{70}
+  \item {I2C\_CCR\_FS}
+    \subitem {I2C\_CCR Bit Position Definitions}, \hyperpage{70}
+  \item {I2C\_CloseReceiveData}
+    \subitem {I2C APIs}, \hyperpage{155}
+  \item {I2C\_CloseSendData}
+    \subitem {I2C APIs}, \hyperpage{155}
+  \item {I2C\_Config\_t}, \hyperpage{217}
+  \item {I2C\_CR1 Bit Position Definitions}, \hyperpage{59}
+    \subitem {I2C\_CR1\_ACK}, \hyperpage{59}
+    \subitem {I2C\_CR1\_ALERT}, \hyperpage{59}
+    \subitem {I2C\_CR1\_ENARP}, \hyperpage{60}
+    \subitem {I2C\_CR1\_ENGC}, \hyperpage{60}
+    \subitem {I2C\_CR1\_ENPEC}, \hyperpage{60}
+    \subitem {I2C\_CR1\_NOSTRETCH}, \hyperpage{60}
+    \subitem {I2C\_CR1\_PE}, \hyperpage{60}
+    \subitem {I2C\_CR1\_PEC}, \hyperpage{60}
+    \subitem {I2C\_CR1\_POS}, \hyperpage{60}
+    \subitem {I2C\_CR1\_SMBTYPE}, \hyperpage{60}
+    \subitem {I2C\_CR1\_SMBUS}, \hyperpage{61}
+    \subitem {I2C\_CR1\_START}, \hyperpage{61}
+    \subitem {I2C\_CR1\_STOP}, \hyperpage{61}
+    \subitem {I2C\_CR1\_SWRST}, \hyperpage{61}
+  \item {I2C\_CR1\_ACK}
+    \subitem {I2C\_CR1 Bit Position Definitions}, \hyperpage{59}
+  \item {I2C\_CR1\_ALERT}
+    \subitem {I2C\_CR1 Bit Position Definitions}, \hyperpage{59}
+  \item {I2C\_CR1\_ENARP}
+    \subitem {I2C\_CR1 Bit Position Definitions}, \hyperpage{60}
+  \item {I2C\_CR1\_ENGC}
+    \subitem {I2C\_CR1 Bit Position Definitions}, \hyperpage{60}
+  \item {I2C\_CR1\_ENPEC}
+    \subitem {I2C\_CR1 Bit Position Definitions}, \hyperpage{60}
+  \item {I2C\_CR1\_NOSTRETCH}
+    \subitem {I2C\_CR1 Bit Position Definitions}, \hyperpage{60}
+  \item {I2C\_CR1\_PE}
+    \subitem {I2C\_CR1 Bit Position Definitions}, \hyperpage{60}
+  \item {I2C\_CR1\_PEC}
+    \subitem {I2C\_CR1 Bit Position Definitions}, \hyperpage{60}
+  \item {I2C\_CR1\_POS}
+    \subitem {I2C\_CR1 Bit Position Definitions}, \hyperpage{60}
+  \item {I2C\_CR1\_SMBTYPE}
+    \subitem {I2C\_CR1 Bit Position Definitions}, \hyperpage{60}
+  \item {I2C\_CR1\_SMBUS}
+    \subitem {I2C\_CR1 Bit Position Definitions}, \hyperpage{61}
+  \item {I2C\_CR1\_START}
+    \subitem {I2C\_CR1 Bit Position Definitions}, \hyperpage{61}
+  \item {I2C\_CR1\_STOP}
+    \subitem {I2C\_CR1 Bit Position Definitions}, \hyperpage{61}
+  \item {I2C\_CR1\_SWRST}
+    \subitem {I2C\_CR1 Bit Position Definitions}, \hyperpage{61}
+  \item {I2C\_CR2 Bit Position Definitions}, \hyperpage{63}
+    \subitem {I2C\_CR2\_DMAEN}, \hyperpage{64}
+    \subitem {I2C\_CR2\_FREQ}, \hyperpage{64}
+    \subitem {I2C\_CR2\_ITBUFEN}, \hyperpage{64}
+    \subitem {I2C\_CR2\_ITERREN}, \hyperpage{64}
+    \subitem {I2C\_CR2\_ITEVTEN}, \hyperpage{64}
+    \subitem {I2C\_CR2\_LAST}, \hyperpage{64}
+  \item {I2C\_CR2\_DMAEN}
+    \subitem {I2C\_CR2 Bit Position Definitions}, \hyperpage{64}
+  \item {I2C\_CR2\_FREQ}
+    \subitem {I2C\_CR2 Bit Position Definitions}, \hyperpage{64}
+  \item {I2C\_CR2\_ITBUFEN}
+    \subitem {I2C\_CR2 Bit Position Definitions}, \hyperpage{64}
+  \item {I2C\_CR2\_ITERREN}
+    \subitem {I2C\_CR2 Bit Position Definitions}, \hyperpage{64}
+  \item {I2C\_CR2\_ITEVTEN}
+    \subitem {I2C\_CR2 Bit Position Definitions}, \hyperpage{64}
+  \item {I2C\_CR2\_LAST}
+    \subitem {I2C\_CR2 Bit Position Definitions}, \hyperpage{64}
+  \item {I2C\_DeInit}
+    \subitem {I2C APIs}, \hyperpage{155}
+  \item {I2C\_DISABLE\_SR}
+    \subitem {I2C Repeated Start Macros}, \hyperpage{150}
+  \item {I2C\_ENABLE\_SR}
+    \subitem {I2C Repeated Start Macros}, \hyperpage{150}
+  \item {I2C\_ER\_IRQHandling}
+    \subitem {I2C APIs}, \hyperpage{156}
+  \item {I2C\_ERROR\_AF}
+    \subitem {I2C Application Event Macros}, \hyperpage{151}
+  \item {I2C\_ERROR\_ARLO}
+    \subitem {I2C Application Event Macros}, \hyperpage{151}
+  \item {I2C\_ERROR\_BERR}
+    \subitem {I2C Application Event Macros}, \hyperpage{151}
+  \item {I2C\_ERROR\_OVR}
+    \subitem {I2C Application Event Macros}, \hyperpage{152}
+  \item {I2C\_ERROR\_TIMEOUT}
+    \subitem {I2C Application Event Macros}, \hyperpage{152}
+  \item {I2C\_EV\_DATA\_RCV}
+    \subitem {I2C Application Event Macros}, \hyperpage{152}
+  \item {I2C\_EV\_DATA\_REQ}
+    \subitem {I2C Application Event Macros}, \hyperpage{152}
+  \item {I2C\_EV\_IRQHandling}
+    \subitem {I2C APIs}, \hyperpage{156}
+  \item {I2C\_EV\_RX\_CMPLT}
+    \subitem {I2C Application Event Macros}, \hyperpage{152}
+  \item {I2C\_EV\_STOP}
+    \subitem {I2C Application Event Macros}, \hyperpage{152}
+  \item {I2C\_EV\_TX\_CMPLT}
+    \subitem {I2C Application Event Macros}, \hyperpage{152}
+  \item {I2C\_FLAG\_ADD10}
+    \subitem {I2C Status Flags}, \hyperpage{148}
+  \item {I2C\_FLAG\_ADDR}
+    \subitem {I2C Status Flags}, \hyperpage{148}
+  \item {I2C\_FLAG\_AF}
+    \subitem {I2C Status Flags}, \hyperpage{148}
+  \item {I2C\_FLAG\_ARLO}
+    \subitem {I2C Status Flags}, \hyperpage{148}
+  \item {I2C\_FLAG\_BERR}
+    \subitem {I2C Status Flags}, \hyperpage{148}
+  \item {I2C\_FLAG\_BTF}
+    \subitem {I2C Status Flags}, \hyperpage{148}
+  \item {I2C\_FLAG\_OVR}
+    \subitem {I2C Status Flags}, \hyperpage{148}
+  \item {I2C\_FLAG\_PECERR}
+    \subitem {I2C Status Flags}, \hyperpage{149}
+  \item {I2C\_FLAG\_RxNE}
+    \subitem {I2C Status Flags}, \hyperpage{149}
+  \item {I2C\_FLAG\_SB}
+    \subitem {I2C Status Flags}, \hyperpage{149}
+  \item {I2C\_FLAG\_SMBALERT}
+    \subitem {I2C Status Flags}, \hyperpage{149}
+  \item {I2C\_FLAG\_STOPF}
+    \subitem {I2C Status Flags}, \hyperpage{149}
+  \item {I2C\_FLAG\_TIMEOUT}
+    \subitem {I2C Status Flags}, \hyperpage{149}
+  \item {I2C\_FLAG\_TxE}
+    \subitem {I2C Status Flags}, \hyperpage{149}
+  \item {I2C\_FLTR Bit Position Definitions}, \hyperpage{71}
+    \subitem {I2C\_FLTR\_ANOFF}, \hyperpage{71}
+    \subitem {I2C\_FLTR\_DNF}, \hyperpage{72}
+  \item {I2C\_FLTR\_ANOFF}
+    \subitem {I2C\_FLTR Bit Position Definitions}, \hyperpage{71}
+  \item {I2C\_FLTR\_DNF}
+    \subitem {I2C\_FLTR Bit Position Definitions}, \hyperpage{72}
+  \item {I2C\_FM\_DUTY\_16\_9}
+    \subitem {I2C Fast Mode Duty Cycle Options}, \hyperpage{147}
+  \item {I2C\_FM\_DUTY\_2}
+    \subitem {I2C Fast Mode Duty Cycle Options}, \hyperpage{147}
+  \item {I2C\_GenerateStopCondition}
+    \subitem {I2C APIs}, \hyperpage{156}
+  \item {I2C\_GetFlagStatus}
+    \subitem {I2C APIs}, \hyperpage{157}
+  \item {I2C\_Handle\_t}, \hyperpage{218}
+  \item {I2C\_Init}
+    \subitem {I2C APIs}, \hyperpage{157}
+  \item {I2C\_IRQInterruptConfig}
+    \subitem {I2C APIs}, \hyperpage{158}
+  \item {I2C\_IRQPriorityConfig}
+    \subitem {I2C APIs}, \hyperpage{158}
+  \item {I2C\_ManageAcking}
+    \subitem {I2C APIs}, \hyperpage{159}
+  \item {I2C\_MasterReceiveData}
+    \subitem {I2C APIs}, \hyperpage{159}
+  \item {I2C\_MasterReceiveDataIT}
+    \subitem {I2C APIs}, \hyperpage{160}
+  \item {I2C\_MasterSendData}
+    \subitem {I2C APIs}, \hyperpage{161}
+  \item {I2C\_MasterSendDataIT}
+    \subitem {I2C APIs}, \hyperpage{161}
+  \item {I2C\_OAR1 Bit Position Definitions}, \hyperpage{61}
+    \subitem {I2C\_OAR1\_ADD}, \hyperpage{62}
+    \subitem {I2C\_OAR1\_ADD0}, \hyperpage{62}
+    \subitem {I2C\_OAR1\_ADDMODE}, \hyperpage{62}
+  \item {I2C\_OAR1\_ADD}
+    \subitem {I2C\_OAR1 Bit Position Definitions}, \hyperpage{62}
+  \item {I2C\_OAR1\_ADD0}
+    \subitem {I2C\_OAR1 Bit Position Definitions}, \hyperpage{62}
+  \item {I2C\_OAR1\_ADDMODE}
+    \subitem {I2C\_OAR1 Bit Position Definitions}, \hyperpage{62}
+  \item {I2C\_OAR2 Bit Position Definitions}, \hyperpage{62}
+    \subitem {I2C\_OAR2\_ADD2}, \hyperpage{63}
+    \subitem {I2C\_OAR2\_ENDUAL}, \hyperpage{63}
+  \item {I2C\_OAR2\_ADD2}
+    \subitem {I2C\_OAR2 Bit Position Definitions}, \hyperpage{63}
+  \item {I2C\_OAR2\_ENDUAL}
+    \subitem {I2C\_OAR2 Bit Position Definitions}, \hyperpage{63}
+  \item {I2C\_PeriClockControl}
+    \subitem {I2C APIs}, \hyperpage{162}
+  \item {I2C\_PeripheralControl}
+    \subitem {I2C APIs}, \hyperpage{163}
+  \item {I2C\_READY}
+    \subitem {I2C Application States}, \hyperpage{144}
+  \item {I2C\_RegDef\_t}, \hyperpage{219}
+    \subitem {CCR}, \hyperpage{219}
+    \subitem {CR1}, \hyperpage{219}
+    \subitem {CR2}, \hyperpage{219}
+    \subitem {DR}, \hyperpage{219}
+    \subitem {FLTR}, \hyperpage{220}
+    \subitem {OAR1}, \hyperpage{220}
+    \subitem {OAR2}, \hyperpage{220}
+    \subitem {SR1}, \hyperpage{220}
+    \subitem {SR2}, \hyperpage{220}
+    \subitem {TRISE}, \hyperpage{220}
+  \item {I2C\_SC\_SPEED\_FM2K}
+    \subitem {I2C Serial Clock Speed Options}, \hyperpage{145}
+  \item {I2C\_SC\_SPEED\_FM4K}
+    \subitem {I2C Serial Clock Speed Options}, \hyperpage{145}
+  \item {I2C\_SC\_SPEED\_SM}
+    \subitem {I2C Serial Clock Speed Options}, \hyperpage{145}
+  \item {I2C\_SlaveEnableDisableCallbackEvents}
+    \subitem {I2C APIs}, \hyperpage{163}
+  \item {I2C\_SlaveReceiveData}
+    \subitem {I2C APIs}, \hyperpage{163}
+  \item {I2C\_SlaveSendData}
+    \subitem {I2C APIs}, \hyperpage{164}
+  \item {I2C\_SR1 Bit Position Definitions}, \hyperpage{65}
+    \subitem {I2C\_SR1\_ADD10}, \hyperpage{65}
+    \subitem {I2C\_SR1\_ADDR}, \hyperpage{65}
+    \subitem {I2C\_SR1\_AF}, \hyperpage{66}
+    \subitem {I2C\_SR1\_ARLO}, \hyperpage{66}
+    \subitem {I2C\_SR1\_BERR}, \hyperpage{66}
+    \subitem {I2C\_SR1\_BTF}, \hyperpage{66}
+    \subitem {I2C\_SR1\_OVR}, \hyperpage{66}
+    \subitem {I2C\_SR1\_PECERR}, \hyperpage{66}
+    \subitem {I2C\_SR1\_RxNE}, \hyperpage{66}
+    \subitem {I2C\_SR1\_SB}, \hyperpage{66}
+    \subitem {I2C\_SR1\_SMBALERT}, \hyperpage{67}
+    \subitem {I2C\_SR1\_STOPF}, \hyperpage{67}
+    \subitem {I2C\_SR1\_TIMEOUT}, \hyperpage{67}
+    \subitem {I2C\_SR1\_TxE}, \hyperpage{67}
+  \item {I2C\_SR1\_ADD10}
+    \subitem {I2C\_SR1 Bit Position Definitions}, \hyperpage{65}
+  \item {I2C\_SR1\_ADDR}
+    \subitem {I2C\_SR1 Bit Position Definitions}, \hyperpage{65}
+  \item {I2C\_SR1\_AF}
+    \subitem {I2C\_SR1 Bit Position Definitions}, \hyperpage{66}
+  \item {I2C\_SR1\_ARLO}
+    \subitem {I2C\_SR1 Bit Position Definitions}, \hyperpage{66}
+  \item {I2C\_SR1\_BERR}
+    \subitem {I2C\_SR1 Bit Position Definitions}, \hyperpage{66}
+  \item {I2C\_SR1\_BTF}
+    \subitem {I2C\_SR1 Bit Position Definitions}, \hyperpage{66}
+  \item {I2C\_SR1\_OVR}
+    \subitem {I2C\_SR1 Bit Position Definitions}, \hyperpage{66}
+  \item {I2C\_SR1\_PECERR}
+    \subitem {I2C\_SR1 Bit Position Definitions}, \hyperpage{66}
+  \item {I2C\_SR1\_RxNE}
+    \subitem {I2C\_SR1 Bit Position Definitions}, \hyperpage{66}
+  \item {I2C\_SR1\_SB}
+    \subitem {I2C\_SR1 Bit Position Definitions}, \hyperpage{66}
+  \item {I2C\_SR1\_SMBALERT}
+    \subitem {I2C\_SR1 Bit Position Definitions}, \hyperpage{67}
+  \item {I2C\_SR1\_STOPF}
+    \subitem {I2C\_SR1 Bit Position Definitions}, \hyperpage{67}
+  \item {I2C\_SR1\_TIMEOUT}
+    \subitem {I2C\_SR1 Bit Position Definitions}, \hyperpage{67}
+  \item {I2C\_SR1\_TxE}
+    \subitem {I2C\_SR1 Bit Position Definitions}, \hyperpage{67}
+  \item {I2C\_SR2 Bit Position Definitions}, \hyperpage{67}
+    \subitem {I2C\_SR2\_BUSY}, \hyperpage{68}
+    \subitem {I2C\_SR2\_DUALF}, \hyperpage{68}
+    \subitem {I2C\_SR2\_GENCALL}, \hyperpage{68}
+    \subitem {I2C\_SR2\_MSL}, \hyperpage{68}
+    \subitem {I2C\_SR2\_PEC}, \hyperpage{68}
+    \subitem {I2C\_SR2\_SMBDEFAULT}, \hyperpage{69}
+    \subitem {I2C\_SR2\_SMBHOST}, \hyperpage{69}
+    \subitem {I2C\_SR2\_TRA}, \hyperpage{69}
+  \item {I2C\_SR2\_BUSY}
+    \subitem {I2C\_SR2 Bit Position Definitions}, \hyperpage{68}
+  \item {I2C\_SR2\_DUALF}
+    \subitem {I2C\_SR2 Bit Position Definitions}, \hyperpage{68}
+  \item {I2C\_SR2\_GENCALL}
+    \subitem {I2C\_SR2 Bit Position Definitions}, \hyperpage{68}
+  \item {I2C\_SR2\_MSL}
+    \subitem {I2C\_SR2 Bit Position Definitions}, \hyperpage{68}
+  \item {I2C\_SR2\_PEC}
+    \subitem {I2C\_SR2 Bit Position Definitions}, \hyperpage{68}
+  \item {I2C\_SR2\_SMBDEFAULT}
+    \subitem {I2C\_SR2 Bit Position Definitions}, \hyperpage{69}
+  \item {I2C\_SR2\_SMBHOST}
+    \subitem {I2C\_SR2 Bit Position Definitions}, \hyperpage{69}
+  \item {I2C\_SR2\_TRA}
+    \subitem {I2C\_SR2 Bit Position Definitions}, \hyperpage{69}
+  \item {I2C\_TRISE Bit Position Definitions}, \hyperpage{70}
+    \subitem {I2C\_TRISE\_TRISE}, \hyperpage{71}
+  \item {I2C\_TRISE\_TRISE}
+    \subitem {I2C\_TRISE Bit Position Definitions}, \hyperpage{71}
+  \item {IDR}
+    \subitem {GPIO\_RegDef\_t}, \hyperpage{216}
+  \item {IMR}
+    \subitem {EXTI\_RegDef\_t}, \hyperpage{214}
+  \item {IRQ Numbers Macros}, \hyperpage{48}
+
+  \indexspace
+
+  \item {Keypad}
+    \subitem {keypad.c}, \hyperpage{239}
+  \item {KEYPAD Driver}, \hyperpage{15}
+    \subitem {Keypad\_ScanAndPrint}, \hyperpage{15}
+  \item {keypad.c}
+    \subitem {Keypad}, \hyperpage{239}
+  \item {Keypad\_ScanAndPrint}
+    \subitem {KEYPAD Driver}, \hyperpage{15}
+
+  \indexspace
+
+  \item {LCD APIs}, \hyperpage{19}
+    \subitem {lcd\_display\_clear}, \hyperpage{19}
+    \subitem {lcd\_display\_return\_home}, \hyperpage{19}
+    \subitem {lcd\_init}, \hyperpage{20}
+    \subitem {lcd\_print\_char}, \hyperpage{20}
+    \subitem {lcd\_print\_string}, \hyperpage{20}
+    \subitem {lcd\_send\_command}, \hyperpage{21}
+    \subitem {lcd\_set\_cursor}, \hyperpage{21}
+  \item {LCD Commands}, \hyperpage{18}
+  \item {LCD Driver}, \hyperpage{16}
+  \item {LCD Macros}, \hyperpage{17}
+  \item {lcd\_display\_clear}
+    \subitem {LCD APIs}, \hyperpage{19}
+  \item {lcd\_display\_return\_home}
+    \subitem {LCD APIs}, \hyperpage{19}
+  \item {lcd\_init}
+    \subitem {LCD APIs}, \hyperpage{20}
+  \item {lcd\_print\_char}
+    \subitem {LCD APIs}, \hyperpage{20}
+  \item {lcd\_print\_string}
+    \subitem {LCD APIs}, \hyperpage{20}
+  \item {lcd\_send\_command}
+    \subitem {LCD APIs}, \hyperpage{21}
+  \item {lcd\_set\_cursor}
+    \subitem {LCD APIs}, \hyperpage{21}
+  \item {LCKR}
+    \subitem {GPIO\_RegDef\_t}, \hyperpage{216}
+  \item {LED Control Macros}, \hyperpage{189}
+    \subitem {LED\_OFF}, \hyperpage{190}
+    \subitem {LED\_ON}, \hyperpage{190}
+    \subitem {LED\_PIN}, \hyperpage{190}
+  \item {LED\_OFF}
+    \subitem {008spi\_cmd\_handling.c}, \hyperpage{284}
+    \subitem {LED Control Macros}, \hyperpage{190}
+  \item {LED\_ON}
+    \subitem {008spi\_cmd\_handling.c}, \hyperpage{284}
+    \subitem {LED Control Macros}, \hyperpage{190}
+  \item {LED\_PIN}
+    \subitem {008spi\_cmd\_handling.c}, \hyperpage{285}
+    \subitem {LED Control Macros}, \hyperpage{190}
+
+  \indexspace
+
+  \item {main}
+    \subitem {001led\_Toggle.c}, \hyperpage{277}
+  \item {Memory Base Addresses}, \hyperpage{26}
+    \subitem {FLASH\_BASEADDR}, \hyperpage{27}
+    \subitem {ROM\_BASEADDR}, \hyperpage{27}
+    \subitem {SRAM1\_BASEADDR}, \hyperpage{27}
+    \subitem {SRAM2\_BASEADDR}, \hyperpage{27}
+  \item {MEMRMP}
+    \subitem {SYSCFG\_RegDef\_t}, \hyperpage{230}
+  \item {minutes}
+    \subitem {RTC\_time\_t}, \hyperpage{227}
+  \item {MODER}
+    \subitem {GPIO\_RegDef\_t}, \hyperpage{216}
+  \item {month}
+    \subitem {RTC\_date\_t}, \hyperpage{226}
+
+  \indexspace
+
+  \item {NVIC ICERx Registers}, \hyperpage{25}
+  \item {NVIC ISERx Registers}, \hyperpage{24}
+  \item {NVIC Priority Levels Macros}, \hyperpage{50}
+  \item {NVIC Priority Registers Base Address}, \hyperpage{25}
+
+  \indexspace
+
+  \item {OAR1}
+    \subitem {I2C\_RegDef\_t}, \hyperpage{220}
+  \item {OAR2}
+    \subitem {I2C\_RegDef\_t}, \hyperpage{220}
+  \item {ODR}
+    \subitem {GPIO\_RegDef\_t}, \hyperpage{217}
+  \item {OSPEEDR}
+    \subitem {GPIO\_RegDef\_t}, \hyperpage{217}
+  \item {OTYPER}
+    \subitem {GPIO\_RegDef\_t}, \hyperpage{217}
+
+  \indexspace
+
+  \item {PERIPH\_BASEADDR}
+    \subitem {Peripheral Base Addresses}, \hyperpage{29}
+  \item {Peripheral Base Addresses}, \hyperpage{28}
+    \subitem {AHB1PERIPH\_BASEADDR}, \hyperpage{29}
+    \subitem {AHB2PERIPH\_BASEADDR}, \hyperpage{29}
+    \subitem {APB1PERIPH\_BASEADDR}, \hyperpage{29}
+    \subitem {APB2PERIPH\_BASEADDR}, \hyperpage{29}
+    \subitem {PERIPH\_BASEADDR}, \hyperpage{29}
+  \item {Peripheral Base Addresses on APB1 Bus}, \hyperpage{30}
+    \subitem {CRC\_BASEADDR}, \hyperpage{30}
+    \subitem {DMA1\_BASEADDR}, \hyperpage{31}
+    \subitem {DMA2\_BASEADDR}, \hyperpage{31}
+    \subitem {FIR\_BASEADDR}, \hyperpage{31}
+    \subitem {GPIOA\_BASEADDR}, \hyperpage{31}
+    \subitem {GPIOB\_BASEADDR}, \hyperpage{31}
+    \subitem {GPIOC\_BASEADDR}, \hyperpage{31}
+    \subitem {GPIOD\_BASEADDR}, \hyperpage{31}
+    \subitem {GPIOE\_BASEADDR}, \hyperpage{31}
+    \subitem {GPIOF\_BASEADDR}, \hyperpage{32}
+    \subitem {GPIOG\_BASEADDR}, \hyperpage{32}
+    \subitem {GPIOH\_BASEADDR}, \hyperpage{32}
+    \subitem {GPIOI\_BASEADDR}, \hyperpage{32}
+    \subitem {I2C1\_BASEADDR}, \hyperpage{32}
+    \subitem {I2C2\_BASEADDR}, \hyperpage{32}
+    \subitem {I2C3\_BASEADDR}, \hyperpage{32}
+    \subitem {RCC\_BASEADDR}, \hyperpage{32}
+    \subitem {SPI2\_BASEADDR}, \hyperpage{33}
+    \subitem {SPI3\_BASEADDR}, \hyperpage{33}
+    \subitem {UART4\_BASEADDR}, \hyperpage{33}
+    \subitem {UART5\_BASEADDR}, \hyperpage{33}
+    \subitem {USART2\_BASEADDR}, \hyperpage{33}
+    \subitem {USART3\_BASEADDR}, \hyperpage{33}
+  \item {Peripheral Base Addresses on APB2 Bus}, \hyperpage{34}
+    \subitem {EXTI\_BASEADDR}, \hyperpage{34}
+    \subitem {SPI1\_BASEADDR}, \hyperpage{34}
+    \subitem {SPI4\_BASEADDR}, \hyperpage{34}
+    \subitem {SYSCFG\_BASEADDR}, \hyperpage{35}
+    \subitem {USART1\_BASEADDR}, \hyperpage{35}
+    \subitem {USART6\_BASEADDR}, \hyperpage{35}
+  \item {Peripheral Definitions}, \hyperpage{36}
+  \item {Peripheral Register Definitions}, \hyperpage{35}
+  \item {pGPIOx}
+    \subitem {GPIO Driver}, \hyperpage{128}
+  \item {PLLCFGR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{224}
+  \item {PLLI2SCFGR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{224}
+  \item {PLLSAICFGR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{225}
+  \item {PMC}
+    \subitem {SYSCFG\_RegDef\_t}, \hyperpage{230}
+  \item {PR}
+    \subitem {EXTI\_RegDef\_t}, \hyperpage{214}
+  \item {Priority Bits Implemented}, \hyperpage{26}
+  \item {pRxBuffer}
+    \subitem {SPI Driver}, \hyperpage{166}
+    \subitem {USART\_Handle\_t}, \hyperpage{233}
+  \item {pSPIx}
+    \subitem {SPI Driver}, \hyperpage{166}
+  \item {pTxBuffer}
+    \subitem {SPI Driver}, \hyperpage{166}
+    \subitem {USART\_Handle\_t}, \hyperpage{233}
+  \item {PUPDR}
+    \subitem {GPIO\_RegDef\_t}, \hyperpage{217}
+  \item {pUSARTx}
+    \subitem {USART\_Handle\_t}, \hyperpage{233}
+
+  \indexspace
+
+  \item {RCC Bit Position Definitions}, \hyperpage{85}
+  \item {RCC\_AHB1LPENR Bit Position Definitions}, \hyperpage{108}
+    \subitem {RCC\_AHB1LPENR\_CRCEN}, \hyperpage{108}
+    \subitem {RCC\_AHB1LPENR\_DMA1LPEN}, \hyperpage{109}
+    \subitem {RCC\_AHB1LPENR\_DMA2LPEN}, \hyperpage{109}
+    \subitem {RCC\_AHB1LPENR\_ETHMACLPEN}, \hyperpage{109}
+    \subitem {RCC\_AHB1LPENR\_ETHMACPTPLPEN}, \hyperpage{109}
+    \subitem {RCC\_AHB1LPENR\_ETHMACRXLPEN}, \hyperpage{109}
+    \subitem {RCC\_AHB1LPENR\_ETHMACTXLPEN}, \hyperpage{109}
+    \subitem {RCC\_AHB1LPENR\_GPIOALPEN}, \hyperpage{109}
+    \subitem {RCC\_AHB1LPENR\_GPIOBLPEN}, \hyperpage{109}
+    \subitem {RCC\_AHB1LPENR\_GPIOCLPEN}, \hyperpage{110}
+    \subitem {RCC\_AHB1LPENR\_GPIODLPEN}, \hyperpage{110}
+    \subitem {RCC\_AHB1LPENR\_GPIOELPEN}, \hyperpage{110}
+    \subitem {RCC\_AHB1LPENR\_GPIOFLPEN}, \hyperpage{110}
+    \subitem {RCC\_AHB1LPENR\_GPIOGLPEN}, \hyperpage{110}
+    \subitem {RCC\_AHB1LPENR\_GPIOHLPEN}, \hyperpage{110}
+    \subitem {RCC\_AHB1LPENR\_GPIOILPEN}, \hyperpage{110}
+    \subitem {RCC\_AHB1LPENR\_OTGHSHULPI}, \hyperpage{110}
+    \subitem {RCC\_AHB1LPENR\_OTGHSLPEN}, \hyperpage{111}
+  \item {RCC\_AHB1LPENR\_CRCEN}
+    \subitem {RCC\_AHB1LPENR Bit Position Definitions}, \hyperpage{108}
+  \item {RCC\_AHB1LPENR\_DMA1LPEN}
+    \subitem {RCC\_AHB1LPENR Bit Position Definitions}, \hyperpage{109}
+  \item {RCC\_AHB1LPENR\_DMA2LPEN}
+    \subitem {RCC\_AHB1LPENR Bit Position Definitions}, \hyperpage{109}
+  \item {RCC\_AHB1LPENR\_ETHMACLPEN}
+    \subitem {RCC\_AHB1LPENR Bit Position Definitions}, \hyperpage{109}
+  \item {RCC\_AHB1LPENR\_ETHMACPTPLPEN}
+    \subitem {RCC\_AHB1LPENR Bit Position Definitions}, \hyperpage{109}
+  \item {RCC\_AHB1LPENR\_ETHMACRXLPEN}
+    \subitem {RCC\_AHB1LPENR Bit Position Definitions}, \hyperpage{109}
+  \item {RCC\_AHB1LPENR\_ETHMACTXLPEN}
+    \subitem {RCC\_AHB1LPENR Bit Position Definitions}, \hyperpage{109}
+  \item {RCC\_AHB1LPENR\_GPIOALPEN}
+    \subitem {RCC\_AHB1LPENR Bit Position Definitions}, \hyperpage{109}
+  \item {RCC\_AHB1LPENR\_GPIOBLPEN}
+    \subitem {RCC\_AHB1LPENR Bit Position Definitions}, \hyperpage{109}
+  \item {RCC\_AHB1LPENR\_GPIOCLPEN}
+    \subitem {RCC\_AHB1LPENR Bit Position Definitions}, \hyperpage{110}
+  \item {RCC\_AHB1LPENR\_GPIODLPEN}
+    \subitem {RCC\_AHB1LPENR Bit Position Definitions}, \hyperpage{110}
+  \item {RCC\_AHB1LPENR\_GPIOELPEN}
+    \subitem {RCC\_AHB1LPENR Bit Position Definitions}, \hyperpage{110}
+  \item {RCC\_AHB1LPENR\_GPIOFLPEN}
+    \subitem {RCC\_AHB1LPENR Bit Position Definitions}, \hyperpage{110}
+  \item {RCC\_AHB1LPENR\_GPIOGLPEN}
+    \subitem {RCC\_AHB1LPENR Bit Position Definitions}, \hyperpage{110}
+  \item {RCC\_AHB1LPENR\_GPIOHLPEN}
+    \subitem {RCC\_AHB1LPENR Bit Position Definitions}, \hyperpage{110}
+  \item {RCC\_AHB1LPENR\_GPIOILPEN}
+    \subitem {RCC\_AHB1LPENR Bit Position Definitions}, \hyperpage{110}
+  \item {RCC\_AHB1LPENR\_OTGHSHULPI}
+    \subitem {RCC\_AHB1LPENR Bit Position Definitions}, \hyperpage{110}
+  \item {RCC\_AHB1LPENR\_OTGHSLPEN}
+    \subitem {RCC\_AHB1LPENR Bit Position Definitions}, \hyperpage{111}
+  \item {RCC\_AHB1RSTR Bit Position Definitions}, \hyperpage{96}
+    \subitem {RCC\_AHB1RSTR\_CRC}, \hyperpage{97}
+    \subitem {RCC\_AHB1RSTR\_DMA1}, \hyperpage{97}
+    \subitem {RCC\_AHB1RSTR\_DMA2}, \hyperpage{97}
+    \subitem {RCC\_AHB1RSTR\_ETHMAC}, \hyperpage{97}
+    \subitem {RCC\_AHB1RSTR\_GPIOA}, \hyperpage{98}
+    \subitem {RCC\_AHB1RSTR\_GPIOB}, \hyperpage{98}
+    \subitem {RCC\_AHB1RSTR\_GPIOC}, \hyperpage{98}
+    \subitem {RCC\_AHB1RSTR\_GPIOD}, \hyperpage{98}
+    \subitem {RCC\_AHB1RSTR\_GPIOE}, \hyperpage{98}
+    \subitem {RCC\_AHB1RSTR\_GPIOF}, \hyperpage{98}
+    \subitem {RCC\_AHB1RSTR\_GPIOG}, \hyperpage{98}
+    \subitem {RCC\_AHB1RSTR\_GPIOH}, \hyperpage{98}
+    \subitem {RCC\_AHB1RSTR\_GPIOI}, \hyperpage{99}
+    \subitem {RCC\_AHB1RSTR\_OTGHS}, \hyperpage{99}
+    \subitem {RCC\_AHB1RSTR\_OTGHSULPI}, \hyperpage{99}
+  \item {RCC\_AHB1RSTR\_CRC}
+    \subitem {RCC\_AHB1RSTR Bit Position Definitions}, \hyperpage{97}
+  \item {RCC\_AHB1RSTR\_DMA1}
+    \subitem {RCC\_AHB1RSTR Bit Position Definitions}, \hyperpage{97}
+  \item {RCC\_AHB1RSTR\_DMA2}
+    \subitem {RCC\_AHB1RSTR Bit Position Definitions}, \hyperpage{97}
+  \item {RCC\_AHB1RSTR\_ETHMAC}
+    \subitem {RCC\_AHB1RSTR Bit Position Definitions}, \hyperpage{97}
+  \item {RCC\_AHB1RSTR\_GPIOA}
+    \subitem {RCC\_AHB1RSTR Bit Position Definitions}, \hyperpage{98}
+  \item {RCC\_AHB1RSTR\_GPIOB}
+    \subitem {RCC\_AHB1RSTR Bit Position Definitions}, \hyperpage{98}
+  \item {RCC\_AHB1RSTR\_GPIOC}
+    \subitem {RCC\_AHB1RSTR Bit Position Definitions}, \hyperpage{98}
+  \item {RCC\_AHB1RSTR\_GPIOD}
+    \subitem {RCC\_AHB1RSTR Bit Position Definitions}, \hyperpage{98}
+  \item {RCC\_AHB1RSTR\_GPIOE}
+    \subitem {RCC\_AHB1RSTR Bit Position Definitions}, \hyperpage{98}
+  \item {RCC\_AHB1RSTR\_GPIOF}
+    \subitem {RCC\_AHB1RSTR Bit Position Definitions}, \hyperpage{98}
+  \item {RCC\_AHB1RSTR\_GPIOG}
+    \subitem {RCC\_AHB1RSTR Bit Position Definitions}, \hyperpage{98}
+  \item {RCC\_AHB1RSTR\_GPIOH}
+    \subitem {RCC\_AHB1RSTR Bit Position Definitions}, \hyperpage{98}
+  \item {RCC\_AHB1RSTR\_GPIOI}
+    \subitem {RCC\_AHB1RSTR Bit Position Definitions}, \hyperpage{99}
+  \item {RCC\_AHB1RSTR\_OTGHS}
+    \subitem {RCC\_AHB1RSTR Bit Position Definitions}, \hyperpage{99}
+  \item {RCC\_AHB1RSTR\_OTGHSULPI}
+    \subitem {RCC\_AHB1RSTR Bit Position Definitions}, \hyperpage{99}
+  \item {RCC\_AHB2LPENR Bit Position Definitions}, \hyperpage{111}
+    \subitem {RCC\_AHB2LPENR\_CRYPLPEN}, \hyperpage{111}
+    \subitem {RCC\_AHB2LPENR\_DCMILPEN}, \hyperpage{111}
+    \subitem {RCC\_AHB2LPENR\_HASHLPEN}, \hyperpage{112}
+    \subitem {RCC\_AHB2LPENR\_OTGFSLPEN}, \hyperpage{112}
+    \subitem {RCC\_AHB2LPENR\_RNGLPEN}, \hyperpage{112}
+  \item {RCC\_AHB2LPENR\_CRYPLPEN}
+    \subitem {RCC\_AHB2LPENR Bit Position Definitions}, \hyperpage{111}
+  \item {RCC\_AHB2LPENR\_DCMILPEN}
+    \subitem {RCC\_AHB2LPENR Bit Position Definitions}, \hyperpage{111}
+  \item {RCC\_AHB2LPENR\_HASHLPEN}
+    \subitem {RCC\_AHB2LPENR Bit Position Definitions}, \hyperpage{112}
+  \item {RCC\_AHB2LPENR\_OTGFSLPEN}
+    \subitem {RCC\_AHB2LPENR Bit Position Definitions}, \hyperpage{112}
+  \item {RCC\_AHB2LPENR\_RNGLPEN}
+    \subitem {RCC\_AHB2LPENR Bit Position Definitions}, \hyperpage{112}
+  \item {RCC\_AHB2RSTR Bit Position Definitions}, \hyperpage{99}
+    \subitem {RCC\_AHB2RSTR\_CRYP}, \hyperpage{100}
+    \subitem {RCC\_AHB2RSTR\_DCMI}, \hyperpage{100}
+    \subitem {RCC\_AHB2RSTR\_HASH}, \hyperpage{100}
+    \subitem {RCC\_AHB2RSTR\_OTGFS}, \hyperpage{100}
+    \subitem {RCC\_AHB2RSTR\_RNG}, \hyperpage{100}
+  \item {RCC\_AHB2RSTR\_CRYP}
+    \subitem {RCC\_AHB2RSTR Bit Position Definitions}, \hyperpage{100}
+  \item {RCC\_AHB2RSTR\_DCMI}
+    \subitem {RCC\_AHB2RSTR Bit Position Definitions}, \hyperpage{100}
+  \item {RCC\_AHB2RSTR\_HASH}
+    \subitem {RCC\_AHB2RSTR Bit Position Definitions}, \hyperpage{100}
+  \item {RCC\_AHB2RSTR\_OTGFS}
+    \subitem {RCC\_AHB2RSTR Bit Position Definitions}, \hyperpage{100}
+  \item {RCC\_AHB2RSTR\_RNG}
+    \subitem {RCC\_AHB2RSTR Bit Position Definitions}, \hyperpage{100}
+  \item {RCC\_AHB3LPENR Bit Position Definitions}, \hyperpage{112}
+    \subitem {RCC\_AHB3LPENR\_FSMCLPEN}, \hyperpage{113}
+  \item {RCC\_AHB3LPENR\_FSMCLPEN}
+    \subitem {RCC\_AHB3LPENR Bit Position Definitions}, \hyperpage{113}
+  \item {RCC\_AHB3RSTR Bit Position Definitions}, \hyperpage{101}
+    \subitem {RCC\_AHB3RSTR\_FSMC}, \hyperpage{101}
+  \item {RCC\_AHB3RSTR\_FSMC}
+    \subitem {RCC\_AHB3RSTR Bit Position Definitions}, \hyperpage{101}
+  \item {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{113}
+    \subitem {RCC\_APB1LPENR\_CAN1LPEN}, \hyperpage{114}
+    \subitem {RCC\_APB1LPENR\_CAN2LPEN}, \hyperpage{114}
+    \subitem {RCC\_APB1LPENR\_DACLPEN}, \hyperpage{114}
+    \subitem {RCC\_APB1LPENR\_I2C1LPEN}, \hyperpage{114}
+    \subitem {RCC\_APB1LPENR\_I2C2LPEN}, \hyperpage{114}
+    \subitem {RCC\_APB1LPENR\_I2C3LPEN}, \hyperpage{114}
+    \subitem {RCC\_APB1LPENR\_PWRLPEN}, \hyperpage{114}
+    \subitem {RCC\_APB1LPENR\_SPI2LPEN}, \hyperpage{115}
+    \subitem {RCC\_APB1LPENR\_SPI3LPEN}, \hyperpage{115}
+    \subitem {RCC\_APB1LPENR\_TIM12LPEN}, \hyperpage{115}
+    \subitem {RCC\_APB1LPENR\_TIM13LPEN}, \hyperpage{115}
+    \subitem {RCC\_APB1LPENR\_TIM14LPEN}, \hyperpage{115}
+    \subitem {RCC\_APB1LPENR\_TIM2LPEN}, \hyperpage{115}
+    \subitem {RCC\_APB1LPENR\_TIM3LPEN}, \hyperpage{115}
+    \subitem {RCC\_APB1LPENR\_TIM4LPEN}, \hyperpage{115}
+    \subitem {RCC\_APB1LPENR\_TIM5LPEN}, \hyperpage{116}
+    \subitem {RCC\_APB1LPENR\_TIM6LPEN}, \hyperpage{116}
+    \subitem {RCC\_APB1LPENR\_TIM7LPEN}, \hyperpage{116}
+    \subitem {RCC\_APB1LPENR\_UART4LPEN}, \hyperpage{116}
+    \subitem {RCC\_APB1LPENR\_UART5LPEN}, \hyperpage{116}
+    \subitem {RCC\_APB1LPENR\_UART7LPEN}, \hyperpage{116}
+    \subitem {RCC\_APB1LPENR\_UART8LPEN}, \hyperpage{116}
+    \subitem {RCC\_APB1LPENR\_USART2LPEN}, \hyperpage{116}
+    \subitem {RCC\_APB1LPENR\_USART3LPEN}, \hyperpage{117}
+    \subitem {RCC\_APB1LPENR\_WWDGLPEN}, \hyperpage{117}
+  \item {RCC\_APB1LPENR\_CAN1LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{114}
+  \item {RCC\_APB1LPENR\_CAN2LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{114}
+  \item {RCC\_APB1LPENR\_DACLPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{114}
+  \item {RCC\_APB1LPENR\_I2C1LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{114}
+  \item {RCC\_APB1LPENR\_I2C2LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{114}
+  \item {RCC\_APB1LPENR\_I2C3LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{114}
+  \item {RCC\_APB1LPENR\_PWRLPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{114}
+  \item {RCC\_APB1LPENR\_SPI2LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{115}
+  \item {RCC\_APB1LPENR\_SPI3LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{115}
+  \item {RCC\_APB1LPENR\_TIM12LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{115}
+  \item {RCC\_APB1LPENR\_TIM13LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{115}
+  \item {RCC\_APB1LPENR\_TIM14LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{115}
+  \item {RCC\_APB1LPENR\_TIM2LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{115}
+  \item {RCC\_APB1LPENR\_TIM3LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{115}
+  \item {RCC\_APB1LPENR\_TIM4LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{115}
+  \item {RCC\_APB1LPENR\_TIM5LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{116}
+  \item {RCC\_APB1LPENR\_TIM6LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{116}
+  \item {RCC\_APB1LPENR\_TIM7LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{116}
+  \item {RCC\_APB1LPENR\_UART4LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{116}
+  \item {RCC\_APB1LPENR\_UART5LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{116}
+  \item {RCC\_APB1LPENR\_UART7LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{116}
+  \item {RCC\_APB1LPENR\_UART8LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{116}
+  \item {RCC\_APB1LPENR\_USART2LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{116}
+  \item {RCC\_APB1LPENR\_USART3LPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{117}
+  \item {RCC\_APB1LPENR\_WWDGLPEN}
+    \subitem {RCC\_APB1LPENR Bit Position Definitions}, \hyperpage{117}
+  \item {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{101}
+    \subitem {RCC\_APB1RSTR\_CAN1}, \hyperpage{102}
+    \subitem {RCC\_APB1RSTR\_CAN2}, \hyperpage{102}
+    \subitem {RCC\_APB1RSTR\_DAC}, \hyperpage{102}
+    \subitem {RCC\_APB1RSTR\_I2C1}, \hyperpage{103}
+    \subitem {RCC\_APB1RSTR\_I2C2}, \hyperpage{103}
+    \subitem {RCC\_APB1RSTR\_I2C3}, \hyperpage{103}
+    \subitem {RCC\_APB1RSTR\_PWR}, \hyperpage{103}
+    \subitem {RCC\_APB1RSTR\_SPI2}, \hyperpage{103}
+    \subitem {RCC\_APB1RSTR\_SPI3}, \hyperpage{103}
+    \subitem {RCC\_APB1RSTR\_TIM12}, \hyperpage{103}
+    \subitem {RCC\_APB1RSTR\_TIM13}, \hyperpage{103}
+    \subitem {RCC\_APB1RSTR\_TIM14}, \hyperpage{104}
+    \subitem {RCC\_APB1RSTR\_TIM2}, \hyperpage{104}
+    \subitem {RCC\_APB1RSTR\_TIM3}, \hyperpage{104}
+    \subitem {RCC\_APB1RSTR\_TIM4}, \hyperpage{104}
+    \subitem {RCC\_APB1RSTR\_TIM5}, \hyperpage{104}
+    \subitem {RCC\_APB1RSTR\_TIM6}, \hyperpage{104}
+    \subitem {RCC\_APB1RSTR\_TIM7}, \hyperpage{104}
+    \subitem {RCC\_APB1RSTR\_UART4}, \hyperpage{104}
+    \subitem {RCC\_APB1RSTR\_UART5}, \hyperpage{105}
+    \subitem {RCC\_APB1RSTR\_UART7}, \hyperpage{105}
+    \subitem {RCC\_APB1RSTR\_UART8}, \hyperpage{105}
+    \subitem {RCC\_APB1RSTR\_USART2}, \hyperpage{105}
+    \subitem {RCC\_APB1RSTR\_USART3}, \hyperpage{105}
+    \subitem {RCC\_APB1RSTR\_WWDG}, \hyperpage{105}
+  \item {RCC\_APB1RSTR\_CAN1}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{102}
+  \item {RCC\_APB1RSTR\_CAN2}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{102}
+  \item {RCC\_APB1RSTR\_DAC}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{102}
+  \item {RCC\_APB1RSTR\_I2C1}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{103}
+  \item {RCC\_APB1RSTR\_I2C2}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{103}
+  \item {RCC\_APB1RSTR\_I2C3}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{103}
+  \item {RCC\_APB1RSTR\_PWR}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{103}
+  \item {RCC\_APB1RSTR\_SPI2}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{103}
+  \item {RCC\_APB1RSTR\_SPI3}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{103}
+  \item {RCC\_APB1RSTR\_TIM12}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{103}
+  \item {RCC\_APB1RSTR\_TIM13}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{103}
+  \item {RCC\_APB1RSTR\_TIM14}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{104}
+  \item {RCC\_APB1RSTR\_TIM2}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{104}
+  \item {RCC\_APB1RSTR\_TIM3}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{104}
+  \item {RCC\_APB1RSTR\_TIM4}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{104}
+  \item {RCC\_APB1RSTR\_TIM5}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{104}
+  \item {RCC\_APB1RSTR\_TIM6}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{104}
+  \item {RCC\_APB1RSTR\_TIM7}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{104}
+  \item {RCC\_APB1RSTR\_UART4}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{104}
+  \item {RCC\_APB1RSTR\_UART5}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{105}
+  \item {RCC\_APB1RSTR\_UART7}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{105}
+  \item {RCC\_APB1RSTR\_UART8}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{105}
+  \item {RCC\_APB1RSTR\_USART2}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{105}
+  \item {RCC\_APB1RSTR\_USART3}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{105}
+  \item {RCC\_APB1RSTR\_WWDG}
+    \subitem {RCC\_APB1RSTR Bit Position Definitions}, \hyperpage{105}
+  \item {RCC\_APB2LPENR Bit Position Definitions}, \hyperpage{117}
+    \subitem {RCC\_APB2LPENR\_ADCLPEN}, \hyperpage{118}
+    \subitem {RCC\_APB2LPENR\_SDIOLPEN}, \hyperpage{118}
+    \subitem {RCC\_APB2LPENR\_SPI1LPEN}, \hyperpage{118}
+    \subitem {RCC\_APB2LPENR\_SYSCFGLPEN}, \hyperpage{118}
+    \subitem {RCC\_APB2LPENR\_TIM10LPEN}, \hyperpage{118}
+    \subitem {RCC\_APB2LPENR\_TIM11LPEN}, \hyperpage{118}
+    \subitem {RCC\_APB2LPENR\_TIM1LPEN}, \hyperpage{118}
+    \subitem {RCC\_APB2LPENR\_TIM8LPEN}, \hyperpage{119}
+    \subitem {RCC\_APB2LPENR\_TIM9LPEN}, \hyperpage{119}
+    \subitem {RCC\_APB2LPENR\_USART1LPEN}, \hyperpage{119}
+    \subitem {RCC\_APB2LPENR\_USART6LPEN}, \hyperpage{119}
+  \item {RCC\_APB2LPENR\_ADCLPEN}
+    \subitem {RCC\_APB2LPENR Bit Position Definitions}, \hyperpage{118}
+  \item {RCC\_APB2LPENR\_SDIOLPEN}
+    \subitem {RCC\_APB2LPENR Bit Position Definitions}, \hyperpage{118}
+  \item {RCC\_APB2LPENR\_SPI1LPEN}
+    \subitem {RCC\_APB2LPENR Bit Position Definitions}, \hyperpage{118}
+  \item {RCC\_APB2LPENR\_SYSCFGLPEN}
+    \subitem {RCC\_APB2LPENR Bit Position Definitions}, \hyperpage{118}
+  \item {RCC\_APB2LPENR\_TIM10LPEN}
+    \subitem {RCC\_APB2LPENR Bit Position Definitions}, \hyperpage{118}
+  \item {RCC\_APB2LPENR\_TIM11LPEN}
+    \subitem {RCC\_APB2LPENR Bit Position Definitions}, \hyperpage{118}
+  \item {RCC\_APB2LPENR\_TIM1LPEN}
+    \subitem {RCC\_APB2LPENR Bit Position Definitions}, \hyperpage{118}
+  \item {RCC\_APB2LPENR\_TIM8LPEN}
+    \subitem {RCC\_APB2LPENR Bit Position Definitions}, \hyperpage{119}
+  \item {RCC\_APB2LPENR\_TIM9LPEN}
+    \subitem {RCC\_APB2LPENR Bit Position Definitions}, \hyperpage{119}
+  \item {RCC\_APB2LPENR\_USART1LPEN}
+    \subitem {RCC\_APB2LPENR Bit Position Definitions}, \hyperpage{119}
+  \item {RCC\_APB2LPENR\_USART6LPEN}
+    \subitem {RCC\_APB2LPENR Bit Position Definitions}, \hyperpage{119}
+  \item {RCC\_APB2RSTR Bit Position Definitions}, \hyperpage{106}
+    \subitem {RCC\_APB2RSTR\_ADC}, \hyperpage{106}
+    \subitem {RCC\_APB2RSTR\_SDIO}, \hyperpage{106}
+    \subitem {RCC\_APB2RSTR\_SPI1}, \hyperpage{106}
+    \subitem {RCC\_APB2RSTR\_SYSCFG}, \hyperpage{107}
+    \subitem {RCC\_APB2RSTR\_TIM1}, \hyperpage{107}
+    \subitem {RCC\_APB2RSTR\_TIM10}, \hyperpage{107}
+    \subitem {RCC\_APB2RSTR\_TIM11}, \hyperpage{107}
+    \subitem {RCC\_APB2RSTR\_TIM8}, \hyperpage{107}
+    \subitem {RCC\_APB2RSTR\_TIM9}, \hyperpage{107}
+    \subitem {RCC\_APB2RSTR\_USART1}, \hyperpage{107}
+    \subitem {RCC\_APB2RSTR\_USART6}, \hyperpage{107}
+  \item {RCC\_APB2RSTR\_ADC}
+    \subitem {RCC\_APB2RSTR Bit Position Definitions}, \hyperpage{106}
+  \item {RCC\_APB2RSTR\_SDIO}
+    \subitem {RCC\_APB2RSTR Bit Position Definitions}, \hyperpage{106}
+  \item {RCC\_APB2RSTR\_SPI1}
+    \subitem {RCC\_APB2RSTR Bit Position Definitions}, \hyperpage{106}
+  \item {RCC\_APB2RSTR\_SYSCFG}
+    \subitem {RCC\_APB2RSTR Bit Position Definitions}, \hyperpage{107}
+  \item {RCC\_APB2RSTR\_TIM1}
+    \subitem {RCC\_APB2RSTR Bit Position Definitions}, \hyperpage{107}
+  \item {RCC\_APB2RSTR\_TIM10}
+    \subitem {RCC\_APB2RSTR Bit Position Definitions}, \hyperpage{107}
+  \item {RCC\_APB2RSTR\_TIM11}
+    \subitem {RCC\_APB2RSTR Bit Position Definitions}, \hyperpage{107}
+  \item {RCC\_APB2RSTR\_TIM8}
+    \subitem {RCC\_APB2RSTR Bit Position Definitions}, \hyperpage{107}
+  \item {RCC\_APB2RSTR\_TIM9}
+    \subitem {RCC\_APB2RSTR Bit Position Definitions}, \hyperpage{107}
+  \item {RCC\_APB2RSTR\_USART1}
+    \subitem {RCC\_APB2RSTR Bit Position Definitions}, \hyperpage{107}
+  \item {RCC\_APB2RSTR\_USART6}
+    \subitem {RCC\_APB2RSTR Bit Position Definitions}, \hyperpage{107}
+  \item {RCC\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{32}
+  \item {RCC\_BDCR Bit Position Definitions}, \hyperpage{119}
+    \subitem {RCC\_BDCR\_BDRST}, \hyperpage{120}
+    \subitem {RCC\_BDCR\_LSEBYP}, \hyperpage{120}
+    \subitem {RCC\_BDCR\_LSEON}, \hyperpage{120}
+    \subitem {RCC\_BDCR\_LSERDY}, \hyperpage{120}
+    \subitem {RCC\_BDCR\_RTCEN}, \hyperpage{120}
+    \subitem {RCC\_BDCR\_RTCSEL}, \hyperpage{120}
+  \item {RCC\_BDCR\_BDRST}
+    \subitem {RCC\_BDCR Bit Position Definitions}, \hyperpage{120}
+  \item {RCC\_BDCR\_LSEBYP}
+    \subitem {RCC\_BDCR Bit Position Definitions}, \hyperpage{120}
+  \item {RCC\_BDCR\_LSEON}
+    \subitem {RCC\_BDCR Bit Position Definitions}, \hyperpage{120}
+  \item {RCC\_BDCR\_LSERDY}
+    \subitem {RCC\_BDCR Bit Position Definitions}, \hyperpage{120}
+  \item {RCC\_BDCR\_RTCEN}
+    \subitem {RCC\_BDCR Bit Position Definitions}, \hyperpage{120}
+  \item {RCC\_BDCR\_RTCSEL}
+    \subitem {RCC\_BDCR Bit Position Definitions}, \hyperpage{120}
+  \item {RCC\_CFGR Bit Position Definitions}, \hyperpage{90}
+    \subitem {RCC\_CFGR\_HPRE}, \hyperpage{91}
+    \subitem {RCC\_CFGR\_I2SSRC}, \hyperpage{91}
+    \subitem {RCC\_CFGR\_MCO1}, \hyperpage{91}
+    \subitem {RCC\_CFGR\_MCO1PRE}, \hyperpage{91}
+    \subitem {RCC\_CFGR\_MCO2}, \hyperpage{91}
+    \subitem {RCC\_CFGR\_MCO2PRE}, \hyperpage{92}
+    \subitem {RCC\_CFGR\_PPRE1}, \hyperpage{92}
+    \subitem {RCC\_CFGR\_PPRE2}, \hyperpage{92}
+    \subitem {RCC\_CFGR\_RTCPRE}, \hyperpage{92}
+    \subitem {RCC\_CFGR\_SW}, \hyperpage{92}
+    \subitem {RCC\_CFGR\_SWS}, \hyperpage{92}
+  \item {RCC\_CFGR\_HPRE}
+    \subitem {RCC\_CFGR Bit Position Definitions}, \hyperpage{91}
+  \item {RCC\_CFGR\_I2SSRC}
+    \subitem {RCC\_CFGR Bit Position Definitions}, \hyperpage{91}
+  \item {RCC\_CFGR\_MCO1}
+    \subitem {RCC\_CFGR Bit Position Definitions}, \hyperpage{91}
+  \item {RCC\_CFGR\_MCO1PRE}
+    \subitem {RCC\_CFGR Bit Position Definitions}, \hyperpage{91}
+  \item {RCC\_CFGR\_MCO2}
+    \subitem {RCC\_CFGR Bit Position Definitions}, \hyperpage{91}
+  \item {RCC\_CFGR\_MCO2PRE}
+    \subitem {RCC\_CFGR Bit Position Definitions}, \hyperpage{92}
+  \item {RCC\_CFGR\_PPRE1}
+    \subitem {RCC\_CFGR Bit Position Definitions}, \hyperpage{92}
+  \item {RCC\_CFGR\_PPRE2}
+    \subitem {RCC\_CFGR Bit Position Definitions}, \hyperpage{92}
+  \item {RCC\_CFGR\_RTCPRE}
+    \subitem {RCC\_CFGR Bit Position Definitions}, \hyperpage{92}
+  \item {RCC\_CFGR\_SW}
+    \subitem {RCC\_CFGR Bit Position Definitions}, \hyperpage{92}
+  \item {RCC\_CFGR\_SWS}
+    \subitem {RCC\_CFGR Bit Position Definitions}, \hyperpage{92}
+  \item {RCC\_CIR Bit Position Definitions}, \hyperpage{93}
+    \subitem {RCC\_CIR\_CSSF}, \hyperpage{93}
+    \subitem {RCC\_CIR\_HSERDYC}, \hyperpage{94}
+    \subitem {RCC\_CIR\_HSERDYF}, \hyperpage{94}
+    \subitem {RCC\_CIR\_HSERDYIE}, \hyperpage{94}
+    \subitem {RCC\_CIR\_HSIRDYC}, \hyperpage{94}
+    \subitem {RCC\_CIR\_HSIRDYF}, \hyperpage{94}
+    \subitem {RCC\_CIR\_HSIRDYIE}, \hyperpage{94}
+    \subitem {RCC\_CIR\_LSERDYC}, \hyperpage{94}
+    \subitem {RCC\_CIR\_LSERDYF}, \hyperpage{94}
+    \subitem {RCC\_CIR\_LSERDYIE}, \hyperpage{95}
+    \subitem {RCC\_CIR\_LSIRDYC}, \hyperpage{95}
+    \subitem {RCC\_CIR\_LSIRDYF}, \hyperpage{95}
+    \subitem {RCC\_CIR\_LSIRDYIE}, \hyperpage{95}
+    \subitem {RCC\_CIR\_PLLI2SRDYC}, \hyperpage{95}
+    \subitem {RCC\_CIR\_PLLI2SRDYF}, \hyperpage{95}
+    \subitem {RCC\_CIR\_PLLI2SRDYIE}, \hyperpage{95}
+    \subitem {RCC\_CIR\_PLLRDYC}, \hyperpage{95}
+    \subitem {RCC\_CIR\_PLLRDYF}, \hyperpage{96}
+    \subitem {RCC\_CIR\_PLLRDYIE}, \hyperpage{96}
+    \subitem {RCC\_CIR\_PLLSAIRDYC}, \hyperpage{96}
+    \subitem {RCC\_CIR\_PLLSAIRDYF}, \hyperpage{96}
+    \subitem {RCC\_CIR\_PLLSAIRDYIE}, \hyperpage{96}
+  \item {RCC\_CIR\_CSSF}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{93}
+  \item {RCC\_CIR\_HSERDYC}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{94}
+  \item {RCC\_CIR\_HSERDYF}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{94}
+  \item {RCC\_CIR\_HSERDYIE}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{94}
+  \item {RCC\_CIR\_HSIRDYC}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{94}
+  \item {RCC\_CIR\_HSIRDYF}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{94}
+  \item {RCC\_CIR\_HSIRDYIE}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{94}
+  \item {RCC\_CIR\_LSERDYC}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{94}
+  \item {RCC\_CIR\_LSERDYF}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{94}
+  \item {RCC\_CIR\_LSERDYIE}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{95}
+  \item {RCC\_CIR\_LSIRDYC}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{95}
+  \item {RCC\_CIR\_LSIRDYF}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{95}
+  \item {RCC\_CIR\_LSIRDYIE}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{95}
+  \item {RCC\_CIR\_PLLI2SRDYC}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{95}
+  \item {RCC\_CIR\_PLLI2SRDYF}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{95}
+  \item {RCC\_CIR\_PLLI2SRDYIE}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{95}
+  \item {RCC\_CIR\_PLLRDYC}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{95}
+  \item {RCC\_CIR\_PLLRDYF}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{96}
+  \item {RCC\_CIR\_PLLRDYIE}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{96}
+  \item {RCC\_CIR\_PLLSAIRDYC}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{96}
+  \item {RCC\_CIR\_PLLSAIRDYF}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{96}
+  \item {RCC\_CIR\_PLLSAIRDYIE}
+    \subitem {RCC\_CIR Bit Position Definitions}, \hyperpage{96}
+  \item {RCC\_CR Bit Position Definitions}, \hyperpage{86}
+    \subitem {RCC\_CR\_CSSON}, \hyperpage{87}
+    \subitem {RCC\_CR\_HSEBYP}, \hyperpage{87}
+    \subitem {RCC\_CR\_HSEON}, \hyperpage{87}
+    \subitem {RCC\_CR\_HSERDY}, \hyperpage{87}
+    \subitem {RCC\_CR\_HSICAL}, \hyperpage{87}
+    \subitem {RCC\_CR\_HSION}, \hyperpage{88}
+    \subitem {RCC\_CR\_HSIRDY}, \hyperpage{88}
+    \subitem {RCC\_CR\_HSITRIM}, \hyperpage{88}
+    \subitem {RCC\_CR\_PLLI2SON}, \hyperpage{88}
+    \subitem {RCC\_CR\_PLLI2SRDY}, \hyperpage{88}
+    \subitem {RCC\_CR\_PLLON}, \hyperpage{88}
+    \subitem {RCC\_CR\_PLLRDY}, \hyperpage{88}
+    \subitem {RCC\_CR\_PLLSAION}, \hyperpage{88}
+    \subitem {RCC\_CR\_PLLSAIRDY}, \hyperpage{89}
+  \item {RCC\_CR\_CSSON}
+    \subitem {RCC\_CR Bit Position Definitions}, \hyperpage{87}
+  \item {RCC\_CR\_HSEBYP}
+    \subitem {RCC\_CR Bit Position Definitions}, \hyperpage{87}
+  \item {RCC\_CR\_HSEON}
+    \subitem {RCC\_CR Bit Position Definitions}, \hyperpage{87}
+  \item {RCC\_CR\_HSERDY}
+    \subitem {RCC\_CR Bit Position Definitions}, \hyperpage{87}
+  \item {RCC\_CR\_HSICAL}
+    \subitem {RCC\_CR Bit Position Definitions}, \hyperpage{87}
+  \item {RCC\_CR\_HSION}
+    \subitem {RCC\_CR Bit Position Definitions}, \hyperpage{88}
+  \item {RCC\_CR\_HSIRDY}
+    \subitem {RCC\_CR Bit Position Definitions}, \hyperpage{88}
+  \item {RCC\_CR\_HSITRIM}
+    \subitem {RCC\_CR Bit Position Definitions}, \hyperpage{88}
+  \item {RCC\_CR\_PLLI2SON}
+    \subitem {RCC\_CR Bit Position Definitions}, \hyperpage{88}
+  \item {RCC\_CR\_PLLI2SRDY}
+    \subitem {RCC\_CR Bit Position Definitions}, \hyperpage{88}
+  \item {RCC\_CR\_PLLON}
+    \subitem {RCC\_CR Bit Position Definitions}, \hyperpage{88}
+  \item {RCC\_CR\_PLLRDY}
+    \subitem {RCC\_CR Bit Position Definitions}, \hyperpage{88}
+  \item {RCC\_CR\_PLLSAION}
+    \subitem {RCC\_CR Bit Position Definitions}, \hyperpage{88}
+  \item {RCC\_CR\_PLLSAIRDY}
+    \subitem {RCC\_CR Bit Position Definitions}, \hyperpage{89}
+  \item {RCC\_CSR Bit Position Definitions}, \hyperpage{121}
+    \subitem {RCC\_CSR\_IWDGRSTF}, \hyperpage{121}
+    \subitem {RCC\_CSR\_LPWRRSTF}, \hyperpage{121}
+    \subitem {RCC\_CSR\_LSION}, \hyperpage{122}
+    \subitem {RCC\_CSR\_LSIRDY}, \hyperpage{122}
+    \subitem {RCC\_CSR\_OBLRSTF}, \hyperpage{122}
+    \subitem {RCC\_CSR\_PINRSTF}, \hyperpage{122}
+    \subitem {RCC\_CSR\_PORRSTF}, \hyperpage{122}
+    \subitem {RCC\_CSR\_RMVF}, \hyperpage{122}
+    \subitem {RCC\_CSR\_SFTRSTF}, \hyperpage{122}
+    \subitem {RCC\_CSR\_WWDGRSTF}, \hyperpage{122}
+  \item {RCC\_CSR\_IWDGRSTF}
+    \subitem {RCC\_CSR Bit Position Definitions}, \hyperpage{121}
+  \item {RCC\_CSR\_LPWRRSTF}
+    \subitem {RCC\_CSR Bit Position Definitions}, \hyperpage{121}
+  \item {RCC\_CSR\_LSION}
+    \subitem {RCC\_CSR Bit Position Definitions}, \hyperpage{122}
+  \item {RCC\_CSR\_LSIRDY}
+    \subitem {RCC\_CSR Bit Position Definitions}, \hyperpage{122}
+  \item {RCC\_CSR\_OBLRSTF}
+    \subitem {RCC\_CSR Bit Position Definitions}, \hyperpage{122}
+  \item {RCC\_CSR\_PINRSTF}
+    \subitem {RCC\_CSR Bit Position Definitions}, \hyperpage{122}
+  \item {RCC\_CSR\_PORRSTF}
+    \subitem {RCC\_CSR Bit Position Definitions}, \hyperpage{122}
+  \item {RCC\_CSR\_RMVF}
+    \subitem {RCC\_CSR Bit Position Definitions}, \hyperpage{122}
+  \item {RCC\_CSR\_SFTRSTF}
+    \subitem {RCC\_CSR Bit Position Definitions}, \hyperpage{122}
+  \item {RCC\_CSR\_WWDGRSTF}
+    \subitem {RCC\_CSR Bit Position Definitions}, \hyperpage{122}
+  \item {RCC\_GetPCLK1Value}
+    \subitem {stm32f407xx\_rcc\_driver.c}, \hyperpage{272}
+    \subitem {stm32f407xx\_rcc\_driver.h}, \hyperpage{261}
+  \item {RCC\_GetPCLK2Value}
+    \subitem {stm32f407xx\_rcc\_driver.c}, \hyperpage{272}
+    \subitem {stm32f407xx\_rcc\_driver.h}, \hyperpage{261}
+  \item {RCC\_GetPLLOutputClock}
+    \subitem {stm32f407xx\_rcc\_driver.c}, \hyperpage{273}
+    \subitem {stm32f407xx\_rcc\_driver.h}, \hyperpage{262}
+  \item {RCC\_PLLCFGR Bit Position Definitions}, \hyperpage{89}
+    \subitem {RCC\_PLLCFGR\_PLLM}, \hyperpage{89}
+    \subitem {RCC\_PLLCFGR\_PLLN}, \hyperpage{90}
+    \subitem {RCC\_PLLCFGR\_PLLP}, \hyperpage{90}
+    \subitem {RCC\_PLLCFGR\_PLLQ}, \hyperpage{90}
+    \subitem {RCC\_PLLCFGR\_PLLSRC}, \hyperpage{90}
+  \item {RCC\_PLLCFGR\_PLLM}
+    \subitem {RCC\_PLLCFGR Bit Position Definitions}, \hyperpage{89}
+  \item {RCC\_PLLCFGR\_PLLN}
+    \subitem {RCC\_PLLCFGR Bit Position Definitions}, \hyperpage{90}
+  \item {RCC\_PLLCFGR\_PLLP}
+    \subitem {RCC\_PLLCFGR Bit Position Definitions}, \hyperpage{90}
+  \item {RCC\_PLLCFGR\_PLLQ}
+    \subitem {RCC\_PLLCFGR Bit Position Definitions}, \hyperpage{90}
+  \item {RCC\_PLLCFGR\_PLLSRC}
+    \subitem {RCC\_PLLCFGR Bit Position Definitions}, \hyperpage{90}
+  \item {RCC\_PLLI2SCFGR Bit Position Definitions}, \hyperpage{124}
+    \subitem {RCC\_PLLI2SCFGR\_PLLI2SN}, \hyperpage{124}
+    \subitem {RCC\_PLLI2SCFGR\_PLLI2SR}, \hyperpage{124}
+  \item {RCC\_PLLI2SCFGR\_PLLI2SN}
+    \subitem {RCC\_PLLI2SCFGR Bit Position Definitions}, 
+		\hyperpage{124}
+  \item {RCC\_PLLI2SCFGR\_PLLI2SR}
+    \subitem {RCC\_PLLI2SCFGR Bit Position Definitions}, 
+		\hyperpage{124}
+  \item {RCC\_RegDef\_t}, \hyperpage{221}
+    \subitem {AHB1ENR}, \hyperpage{221}
+    \subitem {AHB1LPENR}, \hyperpage{222}
+    \subitem {AHB1RSTR}, \hyperpage{222}
+    \subitem {AHB2ENR}, \hyperpage{222}
+    \subitem {AHB2LPENR}, \hyperpage{222}
+    \subitem {AHB2RSTR}, \hyperpage{222}
+    \subitem {AHB3ENR}, \hyperpage{222}
+    \subitem {AHB3LPENR}, \hyperpage{222}
+    \subitem {AHB3RSTR}, \hyperpage{222}
+    \subitem {APB1ENR}, \hyperpage{223}
+    \subitem {APB1LPENR}, \hyperpage{223}
+    \subitem {APB1RSTR}, \hyperpage{223}
+    \subitem {APB2ENR}, \hyperpage{223}
+    \subitem {APB2LPENR}, \hyperpage{223}
+    \subitem {APB2RSTR}, \hyperpage{223}
+    \subitem {BDCR}, \hyperpage{223}
+    \subitem {CFGR}, \hyperpage{223}
+    \subitem {CIR}, \hyperpage{224}
+    \subitem {CKGATENR}, \hyperpage{224}
+    \subitem {CR}, \hyperpage{224}
+    \subitem {CSR}, \hyperpage{224}
+    \subitem {DCKCFGR}, \hyperpage{224}
+    \subitem {DCKCFGR2}, \hyperpage{224}
+    \subitem {PLLCFGR}, \hyperpage{224}
+    \subitem {PLLI2SCFGR}, \hyperpage{224}
+    \subitem {PLLSAICFGR}, \hyperpage{225}
+    \subitem {SSCGR}, \hyperpage{225}
+  \item {RCC\_SSCGR Bit Position Definitions}, \hyperpage{123}
+    \subitem {RCC\_SSCGR\_INCSTEP}, \hyperpage{123}
+    \subitem {RCC\_SSCGR\_MODPER}, \hyperpage{123}
+    \subitem {RCC\_SSCGR\_SPREADSEL}, \hyperpage{123}
+    \subitem {RCC\_SSCGR\_SSCGEN}, \hyperpage{124}
+  \item {RCC\_SSCGR\_INCSTEP}
+    \subitem {RCC\_SSCGR Bit Position Definitions}, \hyperpage{123}
+  \item {RCC\_SSCGR\_MODPER}
+    \subitem {RCC\_SSCGR Bit Position Definitions}, \hyperpage{123}
+  \item {RCC\_SSCGR\_SPREADSEL}
+    \subitem {RCC\_SSCGR Bit Position Definitions}, \hyperpage{123}
+  \item {RCC\_SSCGR\_SSCGEN}
+    \subitem {RCC\_SSCGR Bit Position Definitions}, \hyperpage{124}
+  \item {Register Addresses}, \hyperpage{11}
+  \item {RESERVED1}
+    \subitem {SYSCFG\_RegDef\_t}, \hyperpage{230}
+  \item {RESERVED2}
+    \subitem {SYSCFG\_RegDef\_t}, \hyperpage{230}
+  \item {RESET}
+    \subitem {Generic Macros}, \hyperpage{126}
+  \item {Reset GPIOx Peripherals}, \hyperpage{44}
+  \item {Reset I2Cx Peripherals}, \hyperpage{45}
+  \item {Reset Peripherals Macros}, \hyperpage{44}
+  \item {Reset SPIx Peripherals}, \hyperpage{46}
+  \item {Reset USARTx Peripherals}, \hyperpage{46}
+  \item {ROM\_BASEADDR}
+    \subitem {Memory Base Addresses}, \hyperpage{27}
+  \item {RTC\_date\_t}, \hyperpage{225}
+    \subitem {date}, \hyperpage{225}
+    \subitem {day}, \hyperpage{226}
+    \subitem {month}, \hyperpage{226}
+    \subitem {year}, \hyperpage{226}
+  \item {RTC\_time\_t}, \hyperpage{226}
+    \subitem {hours}, \hyperpage{227}
+    \subitem {minutes}, \hyperpage{227}
+    \subitem {seconds}, \hyperpage{227}
+    \subitem {time\_format}, \hyperpage{227}
+  \item {RTSR}
+    \subitem {EXTI\_RegDef\_t}, \hyperpage{214}
+  \item {RxBusyState}
+    \subitem {USART\_Handle\_t}, \hyperpage{233}
+  \item {RxLen}
+    \subitem {SPI Driver}, \hyperpage{166}
+    \subitem {USART\_Handle\_t}, \hyperpage{233}
+  \item {RxState}
+    \subitem {SPI Driver}, \hyperpage{166}
+
+  \indexspace
+
+  \item {seconds}
+    \subitem {RTC\_time\_t}, \hyperpage{227}
+  \item {SET}
+    \subitem {Generic Macros}, \hyperpage{126}
+  \item {SPI ACK Control Options}, \hyperpage{179}
+    \subitem {SPI\_BUS\_CONFIG\_FULL\_DUPLEX}, \hyperpage{179}
+    \subitem {SPI\_BUS\_CONFIG\_HALF\_DUPLEX}, \hyperpage{179}
+    \subitem {SPI\_BUS\_CONFIG\_SIMPLEX\_RX\_ONLY}, \hyperpage{179}
+  \item {SPI APIs}, \hyperpage{168}
+    \subitem {SPI\_ApplicationEventCallback}, \hyperpage{169}
+    \subitem {SPI\_ClearOVRFlag}, \hyperpage{169}
+    \subitem {SPI\_CloseReception}, \hyperpage{170}
+    \subitem {SPI\_CloseTransmission}, \hyperpage{170}
+    \subitem {SPI\_DeInit}, \hyperpage{170}
+    \subitem {SPI\_GetFlagStatus}, \hyperpage{171}
+    \subitem {SPI\_Init}, \hyperpage{171}
+    \subitem {SPI\_IRQHandling}, \hyperpage{171}
+    \subitem {SPI\_IRQinterruptConfig}, \hyperpage{171}
+    \subitem {SPI\_IRQperiorityConfig}, \hyperpage{172}
+    \subitem {SPI\_PeripheralClockControl}, \hyperpage{172}
+    \subitem {SPI\_PeripheralControl}, \hyperpage{172}
+    \subitem {SPI\_ReceiveData}, \hyperpage{173}
+    \subitem {SPI\_ReceiveDataIT}, \hyperpage{173}
+    \subitem {SPI\_SendData}, \hyperpage{174}
+    \subitem {SPI\_SendDataIT}, \hyperpage{174}
+    \subitem {SPI\_SSIConfig}, \hyperpage{175}
+    \subitem {SPI\_SSOEConfig}, \hyperpage{175}
+  \item {SPI Application Events}, \hyperpage{187}
+    \subitem {SPI\_EVENT\_CRC\_ERR}, \hyperpage{187}
+    \subitem {SPI\_EVENT\_OVR\_ERR}, \hyperpage{187}
+    \subitem {SPI\_EVENT\_RX\_CMPLT}, \hyperpage{188}
+    \subitem {SPI\_EVENT\_TX\_CMPLT}, \hyperpage{188}
+  \item {SPI Application States}, \hyperpage{177}
+    \subitem {SPI\_BUSY\_IN\_RX}, \hyperpage{178}
+    \subitem {SPI\_BUSY\_IN\_TX}, \hyperpage{178}
+    \subitem {SPI\_DEVICE\_MODE\_MASTER}, \hyperpage{178}
+    \subitem {SPI\_DEVICE\_MODE\_SLAVE}, \hyperpage{178}
+    \subitem {SPI\_READY}, \hyperpage{178}
+  \item {SPI Bit Position Definitions}, \hyperpage{50}
+  \item {SPI Clock Phase Options}, \hyperpage{183}
+    \subitem {SPI\_CPHA\_HIGH}, \hyperpage{184}
+    \subitem {SPI\_CPHA\_LOW}, \hyperpage{184}
+  \item {SPI Clock Polarity Options}, \hyperpage{182}
+    \subitem {SPI\_CPOL\_HIGH}, \hyperpage{183}
+    \subitem {SPI\_CPOL\_LOW}, \hyperpage{183}
+  \item {SPI Communication CMDs}, \hyperpage{188}
+    \subitem {CMD\_ID\_READ}, \hyperpage{189}
+    \subitem {CMD\_LED\_CTRL}, \hyperpage{189}
+    \subitem {CMD\_LED\_READ}, \hyperpage{189}
+    \subitem {CMD\_PRINT}, \hyperpage{189}
+    \subitem {CMD\_SENSOR\_READ}, \hyperpage{189}
+  \item {SPI Data Frame Format Options}, \hyperpage{181}
+    \subitem {SPI\_DFF\_16BITS}, \hyperpage{182}
+    \subitem {SPI\_DFF\_8BITS}, \hyperpage{182}
+  \item {SPI Driver}, \hyperpage{165}
+    \subitem {pRxBuffer}, \hyperpage{166}
+    \subitem {pSPIx}, \hyperpage{166}
+    \subitem {pTxBuffer}, \hyperpage{166}
+    \subitem {RxLen}, \hyperpage{166}
+    \subitem {RxState}, \hyperpage{166}
+    \subitem {SPI\_BusConfig}, \hyperpage{166}
+    \subitem {SPI\_Config}, \hyperpage{166}
+    \subitem {SPI\_CPHA}, \hyperpage{167}
+    \subitem {SPI\_CPOL}, \hyperpage{167}
+    \subitem {SPI\_DeviceMode}, \hyperpage{167}
+    \subitem {SPI\_DFF}, \hyperpage{167}
+    \subitem {SPI\_SclkSpeed}, \hyperpage{167}
+    \subitem {SPI\_SSM}, \hyperpage{167}
+    \subitem {TxLen}, \hyperpage{167}
+    \subitem {TxState}, \hyperpage{167}
+  \item {SPI Macros}, \hyperpage{176}
+  \item {SPI Private Helper Functions}, \hyperpage{212}
+  \item {SPI Serial Clock Speed Options}, \hyperpage{180}
+    \subitem {SPI\_SCLK\_SPEED\_DIV128}, \hyperpage{180}
+    \subitem {SPI\_SCLK\_SPEED\_DIV16}, \hyperpage{180}
+    \subitem {SPI\_SCLK\_SPEED\_DIV2}, \hyperpage{180}
+    \subitem {SPI\_SCLK\_SPEED\_DIV256}, \hyperpage{181}
+    \subitem {SPI\_SCLK\_SPEED\_DIV32}, \hyperpage{181}
+    \subitem {SPI\_SCLK\_SPEED\_DIV4}, \hyperpage{181}
+    \subitem {SPI\_SCLK\_SPEED\_DIV64}, \hyperpage{181}
+    \subitem {SPI\_SCLK\_SPEED\_DIV8}, \hyperpage{181}
+  \item {SPI Slave Select Management Options}, \hyperpage{184}
+    \subitem {SPI\_SSM\_DI}, \hyperpage{184}
+    \subitem {SPI\_SSM\_EN}, \hyperpage{185}
+  \item {SPI Status Flags}, \hyperpage{185}
+    \subitem {SPI\_BUSY\_FLAG}, \hyperpage{186}
+    \subitem {SPI\_CHSIDE\_FLAG}, \hyperpage{186}
+    \subitem {SPI\_CRCERR\_FLAG}, \hyperpage{186}
+    \subitem {SPI\_FRE\_FLAG}, \hyperpage{186}
+    \subitem {SPI\_MODF\_FLAG}, \hyperpage{186}
+    \subitem {SPI\_OVR\_FLAG}, \hyperpage{186}
+    \subitem {SPI\_RXNE\_FLAG}, \hyperpage{186}
+    \subitem {SPI\_TXE\_FLAG}, \hyperpage{186}
+    \subitem {SPI\_UDR\_FLAG}, \hyperpage{187}
+  \item {SPI1\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB2 Bus}, \hyperpage{34}
+  \item {SPI2\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{33}
+  \item {SPI3\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{33}
+  \item {SPI4\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB2 Bus}, \hyperpage{34}
+  \item {SPI\_ApplicationEventCallback}
+    \subitem {SPI APIs}, \hyperpage{169}
+  \item {SPI\_BUS\_CONFIG\_FULL\_DUPLEX}
+    \subitem {SPI ACK Control Options}, \hyperpage{179}
+  \item {SPI\_BUS\_CONFIG\_HALF\_DUPLEX}
+    \subitem {SPI ACK Control Options}, \hyperpage{179}
+  \item {SPI\_BUS\_CONFIG\_SIMPLEX\_RX\_ONLY}
+    \subitem {SPI ACK Control Options}, \hyperpage{179}
+  \item {SPI\_BusConfig}
+    \subitem {SPI Driver}, \hyperpage{166}
+  \item {SPI\_BUSY\_FLAG}
+    \subitem {SPI Status Flags}, \hyperpage{186}
+  \item {SPI\_BUSY\_IN\_RX}
+    \subitem {SPI Application States}, \hyperpage{178}
+  \item {SPI\_BUSY\_IN\_TX}
+    \subitem {SPI Application States}, \hyperpage{178}
+  \item {SPI\_CHSIDE\_FLAG}
+    \subitem {SPI Status Flags}, \hyperpage{186}
+  \item {SPI\_ClearOVRFlag}
+    \subitem {SPI APIs}, \hyperpage{169}
+  \item {SPI\_CloseReception}
+    \subitem {SPI APIs}, \hyperpage{170}
+  \item {SPI\_CloseTransmission}
+    \subitem {SPI APIs}, \hyperpage{170}
+  \item {SPI\_Config}
+    \subitem {SPI Driver}, \hyperpage{166}
+  \item {SPI\_Config\_t}, \hyperpage{227}
+  \item {SPI\_CPHA}
+    \subitem {SPI Driver}, \hyperpage{167}
+  \item {SPI\_CPHA\_HIGH}
+    \subitem {SPI Clock Phase Options}, \hyperpage{184}
+  \item {SPI\_CPHA\_LOW}
+    \subitem {SPI Clock Phase Options}, \hyperpage{184}
+  \item {SPI\_CPOL}
+    \subitem {SPI Driver}, \hyperpage{167}
+  \item {SPI\_CPOL\_HIGH}
+    \subitem {SPI Clock Polarity Options}, \hyperpage{183}
+  \item {SPI\_CPOL\_LOW}
+    \subitem {SPI Clock Polarity Options}, \hyperpage{183}
+  \item {SPI\_CR1 Bit Position Definitions}, \hyperpage{51}
+    \subitem {SPI\_CR1\_BIDIMODE}, \hyperpage{52}
+    \subitem {SPI\_CR1\_BIDIOE}, \hyperpage{52}
+    \subitem {SPI\_CR1\_BR}, \hyperpage{52}
+    \subitem {SPI\_CR1\_CPHA}, \hyperpage{52}
+    \subitem {SPI\_CR1\_CPOL}, \hyperpage{52}
+    \subitem {SPI\_CR1\_CRCEN}, \hyperpage{52}
+    \subitem {SPI\_CR1\_CRCNEXT}, \hyperpage{52}
+    \subitem {SPI\_CR1\_DFF}, \hyperpage{52}
+    \subitem {SPI\_CR1\_LSBFIRST}, \hyperpage{53}
+    \subitem {SPI\_CR1\_MSTR}, \hyperpage{53}
+    \subitem {SPI\_CR1\_RXONLY}, \hyperpage{53}
+    \subitem {SPI\_CR1\_SPE}, \hyperpage{53}
+    \subitem {SPI\_CR1\_SSI}, \hyperpage{53}
+    \subitem {SPI\_CR1\_SSM}, \hyperpage{53}
+  \item {SPI\_CR1\_BIDIMODE}
+    \subitem {SPI\_CR1 Bit Position Definitions}, \hyperpage{52}
+  \item {SPI\_CR1\_BIDIOE}
+    \subitem {SPI\_CR1 Bit Position Definitions}, \hyperpage{52}
+  \item {SPI\_CR1\_BR}
+    \subitem {SPI\_CR1 Bit Position Definitions}, \hyperpage{52}
+  \item {SPI\_CR1\_CPHA}
+    \subitem {SPI\_CR1 Bit Position Definitions}, \hyperpage{52}
+  \item {SPI\_CR1\_CPOL}
+    \subitem {SPI\_CR1 Bit Position Definitions}, \hyperpage{52}
+  \item {SPI\_CR1\_CRCEN}
+    \subitem {SPI\_CR1 Bit Position Definitions}, \hyperpage{52}
+  \item {SPI\_CR1\_CRCNEXT}
+    \subitem {SPI\_CR1 Bit Position Definitions}, \hyperpage{52}
+  \item {SPI\_CR1\_DFF}
+    \subitem {SPI\_CR1 Bit Position Definitions}, \hyperpage{52}
+  \item {SPI\_CR1\_LSBFIRST}
+    \subitem {SPI\_CR1 Bit Position Definitions}, \hyperpage{53}
+  \item {SPI\_CR1\_MSTR}
+    \subitem {SPI\_CR1 Bit Position Definitions}, \hyperpage{53}
+  \item {SPI\_CR1\_RXONLY}
+    \subitem {SPI\_CR1 Bit Position Definitions}, \hyperpage{53}
+  \item {SPI\_CR1\_SPE}
+    \subitem {SPI\_CR1 Bit Position Definitions}, \hyperpage{53}
+  \item {SPI\_CR1\_SSI}
+    \subitem {SPI\_CR1 Bit Position Definitions}, \hyperpage{53}
+  \item {SPI\_CR1\_SSM}
+    \subitem {SPI\_CR1 Bit Position Definitions}, \hyperpage{53}
+  \item {SPI\_CR2 Bit Position Definitions}, \hyperpage{54}
+    \subitem {SPI\_CR2\_ERRIE}, \hyperpage{54}
+    \subitem {SPI\_CR2\_FRF}, \hyperpage{54}
+    \subitem {SPI\_CR2\_RXDMAEN}, \hyperpage{54}
+    \subitem {SPI\_CR2\_RXNEIE}, \hyperpage{55}
+    \subitem {SPI\_CR2\_SSOE}, \hyperpage{55}
+    \subitem {SPI\_CR2\_TXDMAEN}, \hyperpage{55}
+    \subitem {SPI\_CR2\_TXEIE}, \hyperpage{55}
+  \item {SPI\_CR2\_ERRIE}
+    \subitem {SPI\_CR2 Bit Position Definitions}, \hyperpage{54}
+  \item {SPI\_CR2\_FRF}
+    \subitem {SPI\_CR2 Bit Position Definitions}, \hyperpage{54}
+  \item {SPI\_CR2\_RXDMAEN}
+    \subitem {SPI\_CR2 Bit Position Definitions}, \hyperpage{54}
+  \item {SPI\_CR2\_RXNEIE}
+    \subitem {SPI\_CR2 Bit Position Definitions}, \hyperpage{55}
+  \item {SPI\_CR2\_SSOE}
+    \subitem {SPI\_CR2 Bit Position Definitions}, \hyperpage{55}
+  \item {SPI\_CR2\_TXDMAEN}
+    \subitem {SPI\_CR2 Bit Position Definitions}, \hyperpage{55}
+  \item {SPI\_CR2\_TXEIE}
+    \subitem {SPI\_CR2 Bit Position Definitions}, \hyperpage{55}
+  \item {SPI\_CRCERR\_FLAG}
+    \subitem {SPI Status Flags}, \hyperpage{186}
+  \item {SPI\_DeInit}
+    \subitem {SPI APIs}, \hyperpage{170}
+  \item {SPI\_DEVICE\_MODE\_MASTER}
+    \subitem {SPI Application States}, \hyperpage{178}
+  \item {SPI\_DEVICE\_MODE\_SLAVE}
+    \subitem {SPI Application States}, \hyperpage{178}
+  \item {SPI\_DeviceMode}
+    \subitem {SPI Driver}, \hyperpage{167}
+  \item {SPI\_DFF}
+    \subitem {SPI Driver}, \hyperpage{167}
+  \item {SPI\_DFF\_16BITS}
+    \subitem {SPI Data Frame Format Options}, \hyperpage{182}
+  \item {SPI\_DFF\_8BITS}
+    \subitem {SPI Data Frame Format Options}, \hyperpage{182}
+  \item {SPI\_EVENT\_CRC\_ERR}
+    \subitem {SPI Application Events}, \hyperpage{187}
+  \item {SPI\_EVENT\_OVR\_ERR}
+    \subitem {SPI Application Events}, \hyperpage{187}
+  \item {SPI\_EVENT\_RX\_CMPLT}
+    \subitem {SPI Application Events}, \hyperpage{188}
+  \item {SPI\_EVENT\_TX\_CMPLT}
+    \subitem {SPI Application Events}, \hyperpage{188}
+  \item {SPI\_FRE\_FLAG}
+    \subitem {SPI Status Flags}, \hyperpage{186}
+  \item {SPI\_GetFlagStatus}
+    \subitem {SPI APIs}, \hyperpage{171}
+  \item {SPI\_Handle\_t}, \hyperpage{228}
+  \item {SPI\_Init}
+    \subitem {SPI APIs}, \hyperpage{171}
+  \item {SPI\_IRQHandling}
+    \subitem {SPI APIs}, \hyperpage{171}
+  \item {SPI\_IRQinterruptConfig}
+    \subitem {SPI APIs}, \hyperpage{171}
+  \item {SPI\_IRQperiorityConfig}
+    \subitem {SPI APIs}, \hyperpage{172}
+  \item {SPI\_MODF\_FLAG}
+    \subitem {SPI Status Flags}, \hyperpage{186}
+  \item {SPI\_OVR\_FLAG}
+    \subitem {SPI Status Flags}, \hyperpage{186}
+  \item {SPI\_PeripheralClockControl}
+    \subitem {SPI APIs}, \hyperpage{172}
+  \item {SPI\_PeripheralControl}
+    \subitem {SPI APIs}, \hyperpage{172}
+  \item {SPI\_READY}
+    \subitem {SPI Application States}, \hyperpage{178}
+  \item {SPI\_ReceiveData}
+    \subitem {SPI APIs}, \hyperpage{173}
+  \item {SPI\_ReceiveDataIT}
+    \subitem {SPI APIs}, \hyperpage{173}
+  \item {SPI\_RegDef\_t}, \hyperpage{229}
+  \item {SPI\_RXNE\_FLAG}
+    \subitem {SPI Status Flags}, \hyperpage{186}
+  \item {SPI\_SCLK\_SPEED\_DIV128}
+    \subitem {SPI Serial Clock Speed Options}, \hyperpage{180}
+  \item {SPI\_SCLK\_SPEED\_DIV16}
+    \subitem {SPI Serial Clock Speed Options}, \hyperpage{180}
+  \item {SPI\_SCLK\_SPEED\_DIV2}
+    \subitem {SPI Serial Clock Speed Options}, \hyperpage{180}
+  \item {SPI\_SCLK\_SPEED\_DIV256}
+    \subitem {SPI Serial Clock Speed Options}, \hyperpage{181}
+  \item {SPI\_SCLK\_SPEED\_DIV32}
+    \subitem {SPI Serial Clock Speed Options}, \hyperpage{181}
+  \item {SPI\_SCLK\_SPEED\_DIV4}
+    \subitem {SPI Serial Clock Speed Options}, \hyperpage{181}
+  \item {SPI\_SCLK\_SPEED\_DIV64}
+    \subitem {SPI Serial Clock Speed Options}, \hyperpage{181}
+  \item {SPI\_SCLK\_SPEED\_DIV8}
+    \subitem {SPI Serial Clock Speed Options}, \hyperpage{181}
+  \item {SPI\_SclkSpeed}
+    \subitem {SPI Driver}, \hyperpage{167}
+  \item {SPI\_SendData}
+    \subitem {SPI APIs}, \hyperpage{174}
+  \item {SPI\_SendDataIT}
+    \subitem {SPI APIs}, \hyperpage{174}
+  \item {SPI\_SR Bit Position Definitions}, \hyperpage{55}
+    \subitem {SPI\_SR\_BSY}, \hyperpage{56}
+    \subitem {SPI\_SR\_CHSIDE}, \hyperpage{56}
+    \subitem {SPI\_SR\_CRCERR}, \hyperpage{56}
+    \subitem {SPI\_SR\_FRE}, \hyperpage{56}
+    \subitem {SPI\_SR\_MODF}, \hyperpage{56}
+    \subitem {SPI\_SR\_OVR}, \hyperpage{57}
+    \subitem {SPI\_SR\_RXNE}, \hyperpage{57}
+    \subitem {SPI\_SR\_TXE}, \hyperpage{57}
+    \subitem {SPI\_SR\_UDR}, \hyperpage{57}
+  \item {SPI\_SR\_BSY}
+    \subitem {SPI\_SR Bit Position Definitions}, \hyperpage{56}
+  \item {SPI\_SR\_CHSIDE}
+    \subitem {SPI\_SR Bit Position Definitions}, \hyperpage{56}
+  \item {SPI\_SR\_CRCERR}
+    \subitem {SPI\_SR Bit Position Definitions}, \hyperpage{56}
+  \item {SPI\_SR\_FRE}
+    \subitem {SPI\_SR Bit Position Definitions}, \hyperpage{56}
+  \item {SPI\_SR\_MODF}
+    \subitem {SPI\_SR Bit Position Definitions}, \hyperpage{56}
+  \item {SPI\_SR\_OVR}
+    \subitem {SPI\_SR Bit Position Definitions}, \hyperpage{57}
+  \item {SPI\_SR\_RXNE}
+    \subitem {SPI\_SR Bit Position Definitions}, \hyperpage{57}
+  \item {SPI\_SR\_TXE}
+    \subitem {SPI\_SR Bit Position Definitions}, \hyperpage{57}
+  \item {SPI\_SR\_UDR}
+    \subitem {SPI\_SR Bit Position Definitions}, \hyperpage{57}
+  \item {SPI\_SSIConfig}
+    \subitem {SPI APIs}, \hyperpage{175}
+  \item {SPI\_SSM}
+    \subitem {SPI Driver}, \hyperpage{167}
+  \item {SPI\_SSM\_DI}
+    \subitem {SPI Slave Select Management Options}, \hyperpage{184}
+  \item {SPI\_SSM\_EN}
+    \subitem {SPI Slave Select Management Options}, \hyperpage{185}
+  \item {SPI\_SSOEConfig}
+    \subitem {SPI APIs}, \hyperpage{175}
+  \item {SPI\_TXE\_FLAG}
+    \subitem {SPI Status Flags}, \hyperpage{186}
+  \item {SPI\_UDR\_FLAG}
+    \subitem {SPI Status Flags}, \hyperpage{187}
+  \item {SR1}
+    \subitem {I2C\_RegDef\_t}, \hyperpage{220}
+  \item {SR2}
+    \subitem {I2C\_RegDef\_t}, \hyperpage{220}
+  \item {SRAM1\_BASEADDR}
+    \subitem {Memory Base Addresses}, \hyperpage{27}
+  \item {SRAM2\_BASEADDR}
+    \subitem {Memory Base Addresses}, \hyperpage{27}
+  \item {Src/001led\_Toggle.c}, \hyperpage{276}
+  \item {Src/003led\_Button\_ext.c}, \hyperpage{277}
+  \item {Src/004gpio\_freq.c}, \hyperpage{278}
+  \item {Src/005Button\_interrupt.c}, \hyperpage{279}
+  \item {Src/005Button\_interrupt\_ext.c}, \hyperpage{280}
+  \item {Src/006spi\_tx\_tesing.c}, \hyperpage{281}
+  \item {Src/007spi\_txonly\_arduino.c}, \hyperpage{281}
+  \item {Src/008spi\_cmd\_handling.c}, \hyperpage{282}
+  \item {Src/009spi\_message\_rcv\_it.c}, \hyperpage{285}
+  \item {Src/010i2c\_master\_tx\_testing.c}, \hyperpage{286}
+  \item {Src/011i2c\_master\_rx\_testing.c}, \hyperpage{287}
+  \item {Src/012i2c\_master\_rx\_testingIT.c}, \hyperpage{288}
+  \item {Src/013i2c\_slave\_tx\_string.c}, \hyperpage{289}
+  \item {Src/014i2c\_slave\_tx\_string2.c}, \hyperpage{290}
+  \item {Src/015uart\_tx.c}, \hyperpage{291}
+  \item {Src/016uart\_tx\_it.c}, \hyperpage{292}
+  \item {Src/syscalls.c}, \hyperpage{293}
+  \item {Src/sysmem.c}, \hyperpage{295}
+  \item {SSCGR}
+    \subitem {RCC\_RegDef\_t}, \hyperpage{225}
+  \item {STM32F407xx MCU Header File}, \hyperpage{22}
+  \item {stm32f407xx\_rcc\_driver.c}
+    \subitem {RCC\_GetPCLK1Value}, \hyperpage{272}
+    \subitem {RCC\_GetPCLK2Value}, \hyperpage{272}
+    \subitem {RCC\_GetPLLOutputClock}, \hyperpage{273}
+  \item {stm32f407xx\_rcc\_driver.h}
+    \subitem {RCC\_GetPCLK1Value}, \hyperpage{261}
+    \subitem {RCC\_GetPCLK2Value}, \hyperpage{261}
+    \subitem {RCC\_GetPLLOutputClock}, \hyperpage{262}
+  \item {SWIER}
+    \subitem {EXTI\_RegDef\_t}, \hyperpage{214}
+  \item {SYSCFG\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB2 Bus}, \hyperpage{35}
+  \item {SYSCFG\_RegDef\_t}, \hyperpage{229}
+    \subitem {CFGR}, \hyperpage{230}
+    \subitem {CMPCR}, \hyperpage{230}
+    \subitem {EXTICR}, \hyperpage{230}
+    \subitem {MEMRMP}, \hyperpage{230}
+    \subitem {PMC}, \hyperpage{230}
+    \subitem {RESERVED1}, \hyperpage{230}
+    \subitem {RESERVED2}, \hyperpage{230}
+  \item {sysmem.c}
+    \subitem {\_sbrk}, \hyperpage{295}
+
+  \indexspace
+
+  \item {Time Formats}, \hyperpage{12}
+  \item {time\_format}
+    \subitem {RTC\_time\_t}, \hyperpage{227}
+  \item {TRISE}
+    \subitem {I2C\_RegDef\_t}, \hyperpage{220}
+  \item {TxBusyState}
+    \subitem {USART\_Handle\_t}, \hyperpage{233}
+  \item {TxLen}
+    \subitem {SPI Driver}, \hyperpage{167}
+    \subitem {USART\_Handle\_t}, \hyperpage{233}
+  \item {TxState}
+    \subitem {SPI Driver}, \hyperpage{167}
+
+  \indexspace
+
+  \item {UART4\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{33}
+  \item {UART5\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{33}
+  \item {USART APIs}, \hyperpage{192}
+    \subitem {USART\_ApplicationEventCallback}, \hyperpage{193}
+    \subitem {USART\_ClearEventErrFlag}, \hyperpage{194}
+    \subitem {USART\_ClearFlag}, \hyperpage{195}
+    \subitem {USART\_CloseReception}, \hyperpage{195}
+    \subitem {USART\_CloseTransmission}, \hyperpage{195}
+    \subitem {USART\_DeInit}, \hyperpage{195}
+    \subitem {USART\_GetFlagStatus}, \hyperpage{196}
+    \subitem {USART\_Init}, \hyperpage{196}
+    \subitem {USART\_IRQHandling}, \hyperpage{196}
+    \subitem {USART\_IRQInterruptConfig}, \hyperpage{197}
+    \subitem {USART\_IRQPriorityConfig}, \hyperpage{197}
+    \subitem {USART\_PeripheralClockControl}, \hyperpage{197}
+    \subitem {USART\_PeripheralControl}, \hyperpage{198}
+    \subitem {USART\_ReceiveData}, \hyperpage{198}
+    \subitem {USART\_ReceiveDataIT}, \hyperpage{198}
+    \subitem {USART\_SendData}, \hyperpage{199}
+    \subitem {USART\_SendDataIT}, \hyperpage{199}
+    \subitem {USART\_SetBaudRate}, \hyperpage{199}
+  \item {USART Application Events}, \hyperpage{210}
+    \subitem {USART\_ERR\_FE}, \hyperpage{211}
+    \subitem {USART\_ERR\_NE}, \hyperpage{211}
+    \subitem {USART\_ERR\_ORE}, \hyperpage{211}
+    \subitem {USART\_EVENT\_CTS}, \hyperpage{211}
+    \subitem {USART\_EVENT\_IDLE}, \hyperpage{211}
+    \subitem {USART\_EVENT\_PE}, \hyperpage{212}
+    \subitem {USART\_EVENT\_RX\_CMPLT}, \hyperpage{212}
+    \subitem {USART\_EVENT\_TX\_CMPLT}, \hyperpage{212}
+  \item {USART Application States}, \hyperpage{209}
+    \subitem {USART\_BUSY\_IN\_RX}, \hyperpage{210}
+    \subitem {USART\_BUSY\_IN\_TX}, \hyperpage{210}
+    \subitem {USART\_READY}, \hyperpage{210}
+  \item {USART Baud Rates}, \hyperpage{203}
+  \item {USART Bit Position Definitions}, \hyperpage{72}
+  \item {USART Driver}, \hyperpage{192}
+  \item {USART Hardware Flow Control}, \hyperpage{206}
+    \subitem {USART\_HW\_FLOW\_CTRL\_CTS}, \hyperpage{207}
+    \subitem {USART\_HW\_FLOW\_CTRL\_CTS\_RTS}, \hyperpage{207}
+    \subitem {USART\_HW\_FLOW\_CTRL\_NONE}, \hyperpage{207}
+    \subitem {USART\_HW\_FLOW\_CTRL\_RTS}, \hyperpage{207}
+  \item {USART Macros}, \hyperpage{200}
+  \item {USART Parity Control}, \hyperpage{203}
+    \subitem {USART\_PARITY\_DISABLE}, \hyperpage{204}
+    \subitem {USART\_PARITY\_EN\_EVEN}, \hyperpage{204}
+    \subitem {USART\_PARITY\_EN\_ODD}, \hyperpage{204}
+  \item {USART Private Helper Functions}, \hyperpage{212}
+  \item {USART Status Flags}, \hyperpage{208}
+    \subitem {USART\_FLAG\_FE}, \hyperpage{208}
+    \subitem {USART\_FLAG\_IDLE}, \hyperpage{208}
+    \subitem {USART\_FLAG\_NE}, \hyperpage{208}
+    \subitem {USART\_FLAG\_ORE}, \hyperpage{209}
+    \subitem {USART\_FLAG\_PE}, \hyperpage{209}
+    \subitem {USART\_FLAG\_RXNE}, \hyperpage{209}
+    \subitem {USART\_FLAG\_TC}, \hyperpage{209}
+    \subitem {USART\_FLAG\_TXE}, \hyperpage{209}
+  \item {USART Stop Bits}, \hyperpage{205}
+    \subitem {USART\_STOPBITS\_0\_5}, \hyperpage{206}
+    \subitem {USART\_STOPBITS\_1}, \hyperpage{206}
+    \subitem {USART\_STOPBITS\_1\_5}, \hyperpage{206}
+    \subitem {USART\_STOPBITS\_2}, \hyperpage{206}
+  \item {USART Transmission Modes}, \hyperpage{202}
+    \subitem {USART\_MODE\_ONLY\_RX}, \hyperpage{202}
+    \subitem {USART\_MODE\_ONLY\_TX}, \hyperpage{202}
+    \subitem {USART\_MODE\_TXRX}, \hyperpage{202}
+  \item {USART Word Lengths}, \hyperpage{204}
+    \subitem {USART\_WORDLEN\_8BITS}, \hyperpage{205}
+    \subitem {USART\_WORDLEN\_9BITS}, \hyperpage{205}
+  \item {USART1\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB2 Bus}, \hyperpage{35}
+  \item {USART2\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{33}
+  \item {USART3\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB1 Bus}, \hyperpage{33}
+  \item {USART6\_BASEADDR}
+    \subitem {Peripheral Base Addresses on APB2 Bus}, \hyperpage{35}
+  \item {USART\_ApplicationEventCallback}
+    \subitem {USART APIs}, \hyperpage{193}
+  \item {USART\_Baud}
+    \subitem {USART\_Config\_t}, \hyperpage{231}
+  \item {USART\_BRR Bit Position Definitions}, \hyperpage{76}
+    \subitem {USART\_BRR\_DIV\_FRACTION}, \hyperpage{76}
+    \subitem {USART\_BRR\_DIV\_MANTISSA}, \hyperpage{76}
+  \item {USART\_BRR\_DIV\_FRACTION}
+    \subitem {USART\_BRR Bit Position Definitions}, \hyperpage{76}
+  \item {USART\_BRR\_DIV\_MANTISSA}
+    \subitem {USART\_BRR Bit Position Definitions}, \hyperpage{76}
+  \item {USART\_BUSY\_IN\_RX}
+    \subitem {USART Application States}, \hyperpage{210}
+  \item {USART\_BUSY\_IN\_TX}
+    \subitem {USART Application States}, \hyperpage{210}
+  \item {USART\_ClearEventErrFlag}
+    \subitem {USART APIs}, \hyperpage{194}
+  \item {USART\_ClearFlag}
+    \subitem {USART APIs}, \hyperpage{195}
+  \item {USART\_CloseReception}
+    \subitem {USART APIs}, \hyperpage{195}
+  \item {USART\_CloseTransmission}
+    \subitem {USART APIs}, \hyperpage{195}
+  \item {USART\_Config}
+    \subitem {USART\_Handle\_t}, \hyperpage{234}
+  \item {USART\_Config\_t}, \hyperpage{231}
+    \subitem {USART\_Baud}, \hyperpage{231}
+    \subitem {USART\_HWFlowControl}, \hyperpage{231}
+    \subitem {USART\_Mode}, \hyperpage{231}
+    \subitem {USART\_NoOfStopBits}, \hyperpage{231}
+    \subitem {USART\_ParityControl}, \hyperpage{231}
+    \subitem {USART\_WordLength}, \hyperpage{232}
+  \item {USART\_CR1 Bit Position Definitions}, \hyperpage{77}
+    \subitem {USART\_CR1\_IDLEIE}, \hyperpage{77}
+    \subitem {USART\_CR1\_M}, \hyperpage{77}
+    \subitem {USART\_CR1\_OVER8}, \hyperpage{78}
+    \subitem {USART\_CR1\_PCE}, \hyperpage{78}
+    \subitem {USART\_CR1\_PEIE}, \hyperpage{78}
+    \subitem {USART\_CR1\_PS}, \hyperpage{78}
+    \subitem {USART\_CR1\_RE}, \hyperpage{78}
+    \subitem {USART\_CR1\_RWU}, \hyperpage{78}
+    \subitem {USART\_CR1\_RXNEIE}, \hyperpage{78}
+    \subitem {USART\_CR1\_SBK}, \hyperpage{78}
+    \subitem {USART\_CR1\_TCIE}, \hyperpage{79}
+    \subitem {USART\_CR1\_TE}, \hyperpage{79}
+    \subitem {USART\_CR1\_TXEIE}, \hyperpage{79}
+    \subitem {USART\_CR1\_UE}, \hyperpage{79}
+    \subitem {USART\_CR1\_WAKE}, \hyperpage{79}
+  \item {USART\_CR1\_IDLEIE}
+    \subitem {USART\_CR1 Bit Position Definitions}, \hyperpage{77}
+  \item {USART\_CR1\_M}
+    \subitem {USART\_CR1 Bit Position Definitions}, \hyperpage{77}
+  \item {USART\_CR1\_OVER8}
+    \subitem {USART\_CR1 Bit Position Definitions}, \hyperpage{78}
+  \item {USART\_CR1\_PCE}
+    \subitem {USART\_CR1 Bit Position Definitions}, \hyperpage{78}
+  \item {USART\_CR1\_PEIE}
+    \subitem {USART\_CR1 Bit Position Definitions}, \hyperpage{78}
+  \item {USART\_CR1\_PS}
+    \subitem {USART\_CR1 Bit Position Definitions}, \hyperpage{78}
+  \item {USART\_CR1\_RE}
+    \subitem {USART\_CR1 Bit Position Definitions}, \hyperpage{78}
+  \item {USART\_CR1\_RWU}
+    \subitem {USART\_CR1 Bit Position Definitions}, \hyperpage{78}
+  \item {USART\_CR1\_RXNEIE}
+    \subitem {USART\_CR1 Bit Position Definitions}, \hyperpage{78}
+  \item {USART\_CR1\_SBK}
+    \subitem {USART\_CR1 Bit Position Definitions}, \hyperpage{78}
+  \item {USART\_CR1\_TCIE}
+    \subitem {USART\_CR1 Bit Position Definitions}, \hyperpage{79}
+  \item {USART\_CR1\_TE}
+    \subitem {USART\_CR1 Bit Position Definitions}, \hyperpage{79}
+  \item {USART\_CR1\_TXEIE}
+    \subitem {USART\_CR1 Bit Position Definitions}, \hyperpage{79}
+  \item {USART\_CR1\_UE}
+    \subitem {USART\_CR1 Bit Position Definitions}, \hyperpage{79}
+  \item {USART\_CR1\_WAKE}
+    \subitem {USART\_CR1 Bit Position Definitions}, \hyperpage{79}
+  \item {USART\_CR2 Bit Position Definitions}, \hyperpage{79}
+    \subitem {USART\_CR2\_ADD}, \hyperpage{80}
+    \subitem {USART\_CR2\_CLKEN}, \hyperpage{80}
+    \subitem {USART\_CR2\_CPHA}, \hyperpage{80}
+    \subitem {USART\_CR2\_CPOL}, \hyperpage{80}
+    \subitem {USART\_CR2\_LBCL}, \hyperpage{80}
+    \subitem {USART\_CR2\_LBDIE}, \hyperpage{81}
+    \subitem {USART\_CR2\_LBDL}, \hyperpage{81}
+    \subitem {USART\_CR2\_LINEN}, \hyperpage{81}
+    \subitem {USART\_CR2\_STOP}, \hyperpage{81}
+  \item {USART\_CR2\_ADD}
+    \subitem {USART\_CR2 Bit Position Definitions}, \hyperpage{80}
+  \item {USART\_CR2\_CLKEN}
+    \subitem {USART\_CR2 Bit Position Definitions}, \hyperpage{80}
+  \item {USART\_CR2\_CPHA}
+    \subitem {USART\_CR2 Bit Position Definitions}, \hyperpage{80}
+  \item {USART\_CR2\_CPOL}
+    \subitem {USART\_CR2 Bit Position Definitions}, \hyperpage{80}
+  \item {USART\_CR2\_LBCL}
+    \subitem {USART\_CR2 Bit Position Definitions}, \hyperpage{80}
+  \item {USART\_CR2\_LBDIE}
+    \subitem {USART\_CR2 Bit Position Definitions}, \hyperpage{81}
+  \item {USART\_CR2\_LBDL}
+    \subitem {USART\_CR2 Bit Position Definitions}, \hyperpage{81}
+  \item {USART\_CR2\_LINEN}
+    \subitem {USART\_CR2 Bit Position Definitions}, \hyperpage{81}
+  \item {USART\_CR2\_STOP}
+    \subitem {USART\_CR2 Bit Position Definitions}, \hyperpage{81}
+  \item {USART\_CR3 Bit Position Definitions}, \hyperpage{81}
+    \subitem {USART\_CR3\_CTSE}, \hyperpage{82}
+    \subitem {USART\_CR3\_CTSIE}, \hyperpage{82}
+    \subitem {USART\_CR3\_DMAR}, \hyperpage{82}
+    \subitem {USART\_CR3\_DMAT}, \hyperpage{82}
+    \subitem {USART\_CR3\_EIE}, \hyperpage{82}
+    \subitem {USART\_CR3\_HDSEL}, \hyperpage{83}
+    \subitem {USART\_CR3\_IREN}, \hyperpage{83}
+    \subitem {USART\_CR3\_IRLP}, \hyperpage{83}
+    \subitem {USART\_CR3\_NACK}, \hyperpage{83}
+    \subitem {USART\_CR3\_ONEBIT}, \hyperpage{83}
+    \subitem {USART\_CR3\_RTSE}, \hyperpage{83}
+    \subitem {USART\_CR3\_SCEN}, \hyperpage{83}
+  \item {USART\_CR3\_CTSE}
+    \subitem {USART\_CR3 Bit Position Definitions}, \hyperpage{82}
+  \item {USART\_CR3\_CTSIE}
+    \subitem {USART\_CR3 Bit Position Definitions}, \hyperpage{82}
+  \item {USART\_CR3\_DMAR}
+    \subitem {USART\_CR3 Bit Position Definitions}, \hyperpage{82}
+  \item {USART\_CR3\_DMAT}
+    \subitem {USART\_CR3 Bit Position Definitions}, \hyperpage{82}
+  \item {USART\_CR3\_EIE}
+    \subitem {USART\_CR3 Bit Position Definitions}, \hyperpage{82}
+  \item {USART\_CR3\_HDSEL}
+    \subitem {USART\_CR3 Bit Position Definitions}, \hyperpage{83}
+  \item {USART\_CR3\_IREN}
+    \subitem {USART\_CR3 Bit Position Definitions}, \hyperpage{83}
+  \item {USART\_CR3\_IRLP}
+    \subitem {USART\_CR3 Bit Position Definitions}, \hyperpage{83}
+  \item {USART\_CR3\_NACK}
+    \subitem {USART\_CR3 Bit Position Definitions}, \hyperpage{83}
+  \item {USART\_CR3\_ONEBIT}
+    \subitem {USART\_CR3 Bit Position Definitions}, \hyperpage{83}
+  \item {USART\_CR3\_RTSE}
+    \subitem {USART\_CR3 Bit Position Definitions}, \hyperpage{83}
+  \item {USART\_CR3\_SCEN}
+    \subitem {USART\_CR3 Bit Position Definitions}, \hyperpage{83}
+  \item {USART\_DeInit}
+    \subitem {USART APIs}, \hyperpage{195}
+  \item {USART\_DR Bit Position Definitions}, \hyperpage{75}
+    \subitem {USART\_DR\_DR}, \hyperpage{75}
+  \item {USART\_DR\_DR}
+    \subitem {USART\_DR Bit Position Definitions}, \hyperpage{75}
+  \item {USART\_ERR\_FE}
+    \subitem {USART Application Events}, \hyperpage{211}
+  \item {USART\_ERR\_NE}
+    \subitem {USART Application Events}, \hyperpage{211}
+  \item {USART\_ERR\_ORE}
+    \subitem {USART Application Events}, \hyperpage{211}
+  \item {USART\_EVENT\_CTS}
+    \subitem {USART Application Events}, \hyperpage{211}
+  \item {USART\_EVENT\_IDLE}
+    \subitem {USART Application Events}, \hyperpage{211}
+  \item {USART\_EVENT\_PE}
+    \subitem {USART Application Events}, \hyperpage{212}
+  \item {USART\_EVENT\_RX\_CMPLT}
+    \subitem {USART Application Events}, \hyperpage{212}
+  \item {USART\_EVENT\_TX\_CMPLT}
+    \subitem {USART Application Events}, \hyperpage{212}
+  \item {USART\_FLAG\_FE}
+    \subitem {USART Status Flags}, \hyperpage{208}
+  \item {USART\_FLAG\_IDLE}
+    \subitem {USART Status Flags}, \hyperpage{208}
+  \item {USART\_FLAG\_NE}
+    \subitem {USART Status Flags}, \hyperpage{208}
+  \item {USART\_FLAG\_ORE}
+    \subitem {USART Status Flags}, \hyperpage{209}
+  \item {USART\_FLAG\_PE}
+    \subitem {USART Status Flags}, \hyperpage{209}
+  \item {USART\_FLAG\_RXNE}
+    \subitem {USART Status Flags}, \hyperpage{209}
+  \item {USART\_FLAG\_TC}
+    \subitem {USART Status Flags}, \hyperpage{209}
+  \item {USART\_FLAG\_TXE}
+    \subitem {USART Status Flags}, \hyperpage{209}
+  \item {USART\_GetFlagStatus}
+    \subitem {USART APIs}, \hyperpage{196}
+  \item {USART\_GTPR Bit Position Definitions}, \hyperpage{84}
+    \subitem {USART\_GTPR\_GT}, \hyperpage{84}
+    \subitem {USART\_GTPR\_PSC}, \hyperpage{84}
+  \item {USART\_GTPR\_GT}
+    \subitem {USART\_GTPR Bit Position Definitions}, \hyperpage{84}
+  \item {USART\_GTPR\_PSC}
+    \subitem {USART\_GTPR Bit Position Definitions}, \hyperpage{84}
+  \item {USART\_Handle\_t}, \hyperpage{232}
+    \subitem {pRxBuffer}, \hyperpage{233}
+    \subitem {pTxBuffer}, \hyperpage{233}
+    \subitem {pUSARTx}, \hyperpage{233}
+    \subitem {RxBusyState}, \hyperpage{233}
+    \subitem {RxLen}, \hyperpage{233}
+    \subitem {TxBusyState}, \hyperpage{233}
+    \subitem {TxLen}, \hyperpage{233}
+    \subitem {USART\_Config}, \hyperpage{234}
+  \item {USART\_HW\_FLOW\_CTRL\_CTS}
+    \subitem {USART Hardware Flow Control}, \hyperpage{207}
+  \item {USART\_HW\_FLOW\_CTRL\_CTS\_RTS}
+    \subitem {USART Hardware Flow Control}, \hyperpage{207}
+  \item {USART\_HW\_FLOW\_CTRL\_NONE}
+    \subitem {USART Hardware Flow Control}, \hyperpage{207}
+  \item {USART\_HW\_FLOW\_CTRL\_RTS}
+    \subitem {USART Hardware Flow Control}, \hyperpage{207}
+  \item {USART\_HWFlowControl}
+    \subitem {USART\_Config\_t}, \hyperpage{231}
+  \item {USART\_Init}
+    \subitem {USART APIs}, \hyperpage{196}
+  \item {USART\_IRQHandling}
+    \subitem {USART APIs}, \hyperpage{196}
+  \item {USART\_IRQInterruptConfig}
+    \subitem {USART APIs}, \hyperpage{197}
+  \item {USART\_IRQPriorityConfig}
+    \subitem {USART APIs}, \hyperpage{197}
+  \item {USART\_Mode}
+    \subitem {USART\_Config\_t}, \hyperpage{231}
+  \item {USART\_MODE\_ONLY\_RX}
+    \subitem {USART Transmission Modes}, \hyperpage{202}
+  \item {USART\_MODE\_ONLY\_TX}
+    \subitem {USART Transmission Modes}, \hyperpage{202}
+  \item {USART\_MODE\_TXRX}
+    \subitem {USART Transmission Modes}, \hyperpage{202}
+  \item {USART\_NoOfStopBits}
+    \subitem {USART\_Config\_t}, \hyperpage{231}
+  \item {USART\_PARITY\_DISABLE}
+    \subitem {USART Parity Control}, \hyperpage{204}
+  \item {USART\_PARITY\_EN\_EVEN}
+    \subitem {USART Parity Control}, \hyperpage{204}
+  \item {USART\_PARITY\_EN\_ODD}
+    \subitem {USART Parity Control}, \hyperpage{204}
+  \item {USART\_ParityControl}
+    \subitem {USART\_Config\_t}, \hyperpage{231}
+  \item {USART\_PeripheralClockControl}
+    \subitem {USART APIs}, \hyperpage{197}
+  \item {USART\_PeripheralControl}
+    \subitem {USART APIs}, \hyperpage{198}
+  \item {USART\_READY}
+    \subitem {USART Application States}, \hyperpage{210}
+  \item {USART\_ReceiveData}
+    \subitem {USART APIs}, \hyperpage{198}
+  \item {USART\_ReceiveDataIT}
+    \subitem {USART APIs}, \hyperpage{198}
+  \item {USART\_RegDef\_t}, \hyperpage{234}
+  \item {USART\_SendData}
+    \subitem {USART APIs}, \hyperpage{199}
+  \item {USART\_SendDataIT}
+    \subitem {USART APIs}, \hyperpage{199}
+  \item {USART\_SetBaudRate}
+    \subitem {USART APIs}, \hyperpage{199}
+  \item {USART\_SR Bit Position Definitions}, \hyperpage{73}
+    \subitem {USART\_SR\_CTS}, \hyperpage{73}
+    \subitem {USART\_SR\_FE}, \hyperpage{73}
+    \subitem {USART\_SR\_IDLE}, \hyperpage{74}
+    \subitem {USART\_SR\_LBD}, \hyperpage{74}
+    \subitem {USART\_SR\_NF}, \hyperpage{74}
+    \subitem {USART\_SR\_ORE}, \hyperpage{74}
+    \subitem {USART\_SR\_PE}, \hyperpage{74}
+    \subitem {USART\_SR\_RXNE}, \hyperpage{74}
+    \subitem {USART\_SR\_TC}, \hyperpage{74}
+    \subitem {USART\_SR\_TXE}, \hyperpage{74}
+  \item {USART\_SR\_CTS}
+    \subitem {USART\_SR Bit Position Definitions}, \hyperpage{73}
+  \item {USART\_SR\_FE}
+    \subitem {USART\_SR Bit Position Definitions}, \hyperpage{73}
+  \item {USART\_SR\_IDLE}
+    \subitem {USART\_SR Bit Position Definitions}, \hyperpage{74}
+  \item {USART\_SR\_LBD}
+    \subitem {USART\_SR Bit Position Definitions}, \hyperpage{74}
+  \item {USART\_SR\_NF}
+    \subitem {USART\_SR Bit Position Definitions}, \hyperpage{74}
+  \item {USART\_SR\_ORE}
+    \subitem {USART\_SR Bit Position Definitions}, \hyperpage{74}
+  \item {USART\_SR\_PE}
+    \subitem {USART\_SR Bit Position Definitions}, \hyperpage{74}
+  \item {USART\_SR\_RXNE}
+    \subitem {USART\_SR Bit Position Definitions}, \hyperpage{74}
+  \item {USART\_SR\_TC}
+    \subitem {USART\_SR Bit Position Definitions}, \hyperpage{74}
+  \item {USART\_SR\_TXE}
+    \subitem {USART\_SR Bit Position Definitions}, \hyperpage{74}
+  \item {USART\_STOPBITS\_0\_5}
+    \subitem {USART Stop Bits}, \hyperpage{206}
+  \item {USART\_STOPBITS\_1}
+    \subitem {USART Stop Bits}, \hyperpage{206}
+  \item {USART\_STOPBITS\_1\_5}
+    \subitem {USART Stop Bits}, \hyperpage{206}
+  \item {USART\_STOPBITS\_2}
+    \subitem {USART Stop Bits}, \hyperpage{206}
+  \item {USART\_WORDLEN\_8BITS}
+    \subitem {USART Word Lengths}, \hyperpage{205}
+  \item {USART\_WORDLEN\_9BITS}
+    \subitem {USART Word Lengths}, \hyperpage{205}
+  \item {USART\_WordLength}
+    \subitem {USART\_Config\_t}, \hyperpage{232}
+
+  \indexspace
+
+  \item {year}
+    \subitem {RTC\_date\_t}, \hyperpage{226}
+
+\end{theindex}

@@ -1,0 +1,5 @@
+<map id="SPI Driver" name="SPI Driver">
+<area shape="rect" id="node1" title="SPI driver APIs for STM32F407xx MCU." alt="" coords="5,31,92,56"/>
+<area shape="rect" id="node2" href="$group__SPI__APIS.html" title="APIs supported by the SPI driver." alt="" coords="149,5,224,31"/>
+<area shape="rect" id="node3" href="$group__SPI__Macros.html" title="Macros related to SPI configuration, flags, and events." alt="" coords="140,55,233,80"/>
+</map>

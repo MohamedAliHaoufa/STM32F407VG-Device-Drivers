@@ -1,0 +1,156 @@
+\hypertarget{group__LCD__APIS}{}\doxysection{LCD APIs}
+\label{group__LCD__APIS}\index{LCD APIs@{LCD APIs}}
+
+
+APIs for interfacing with an LCD (Liquid Crystal Display).  
+
+
+Collaboration diagram for LCD APIs\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=245pt]{group__LCD__APIS}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__LCD__APIS_ga6842775ba83d166f02b8fef8bb63b1e6}{lcd\+\_\+init}} (void)
+\begin{DoxyCompactList}\small\item\em Initialize the LCD module. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__LCD__APIS_ga64386ad6108c11b9b87062542ec23c6b}{lcd\+\_\+send\+\_\+command}} (uint8\+\_\+t cmd)
+\begin{DoxyCompactList}\small\item\em Send a command to the LCD. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__LCD__APIS_ga23e41d78d276a2be8ac1f7198bf65f95}{lcd\+\_\+print\+\_\+char}} (uint8\+\_\+t data)
+\begin{DoxyCompactList}\small\item\em Print a character on the LCD. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__LCD__APIS_ga542bd801a4ce716e05d205632c7c52d3}{lcd\+\_\+print\+\_\+string}} (char $\ast$message)
+\begin{DoxyCompactList}\small\item\em Print a string on the LCD. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__LCD__APIS_ga4f7e474c3b149be3e1d53c2dd05e3d54}{lcd\+\_\+set\+\_\+cursor}} (uint8\+\_\+t row, uint8\+\_\+t column)
+\begin{DoxyCompactList}\small\item\em Set the cursor position on the LCD. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__LCD__APIS_gac3968364fc5a2e3371224f283a68484b}{lcd\+\_\+display\+\_\+clear}} (void)
+\begin{DoxyCompactList}\small\item\em Clear the LCD display. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__LCD__APIS_ga05315b677f8dcb3518ce8afa6ab8da18}{lcd\+\_\+display\+\_\+return\+\_\+home}} (void)
+\begin{DoxyCompactList}\small\item\em Return the cursor to the home position on the LCD. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+APIs for interfacing with an LCD (Liquid Crystal Display). 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group__LCD__APIS_gac3968364fc5a2e3371224f283a68484b}\label{group__LCD__APIS_gac3968364fc5a2e3371224f283a68484b}} 
+\index{LCD APIs@{LCD APIs}!lcd\_display\_clear@{lcd\_display\_clear}}
+\index{lcd\_display\_clear@{lcd\_display\_clear}!LCD APIs@{LCD APIs}}
+\doxysubsubsection{\texorpdfstring{lcd\_display\_clear()}{lcd\_display\_clear()}}
+{\footnotesize\ttfamily void lcd\+\_\+display\+\_\+clear (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Clear the LCD display. 
+
+This function clears the entire content displayed on the LCD. \mbox{\Hypertarget{group__LCD__APIS_ga05315b677f8dcb3518ce8afa6ab8da18}\label{group__LCD__APIS_ga05315b677f8dcb3518ce8afa6ab8da18}} 
+\index{LCD APIs@{LCD APIs}!lcd\_display\_return\_home@{lcd\_display\_return\_home}}
+\index{lcd\_display\_return\_home@{lcd\_display\_return\_home}!LCD APIs@{LCD APIs}}
+\doxysubsubsection{\texorpdfstring{lcd\_display\_return\_home()}{lcd\_display\_return\_home()}}
+{\footnotesize\ttfamily void lcd\+\_\+display\+\_\+return\+\_\+home (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Return the cursor to the home position on the LCD. 
+
+This function returns the cursor to the top-\/left (home) position on the LCD screen. \mbox{\Hypertarget{group__LCD__APIS_ga6842775ba83d166f02b8fef8bb63b1e6}\label{group__LCD__APIS_ga6842775ba83d166f02b8fef8bb63b1e6}} 
+\index{LCD APIs@{LCD APIs}!lcd\_init@{lcd\_init}}
+\index{lcd\_init@{lcd\_init}!LCD APIs@{LCD APIs}}
+\doxysubsubsection{\texorpdfstring{lcd\_init()}{lcd\_init()}}
+{\footnotesize\ttfamily void lcd\+\_\+init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initialize the LCD module. 
+
+This function initializes the LCD module and prepares it for use. \mbox{\Hypertarget{group__LCD__APIS_ga23e41d78d276a2be8ac1f7198bf65f95}\label{group__LCD__APIS_ga23e41d78d276a2be8ac1f7198bf65f95}} 
+\index{LCD APIs@{LCD APIs}!lcd\_print\_char@{lcd\_print\_char}}
+\index{lcd\_print\_char@{lcd\_print\_char}!LCD APIs@{LCD APIs}}
+\doxysubsubsection{\texorpdfstring{lcd\_print\_char()}{lcd\_print\_char()}}
+{\footnotesize\ttfamily void lcd\+\_\+print\+\_\+char (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{data }\end{DoxyParamCaption})}
+
+
+
+Print a character on the LCD. 
+
+This function displays a single character on the LCD.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em data} & The character to be displayed.\\
+\hline
+\end{DoxyParams}
+This function displays a single character on the LCD. Here we used 4 bit parallel data transmission. First higher nibble of the data will be sent on to the data lines D4, D5, D6, D7 Then lower nibble of the data will be set on to the data lines D4, D5, D6, D7
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em data} & The character to be displayed. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__LCD__APIS_ga542bd801a4ce716e05d205632c7c52d3}\label{group__LCD__APIS_ga542bd801a4ce716e05d205632c7c52d3}} 
+\index{LCD APIs@{LCD APIs}!lcd\_print\_string@{lcd\_print\_string}}
+\index{lcd\_print\_string@{lcd\_print\_string}!LCD APIs@{LCD APIs}}
+\doxysubsubsection{\texorpdfstring{lcd\_print\_string()}{lcd\_print\_string()}}
+{\footnotesize\ttfamily void lcd\+\_\+print\+\_\+string (\begin{DoxyParamCaption}\item[{char $\ast$}]{message }\end{DoxyParamCaption})}
+
+
+
+Print a string on the LCD. 
+
+This function displays a null-\/terminated string on the LCD.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em message} & Pointer to the null-\/terminated string to be displayed. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__LCD__APIS_ga64386ad6108c11b9b87062542ec23c6b}\label{group__LCD__APIS_ga64386ad6108c11b9b87062542ec23c6b}} 
+\index{LCD APIs@{LCD APIs}!lcd\_send\_command@{lcd\_send\_command}}
+\index{lcd\_send\_command@{lcd\_send\_command}!LCD APIs@{LCD APIs}}
+\doxysubsubsection{\texorpdfstring{lcd\_send\_command()}{lcd\_send\_command()}}
+{\footnotesize\ttfamily void lcd\+\_\+send\+\_\+command (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{cmd }\end{DoxyParamCaption})}
+
+
+
+Send a command to the LCD. 
+
+This function sends a command to the LCD module for various control operations.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em cmd} & The command to be sent. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__LCD__APIS_ga4f7e474c3b149be3e1d53c2dd05e3d54}\label{group__LCD__APIS_ga4f7e474c3b149be3e1d53c2dd05e3d54}} 
+\index{LCD APIs@{LCD APIs}!lcd\_set\_cursor@{lcd\_set\_cursor}}
+\index{lcd\_set\_cursor@{lcd\_set\_cursor}!LCD APIs@{LCD APIs}}
+\doxysubsubsection{\texorpdfstring{lcd\_set\_cursor()}{lcd\_set\_cursor()}}
+{\footnotesize\ttfamily void lcd\+\_\+set\+\_\+cursor (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{row,  }\item[{uint8\+\_\+t}]{column }\end{DoxyParamCaption})}
+
+
+
+Set the cursor position on the LCD. 
+
+This function sets the cursor position on the LCD screen.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em row} & The row (line) where the cursor should be placed (0 or 1). \\
+\hline
+\mbox{\texttt{ in}}  & {\em column} & The column where the cursor should be placed (0 to 15).\\
+\hline
+\end{DoxyParams}
+This function sets the cursor position on the LCD screen. Set Lcd to a specified location given by row and column information (page 11 in data-\/sheet) Row Number (1 to 2) Column Number (1 to 16) Assuming a 2 X 16 characters display
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em row} & The row (line) where the cursor should be placed (0 or 1). \\
+\hline
+\mbox{\texttt{ in}}  & {\em column} & The column where the cursor should be placed (0 to 15). \\
+\hline
+\end{DoxyParams}

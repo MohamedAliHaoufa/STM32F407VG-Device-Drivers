@@ -1,0 +1,16 @@
+<map id="SPI Macros" name="SPI Macros">
+<area shape="rect" id="node1" href="$group__SPI__Driver.html" title="SPI driver APIs for STM32F407xx MCU." alt="" coords="5,326,92,351"/>
+<area shape="rect" id="node8" title="Macros related to SPI configuration, flags, and events." alt="" coords="140,326,233,351"/>
+<area shape="rect" id="node2" href="$group__SPI__Data__Frame__Format__Options.html" title="Options for SPI data frame format." alt="" coords="303,5,475,45"/>
+<area shape="rect" id="node3" href="$group__SPI__SCLK__Speed__Options.html" title="Options for SPI serial clock speed." alt="" coords="306,69,473,109"/>
+<area shape="rect" id="node4" href="$group__SPI__CPOL__Options.html" title="Options for SPI clock polarity." alt="" coords="321,133,457,173"/>
+<area shape="rect" id="node5" href="$group__SPI__CPHA__Options.html" title="Options for SPI clock phase." alt="" coords="300,198,479,223"/>
+<area shape="rect" id="node6" href="$group__SPI__Application__States.html" title="Possible states of the SPI application." alt="" coords="307,247,471,273"/>
+<area shape="rect" id="node7" href="$group__SPI.html" title="Defines a set of COMMANDs for SPI communication." alt="" coords="294,297,485,322"/>
+<area shape="rect" id="node9" href="$group__SPI__SSM__Options.html" title="Options for SPI slave select management." alt="" coords="281,347,497,387"/>
+<area shape="rect" id="node10" href="$group__Analog__Pins.html" title="Defines a set of macros representing Arduino analog pins." alt="" coords="313,411,465,437"/>
+<area shape="rect" id="node11" href="$group__SPI__FLAG__Status.html" title="SPI Status Flags." alt="" coords="326,461,453,486"/>
+<area shape="rect" id="node12" href="$group__LED__Control.html" title="Defines macros for controlling LEDs, including the LED state and pin number." alt="" coords="315,510,464,535"/>
+<area shape="rect" id="node13" href="$group__SPI__Application__Events.html" title="Defines possible events that can occur in the SPI application." alt="" coords="306,559,473,585"/>
+<area shape="rect" id="node14" href="$group__SPI__ACK__Control__Options.html" title="Options for controlling the ACK mechanism in SPI communication." alt="" coords="300,609,479,634"/>
+</map>

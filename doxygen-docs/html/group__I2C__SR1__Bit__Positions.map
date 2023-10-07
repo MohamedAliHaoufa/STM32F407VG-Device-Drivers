@@ -1,0 +1,4 @@
+<map id="I2C_SR1 Bit Position Definitions" name="I2C_SR1 Bit Position Definitions">
+<area shape="rect" id="node1" title="Bit position definitions for I2C_SR1 register." alt="" coords="248,5,401,45"/>
+<area shape="rect" id="node2" href="$group__I2C__Bit__Positions.html" title="Bit position definitions for various registers in the I2C peripheral." alt="" coords="5,13,200,38"/>
+</map>

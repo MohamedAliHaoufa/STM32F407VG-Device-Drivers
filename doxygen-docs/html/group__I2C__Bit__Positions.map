@@ -1,0 +1,13 @@
+<map id="I2C Bit Position Definitions" name="I2C Bit Position Definitions">
+<area shape="rect" id="node1" href="$group__I2C__OAR1__Bit__Positions.html" title="Bit position definitions for I2C_OAR1 register." alt="" coords="523,5,687,45"/>
+<area shape="rect" id="node2" href="$group__I2C__SR1__Bit__Positions.html" title="Bit position definitions for I2C_SR1 register." alt="" coords="529,69,682,109"/>
+<area shape="rect" id="node3" title="Bit position definitions for various registers in the I2C peripheral." alt="" coords="280,269,475,294"/>
+<area shape="rect" id="node5" href="$group__I2C__TRISE__Bit__Positions.html" title="Bit position definitions for I2C_TRISE register." alt="" coords="523,133,688,173"/>
+<area shape="rect" id="node6" href="$group__I2C__CCR__Bit__Positions.html" title="Bit position definitions for I2C_CCR register." alt="" coords="528,197,683,237"/>
+<area shape="rect" id="node7" href="$group__I2C__CR2__Bit__Positions.html" title="Bit position definitions for I2C_CR2 register." alt="" coords="528,261,683,301"/>
+<area shape="rect" id="node8" href="$group__I2C__OAR2__Bit__Positions.html" title="Bit position definitions for I2C_OAR2 register." alt="" coords="523,325,687,365"/>
+<area shape="rect" id="node9" href="$group__I2C__FLTR__Bit__Positions.html" title="Bit position definitions for I2C_FLTR register." alt="" coords="526,389,685,429"/>
+<area shape="rect" id="node10" href="$group__I2C__SR2__Bit__Positions.html" title="Bit position definitions for I2C_SR2 register." alt="" coords="529,453,682,493"/>
+<area shape="rect" id="node11" href="$group__I2C__CR1__Bit__Positions.html" title="Bit position definitions for I2C_CR1 register." alt="" coords="528,517,683,557"/>
+<area shape="rect" id="node4" href="$group__STM32F407XX__HEADER.html" title="Header file containing all the necessary information about the STM32F407xx MCU." alt="" coords="5,269,232,294"/>
+</map>

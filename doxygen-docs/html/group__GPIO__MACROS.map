@@ -1,0 +1,9 @@
+<map id="GPIO Macros" name="GPIO Macros">
+<area shape="rect" id="node1" href="$group__GPIO__OUTPUT__TYPES.html" title="Possible GPIO pin output types." alt="" coords="319,5,462,31"/>
+<area shape="rect" id="node2" href="$group__GPIO__SPEEDS.html" title="Possible GPIO pin output speeds." alt="" coords="314,55,467,80"/>
+<area shape="rect" id="node3" href="$group__GPIO__PIN__NUMBERS.html" title="Possible GPIO pin numbers." alt="" coords="320,104,461,129"/>
+<area shape="rect" id="node4" href="$group__GPIO__PUPD.html" title="Possible GPIO pin pull&#45;up and pull&#45;down configurations." alt="" coords="305,154,476,194"/>
+<area shape="rect" id="node5" href="$group__GPIO__Driver.html" title="GPIO driver APIs for STM32F407xx MCU." alt="" coords="5,104,104,129"/>
+<area shape="rect" id="node6" title="Macros for GPIO configuration and settings." alt="" coords="152,104,257,129"/>
+<area shape="rect" id="node7" href="$group__GPIO__PIN__MODES.html" title="Possible GPIO pin modes." alt="" coords="328,219,453,244"/>
+</map>

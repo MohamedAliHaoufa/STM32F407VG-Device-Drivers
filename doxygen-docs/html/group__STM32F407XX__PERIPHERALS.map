@@ -1,0 +1,7 @@
+<map id="Peripheral Base Addresses" name="Peripheral Base Addresses">
+<area shape="rect" id="node1" href="$group__Peripheral__Base__Addresses.html" title="Base addresses of AHBx and APBx bus peripherals." alt="" coords="523,5,717,31"/>
+<area shape="rect" id="node2" href="$group__STM32F407XX__HEADER.html" title="Header file containing all the necessary information about the STM32F407xx MCU." alt="" coords="5,63,232,88"/>
+<area shape="rect" id="node5" title="Base addresses of various peripherals for the STM32F407xx MCU." alt="" coords="280,63,475,88"/>
+<area shape="rect" id="node3" href="$group__Peripheral__Base__Addresses__APB1.html" title="Base addresses of peripherals connected to the APB1 bus." alt="" coords="523,55,717,95"/>
+<area shape="rect" id="node4" href="$group__Peripheral__Base__Addresses__APB2.html" title="Base addresses of peripherals connected to the APB2 bus." alt="" coords="523,119,717,159"/>
+</map>

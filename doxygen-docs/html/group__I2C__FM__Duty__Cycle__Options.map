@@ -1,0 +1,4 @@
+<map id="I2C Fast Mode Duty Cycle Options" name="I2C Fast Mode Duty Cycle Options">
+<area shape="rect" id="node1" href="$group__I2C__Macros.html" title="Macros related to I2C configuration, flags, and events." alt="" coords="5,13,100,38"/>
+<area shape="rect" id="node2" title="Options for fast mode duty cycle in I2C communication." alt="" coords="148,5,296,45"/>
+</map>

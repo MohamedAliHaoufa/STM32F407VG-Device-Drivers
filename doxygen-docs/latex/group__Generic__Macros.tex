@@ -1,0 +1,91 @@
+\hypertarget{group__Generic__Macros}{}\doxysection{Generic Macros}
+\label{group__Generic__Macros}\index{Generic Macros@{Generic Macros}}
+
+
+Generic macros for enabling/disabling, setting/resetting, and handling flags.  
+
+
+Collaboration diagram for Generic Macros\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__Generic__Macros}
+\end{center}
+\end{figure}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{group__Generic__Macros_ga514ad415fb6125ba296793df7d1a468a}{ENABLE}}~1
+\item 
+\#define \mbox{\hyperlink{group__Generic__Macros_ga99496f7308834e8b220f7894efa0b6ab}{DISABLE}}~0
+\item 
+\#define \mbox{\hyperlink{group__Generic__Macros_ga59da1d65e87a723efe808dbabb4fc205}{SET}}~\mbox{\hyperlink{group__Generic__Macros_ga514ad415fb6125ba296793df7d1a468a}{ENABLE}}
+\item 
+\#define \mbox{\hyperlink{group__Generic__Macros_gab702106cf3b3e96750b6845ded4e0299}{RESET}}~\mbox{\hyperlink{group__Generic__Macros_ga99496f7308834e8b220f7894efa0b6ab}{DISABLE}}
+\item 
+\#define \mbox{\hyperlink{group__Generic__Macros_ga91d0fd3e69589389c320fff36dea968d}{GPIO\+\_\+\+PIN\+\_\+\+SET}}~\mbox{\hyperlink{group__Generic__Macros_ga59da1d65e87a723efe808dbabb4fc205}{SET}}
+\item 
+\#define \mbox{\hyperlink{group__Generic__Macros_ga42fa7f29052b8f1661b34ba2bf4aea9f}{GPIO\+\_\+\+PIN\+\_\+\+RESET}}~\mbox{\hyperlink{group__Generic__Macros_gab702106cf3b3e96750b6845ded4e0299}{RESET}}
+\item 
+\#define \mbox{\hyperlink{group__Generic__Macros_gaeadc670e6fd25b11cefab921983d1f63}{FLAG\+\_\+\+SET}}~\mbox{\hyperlink{group__Generic__Macros_ga59da1d65e87a723efe808dbabb4fc205}{SET}}
+\item 
+\#define \mbox{\hyperlink{group__Generic__Macros_ga61d914b762371cb8ee60a428dfeadf22}{FLAG\+\_\+\+RESET}}~\mbox{\hyperlink{group__Generic__Macros_gab702106cf3b3e96750b6845ded4e0299}{RESET}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Generic macros for enabling/disabling, setting/resetting, and handling flags. 
+
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{group__Generic__Macros_ga99496f7308834e8b220f7894efa0b6ab}\label{group__Generic__Macros_ga99496f7308834e8b220f7894efa0b6ab}} 
+\index{Generic Macros@{Generic Macros}!DISABLE@{DISABLE}}
+\index{DISABLE@{DISABLE}!Generic Macros@{Generic Macros}}
+\doxysubsubsection{\texorpdfstring{DISABLE}{DISABLE}}
+{\footnotesize\ttfamily \#define DISABLE~0}
+
+Disable macro \mbox{\Hypertarget{group__Generic__Macros_ga514ad415fb6125ba296793df7d1a468a}\label{group__Generic__Macros_ga514ad415fb6125ba296793df7d1a468a}} 
+\index{Generic Macros@{Generic Macros}!ENABLE@{ENABLE}}
+\index{ENABLE@{ENABLE}!Generic Macros@{Generic Macros}}
+\doxysubsubsection{\texorpdfstring{ENABLE}{ENABLE}}
+{\footnotesize\ttfamily \#define ENABLE~1}
+
+Enable macro \mbox{\Hypertarget{group__Generic__Macros_ga61d914b762371cb8ee60a428dfeadf22}\label{group__Generic__Macros_ga61d914b762371cb8ee60a428dfeadf22}} 
+\index{Generic Macros@{Generic Macros}!FLAG\_RESET@{FLAG\_RESET}}
+\index{FLAG\_RESET@{FLAG\_RESET}!Generic Macros@{Generic Macros}}
+\doxysubsubsection{\texorpdfstring{FLAG\_RESET}{FLAG\_RESET}}
+{\footnotesize\ttfamily \#define FLAG\+\_\+\+RESET~\mbox{\hyperlink{group__Generic__Macros_gab702106cf3b3e96750b6845ded4e0299}{RESET}}}
+
+Flag reset macro \mbox{\Hypertarget{group__Generic__Macros_gaeadc670e6fd25b11cefab921983d1f63}\label{group__Generic__Macros_gaeadc670e6fd25b11cefab921983d1f63}} 
+\index{Generic Macros@{Generic Macros}!FLAG\_SET@{FLAG\_SET}}
+\index{FLAG\_SET@{FLAG\_SET}!Generic Macros@{Generic Macros}}
+\doxysubsubsection{\texorpdfstring{FLAG\_SET}{FLAG\_SET}}
+{\footnotesize\ttfamily \#define FLAG\+\_\+\+SET~\mbox{\hyperlink{group__Generic__Macros_ga59da1d65e87a723efe808dbabb4fc205}{SET}}}
+
+Flag set macro \mbox{\Hypertarget{group__Generic__Macros_ga42fa7f29052b8f1661b34ba2bf4aea9f}\label{group__Generic__Macros_ga42fa7f29052b8f1661b34ba2bf4aea9f}} 
+\index{Generic Macros@{Generic Macros}!GPIO\_PIN\_RESET@{GPIO\_PIN\_RESET}}
+\index{GPIO\_PIN\_RESET@{GPIO\_PIN\_RESET}!Generic Macros@{Generic Macros}}
+\doxysubsubsection{\texorpdfstring{GPIO\_PIN\_RESET}{GPIO\_PIN\_RESET}}
+{\footnotesize\ttfamily \#define GPIO\+\_\+\+PIN\+\_\+\+RESET~\mbox{\hyperlink{group__Generic__Macros_gab702106cf3b3e96750b6845ded4e0299}{RESET}}}
+
+GPIO Pin reset macro \mbox{\Hypertarget{group__Generic__Macros_ga91d0fd3e69589389c320fff36dea968d}\label{group__Generic__Macros_ga91d0fd3e69589389c320fff36dea968d}} 
+\index{Generic Macros@{Generic Macros}!GPIO\_PIN\_SET@{GPIO\_PIN\_SET}}
+\index{GPIO\_PIN\_SET@{GPIO\_PIN\_SET}!Generic Macros@{Generic Macros}}
+\doxysubsubsection{\texorpdfstring{GPIO\_PIN\_SET}{GPIO\_PIN\_SET}}
+{\footnotesize\ttfamily \#define GPIO\+\_\+\+PIN\+\_\+\+SET~\mbox{\hyperlink{group__Generic__Macros_ga59da1d65e87a723efe808dbabb4fc205}{SET}}}
+
+GPIO Pin set macro \mbox{\Hypertarget{group__Generic__Macros_gab702106cf3b3e96750b6845ded4e0299}\label{group__Generic__Macros_gab702106cf3b3e96750b6845ded4e0299}} 
+\index{Generic Macros@{Generic Macros}!RESET@{RESET}}
+\index{RESET@{RESET}!Generic Macros@{Generic Macros}}
+\doxysubsubsection{\texorpdfstring{RESET}{RESET}}
+{\footnotesize\ttfamily \#define RESET~\mbox{\hyperlink{group__Generic__Macros_ga99496f7308834e8b220f7894efa0b6ab}{DISABLE}}}
+
+Reset macro \mbox{\Hypertarget{group__Generic__Macros_ga59da1d65e87a723efe808dbabb4fc205}\label{group__Generic__Macros_ga59da1d65e87a723efe808dbabb4fc205}} 
+\index{Generic Macros@{Generic Macros}!SET@{SET}}
+\index{SET@{SET}!Generic Macros@{Generic Macros}}
+\doxysubsubsection{\texorpdfstring{SET}{SET}}
+{\footnotesize\ttfamily \#define SET~\mbox{\hyperlink{group__Generic__Macros_ga514ad415fb6125ba296793df7d1a468a}{ENABLE}}}
+
+Set macro 
