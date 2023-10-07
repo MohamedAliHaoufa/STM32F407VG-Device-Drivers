@@ -1,7 +1,5 @@
 # STM32F407VG Device Drivers
 
-![STM32F407VG](https://www.robotistan.com/stm32f4-discovery-eng-41067-58-B.jpg)
-
 This repository contains a comprehensive collection of device drivers and essential files for the STM32F407VG microcontroller. These drivers are designed to simplify the process of developing applications on the STM32F407VG platform, allowing you to focus on your project's functionality rather than low-level hardware interactions.
 
 ## Repository Structure
