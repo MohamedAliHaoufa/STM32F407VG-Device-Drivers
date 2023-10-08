@@ -7,6 +7,9 @@
 # Recognize Makefile
 Makefile*    linguist-language=Makefile
 
+*.tex    linguist-language=Tex
+
+
 # Set linguist-detectable for specific file types
 *.c          linguist-detectable=true
 *.asm        linguist-detectable=true
