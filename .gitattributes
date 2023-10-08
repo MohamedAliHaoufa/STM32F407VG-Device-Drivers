@@ -6,6 +6,3 @@
 
 # Recognize Makefile
 Makefile*    linguist-language=Makefile
-
-# Ignore other languages
-*            linguist-vendored
