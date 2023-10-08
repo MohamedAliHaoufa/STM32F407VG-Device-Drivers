@@ -2,7 +2,7 @@
 *.asm linguist-detectable=true
 Makefile* linguist-detectable=true
 
-doxygen-docs/latex/*.tex linguist-detectable=false
+*.tex linguist-detectable=false
 *.html linguist-detectable=false
 *.js linguist-detectable=false
 *.css linguist-detectable=false
