@@ -7,14 +7,13 @@
 # Recognize Makefile
 Makefile*    linguist-language=Makefile
 
-*.tex    linguist-language=Tex
-
-
 # Set linguist-detectable for specific file types
 *.c          linguist-detectable=true
 *.asm        linguist-detectable=true
 Makefile*    linguist-detectable=true
 
 # Exclude specific file types from language detection
-*.        linguist-detectable=false
-
+*.tex        linguist-detectable=false
+*.html       linguist-detectable=false
+*.js         linguist-detectable=false
+*.css        linguist-detectable=false
