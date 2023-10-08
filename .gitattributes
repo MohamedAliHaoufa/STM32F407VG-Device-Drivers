@@ -11,7 +11,4 @@ Makefile*    linguist-language=Makefile
 *.asm linguist-detectable=true
 Makefile* linguist-detectable=true
 
-*.html linguist-detectable=false
-*.tex linguist-detectable=false
-*.js linguist-detectable=false
-*.css linguist-detectable=false
+
