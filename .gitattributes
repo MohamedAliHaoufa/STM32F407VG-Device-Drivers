@@ -7,9 +7,11 @@
 # Recognize Makefile
 Makefile*    linguist-language=Makefile
 
-# Ignore other languages
-* linguist-vendored
-
 *.c linguist-detectable=true
 *.asm linguist-detectable=true
 Makefile* linguist-detectable=true
+
+*.html linguist-detectable=false
+*.tex linguist-detectable=false
+*.js linguist-detectable=false
+*.css linguist-detectable=false
