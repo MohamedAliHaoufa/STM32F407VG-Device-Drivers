@@ -18,7 +18,7 @@ Makefile*    linguist-detectable=true
 Makefile*    linguist-language=Makefile
 
 # Exclude specific file types from language detection
-*.tex        linguist-detectable=false
+doxygen-docs/latex/*.tex        linguist-detectable=false
 *.html       linguist-detectable=false
 *.js         linguist-detectable=false
 *.css        linguist-detectable=false
