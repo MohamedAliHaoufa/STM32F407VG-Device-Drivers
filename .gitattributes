@@ -1,8 +1,24 @@
-*.c linguist-detectable=true
-*.asm linguist-detectable=true
-Makefile* linguist-detectable=true
+# Recognize C files
+*.c          linguist-language=C
 
-*.tex linguist-detectable=false
-*.html linguist-detectable=false
-*.js linguist-detectable=false
-*.css linguist-detectable=false
+# Recognize Assembly files (change "asm" to the actual file extension)
+*.asm        linguist-language=Assembly
+
+# Recognize Makefile
+Makefile*    linguist-language=Makefile
+
+# Set linguist-detectable for specific file types
+*.c          linguist-detectable=true
+*.asm        linguist-detectable=true
+Makefile*    linguist-detectable=true
+
+# Set linguist-language for file types (optional, but recommended)
+*.c          linguist-language=C
+*.asm        linguist-language=Assembly
+Makefile*    linguist-language=Makefile
+
+# Exclude specific file types from language detection
+*.tex        linguist-detectable=false
+*.html       linguist-detectable=false
+*.js         linguist-detectable=false
+*.css        linguist-detectable=false
