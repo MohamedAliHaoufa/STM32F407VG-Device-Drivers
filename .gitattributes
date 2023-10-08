@@ -6,3 +6,7 @@
 
 # Recognize Makefile
 Makefile*    linguist-language=Makefile
+
+*.c linguist-detectable=true
+*.asm linguist-detectable=true
+Makefile* linguist-detectable=true
