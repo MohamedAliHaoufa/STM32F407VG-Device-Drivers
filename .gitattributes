@@ -1,12 +1,3 @@
-# Recognize C files
-*.c          linguist-language=C
-
-# Recognize Assembly files (change "asm" to the actual file extension)
-*.asm        linguist-language=Assembly
-
-# Recognize Makefile
-Makefile*    linguist-language=Makefile
-
 *.c linguist-detectable=true
 *.asm linguist-detectable=true
 Makefile* linguist-detectable=true
