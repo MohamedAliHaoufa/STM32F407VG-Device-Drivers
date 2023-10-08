@@ -2,6 +2,8 @@
 *.asm linguist-detectable=true
 Makefile* linguist-detectable=true
 
+*.tex linguist-language=TeX
+
 *.html linguist-detectable=false
 *.tex linguist-detectable=false
 *.js linguist-detectable=false
