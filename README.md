@@ -9,7 +9,6 @@ This repository contains a comprehensive collection of device drivers and essent
 - **docs**: Documentation and project-related documentation.
 - **doxygen-docs**: Doxygen-generated documentation.
 - **drivers**: Device drivers for various peripherals [GPIO, SPI, I2C, UART, CAN... etc.].
-- **Inc**: Header files containing peripheral register definitions for various peripherals [GPIO, SPI, I2C, UART, CAN... etc.].
 - **Src**: Source code files for peripheral drivers and user applications.
 - **Startup**: Startup files, including linker scripts and initialization code.
 - **.settings**: IDE or project-specific settings.
